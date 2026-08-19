@@ -1,0 +1,68 @@
+# 情報源。RSS/公式ブログを一次ソース、Web 検索を補助とする。
+# agent は WebFetch で実際に取得できたページのみ出典にしてよい。
+primary:
+  - name: OpenAI News
+    url: https://openai.com/news/
+    rss: https://openai.com/news/rss.xml
+    lang: en
+  - name: Anthropic News
+    url: https://www.anthropic.com/news
+    lang: en
+  - name: Google DeepMind Blog
+    url: https://deepmind.google/discover/blog/
+    rss: https://deepmind.google/blog/rss.xml
+    lang: en
+  - name: Google AI Blog
+    url: https://blog.google/technology/ai/
+    rss: https://blog.google/technology/ai/rss/
+    lang: en
+  - name: Meta AI Blog
+    url: https://ai.meta.com/blog/
+    lang: en
+  - name: Microsoft AI Blog
+    url: https://blogs.microsoft.com/ai/
+    rss: https://blogs.microsoft.com/ai/feed/
+    lang: en
+  - name: Hugging Face Blog
+    url: https://huggingface.co/blog
+    rss: https://huggingface.co/blog/feed.xml
+    lang: en
+  - name: Claude Code Changelog
+    url: https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
+    lang: en
+
+secondary:
+  - name: The Verge AI
+    url: https://www.theverge.com/ai-artificial-intelligence
+    rss: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+    lang: en
+  - name: TechCrunch AI
+    url: https://techcrunch.com/category/artificial-intelligence/
+    rss: https://techcrunch.com/category/artificial-intelligence/feed/
+    lang: en
+  - name: Simon Willison
+    url: https://simonwillison.net/
+    rss: https://simonwillison.net/atom/everything/
+    lang: en
+  - name: ITmedia AI+
+    url: https://www.itmedia.co.jp/aiplus/
+    rss: https://rss.itmedia.co.jp/rss/2.0/aiplus.xml
+    lang: ja
+  - name: 日経クロステック AI
+    url: https://xtech.nikkei.com/top/it/
+    lang: ja
+  - name: Zenn (AI トピック)
+    url: https://zenn.dev/topics/ai
+    rss: https://zenn.dev/topics/ai/feed
+    lang: ja
+  - name: Publickey
+    url: https://www.publickey1.jp/
+    rss: https://www.publickey1.jp/atom.xml
+    lang: ja
+
+# Web 検索の補助クエリ（日付を付けて検索する）
+search_queries:
+  - "AI news {date}"
+  - "生成AI 発表 {date}"
+  - "LLM release {date}"
+  - "生成AI 導入 企業 {month}"

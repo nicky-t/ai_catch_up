@@ -1,0 +1,81 @@
+# 統制タグ。agent はここにあるタグのみ使用する。
+# 新しいタグが必要なら _proposed_tags に理由付きで追加し、週次で人間 or 週次 agent が採用する。
+categories:
+  model:        # 基盤モデル・モデルファミリー
+    - gpt
+    - claude
+    - gemini
+    - llama
+    - mistral
+    - qwen
+    - deepseek
+    - open-weights
+    - multimodal
+    - image-generation
+    - video-generation
+    - speech
+  company:
+    - openai
+    - anthropic
+    - google
+    - meta
+    - microsoft
+    - amazon
+    - apple
+    - nvidia
+    - xai
+    - mistral-ai
+    - hugging-face
+    - japan-company   # 国内企業全般
+  tool:
+    - claude-code
+    - chatgpt
+    - copilot
+    - cursor
+    - notion-ai
+    - microsoft-365-copilot
+    - google-workspace
+    - dify
+    - n8n
+    - zapier
+    - mcp
+    - api
+  technique:
+    - prompt-engineering
+    - rag
+    - agent
+    - fine-tuning
+    - evaluation
+    - memory
+    - tool-use
+    - reasoning
+    - context-window
+    - embeddings
+    - guardrails
+    - observability
+  business:
+    - adoption          # 導入事例・導入率
+    - productivity      # 業務効率化
+    - cost              # 料金・コスト
+    - education         # 研修・教育・講師
+    - hr                # 人材・雇用への影響
+    - survey            # 調査・統計
+    - case-study
+  policy:
+    - regulation        # 規制・法律
+    - copyright
+    - safety
+    - privacy
+    - japan-policy      # 国内の政策・ガイドライン
+  research:
+    - paper
+    - benchmark
+    - scaling
+    - interpretability
+
+importance_levels:
+  high:   "業界・実務に大きな影響。講座で必ず触れるべき"
+  medium: "注目。文脈として知っておくべき"
+  low:    "参考。記録として残す"
+
+_proposed_tags: []

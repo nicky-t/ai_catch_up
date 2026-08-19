@@ -1,0 +1,26 @@
+# 学習トラックの設定。ここを編集するだけで agent の挙動が変わる（プロンプト変更不要）。
+# enabled: true のトラックから、per_day 本ずつ CURRICULUM.md の先頭の todo を消化する。
+tracks:
+  intermediate:
+    enabled: true
+    per_day: 1
+    description: 仕組みの深掘り・評価手法・業務導入の実務・各社比較
+  beginner:
+    enabled: false
+    per_day: 1
+    description: AI をこれから使う人向け。たとえ話と図解中心
+  practice:
+    enabled: false
+    per_day: 1
+    description: 業務効率化の実践。手順・コピペ可能なプロンプト・チェックリスト
+  instructor:
+    enabled: false
+    per_day: 1
+    description: 講師向け。教え方・演習設計・受講者のよくある質問
+
+# 日次ダイジェストの分量
+daily:
+  news_min: 5
+  news_max: 10
+  reading_minutes: 12
+  instructor_note_for: [high, medium]   # 「講師目線」を付ける重要度
