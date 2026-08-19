@@ -42,7 +42,8 @@
 ```
 git add -A && git commit -m "weekly: YYYY-Www まとめ（整理: タグ N 件・トピック統合 M 件）" && git push
 ```
-push 失敗時は `git pull --rebase` → 再試行。
+- git の user.name / user.email は変更しない
+- push 失敗時は `git pull --rebase` → 再試行。`main` への push が 403 で拒否される場合は `git push -u origin HEAD:claude/weekly-YYYY-Www` に push する（Actions が自動マージ）
 
 ## 6. やってはいけないこと
 - ファイルの削除（統合でもリダイレクト文を残す）

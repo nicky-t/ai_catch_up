@@ -106,7 +106,10 @@ git commit -m "daily: TODAY ダイジェスト（ニュース N 件、学習 M �
 git push
 ```
 
-- push が失敗したら `git pull --rebase` してから再試行。認証エラーの場合は `gh auth setup-git` を試し、それでも失敗したら完了報告に明記する（コミットは残す）
+- git の user.name / user.email は **変更しない**（クラウド既定の識別情報のまま）
+- push が失敗したら `git pull --rebase` してから再試行
+- それでも `main` への push が 403 等で拒否される場合は、**`claude/daily-TODAY` ブランチに push する**：`git push -u origin HEAD:claude/daily-TODAY`。GitHub Actions が自動で `main` にマージする
+- どちらも失敗したら完了報告に明記する（コミットは残す）
 - コミット前に、作成した全 Markdown の frontmatter が YAML として妥当か確認
 
 ## 8. やってはいけないこと
