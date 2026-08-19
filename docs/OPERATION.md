@@ -131,13 +131,22 @@ related: [topics/memory.md, threads/agent-race.md]
 pip install -r requirements.txt && tools/build_site.sh serve
 ```
 
+## 運用（routine 一覧）
+
+| routine | スケジュール | ID | 役割 |
+|---|---|---|---|
+| AI Catch-up 日次ダイジェスト | 毎日 21:00 UTC（6:00 JST） | `trig_01XAGVR2LkhEmHfcXDthpoqn` | `docs/PROMPT_daily.md` を実行。メール配信含む |
+| AI Catch-up 週次まとめ・整理 | 土曜 22:00 UTC（日曜 7:00 JST） | `trig_011ae5f4eWtsxY8Mjhx44XDc` | `docs/PROMPT_weekly.md` を実行 |
+
+管理画面: https://claude.ai/code/routines ／ 振る舞いの変更はプロンプトファイルの編集で行う（routine 側は触らない）。
+
 ## 実装ステップ
 
 - [x] 1. GitHub に public リポジトリ `ai_catch_up` を作成し、初期構成（config / docs / テンプレート）を push（2026-08-19）
 - [x] 2. `config/taxonomy.yaml`・`config/sources.yaml`・4 トラックの `CURRICULUM.md`（中級のみ ON）を作成（2026-08-19）
 - [x] 3. `docs/PROMPT_daily.md` を作成し、**ローカルで 1 回試走**して品質確認・調整（2026-08-19 試走: 約 14 分、指摘を反映済み）
-- [ ] 4. クラウド routine（日次 21:00 UTC, Sonnet, WebFetch/WebSearch 許可）を作成し、クラウド試走。初週は GitHub アプリで確認
+- [x] 4. クラウド routine（日次 21:00 UTC, Sonnet, WebFetch/WebSearch 許可）を作成（2026-08-19, `trig_01XAGVR2LkhEmHfcXDthpoqn`）。クラウド試走は同日実施。初週は GitHub アプリ／Pages で確認
 - [x] 5. MkDocs Material ＋ GitHub Actions で Pages を有効化（関連記事・タグ・日本語検索）（2026-08-19 公開: https://nicky-t.github.io/ai_catch_up/ ）
-- [ ] 6. claude.ai で Gmail コネクタを接続し、routine にメール配信を追加
-- [ ] 7. `docs/PROMPT_weekly.md`（作成済み）と週次 routine（日曜 7:00 JST）を追加
+- [x] 6. Gmail コネクタは接続済みだったため routine に自動付与。`PROMPT_daily.md` 5-b にメール配信を追加（2026-08-19）
+- [x] 7. `docs/PROMPT_weekly.md` と週次 routine（土曜 22:00 UTC = 日曜 7:00 JST, `trig_011ae5f4eWtsxY8Mjhx44XDc`）を作成（2026-08-19）
 - [x] 8. 失敗検知の GitHub Actions を追加（`.github/workflows/healthcheck.yml`、毎日 8:00 JST に daily 不在なら Issue 作成）
