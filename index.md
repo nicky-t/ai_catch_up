@@ -12,9 +12,9 @@ updated: 2026-08-19
 - トピック: 5 ／ スレッド: 1 ／ 学習記事: 1
 
 ## 入口
-- [日次ダイジェスト](daily/)
-- [トピック](topics/)
-- [ストーリーライン](threads/)
-- [学習トラック](learn/)
-- [週まとめ](weekly/)
+- [日次ダイジェスト](daily/index.md)
+- [トピック](topics/index.md)
+- [ストーリーライン](threads/index.md)
+- [学習トラック](learn/index.md)
+- [週まとめ](weekly/index.md)
 - [年表](timeline.md)

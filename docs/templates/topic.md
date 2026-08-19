@@ -7,7 +7,7 @@ updated: YYYY-MM-DD
 tags: []
 level: beginner        # ページ全体としての入口レベル。3 段構成なので beginner でよい
 audience: [engineer, business, instructor]
-related: []
+related: []           # ルート相対（例: topics/xxx.md, threads/yyy.md）。本文リンクは相対パス
 ---
 
 # トピック名（原語）

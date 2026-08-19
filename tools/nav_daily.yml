@@ -1,0 +1,6 @@
+sort:
+  type: natural
+  direction: desc
+nav:
+  - index.md
+  - "*"

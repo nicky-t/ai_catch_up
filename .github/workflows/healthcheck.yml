@@ -1,0 +1,32 @@
+name: Daily healthcheck
+
+on:
+  schedule:
+    - cron: "0 23 * * *"   # 08:00 JST
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check today's digest exists
+        id: check
+        run: |
+          TODAY=$(TZ=Asia/Tokyo date +%F)
+          if [ -f "daily/$TODAY.md" ]; then echo "ok=true" >> $GITHUB_OUTPUT; else echo "ok=false" >> $GITHUB_OUTPUT; echo "today=$TODAY" >> $GITHUB_OUTPUT; fi
+      - name: Open issue if missing
+        if: steps.check.outputs.ok == 'false'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const today = '${{ steps.check.outputs.today }}';
+            const title = `[healthcheck] ${today} のダイジェストが生成されていません`;
+            const {data: issues} = await github.rest.issues.listForRepo({owner: context.repo.owner, repo: context.repo.repo, state: 'open', labels: 'healthcheck'});
+            if (issues.some(i => i.title === title)) return;
+            await github.rest.issues.create({owner: context.repo.owner, repo: context.repo.repo, title, labels: ['healthcheck'],
+              body: `daily/${today}.md が 08:00 JST 時点で存在しません。routine の実行ログを確認してください: https://claude.ai/code/routines`});

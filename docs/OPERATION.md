@@ -20,7 +20,7 @@
 | 実行時刻 | 毎朝 6:00 JST（= 21:00 UTC 前日） |
 | 1日の分量 | 読了 10〜15分：ニュース 5〜10 件 × 3〜4 行 ＋ 学習記事 1 本 ＋ 講座ネタ 1 個 |
 | 学習トラック初期設定 | 中級 1本/日 で開始。初心者・実践トラックはカリキュラムのみ用意（OFF） |
-| 「講師目線」欄 | **重要・注目のニュースのみ**に付ける（参考には付けない） |
+| 「講師目線」欄 | **重要・注目のニュースのみ**に付ける（正は `config/tracks.yaml` の `instructor_note_for`） |
 | フィードバックループ | あり（`feedback.md`） |
 | 週次クイズ | あり（週まとめに確認クイズ 5 問） |
 | モデル | Sonnet で開始、品質次第で Opus へ |
@@ -127,9 +127,9 @@ related: [topics/memory.md, threads/agent-race.md]
 
 ## 実装ステップ
 
-- [ ] 1. GitHub に public リポジトリ `ai_catch_up` を作成し、初期構成（config / docs / テンプレート）を push
-- [ ] 2. `config/taxonomy.yaml`・`config/sources.yaml`・4 トラックの `CURRICULUM.md`（中級のみ ON）を作成
-- [ ] 3. `docs/PROMPT_daily.md` を作成し、**ローカルで 1 回試走**して品質確認・調整
+- [x] 1. GitHub に public リポジトリ `ai_catch_up` を作成し、初期構成（config / docs / テンプレート）を push（2026-08-19）
+- [x] 2. `config/taxonomy.yaml`・`config/sources.yaml`・4 トラックの `CURRICULUM.md`（中級のみ ON）を作成（2026-08-19）
+- [x] 3. `docs/PROMPT_daily.md` を作成し、**ローカルで 1 回試走**して品質確認・調整（2026-08-19 試走: 約 14 分、指摘を反映済み）
 - [ ] 4. クラウド routine（日次 21:00 UTC, Sonnet, WebFetch/WebSearch 許可）を作成し、クラウド試走。初週は GitHub アプリで確認
 - [ ] 5. MkDocs Material ＋ GitHub Actions で Pages を有効化（関連記事・タグ・日本語検索）
 - [ ] 6. claude.ai で Gmail コネクタを接続し、routine にメール配信を追加

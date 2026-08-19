@@ -1,0 +1,11 @@
+nav:
+  - index.md
+  - 日次ダイジェスト: daily
+  - トピック: topics
+  - ストーリーライン: threads
+  - 学習トラック: learn
+  - 週まとめ: weekly
+  - 年表: timeline.md
+  - フィードバック: feedback.md
+  - 運用設計: docs/OPERATION.md
+  - タグ: tags.md

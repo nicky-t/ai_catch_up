@@ -3,7 +3,7 @@ date: YYYY-MM-DD
 type: daily
 title: "YYYY-MM-DD ダイジェスト"
 reading_minutes: 12
-tags: []            # 当日扱ったタグの集合（taxonomy.yaml のもののみ）
+tags: []            # 当日の主要タグ **最大 6 個**（taxonomy.yaml のもののみ。スマホで上部に並ぶため絞る）
 news_count: 0
 ---
 
@@ -18,15 +18,16 @@ news_count: 0
 
 ### :red_circle: 見出し（重要）
 <!-- importance: high | tags: [..] -->
-**タグ:** `model` `anthropic`
+<div class="chips" markdown>**タグ:** `model` `anthropic`</div>
 
 3〜4 行の要約。固有名詞は原語併記（例：メモリ機能（memory））。何が起きたか → なぜ重要か → 実務への影響。
 
 !!! tip "講師目線"
     1〜2 行。講座でどう使えるか、受講者のどんな疑問に答えられるか。
 
-出典: [サイト名 — 記事タイトル](https://...)（YYYY-MM-DD）
-関連: [topics/xxx](../topics/xxx.md) / [threads/yyy](../threads/yyy.md)
+<p class="meta" markdown>出典: [サイト名 — 記事タイトル](https://...)（YYYY-MM-DD）<br>
+関連: [topics/xxx](../topics/xxx.md) / [threads/yyy](../threads/yyy.md)</p>
+<!-- 出典・関連は上の形式。複数は ` / ` 区切り。本文リンクは相対パス -->
 
 ### :yellow_circle: 見出し（注目）
 <!-- importance: medium -->
@@ -47,4 +48,4 @@ news_count: 0
     今日のニュースと学習をつなげた 15 分ミニ講義の構成案（導入 → 本題 → 演習 → まとめ を各 1 行）。
 
 ---
-*生成: YYYY-MM-DD 06:00 JST / 情報源: N サイト + Web 検索 / 重複除外: N 件*
+*生成: YYYY-MM-DD 06:00 JST / 情報源: 試行 N / 取得成功 M サイト + Web 検索 K 件 / 重複除外: X 件*

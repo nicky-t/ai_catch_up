@@ -1,0 +1,75 @@
+site_name: AI Catch-up
+site_description: AI ニュースと基礎知識を毎朝自動で収集・要約して蓄積するナレッジベース
+site_url: https://nicky-t.github.io/ai_catch_up/
+repo_url: https://github.com/nicky-t/ai_catch_up
+edit_uri: edit/main/
+docs_dir: _build/docs
+site_dir: _build/site
+
+theme:
+  name: material
+  language: ja
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: ダークモードへ
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: ライトモードへ
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+  font:
+    text: Noto Sans JP
+    code: Roboto Mono
+
+plugins:
+  - search:
+      lang: ja
+  - tags
+  - awesome-nav
+
+hooks:
+  - tools/related_hook.py
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+extra_css:
+  - tools/extra.css
+
+extra:
+  generator: false

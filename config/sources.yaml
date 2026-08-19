@@ -5,6 +5,7 @@ primary:
     url: https://openai.com/news/
     rss: https://openai.com/news/rss.xml
     lang: en
+    notes: RSS は取得可。個別記事は 403 になることが多い → RSS の要約＋報道記事で補う
   - name: Anthropic News
     url: https://www.anthropic.com/news
     lang: en
@@ -19,23 +20,20 @@ primary:
   - name: Meta AI Blog
     url: https://ai.meta.com/blog/
     lang: en
-  - name: Microsoft AI Blog
-    url: https://blogs.microsoft.com/ai/
-    rss: https://blogs.microsoft.com/ai/feed/
+  - name: Microsoft Source (AI)
+    url: https://news.microsoft.com/source/topics/ai/
     lang: en
+    notes: 旧 blogs.microsoft.com/ai の RSS は 410 で廃止。一覧ページのみ（日付が取りにくい）。補助扱い
   - name: Hugging Face Blog
     url: https://huggingface.co/blog
     rss: https://huggingface.co/blog/feed.xml
     lang: en
   - name: Claude Code Changelog
-    url: https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
+    url: https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md
     lang: en
+    notes: raw URL で取得。日付が無いので「前回取り上げたバージョン」と比較して新規分のみ扱う
 
 secondary:
-  - name: The Verge AI
-    url: https://www.theverge.com/ai-artificial-intelligence
-    rss: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
-    lang: en
   - name: TechCrunch AI
     url: https://techcrunch.com/category/artificial-intelligence/
     rss: https://techcrunch.com/category/artificial-intelligence/feed/
@@ -48,9 +46,11 @@ secondary:
     url: https://www.itmedia.co.jp/aiplus/
     rss: https://rss.itmedia.co.jp/rss/2.0/aiplus.xml
     lang: ja
+    notes: RSS には @IT・MONOist 等グループ媒体も混在。出典の媒体名は記事ページの実際の媒体名を使う
   - name: 日経クロステック AI
     url: https://xtech.nikkei.com/top/it/
     lang: ja
+    notes: 有料記事が多く冒頭のみ取得可。見出しの把握用。出典にする場合は冒頭で確認できた事実のみ
   - name: Zenn (AI トピック)
     url: https://zenn.dev/topics/ai
     rss: https://zenn.dev/topics/ai/feed
@@ -59,6 +59,25 @@ secondary:
     url: https://www.publickey1.jp/
     rss: https://www.publickey1.jp/atom.xml
     lang: ja
+
+  - name: Google Developers Blog
+    url: https://developers.googleblog.com/
+    rss: https://developers.googleblog.com/feeds/posts/default
+    lang: en
+  - name: Anthropic Engineering
+    url: https://www.anthropic.com/engineering
+    lang: en
+  - name: Ars Technica AI
+    url: https://arstechnica.com/ai/
+    rss: https://arstechnica.com/ai/feed/
+    lang: en
+
+# 取得不能で除外した情報源（再試行しない）
+excluded:
+  - url: https://www.theverge.com/
+    reason: WebFetch がドメインごと拒否（2026-08-19 確認）
+  - url: https://blogs.microsoft.com/ai/feed/
+    reason: HTTP 410（RSS 廃止）
 
 # Web 検索の補助クエリ（日付を付けて検索する）
 search_queries:
