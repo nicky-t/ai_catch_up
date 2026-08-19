@@ -1,1 +1,12 @@
 # 取り上げ済み URL（重複除外用）。agent が追記する。1 行 1 URL。
+https://www.itmedia.co.jp/news/article/2608/19/2000000605/
+https://techstrong.ai/articles/google-moves-a2a-under-agentic-ai-foundation/
+https://www.itmedia.co.jp/news/article/2608/19/2000000606/
+https://www.publickey1.jp/blog/26/aigitorigincursorcursorgithub.html
+https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/
+https://www.itmedia.co.jp/aiplus/article/2608/19/2000000626/
+https://www.itmedia.co.jp/aiplus/article/2608/19/2000000615/
+https://www.itmedia.co.jp/aiplus/article/2608/19/2000000611/
+https://xtech.nikkei.com/atcl/nxt/column/18/00001/11970/
+https://atmarkit.itmedia.co.jp/ait/articles/2608/19/news042.html
+https://atmarkit.itmedia.co.jp/ait/articles/2608/18/news055.html

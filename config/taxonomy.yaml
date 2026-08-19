@@ -78,4 +78,10 @@ importance_levels:
   medium: "注目。文脈として知っておくべき"
   low:    "参考。記録として残す"
 
-_proposed_tags: []
+_proposed_tags:
+  - tag: japanese-llm
+    category: model
+    reason: "国産 LLM（LLM-jp・tsuzumi 等）を企業タグ japan-company と区別したい（2026-08-19 提案）"
+  - tag: a2a
+    category: tool
+    reason: "Agent2Agent Protocol が AAIF 移管で MCP と並ぶ標準になり、mcp と同様に単独タグが欲しい（2026-08-19 提案）"

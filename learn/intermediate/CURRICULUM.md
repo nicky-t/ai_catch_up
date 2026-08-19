@@ -9,7 +9,7 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 ねらい：「仕組みを説明できる」「業務導入で判断できる」「各社を比較して語れる」状態にする。
 
 ## A. LLM の仕組みを説明できる（12）
-- [ ] 001 Transformer と自己注意：なぜ文脈が効くのかを図で説明する
+- [x] 001 Transformer と自己注意：なぜ文脈が効くのかを図で説明する → learn/intermediate/001-transformer-self-attention.md
 - [ ] 002 トークナイザー：日本語が不利になる理由とコストへの影響
 - [ ] 003 事前学習・SFT・RLHF：3 段階で何が変わるか
 - [ ] 004 推論時のパラメータ：temperature / top-p / max tokens を実務でどう決めるか
