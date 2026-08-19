@@ -142,14 +142,15 @@ pip install -r requirements.txt && tools/build_site.sh serve
 
 ### クラウドからの push 経路
 - 基本は `main` へ直接 push。拒否（403）された場合は `claude/daily-<日付>` / `claude/weekly-<週>` ブランチへ push し、`.github/workflows/pages.yml` の `merge` ジョブが `main` へ自動マージ → Pages ビルド
-- **2026-08-19 時点の状態**：クラウドセッションからの push が `main` / `claude/**` とも 403。原因はクラウド側の GitHub 書き込み権限（Claude GitHub App のリポジトリアクセス）で、https://github.com/apps/claude → Configure で `ai_catch_up` を許可する必要がある（要ユーザー作業）。許可後に Run now で再確認する
+- 2026-08-19: 当初クラウドからの push が 403 → Claude GitHub App に `ai_catch_up` を許可して解消（診断 routine で push 成功を確認）。`claude/**` → 自動マージ → Pages デプロイの経路も通し確認済み
+- クラウドの git 既定識別情報は `Claude <noreply@anthropic.com>`。変更しないこと
 
 ## 実装ステップ
 
 - [x] 1. GitHub に public リポジトリ `ai_catch_up` を作成し、初期構成（config / docs / テンプレート）を push（2026-08-19）
 - [x] 2. `config/taxonomy.yaml`・`config/sources.yaml`・4 トラックの `CURRICULUM.md`（中級のみ ON）を作成（2026-08-19）
 - [x] 3. `docs/PROMPT_daily.md` を作成し、**ローカルで 1 回試走**して品質確認・調整（2026-08-19 試走: 約 14 分、指摘を反映済み）
-- [x] 4. クラウド routine（日次 21:00 UTC, Sonnet, WebFetch/WebSearch 許可）を作成（2026-08-19, `trig_01XAGVR2LkhEmHfcXDthpoqn`）。クラウド試走は同日実施。初週は GitHub アプリ／Pages で確認
+- [x] 4. クラウド routine（日次 21:00 UTC, Sonnet, WebFetch/WebSearch 許可）を作成（2026-08-19, `trig_01XAGVR2LkhEmHfcXDthpoqn`）。クラウド試走でメール送信・push を確認。**初回の本番実行は 2026-08-20 6:00 JST**。初週は Pages／メールで品質確認
 - [x] 5. MkDocs Material ＋ GitHub Actions で Pages を有効化（関連記事・タグ・日本語検索）（2026-08-19 公開: https://nicky-t.github.io/ai_catch_up/ ）
 - [x] 6. Gmail コネクタは接続済みだったため routine に自動付与。`PROMPT_daily.md` 5-b にメール配信を追加（2026-08-19）
 - [x] 7. `docs/PROMPT_weekly.md` と週次 routine（土曜 22:00 UTC = 日曜 7:00 JST, `trig_011ae5f4eWtsxY8Mjhx44XDc`）を作成（2026-08-19）
