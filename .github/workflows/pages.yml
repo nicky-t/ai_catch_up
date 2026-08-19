@@ -9,16 +9,17 @@ on:
 
 permissions:
   contents: write
+  actions: write
   pages: write
   id-token: write
 
 concurrency:
-  group: pages
+  group: pages-${{ github.ref_name }}
   cancel-in-progress: false
 
 jobs:
   merge:
-    # agent が claude/** ブランチに push したら main に取り込む（main 直 push が拒否される環境向け）
+    # agent が claude/** ブランチに push したら main に取り込み、main 起点のビルドを起動する
     if: startsWith(github.ref, 'refs/heads/claude/')
     runs-on: ubuntu-latest
     steps:
@@ -40,15 +41,16 @@ jobs:
           fi
           git push origin main
           git push origin --delete "$BRANCH" || true
+      - name: Trigger main build
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref main
 
   build:
-    needs: [merge]
-    if: always() && (needs.merge.result == 'success' || needs.merge.result == 'skipped')
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -61,6 +63,7 @@ jobs:
 
   deploy:
     needs: build
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
