@@ -140,6 +140,10 @@ pip install -r requirements.txt && tools/build_site.sh serve
 
 管理画面: https://claude.ai/code/routines ／ 振る舞いの変更はプロンプトファイルの編集で行う（routine 側は触らない）。
 
+### クラウドからの push 経路
+- 基本は `main` へ直接 push。拒否（403）された場合は `claude/daily-<日付>` / `claude/weekly-<週>` ブランチへ push し、`.github/workflows/pages.yml` の `merge` ジョブが `main` へ自動マージ → Pages ビルド
+- **2026-08-19 時点の状態**：クラウドセッションからの push が `main` / `claude/**` とも 403。原因はクラウド側の GitHub 書き込み権限（Claude GitHub App のリポジトリアクセス）で、https://github.com/apps/claude → Configure で `ai_catch_up` を許可する必要がある（要ユーザー作業）。許可後に Run now で再確認する
+
 ## 実装ステップ
 
 - [x] 1. GitHub に public リポジトリ `ai_catch_up` を作成し、初期構成（config / docs / テンプレート）を push（2026-08-19）
