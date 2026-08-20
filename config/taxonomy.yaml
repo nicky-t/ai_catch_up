@@ -85,3 +85,9 @@ _proposed_tags:
   - tag: a2a
     category: tool
     reason: "Agent2Agent Protocol が AAIF 移管で MCP と並ぶ標準になり、mcp と同様に単独タグが欲しい（2026-08-19 提案）"
+  - tag: glm
+    category: model
+    reason: "Z.ai（智譜AI）の GLM シリーズが gpt/claude/gemini/llama/qwen/deepseek と並ぶ主要モデルファミリーとして繰り返し登場しそうなため単独タグが欲しい（2026-08-20 提案、GLM-5.3 発表を機に）"
+  - tag: privacy-processing
+    category: technique
+    reason: "OpenAI の Private Safety Processing のようなゼロデータ保持と不正検知を両立する設計が今後も話題になりそうで、既存の privacy（policy）だけでは『技術的な仕組み』側を表しにくい（2026-08-20 提案、様子見でよい）"

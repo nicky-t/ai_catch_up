@@ -3,7 +3,7 @@ type: thread
 title: "国内 AI 導入動向（japan-ai-adoption）"
 slug: japan-ai-adoption
 created: 2026-08-19
-updated: 2026-08-19
+updated: 2026-08-20
 tags: [adoption, japan-company, case-study]
 status: active
 related: [topics/openai.md]
@@ -22,6 +22,7 @@ related: [topics/openai.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-08-20: エンジニア調査で 6 割が「AI 研修不足」を実感、AI 求人は前年比 166.2% 増 — 導入企業と非導入企業の差が人材育成に表れ始めている（[daily](../daily/2026-08-20.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2608/19/news047.html)）
 - 2026-08-19: LIXIL が FAQ を AI 向けに再設計、閲覧数 3 倍・引用数 7.3 倍 — 「AI に理解・引用される設計」へ（[daily](../daily/2026-08-19.md) / [出典](https://xtech.nikkei.com/atcl/nxt/column/18/00001/11970/)）
 - 2026-08-19: OpenAI が国内パートナー網を拡充、リバネスナレッジ・シンプレクス・Recursive が参加 — 中堅・中小企業向け導入支援（[daily](../daily/2026-08-19.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2608/19/2000000615/)）
 - 2026-08-19: NII が LLM-jp-4 33B を公開、Apache 2.0 で商用可 — gpt-oss-20b を上回ると報告（[daily](../daily/2026-08-19.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2608/19/2000000626/)）

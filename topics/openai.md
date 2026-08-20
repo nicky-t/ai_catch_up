@@ -3,11 +3,11 @@ type: topic
 title: "OpenAI"
 slug: openai
 created: 2026-08-19
-updated: 2026-08-19
+updated: 2026-08-20
 tags: [openai, chatgpt, gpt]
 level: beginner
 audience: [engineer, business, instructor]
-related: [threads/japan-ai-adoption.md]
+related: [threads/japan-ai-adoption.md, topics/openrouter.md]
 ---
 
 # OpenAI
@@ -32,6 +32,7 @@ ChatGPT と GPT 系モデルを開発する米国の AI 企業。一般利用者
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-08-20: ゼロデータ保持を維持したまま不正利用を検知する「Private Safety Processing」を発表 — 30 日間のデータ保持を求める Anthropic の方針への対抗策（[daily](../daily/2026-08-20.md)）
 - 2026-08-19: 国内パートナー網を拡充、中堅・中小企業の AI 導入を後押し — 1 億 5,000 万ドル投資・認定コンサルタント 30 万人育成計画（[daily](../daily/2026-08-19.md)）
 - 2026-08-19: 13〜17 歳向け「ChatGPT for Teens」を発表 — 丸投げ検知で Study Mode へ誘導、年齢別保護（[daily](../daily/2026-08-19.md)）
 - 2026-08-19: 次期モデルのサイバー能力を理由にフロンティアモデルの強化学習を一部停止 — 安全対策を強化、「安全性が開発ペースを決める」（[daily](../daily/2026-08-19.md)）
