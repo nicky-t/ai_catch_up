@@ -143,6 +143,7 @@ pip install -r requirements.txt && tools/build_site.sh serve
 ### クラウドからの push 経路
 - 基本は `main` へ直接 push。拒否（403）された場合は `claude/daily-<日付>` / `claude/weekly-<週>` ブランチへ push し、`.github/workflows/pages.yml` の `merge` ジョブが `main` へ自動マージ → Pages ビルド
 - 2026-08-19: 当初クラウドからの push が 403 → Claude GitHub App に `ai_catch_up` を許可して解消（診断 routine で push 成功を確認）。`claude/**` → 自動マージ → Pages デプロイの経路も通し確認済み
+- 2026-08-20: 初回本番実行が失敗。クラウド環境（Default）の Network access が Trusted のままで情報源への WebFetch が全て EGRESS_BLOCKED → ユーザーが Network access を変更して解消。手動再実行で全工程（生成→push→Pages→メール）成功。**環境設定を変えた場合はこの 2 点（GitHub App 許可・Network access）を再確認すること**
 - クラウドの git 既定識別情報は `Claude <noreply@anthropic.com>`。変更しないこと
 
 ## 実装ステップ
