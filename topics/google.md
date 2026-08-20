@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-08-21
 tags: [google, gemini]
 level: beginner
 audience: [engineer, business, instructor]
@@ -19,10 +19,12 @@ related: [topics/a2a-protocol.md]
 - モデル・製品ライン：Gemini（対話・マルチモーダル）、Search への AI 機能統合、Workspace（Google AI Plus / Pro など）（要追記：料金体系の全体像）
 - エージェント間通信の標準 A2A（Agent2Agent Protocol）の主導企業の一つで、2026 年 8 月に Agentic AI Foundation（AAIF）へガバナンスを移管した
 - 教育領域では学生向けに Search・Gemini アプリの学習支援機能や AI Plus/Pro の無償提供を展開している
+- 単一の最強モデルを追うのではなく、TPU（テンソル処理ユニット）を広くエコシステムに提供しクラウド全体に AI を統合する「電力網」型の戦略を Google Cloud は掲げている（要追記：Gemini とのモデル戦略との関係）
 
 ## 実務での使い方
 - 検索・Workspace との統合を前提に、既存の Google 業務環境に AI を組み込みたい企業・教育機関にとって導入障壁が低い（要追記：企業向けプラン比較）
 - 学生・教育機関向け施策は、研修・講座設計の「無償で試せる入口」として案内しやすい
+- 自社サイトが AI 検索経由の流入減に悩む場合、「Preferred Sources」ボタンの設置で読者からの指名クリックを増やす施策が使える（読者から選ばれる場合、クリック率は2倍という Google 側の説明あり）
 
 ## 講座で使うなら
 - 30 秒説明: 「検索や Gmail でおなじみの Google が、Gemini という AI モデルと、それをつなぐ標準規格（A2A）の両方を推している会社です」
@@ -31,6 +33,8 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-08-21: 「Preferred Sources」ボタンを一般公開、読者から選ばれるとクリック率2倍（[daily](../daily/2026-08-21.md)）
+- 2026-08-21: Google Cloud CEO が「単一の最強モデル」でなくTPUを広く提供する「電力網」戦略を説明、研究者流出も報告（[daily](../daily/2026-08-21.md)）
 - 2026-08-20: 大学生向けに「Google AI Plus」を1年間無料提供、Gemini アプリに学習支援機能も追加（[daily](../daily/2026-08-20.md)）
 - 2026-08-19: エージェント間通信プロトコル A2A のガバナンスを Agentic AI Foundation（AAIF）へ移管（[daily](../daily/2026-08-19.md)）
 

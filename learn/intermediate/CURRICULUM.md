@@ -11,7 +11,7 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 ## A. LLM の仕組みを説明できる（12）
 - [x] 001 Transformer と自己注意：なぜ文脈が効くのかを図で説明する → learn/intermediate/001-transformer-self-attention.md
 - [x] 002 トークナイザー：日本語が不利になる理由とコストへの影響 → learn/intermediate/002-tokenizer-japanese-cost.md
-- [ ] 003 事前学習・SFT・RLHF：3 段階で何が変わるか
+- [x] 003 事前学習・SFT・RLHF：3 段階で何が変わるか → learn/intermediate/003-pretraining-sft-rlhf.md
 - [ ] 004 推論時のパラメータ：temperature / top-p / max tokens を実務でどう決めるか
 - [ ] 005 コンテキストウィンドウ：長文化の歴史と「長ければ良い」が成り立たない理由
 - [ ] 006 幻覚（ハルシネーション）の発生メカニズムと分類

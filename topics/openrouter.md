@@ -3,7 +3,7 @@ type: topic
 title: "OpenRouter（オープンルーター）"
 slug: openrouter
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-08-21
 tags: [api, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -23,6 +23,7 @@ related: [topics/openai.md]
 ## 実務での使い方
 - 複数の LLM ベンダーを比較・併用したい企業にとって、契約・請求・実装をまとめる手段になる（要追記：日本企業での導入事例）
 - 「トークンが AI 時代の中核通貨」という位置づけで、決済インフラ企業がこの層を押さえにきた動きとして見ておくとよい
+- 同種のサービスは OpenRouter だけではない（例：経費管理の Ramp が自社ルーター「Router」を一般提供）。契約前に複数サービスを比較する余地がある
 
 ## 講座で使うなら
 - 30 秒説明: 「色々な AI モデルを 1 つの窓口でまとめて使えるサービスです。決済会社の Stripe が最近買収しました」
@@ -31,6 +32,7 @@ related: [topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-08-21: 経費管理の Ramp が競合の AI モデルルーター「Router」を一般提供、2026年内は無料（[daily](../daily/2026-08-21.md)）
 - 2026-08-20: Stripe が OpenRouter を75億ドルで買収 — 「トークンは中核となる通貨」、中立基盤としての運営は維持（[daily](../daily/2026-08-20.md)）
 
 ## 関連

@@ -1,16 +1,17 @@
 ---
 type: index
-updated: 2026-08-20
+updated: 2026-08-21
 ---
 # AI Catch-up
 
 ## 最新
 <!-- agent が先頭に追加 -->
+- [2026-08-21 ダイジェスト](daily/2026-08-21.md) — アクセンチュア調査「AIで生産性向上」日本57%・世界81%／Google がパブリッシャー向け「Preferred Sources」を一般公開／学習: 事前学習・SFT・RLHF
 - [2026-08-20 ダイジェスト](daily/2026-08-20.md) — Stripe が OpenRouter を75億ドルで買収／OpenAI が Private Safety Processing を発表／学習: トークナイザーと日本語の不利
 - [2026-08-19 ダイジェスト](daily/2026-08-19.md) — OpenAI がフロンティアモデルの RL を一部停止／A2A が AAIF へ移管／学習: Transformer と自己注意
 
 ## 統計
-- トピック: 8 ／ スレッド: 1 ／ 学習記事: 2
+- トピック: 8 ／ スレッド: 1 ／ 学習記事: 3
 
 ## 入口
 - [日次ダイジェスト](daily/index.md)
