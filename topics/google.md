@@ -3,8 +3,8 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-08-21
-tags: [google, gemini]
+updated: 2026-08-22
+tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
 related: [topics/a2a-protocol.md]
@@ -33,6 +33,8 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-08-22: オープンモデル「Gemma」ファミリーの累計ダウンロードが10億回突破。過去2年で派生モデル10万種類超、GitHub に公式リポジトリ「Awesome Gemma」公開（[daily](../daily/2026-08-22.md)）
+- 2026-08-22: 首都高速道路が Gemini のノートブック機能を業務活用、利用者数が1年で22名→224名と10倍以上に増加（[daily](../daily/2026-08-22.md)）
 - 2026-08-21: 「Preferred Sources」ボタンを一般公開、読者から選ばれるとクリック率2倍（[daily](../daily/2026-08-21.md)）
 - 2026-08-21: Google Cloud CEO が「単一の最強モデル」でなくTPUを広く提供する「電力網」戦略を説明、研究者流出も報告（[daily](../daily/2026-08-21.md)）
 - 2026-08-20: 大学生向けに「Google AI Plus」を1年間無料提供、Gemini アプリに学習支援機能も追加（[daily](../daily/2026-08-20.md)）

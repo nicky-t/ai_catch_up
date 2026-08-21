@@ -3,7 +3,7 @@ type: thread
 title: "国内 AI 導入動向（japan-ai-adoption）"
 slug: japan-ai-adoption
 created: 2026-08-19
-updated: 2026-08-21
+updated: 2026-08-22
 tags: [adoption, japan-company, case-study]
 status: active
 related: [topics/openai.md]
@@ -22,6 +22,9 @@ related: [topics/openai.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-08-22: SBI 北尾会長が「孫さんは OpenAI だが、僕は Anthropic」と発言。顧客対応統合エージェントに初期投資5億円・年間27億円規模で取り組むと表明（[daily](../daily/2026-08-22.md) / [出典](https://www.itmedia.co.jp/business/articles/2608/21/news038.html)）
+- 2026-08-22: 三菱UFJ銀行が「オントロジー＋ナレッジグラフ」で業務ルールをAIに学習させる「AIフローチャート」を開発。1プロセスあたりの作成工数を10人→0.5人に削減（[daily](../daily/2026-08-22.md) / [出典](https://www.itmedia.co.jp/enterprise/articles/2608/21/news019.html)）
+- 2026-08-22: 首都高速道路が Gemini のノートブック機能で3,000件超の技術資料をFAQ化、利用者数が1年で22名→224名に増加（[daily](../daily/2026-08-22.md) / [出典](https://kn.itmedia.co.jp/kn/articles/2608/21/news044.html)）
 - 2026-08-21: アクセンチュア調査で「AIによる生産性向上」を実感した日本の従業員は57%、世界平均81%を下回る一方、経営層の投資拡大意向は78%と世界（82%）並み（[daily](../daily/2026-08-21.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2608/20/2000000641/)）
 - 2026-08-20: エンジニア調査で 6 割が「AI 研修不足」を実感、AI 求人は前年比 166.2% 増 — 導入企業と非導入企業の差が人材育成に表れ始めている（[daily](../daily/2026-08-20.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2608/19/news047.html)）
 - 2026-08-19: LIXIL が FAQ を AI 向けに再設計、閲覧数 3 倍・引用数 7.3 倍 — 「AI に理解・引用される設計」へ（[daily](../daily/2026-08-19.md) / [出典](https://xtech.nikkei.com/atcl/nxt/column/18/00001/11970/)）
