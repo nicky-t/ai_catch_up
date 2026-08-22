@@ -3,7 +3,7 @@ type: topic
 title: "OpenRouter（オープンルーター）"
 slug: openrouter
 created: 2026-08-20
-updated: 2026-08-21
+updated: 2026-08-23
 tags: [api, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -16,7 +16,9 @@ related: [topics/openai.md]
 1 つの API で OpenAI・Anthropic・Google など 80 社超・400 以上の AI モデルにアクセスできる「AI モデルの窓口（ゲートウェイ）」。2026 年 8 月に決済大手 Stripe が 75 億ドルで買収した。
 
 ## 仕組み
-- 開発者はモデルごとに個別契約・個別 API 実装をせず、OpenRouter 経由で複数モデルを呼び分けられる（要追記：ルーティングの課金体系・フェイルオーバーの仕組み）
+- 開発者はモデルごとに個別契約・個別 API 実装をせず、OpenRouter 経由で複数モデルを呼び分けられる
+- 課金は前払いクレジット方式（推論利用時に基盤プロバイダーの価格をそのまま通し、上乗せなし）。クレジット購入時の手数料は Stripe 決済で 5.5%（最低 $0.80）、暗号資産決済で 5%。無料モデルは未購入時 50 リクエスト/日、$10 以上購入済みなら 1000 リクエスト/日まで利用可
+- フェイルオーバー：上流プロバイダーでエラーが起きた場合、リクエストフィルターの設定に応じて別の健全なプロバイダーへ自動的にルーティングする仕組みを持つ（出典: [openrouter.ai/docs/faq](https://openrouter.ai/docs/faq)、[openrouter.ai/docs/features/uptime-optimization](https://openrouter.ai/docs/features/uptime-optimization)、取得日 2026-08-23）
 - 2023 年創業、米ニューヨーク拠点。買収時点で 1 日 10 兆トークン超を処理、利用企業・開発者は 1000 万超、従業員は約 90 人という規模で急成長していた
 - Stripe は買収後も「中立的な基盤」としての立ち位置を維持すると説明している
 

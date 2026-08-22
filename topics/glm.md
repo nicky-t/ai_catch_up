@@ -3,8 +3,8 @@ type: topic
 title: "GLM（智譜AI / Z.ai）"
 slug: glm
 created: 2026-08-20
-updated: 2026-08-20
-tags: [open-weights, benchmark]
+updated: 2026-08-23
+tags: [glm, open-weights, benchmark]
 level: beginner
 audience: [engineer, business, instructor]
 related: [topics/openai.md]

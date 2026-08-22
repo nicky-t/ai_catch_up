@@ -3,8 +3,8 @@ type: topic
 title: "A2A（Agent2Agent Protocol）"
 slug: a2a-protocol
 created: 2026-08-19
-updated: 2026-08-19
-tags: [agent, mcp, google]
+updated: 2026-08-23
+tags: [a2a, agent, mcp, google]
 level: beginner
 audience: [engineer, business, instructor]
 related: []
@@ -37,5 +37,5 @@ AI エージェント同士が「自分は何ができるか」を名刺（Agent
 - 2026-08-19: Google / Kaggle のエージェント実践ガイド（無料）が MCP・A2A による相互運用を章立てで扱う（[daily](../daily/2026-08-19.md)）
 
 ## 関連
-- 今後作成予定: topics/mcp（要追記）
+- [topics/mcp](mcp.md)
 - [learn/intermediate/001](../learn/intermediate/001-transformer-self-attention.md)（個々のモデルが文脈のどこに注目するか）

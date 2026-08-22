@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-08-21
+updated: 2026-08-23
 tags: [claude-code, anthropic, agent]
 level: beginner
 audience: [engineer, business, instructor]
@@ -16,7 +16,9 @@ related: [topics/cursor.md]
 Anthropic のコーディングエージェント。ターミナルやクラウドから自然言語で指示すると、コードの読解・修正・テスト・コミットまでを自律的に進める。本リポジトリの日次生成もこれで動いている。
 
 ## 仕組み
-- Claude モデルがファイル操作・シェル・Web 取得などのツールを使いながらタスクをループで進める（要追記：権限モデル・MCP 連携・クラウド実行の詳細）
+- Claude モデルがファイル操作・シェル・Web 取得などのツールを使いながらタスクをループで進める。実行するツールごとに承認を求めるかどうかを決める権限モード（既定では危険な操作は都度確認、`acceptEdits`・`bypassPermissions` などで自動化の度合いを調整）を持つ
+- MCP（Model Context Protocol）に対応し、Google Drive の設計資料を読む・Jira のチケットを更新する・Slack からデータを取る、といった外部ツール連携を標準規格で追加できる
+- ターミナル・IDE 拡張・デスクトップアプリに加え、ブラウザ上でも実行できる「Claude Code on the web」（claude.ai/code）を提供。ローカルで開始したタスクをクラウドに引き継いだり、複数タスクを並列実行したりできる（出典: [code.claude.com/docs/en/overview](https://code.claude.com/docs/en/overview)、取得日 2026-08-23）
 - 料金は Pro / Max / Team / Enterprise などのプランで週次の利用枠がある。2026 年 5 月 13 日〜8 月 31 日は利用枠 50% 増のキャンペーン中
 
 ## 実務での使い方
@@ -36,3 +38,4 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 ## 関連
 - [topics/cursor](cursor.md)
 - [topics/openai](openai.md)（Codex との競合）
+- [topics/mcp](mcp.md)（外部ツール連携の標準）

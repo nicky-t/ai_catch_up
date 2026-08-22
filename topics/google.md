@@ -16,7 +16,8 @@ related: [topics/a2a-protocol.md]
 検索・Android・Workspace などの基盤事業を持つ米国のテクノロジー企業。AI モデル「Gemini」を軸に、検索・教育・開発者向けプロトコル（A2A）まで幅広く展開している。
 
 ## 仕組み
-- モデル・製品ライン：Gemini（対話・マルチモーダル）、Search への AI 機能統合、Workspace（Google AI Plus / Pro など）（要追記：料金体系の全体像）
+- モデル・製品ライン：Gemini（対話・マルチモーダル）、Search への AI 機能統合、Workspace（Google AI Plus / Pro など）
+- 個人向けサブスクリプションは 3 段階：Google AI Plus（ストレージ 400GB・Gemini 利用量 2 倍）、Google AI Pro（5TB・4 倍、Gemini Spark 等の特典付き）、Google AI Ultra（20TB 以上・最大 20 倍、YouTube Premium 等の特典付き）。日本円での具体的な月額は地域別ページでの確認が必要（出典: [one.google.com/about/google-ai-plans](https://one.google.com/about/google-ai-plans/)、取得日 2026-08-23）
 - エージェント間通信の標準 A2A（Agent2Agent Protocol）の主導企業の一つで、2026 年 8 月に Agentic AI Foundation（AAIF）へガバナンスを移管した
 - 教育領域では学生向けに Search・Gemini アプリの学習支援機能や AI Plus/Pro の無償提供を展開している
 - 単一の最強モデルを追うのではなく、TPU（テンソル処理ユニット）を広くエコシステムに提供しクラウド全体に AI を統合する「電力網」型の戦略を Google Cloud は掲げている（要追記：Gemini とのモデル戦略との関係）

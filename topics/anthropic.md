@@ -16,7 +16,8 @@ related: [topics/claude-code.md, topics/openai.md]
 「Claude」シリーズのモデルを開発する米国の AI 企業。安全性重視の企業文化を掲げつつ、Claude Code・Claude Cowork などコーディング・業務エージェント製品を急速に拡大している。
 
 ## 仕組み
-- モデルラインは Claude（例：Claude Opus 5、Claude Fable 5）。API・チャット（Claude.ai）・コーディングエージェント（Claude Code）・業務エージェント（Claude Cowork）など製品群を展開（要追記：モデルファミリーの世代・命名の全体像）
+- モデルラインは Claude（例：Claude Opus 5、Claude Fable 5、Claude Mythos 5）。API・チャット（Claude.ai）・コーディングエージェント（Claude Code）・業務エージェント（Claude Cowork）など製品群を展開
+- 製品ページでは Mythos・Fable・Opus・Sonnet・Haiku の 5 系統がモデルファミリーとして並記されており、Opus が「大規模な進歩」を遂げた主力ラインと位置づけられている（世代番号・性能階層の詳細な対応表は同ページに明記されていない）（出典: [claude.com/product/overview](https://claude.com/product/overview)、取得日 2026-08-23）
 - 顧客のプライバシー保護では、不正利用検知のためデータを 30 日保持する方針を取っており、ゼロデータ保持を掲げる OpenAI の「Private Safety Processing」と対照的な立場（[daily 2026-08-20](../daily/2026-08-20.md)）
 - 2026 年 8 月、Claude・Claude Code・Claude Cowork の使い方を学べる無料の公式学習サイト「Claude Academy」（academy.claude.com）を公開。日本語翻訳（α版）にも対応
 

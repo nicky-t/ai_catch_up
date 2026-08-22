@@ -16,7 +16,8 @@ related: [threads/japan-ai-adoption.md, topics/openrouter.md]
 ChatGPT と GPT 系モデルを開発する米国の AI 企業。一般利用者・企業・開発者（API）向けに製品を展開し、モデル開発の速度と安全性の両面で業界の基準を作ってきた。
 
 ## 仕組み
-- 製品ライン：ChatGPT（一般・Work・Teens など利用者層別）、API（開発者向け）、Codex（コーディング支援）など（要追記：最新のモデル名・料金体系）
+- 製品ライン：ChatGPT（一般・Work・Teens など利用者層別）、API（開発者向け）、Codex（コーディング支援）など
+- API の主力モデルは GPT-5.6 シリーズ 3 種：GPT-5.6 Sol（複雑な専門業務向け、入力 $4／出力 $20 per 百万トークン）、GPT-5.6 Terra（知能とコストのバランス型、入力 $2／出力 $12）、GPT-5.6 Luna（コスト効率重視、入力 $0.20／出力 $1.20）。コンテキストウィンドウは全モデル共通で 105 万トークン（出典: [developers.openai.com/api/docs/models](https://developers.openai.com/api/docs/models)、取得日 2026-08-23）
 - 安全面では、モデルの能力段階（「Critical」など）に応じて開発ペースや提供条件を調整する方針を明示している（2026-08-18 の発表）
 - 国内展開：OpenAI Partner Network を通じて認定パートナーが中堅・中小企業の導入支援を行う（要追記：国内パートナー一覧）
 
