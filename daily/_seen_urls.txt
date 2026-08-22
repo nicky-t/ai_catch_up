@@ -36,3 +36,9 @@ https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai
 https://www.itmedia.co.jp/news/article/2608/21/2000000670/
 https://www.itmedia.co.jp/business/articles/2608/21/news038.html
 https://www.itmedia.co.jp/aiplus/article/2608/21/2000000679/
+https://www.itmedia.co.jp/aiplus/article/2608/22/2000000697/
+https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/
+https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/
+https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/
+https://zenn.dev/talks_tldr_jp/articles/tldr26-jeffdean-summary
+https://simonwillison.net/2026/Aug/22/llm/

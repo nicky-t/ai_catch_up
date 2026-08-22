@@ -13,7 +13,7 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 - [x] 002 トークナイザー：日本語が不利になる理由とコストへの影響 → learn/intermediate/002-tokenizer-japanese-cost.md
 - [x] 003 事前学習・SFT・RLHF：3 段階で何が変わるか → learn/intermediate/003-pretraining-sft-rlhf.md
 - [x] 004 推論時のパラメータ：temperature / top-p / max tokens を実務でどう決めるか → learn/intermediate/004-inference-parameters.md
-- [ ] 005 コンテキストウィンドウ：長文化の歴史と「長ければ良い」が成り立たない理由
+- [x] 005 コンテキストウィンドウ：長文化の歴史と「長ければ良い」が成り立たない理由 → learn/intermediate/005-context-window.md
 - [ ] 006 幻覚（ハルシネーション）の発生メカニズムと分類
 - [ ] 007 推論モデル（reasoning models）：思考過程を出すモデルは何が違うか
 - [ ] 008 マルチモーダル：画像・音声・動画を扱う仕組みと実務の使いどころ

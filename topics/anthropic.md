@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-08-22
+updated: 2026-08-23
 tags: [anthropic, claude]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,8 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-08-23: 最高性能モデル「Claude Mythos 5」を脆弱性スキャン専用に開放。Claude Security 経由でEnterprise顧客が追加契約なしに利用可能、防御側支援基金「Defender Advantage Fund」（3,500万ドル）も始動（[daily](../daily/2026-08-23.md)）
+- 2026-08-23: DeepMind出身者の新興Inherentが、270億パラメータの小型モデルで Claude Opus 4.8 を上回る研究再現性能を実証（[daily](../daily/2026-08-23.md)）
 - 2026-08-22: 無料公式学習サイト「Claude Academy」公開。Claude Code・Claude Cowork の使い方もコースで解説、日本語翻訳（α版）対応（[daily](../daily/2026-08-22.md)）
 - 2026-08-22: SBI 北尾会長が「孫さんは OpenAI だが、僕は Anthropic」と発言、Claude を軸にしたエージェント開発に初期投資 5 億円・年間 27 億円規模で取り組むと表明（[daily](../daily/2026-08-22.md)）
 - 2026-08-22: Slack の新機能「Slack Code」が対応エージェントの一つとして Claude を採用（[daily](../daily/2026-08-22.md)）
