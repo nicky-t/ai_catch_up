@@ -37,6 +37,20 @@ news_count: 0
 <!-- importance: low -->
 （要約 2〜3 行＋出典のみ。講師目線なし）
 
+## 今日の現場ネタ
+
+<!-- 実務でそのまま試せる情報 1〜2 件（PROMPT_daily 2-2）。基準を満たす候補が無い日は「今日は見送り（基準を満たす候補なし）」と 1 行だけ書く -->
+
+### :hammer_and_wrench: 名前 — 何ができるか
+<div class="chips" markdown>**タグ:** `skills` `claude-code`</div>
+
+**できること**：1〜2 行。誰のどんな作業がどう楽になるか。
+**試し方**：`/plugin install xxx` やプロンプト例など、コマンド・手順を 1〜3 行で具体的に。
+**注意**：向き不向き・落とし穴を 1 行。
+
+<p class="meta" markdown>人気の根拠: HN 350pt ／ 出典: [サイト名 — タイトル](https://...)（YYYY-MM-DD）<br>
+関連: [topics/xxx](../topics/xxx.md)</p>
+
 ## 今日の学習
 
 !!! note "中級 012/060 — 記事タイトル"

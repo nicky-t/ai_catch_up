@@ -42,6 +42,7 @@ categories:
     - mcp
     - a2a
     - api
+    - skills          # Claude Skills などエージェントの拡張パッケージ
   technique:
     - prompt-engineering
     - rag

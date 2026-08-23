@@ -22,5 +22,7 @@ tracks:
 daily:
   news_min: 5
   news_max: 10
+  tips_min: 1        # 「今日の現場ネタ」（すぐ試せる使い方・話題の Skill）の件数
+  tips_max: 2        # 基準を満たす候補が無い日は 0 件でよい
   reading_minutes: 12
   instructor_note_for: [high, medium]   # 「講師目線」を付ける重要度

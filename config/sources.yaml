@@ -72,6 +72,36 @@ secondary:
     rss: https://arstechnica.com/ai/feed/
     lang: en
 
+# 実務・コミュニティ系。「今日の現場ネタ」（個人の使い方・話題の Skill・すぐ試せるワークフロー）用。
+# ニュースの一次ソースではなく、人気シグナル（ポイント・いいね・スター）付きで現場の使い方を拾う。
+community:
+  - name: Hacker News（人気投稿の検索 RSS）
+    url: https://hnrss.org/newest?q=Claude+Code&points=50
+    rss: https://hnrss.org/newest?q=Claude+Code&points=50
+    lang: en
+    notes: hnrss.org の検索 RSS。q= を Claude+Code / skills / MCP など 2〜3 通りに変えて引く。%22 で囲んだクエリは 502 になるので使わない（2026-08-23 確認）。points= で人気フィルタ済み（ポイント数を人気の根拠に使える）
+  - name: Reddit r/ClaudeAI（日次トップ）
+    url: https://www.reddit.com/r/ClaudeAI/top/.rss?t=day
+    lang: en
+    notes: curl では 403（2026-08-23 確認）。WebFetch でも不可なら当日は HN・Zenn で代替（excluded には移さない）
+  - name: Zenn（Claude Code トピック）
+    url: https://zenn.dev/topics/claudecode
+    rss: https://zenn.dev/topics/claudecode/feed
+    lang: ja
+    notes: いいね数の多い記事を優先。トピック一覧ページでいいね数を確認できる
+  - name: Qiita（ClaudeCode タグ）
+    url: https://qiita.com/tags/claudecode
+    rss: https://qiita.com/tags/claudecode/feed
+    lang: ja
+  - name: anthropics/skills（公式 Skill 集）
+    url: https://raw.githubusercontent.com/anthropics/skills/main/README.md
+    lang: en
+    notes: 新着・更新された Skill の確認用。github.com の HTML は 403 になることがあるため raw URL で README を取得する（Claude Code Changelog と同じ方式）
+  - name: GitHub Trending
+    url: https://github.com/trending?since=daily
+    lang: en
+    notes: skills / MCP / agent 系リポジトリの急上昇を確認。スター数・急増は「人気が出ている」根拠に使える。403 で取得できない日はスキップしてよい
+
 # 取得不能で除外した情報源（再試行しない）
 excluded:
   - url: https://www.theverge.com/
@@ -85,3 +115,10 @@ search_queries:
   - "生成AI 発表 {date}"
   - "LLM release {date}"
   - "生成AI 導入 企業 {month}"
+
+# 現場ネタ用の補助クエリ（community ソースで拾えなかった日の補完）
+tips_search_queries:
+  - "Claude Code Skills 活用 {month}"
+  - "Claude Code 使い方 話題 {month}"
+  - "MCP サーバー 便利 {month}"
+  - "生成AI 個人 活用 ワークフロー {month}"
