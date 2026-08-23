@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-08-23
+updated: 2026-08-24
 tags: [anthropic, claude]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-08-24: 年換算売上が7月時点で650億ドルに急伸（5月470億ドルから）も、企業のAIモデル支出はOpus 4.8が28%を占める一方、最上位モデル「Fable 5」は8%止まり——高コストが採用の壁に（[daily](../daily/2026-08-24.md)）
 - 2026-08-23: 最高性能モデル「Claude Mythos 5」を脆弱性スキャン専用に開放。Claude Security 経由でEnterprise顧客が追加契約なしに利用可能、防御側支援基金「Defender Advantage Fund」（3,500万ドル）も始動（[daily](../daily/2026-08-23.md)）
 - 2026-08-23: DeepMind出身者の新興Inherentが、270億パラメータの小型モデルで Claude Opus 4.8 を上回る研究再現性能を実証（[daily](../daily/2026-08-23.md)）
 - 2026-08-22: 無料公式学習サイト「Claude Academy」公開。Claude Code・Claude Cowork の使い方もコースで解説、日本語翻訳（α版）対応（[daily](../daily/2026-08-22.md)）

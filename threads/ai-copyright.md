@@ -1,0 +1,32 @@
+---
+type: thread
+title: "AI学習と著作権をめぐる訴訟・議論（ai-copyright）"
+slug: ai-copyright
+created: 2026-08-24
+updated: 2026-08-24
+tags: [copyright, regulation]
+status: active
+related: [topics/anthropic.md]
+---
+
+# AI学習と著作権をめぐる訴訟・議論（ai-copyright）
+
+## 何の流れか
+著作権のある書籍・記事などをAIモデルの学習に使うことの合法性をめぐる訴訟・判例を追うストーリーライン。1976年に制定された著作権法をAI時代にどう解釈するかが判例ごとに積み上がっている段階で、企業の学習データ調達方針・講座での「AIと著作権」の説明材料になる。
+
+## 現在地（最新の要約）
+<!-- 新規作成時に 3〜5 行で埋める。以後は週次 agent が更新 -->
+- AI学習の合法性は「フェアユース（公正利用）」に該当するかどうかで判断が割れており、統一的な結論は出ていない
+- Anthropicは2025年、学習データを違法な海賊版サイトから調達した点を理由に著作者らへ15億ドルを支払う和解に応じた。担当判事はLLMの学習行為自体（データの入手経路ではなく）は適法と判断した
+- Thomson Reuters対Ross Intelligenceの訴訟では、競合サービスを作る目的での学習は「変容的」と言えず著作権侵害と認定されており、学習の「目的」次第で結論が変わりうる
+
+## 経緯
+<!-- agent が日付順に追記。新しいものを上に -->
+- 2026-08-24: TechCrunchが著作権のある書籍でのAI学習の合法性を整理。Anthropicの15億ドル和解（Alsup判事：データ入手経路は違法だが学習行為自体は適法）とThomson Reuters対Ross Intelligence（競合目的の学習は著作権侵害）を対比（[daily](../daily/2026-08-24.md) / [出典](https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/)）
+
+## 論点・見立て
+- 「データの入手経路が適法か」と「学習の目的が競合製品作りかどうか」の2軸で判断が分かれる傾向が見えてきている
+- 著作権法自体が1976年制定のためAI時代を想定しておらず、判例の積み重ねが実質的なルール形成を担っている
+
+## 関連
+- [topics/anthropic](../topics/anthropic.md)

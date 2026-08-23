@@ -3,7 +3,7 @@ type: topic
 title: "OpenRouter（オープンルーター）"
 slug: openrouter
 created: 2026-08-20
-updated: 2026-08-23
+updated: 2026-08-24
 tags: [api, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,7 @@ related: [topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-08-24: 正体不明の無料モデル「Ox Alpha」がOpenRouter経由で登場。開発元は非公開で、コミュニティで憶測が拡散（[daily](../daily/2026-08-24.md)）
 - 2026-08-21: 経費管理の Ramp が競合の AI モデルルーター「Router」を一般提供、2026年内は無料（[daily](../daily/2026-08-21.md)）
 - 2026-08-20: Stripe が OpenRouter を75億ドルで買収 — 「トークンは中核となる通貨」、中立基盤としての運営は維持（[daily](../daily/2026-08-20.md)）
 

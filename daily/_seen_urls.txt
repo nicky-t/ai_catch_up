@@ -42,3 +42,8 @@ https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-a
 https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/
 https://zenn.dev/talks_tldr_jp/articles/tldr26-jeffdean-summary
 https://simonwillison.net/2026/Aug/22/llm/
+https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/
+https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/
+https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/
+https://www.itmedia.co.jp/aiplus/article/2608/23/2000000700/
+https://www.publickey1.jp/blog/26/rustbun_14nodejsplaywrightvitestcpu.html

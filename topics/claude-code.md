@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-08-23
+updated: 2026-08-24
 tags: [claude-code, anthropic, agent]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-08-24: JSランタイム「Bun」v1.4（Zig→Rust移植）のリリース作業にClaude Codeが活用された（[daily](../daily/2026-08-24.md)）
 - 2026-08-21: 開発者 Boris Cherny が講演で、システムプロンプトを「アブレーション」で再構築し80%削減できたと紹介（[daily](../daily/2026-08-21.md)）
 - 2026-08-19: 週次利用枠「50% 増」を 8 月 31 日まで延長 — 恒久化したいが容量逼迫のため（[daily](../daily/2026-08-19.md)）
 
