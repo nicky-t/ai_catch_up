@@ -47,3 +47,9 @@ https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/
 https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/
 https://www.itmedia.co.jp/aiplus/article/2608/23/2000000700/
 https://www.publickey1.jp/blog/26/rustbun_14nodejsplaywrightvitestcpu.html
+https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/
+https://www.itmedia.co.jp/aiplus/article/2608/24/2000000723/
+https://atmarkit.itmedia.co.jp/ait/articles/2608/24/news047.html
+https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/
+https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/
+https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md
