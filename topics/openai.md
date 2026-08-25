@@ -3,7 +3,7 @@ type: topic
 title: "OpenAI"
 slug: openai
 created: 2026-08-19
-updated: 2026-08-25
+updated: 2026-08-26
 tags: [openai, chatgpt, gpt]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,8 @@ ChatGPT と GPT 系モデルを開発する米国の AI 企業。一般利用者
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-08-26: 推論専用チップ「Jalapeño」の初のベンチマーク結果を公開。SemiAnalysisのInferenceXベンチマークで既存の最先端推論プロセッサーをユーザーあたりトークン数・キロワットあたりスループット双方で上回ったと報告（[daily](../daily/2026-08-26.md)）
+- 2026-08-26: ChatGPT Plus（Work・Codex対象）で5時間ごとの利用制限を復活。計算資源の負荷平準化が目的で、Proプランは当面対象外（[daily](../daily/2026-08-26.md)）
 - 2026-08-25: 「あらゆる業務にAIエージェントを」と全方位展開中も、社内のCodex利用率98%に対し組織外ユーザーは17%・個人ユーザーは1%未満と外部普及は道半ば（[daily](../daily/2026-08-25.md)）
 - 2026-08-24: 上位モデル「GPT-5.6 Sol」のAPI料金を8月21日〜11月21日の期間限定で値下げ（入力20%減・出力33%減）（[daily](../daily/2026-08-24.md)）
 - 2026-08-23: カリフォルニア州のAI安全法案「SB 53」の強化を要求。訓練・評価中モデルの監視要件とサイバーセキュリティ強化を提案、7月のHugging Face侵害事件を機に規制支持へ転換（[daily](../daily/2026-08-23.md)）

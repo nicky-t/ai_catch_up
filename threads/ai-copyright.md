@@ -3,7 +3,7 @@ type: thread
 title: "AI学習と著作権をめぐる訴訟・議論（ai-copyright）"
 slug: ai-copyright
 created: 2026-08-24
-updated: 2026-08-24
+updated: 2026-08-26
 tags: [copyright, regulation]
 status: active
 related: [topics/anthropic.md]
@@ -22,6 +22,7 @@ related: [topics/anthropic.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-08-26: 日本政府が生成AI事業者向けに「プリンシプル・コード」を策定。情報公表・権利者からの照会対応など透明性確保と知財保護を促す内容だが、法的拘束力はなく事業者の自主的対応を求めるもの（[daily](../daily/2026-08-26.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2608/25/2000000767/)）
 - 2026-08-24: TechCrunchが著作権のある書籍でのAI学習の合法性を整理。Anthropicの15億ドル和解（Alsup判事：データ入手経路は違法だが学習行為自体は適法）とThomson Reuters対Ross Intelligence（競合目的の学習は著作権侵害）を対比（[daily](../daily/2026-08-24.md) / [出典](https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/)）
 
 ## 論点・見立て

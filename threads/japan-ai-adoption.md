@@ -3,7 +3,7 @@ type: thread
 title: "国内 AI 導入動向（japan-ai-adoption）"
 slug: japan-ai-adoption
 created: 2026-08-19
-updated: 2026-08-25
+updated: 2026-08-26
 tags: [adoption, japan-company, case-study]
 status: active
 related: [topics/openai.md]
@@ -23,6 +23,7 @@ related: [topics/openai.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-08-26: LIFEFUNDの企業AI活用実態調査（2026年3〜8月の追跡調査）で、実業務でAI活用する「Level2以上」企業が43.4%→68.5%に増加。Claude利用企業は18.9%→71.0%へ急拡大（[daily](../daily/2026-08-26.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2608/25/news041.html)）
 - 2026-08-25: アクセンチュア調査（日本企業78社対象）で「全体的なビジネス効果を完全に実現できている」企業はわずか13%、世界平均23%を下回る。競争力強化を実感する企業は64%、スキル不足への懸念は50%（[daily](../daily/2026-08-25.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2608/24/news047.html)）
 - 2026-08-22: SBI 北尾会長が「孫さんは OpenAI だが、僕は Anthropic」と発言。顧客対応統合エージェントに初期投資5億円・年間27億円規模で取り組むと表明（[daily](../daily/2026-08-22.md) / [出典](https://www.itmedia.co.jp/business/articles/2608/21/news038.html)）
 - 2026-08-22: 三菱UFJ銀行が「オントロジー＋ナレッジグラフ」で業務ルールをAIに学習させる「AIフローチャート」を開発。1プロセスあたりの作成工数を10人→0.5人に削減（[daily](../daily/2026-08-22.md) / [出典](https://www.itmedia.co.jp/enterprise/articles/2608/21/news019.html)）

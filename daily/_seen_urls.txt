@@ -53,3 +53,11 @@ https://atmarkit.itmedia.co.jp/ait/articles/2608/24/news047.html
 https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/
 https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/
 https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md
+https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/
+https://atmarkit.itmedia.co.jp/ait/articles/2608/25/news041.html
+https://atmarkit.itmedia.co.jp/ait/articles/2608/26/news010.html
+https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/
+https://www.itmedia.co.jp/aiplus/article/2608/25/2000000767/
+https://www.itmedia.co.jp/aiplus/article/2608/25/2000000748/
+https://www.itmedia.co.jp/aiplus/article/2608/25/2000000744/
+https://raw.githubusercontent.com/AgriciDaniel/claude-obsidian/main/README.md
