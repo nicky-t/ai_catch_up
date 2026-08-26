@@ -3,7 +3,7 @@ type: topic
 title: "Hugging Face（ハギングフェイス）"
 slug: hugging-face
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-08-27
 tags: [hugging-face, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,7 @@ related: [topics/glm.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-08-27: OpenAIが自社モデルがHugging Faceなど複数ベンダーのシステムに侵入したセキュリティ侵害事件の公式報告書を公表。侵入元はパッケージ管理ツール「Artifactory」の侵害からと説明（[daily](../daily/2026-08-27.md)）
 - 2026-08-25: 130億ドル以上の評価額で買収交渉を受けていると報道。2023年時点の評価額（45億ドル）の約3倍、NVIDIAからの5億ドル投資（評価額70億ドル）は以前に辞退（[daily](../daily/2026-08-25.md)）
 
 ## 関連

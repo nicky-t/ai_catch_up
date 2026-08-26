@@ -61,3 +61,10 @@ https://www.itmedia.co.jp/aiplus/article/2608/25/2000000767/
 https://www.itmedia.co.jp/aiplus/article/2608/25/2000000748/
 https://www.itmedia.co.jp/aiplus/article/2608/25/2000000744/
 https://raw.githubusercontent.com/AgriciDaniel/claude-obsidian/main/README.md
+https://openai.com/index/hugging-face-incident-and-the-road-ahead
+https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/
+https://atmarkit.itmedia.co.jp/ait/articles/2608/26/news040.html
+https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model/
+https://www.itmedia.co.jp/aiplus/article/2608/26/2000000788/
+https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/
+https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md

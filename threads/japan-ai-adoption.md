@@ -3,7 +3,7 @@ type: thread
 title: "国内 AI 導入動向（japan-ai-adoption）"
 slug: japan-ai-adoption
 created: 2026-08-19
-updated: 2026-08-26
+updated: 2026-08-27
 tags: [adoption, japan-company, case-study]
 status: active
 related: [topics/openai.md]
@@ -23,6 +23,7 @@ related: [topics/openai.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-08-27: Confluent「Data Streaming Report 2026」（14カ国4,625人・日本275人が回答）で、生成AIエージェントを本番環境で実運用する日本企業は17%と14カ国中最下位。北米・欧州（32%）を大きく下回る。障壁は「AIスキル・専門知識の不足」80%、「データ品質の不確実性」71%、「リアルタイムデータ処理技術」69%（[daily](../daily/2026-08-27.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2608/26/news040.html)）
 - 2026-08-26: LIFEFUNDの企業AI活用実態調査（2026年3〜8月の追跡調査）で、実業務でAI活用する「Level2以上」企業が43.4%→68.5%に増加。Claude利用企業は18.9%→71.0%へ急拡大（[daily](../daily/2026-08-26.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2608/25/news041.html)）
 - 2026-08-25: アクセンチュア調査（日本企業78社対象）で「全体的なビジネス効果を完全に実現できている」企業はわずか13%、世界平均23%を下回る。競争力強化を実感する企業は64%、スキル不足への懸念は50%（[daily](../daily/2026-08-25.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2608/24/news047.html)）
 - 2026-08-22: SBI 北尾会長が「孫さんは OpenAI だが、僕は Anthropic」と発言。顧客対応統合エージェントに初期投資5億円・年間27億円規模で取り組むと表明（[daily](../daily/2026-08-22.md) / [出典](https://www.itmedia.co.jp/business/articles/2608/21/news038.html)）
