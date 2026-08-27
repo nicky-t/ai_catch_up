@@ -3,7 +3,7 @@ type: topic
 title: "MCP（Model Context Protocol）"
 slug: mcp
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-08-28
 tags: [mcp, agent, tool-use]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,7 @@ AI アシスタントが外部のデータ源・ツール・業務システム�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-08-28: Agentic AI Foundationが新ロードマップを公開。エージェント向けメッセージング・HTTP通信への統一・エージェントのアイデンティティ管理などが柱（[daily](../daily/2026-08-28.md)）
 - 2026-08-20: PTC が CAD「Onshape」に「FeatureScript MCP Server」を搭載、AI から自然言語でカスタム CAD 機能を生成できるように（[daily](../daily/2026-08-20.md)）
 - 2026-08-19: Google が A2A のガバナンスを Agentic AI Foundation（AAIF）へ移管。AAIF は MCP も擁する中立団体となり、「エージェント標準（A2A）」と「ツール標準（MCP）」が同じ団体に揃った（[daily](../daily/2026-08-19.md)）
 - 2026-08-19: Google / Kaggle のエージェント実践ガイド（無料公開）が MCP による相互運用を章立てで扱う（[daily](../daily/2026-08-19.md)）

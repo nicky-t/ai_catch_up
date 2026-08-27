@@ -3,7 +3,7 @@ type: topic
 title: "GLM（智譜AI / Z.ai）"
 slug: glm
 created: 2026-08-20
-updated: 2026-08-27
+updated: 2026-08-28
 tags: [glm, open-weights, benchmark]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,7 @@ related: [topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-08-28（続報）: 「Ox Alpha」の正体が「GLM-5.3-Flash」（総パラメータ3200億・アクティブ180億）と判明。MITライセンスで無償公開、Artificial Analysis Intelligence Indexで57ポイント・上位モデルに3点差まで迫りつつタスク当たりコストは約7.5分の1（[daily](../daily/2026-08-28.md)）
 - 2026-08-27（続報・確定）: 謎の無料モデル「Ox Alpha」の開発元がZ.aiであることをBloomberg報道を通じて公式に確認。GLMシリーズの最新版として、コーディング・継続的エージェント業務・本番ワークロード向けと位置づけ、重みは同週中に公開予定（[daily](../daily/2026-08-27.md)）
 - 2026-08-26（続報）: OpenRouterに突如登場した謎の無料モデル「Ox Alpha」の正体はZ.aiの「GLM系」が最有力説に。トークン分割の癖・API基盤の一致が根拠で、ベンチマーク「DeepSWE」で58.4%を記録（[daily](../daily/2026-08-26.md)）
 - 2026-08-20（8/15 発表・遡って掲載）: Z.ai が「GLM-5.3」を発表、コーディング・脆弱性解析性能が向上。サイバー能力評価のため重み公開を2週間延期（[daily](../daily/2026-08-20.md)）

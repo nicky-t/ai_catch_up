@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-08-26
+updated: 2026-08-28
 tags: [anthropic, claude]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,9 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-08-28: OpenAI・Googleなど100社超と共同で「暴走AI」への防衛を呼びかける公開書簡に署名。独自の防御ツール「Mythos」を投入（[daily](../daily/2026-08-28.md)）
+- 2026-08-28: 研究・製造現場向け「Model Hardware Standard」の研究プレビューを公開。AIエージェントが実験室・製造現場の物理機器を安全に操作できる共通仕様（[daily](../daily/2026-08-28.md)）
+- 2026-08-28: 英Nscaleと6年間・約450億ドル規模の計算基盤契約を締結。Nvidia「Vera Rubin」チップを用いた計算力を2027年後半から確保（[daily](../daily/2026-08-28.md)）
 - 2026-08-26: Claude ChatとCoworkの記憶を統合——チャットで話した内容をCoworkが自動的に記憶し、確認・編集・削除も可能に。Free/Pro/Maxでデフォルト有効（[daily](../daily/2026-08-26.md)）
 - 2026-08-24: 年換算売上が7月時点で650億ドルに急伸（5月470億ドルから）も、企業のAIモデル支出はOpus 4.8が28%を占める一方、最上位モデル「Fable 5」は8%止まり——高コストが採用の壁に（[daily](../daily/2026-08-24.md)）
 - 2026-08-23: 最高性能モデル「Claude Mythos 5」を脆弱性スキャン専用に開放。Claude Security 経由でEnterprise顧客が追加契約なしに利用可能、防御側支援基金「Defender Advantage Fund」（3,500万ドル）も始動（[daily](../daily/2026-08-23.md)）

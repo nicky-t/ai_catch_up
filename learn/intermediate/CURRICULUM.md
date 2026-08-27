@@ -18,7 +18,7 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 - [x] 007 推論モデル（reasoning models）：思考過程を出すモデルは何が違うか → learn/intermediate/007-reasoning-models.md
 - [x] 008 マルチモーダル：画像・音声・動画を扱う仕組みと実務の使いどころ → learn/intermediate/008-multimodal.md
 - [x] 009 埋め込み（embeddings）とベクトル検索：意味の近さをどう測るか → learn/intermediate/009-embeddings-vector-search.md
-- [ ] 010 蒸留・量子化・小型モデル：ローカル LLM が現実的になった背景
+- [x] 010 蒸留・量子化・小型モデル：ローカル LLM が現実的になった背景 → learn/intermediate/010-distillation-quantization-small-models.md
 - [ ] 011 スケーリング則と学習データ枯渇問題
 - [ ] 012 オープンウェイト vs クローズド：ライセンス・性能・運用の比較軸
 

@@ -68,3 +68,11 @@ https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysteri
 https://www.itmedia.co.jp/aiplus/article/2608/26/2000000788/
 https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/
 https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/README.md
+https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/
+https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/
+https://www.itmedia.co.jp/aiplus/article/2608/27/2000000840/
+https://www.publickey1.jp/blog/26/mcpaihttp.html
+https://www.anthropic.com/news/model-hardware-standard-research-preview
+https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/
+https://github.com/tt-a1i/archify
+https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing
