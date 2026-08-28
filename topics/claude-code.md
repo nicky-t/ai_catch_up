@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-08-28
+updated: 2026-08-29
 tags: [claude-code, anthropic, agent]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-08-28: セキュリティ研究者Johann Rehberger氏が、Auto ModeへのZIP展開を悪用したプロンプトインジェクション攻撃を報告（成功率約80%）。侵害を検知しても、Auto Modeが復旧コマンドの実行をブロックしてしまう問題も判明（[daily](../daily/2026-08-29.md)）
 - 2026-08-28: Agent Skill「archify」がGitHub Trendingで急上昇（本日+4,260スター）。コードやシステム構成からアーキテクチャ図・シーケンス図などをエージェントに生成させられる（[daily](../daily/2026-08-28.md)）
 - 2026-08-24: JSランタイム「Bun」v1.4（Zig→Rust移植）のリリース作業にClaude Codeが活用された（[daily](../daily/2026-08-24.md)）
 - 2026-08-21: 開発者 Boris Cherny が講演で、システムプロンプトを「アブレーション」で再構築し80%削減できたと紹介（[daily](../daily/2026-08-21.md)）

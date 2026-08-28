@@ -76,3 +76,11 @@ https://www.anthropic.com/news/model-hardware-standard-research-preview
 https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/
 https://github.com/tt-a1i/archify
 https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing
+https://www.itmedia.co.jp/business/articles/2608/28/news067.html
+https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/
+https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/
+https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/
+https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/
+https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/
+https://github.com/abhigyanpatwari/GitNexus
+https://epoch.ai/blog/will-we-run-out-of-data-limits-of-llm-scaling-based-on-human-generated-data
