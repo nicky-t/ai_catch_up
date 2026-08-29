@@ -3,7 +3,7 @@ type: topic
 title: "GLM（智譜AI / Z.ai）"
 slug: glm
 created: 2026-08-20
-updated: 2026-08-28
+updated: 2026-08-30
 tags: [glm, open-weights, benchmark]
 level: beginner
 audience: [engineer, business, instructor]
@@ -16,7 +16,7 @@ related: [topics/openai.md]
 中国の AI 企業 Z.ai（智譜AI）が開発するモデルファミリー「GLM」。オープンウェイト（重みの公開）を前提に、コーディングや脆弱性解析など実務タスクの性能を急速に伸ばしている。
 
 ## 仕組み
-- 2026 年 8 月発表の最新版「GLM-5.3」は 7430 億パラメータ級の基盤モデルを、事前学習からではなく**事後学習（post-training）だけ**で強化する戦略を取った（要追記：事後学習の具体的手法）
+- 2026 年 8 月発表の最新版「GLM-5.3」は 7430 億パラメータ級の基盤モデル（GLM-5.2 と同一の重み・アクティブパラメータ約400億）を事前学習からやり直さず、**事後学習（post-training）だけ**で強化した。実務タスクを再現するトレーニング環境を拡充（Terminal-Bench 3.0 が 4.6→28.3 に上昇）し、脆弱性発見用のデータ・環境を新たに追加（CyberGymが77.2%→84.5%、ExploitBenchが24.4%→54.4%に倍増）。強化学習には GLM-5.2 から継承した「SAO with compaction」という手法を用いて長時間タスクでの性能維持を図った（出典: [docs.z.ai/guides/llm/glm-5.3](https://docs.z.ai/guides/llm/glm-5.3)、取得日 2026-08-30）
 - 自社ベンチマークで Terminal-Bench 3.0・DeepSWE・脆弱性発見（CyberGym・ExploitBench）など複数指標が Claude Opus 4.8 比で大きく向上したと報告
 - サイバー攻撃能力が想定を超えて伸びたため、安全性評価のためモデルの重み公開を発表から約 2 週間遅らせるという判断も行った
 

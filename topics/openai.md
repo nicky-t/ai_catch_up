@@ -7,7 +7,7 @@ updated: 2026-08-30
 tags: [openai, chatgpt, gpt]
 level: beginner
 audience: [engineer, business, instructor]
-related: [threads/japan-ai-adoption.md, topics/openrouter.md]
+related: [threads/japan-ai-adoption.md, topics/openrouter.md, topics/jalapeno.md]
 ---
 
 # OpenAI
@@ -52,3 +52,4 @@ ChatGPT と GPT 系モデルを開発する米国の AI 企業。一般利用者
 ## 関連
 - [threads/japan-ai-adoption](../threads/japan-ai-adoption.md)
 - [topics/claude-code](claude-code.md)（競合のコーディングエージェント文脈）
+- [topics/jalapeno](jalapeno.md)（自社推論チップ）

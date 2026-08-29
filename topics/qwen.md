@@ -3,7 +3,7 @@ type: topic
 title: "Qwen（通義千問）"
 slug: qwen
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-08-30
 tags: [qwen, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -16,7 +16,7 @@ related: [topics/glm.md]
 中国Alibaba Cloudが開発するオープンウェイト（重み公開）のLLMファミリー。小〜中規模のモデルサイズでも高いコーディング性能を出す路線で、個人のPCでも動かせる現実的な選択肢として注目を集めている。
 
 ## 仕組み
-- 2026年8月、300億パラメータ級モデル「Qwen3.8-27B」を公開。SWE-bench ProやLiveCodeBench v6など複数のベンチマークでClaude Opus 4.6を上回り、Intelligence Indexで52ポイントを獲得したと報じられている（要追記：ベンチマーク条件・第三者検証の有無）
+- 2026年8月、300億パラメータ級モデル「Qwen3.8-27B」を公開。SWE-bench Pro（61.7点）やLiveCodeBench v6など複数のベンチマークでClaude Opus 4.6を上回ったと報じられているが、これらはいずれもAlibaba自身が計測・公表した数値。第三者ベンチマークのArtificial Analysis Intelligence Index（52ポイント）は測定済みだが、SWE-bench Pro等の個別スコアについては本稿執筆時点（2026-08-30）で第三者による独立検証・再現の報告は確認できていない（未検証、要継続確認）
 - 同時期にMeta「Muse Glimmer」（24GB VRAM対応）、NVIDIA「Nemotron 3.5 Lightning」（3B MoE構成）など、他社からも30Bクラス前後のオープンモデルが相次いで公開された（要追記：各モデルの詳細な仕様比較）
 
 ## 実務での使い方

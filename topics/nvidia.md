@@ -7,7 +7,7 @@ updated: 2026-08-30
 tags: [nvidia]
 level: beginner
 audience: [engineer, business, instructor]
-related: [topics/hugging-face.md, topics/anthropic.md]
+related: [topics/hugging-face.md, topics/anthropic.md, topics/jalapeno.md]
 ---
 
 # NVIDIA（エヌビディア）
@@ -16,7 +16,7 @@ related: [topics/hugging-face.md, topics/anthropic.md]
 AIモデルの学習・推論に使われるGPU（画像処理用半導体）を主力とする米国の半導体企業。AIブームの計算需要をほぼ一手に引き受け、AI企業各社の計算基盤契約・投資の中心的な存在になっている。
 
 ## 仕組み
-- 主力製品はデータセンター向けGPU。世代ごとに「Vera Rubin」のような開発コード名が付き、AI各社が次世代チップの調達を競っている（要追記：GPU世代とアーキテクチャの詳細な対応表）
+- 主力製品はデータセンター向けGPU。世代ごとに「Vera Rubin」のような開発コード名が付き、AI各社が次世代チップの調達を競っている。世代は Hopper（2022年〜、機密コンピューティングを初導入）→ Blackwell（2024年〜、FP32マトリックス演算 227 TFLOPS・NVLink帯域 1,800 GB/s）→ Rubin / Vera Rubin（2026年後半〜、FP32マトリックス演算 400 TFLOPS・NVLink帯域 3,600 GB/s・HBM4メモリでBlackwell比約2.8倍の帯域）と進み、年1回のペースで刷新している（出典: [NVIDIA Technical Blog — Inside the NVIDIA Vera Rubin Platform](https://developer.nvidia.com/blog/inside-the-nvidia-rubin-platform-six-new-chips-one-ai-supercomputer/)、取得日 2026-08-30）
 - 自社製品の販売だけでなく、有望なAI関連企業への出資（例：Hugging Faceへの出資提案）や、自社チップを使う企業への大型計算基盤契約という形でもエコシステムに関わる
 - 2026年8月、AIモデル共有プラットフォームのHugging Faceを129億ドルで買収することに合意したと報じられた（未確定、[topics/hugging-face](hugging-face.md)）
 
@@ -38,3 +38,4 @@ AIモデルの学習・推論に使われるGPU（画像処理用半導体）を
 ## 関連
 - [topics/hugging-face](hugging-face.md)
 - [topics/anthropic](anthropic.md)
+- [topics/jalapeno](jalapeno.md)（競合するOpenAIの推論チップ）
