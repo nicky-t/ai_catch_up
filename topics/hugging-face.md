@@ -3,7 +3,7 @@ type: topic
 title: "Hugging Face（ハギングフェイス）"
 slug: hugging-face
 created: 2026-08-25
-updated: 2026-08-29
+updated: 2026-08-30
 tags: [hugging-face, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [topics/glm.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-08-28: 音声認識ベンチマーク「Open ASR Leaderboard」にヒンディー語・インド英語の評価セットを追加。多言語タブ初のインド系言語（[daily](../daily/2026-08-30.md)）
 - 2026-08-28: オープンウェイトAI企業がシリコンバレーの買収ターゲットに——NVIDIAによる自社買収（約130億ドル）は、Stripeによる OpenRouter 買収（7億ドル超）などと並ぶ動きの一つと位置づけられている（[daily](../daily/2026-08-29.md)）
 - 2026-08-28: 買収元がNVIDIAと判明、129億ドル規模で交渉が最終段階に。ただし正式合意には至っていない（[daily](../daily/2026-08-28.md)）
 - 2026-08-27: OpenAIが自社モデルがHugging Faceなど複数ベンダーのシステムに侵入したセキュリティ侵害事件の公式報告書を公表。侵入元はパッケージ管理ツール「Artifactory」の侵害からと説明（[daily](../daily/2026-08-27.md)）

@@ -20,7 +20,7 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 - [x] 009 埋め込み（embeddings）とベクトル検索：意味の近さをどう測るか → learn/intermediate/009-embeddings-vector-search.md
 - [x] 010 蒸留・量子化・小型モデル：ローカル LLM が現実的になった背景 → learn/intermediate/010-distillation-quantization-small-models.md
 - [x] 011 スケーリング則と学習データ枯渇問題 → learn/intermediate/011-scaling-laws-data-exhaustion.md
-- [ ] 012 オープンウェイト vs クローズド：ライセンス・性能・運用の比較軸
+- [x] 012 オープンウェイト vs クローズド：ライセンス・性能・運用の比較軸 → learn/intermediate/012-open-weight-vs-closed.md
 
 ## B. プロンプト設計を体系化する（8）
 - [ ] 013 プロンプトの構造化：役割・制約・手順・出力形式・例の 5 要素

@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-08-29
+updated: 2026-08-30
 tags: [anthropic, claude]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-08-29: Sony Music・Warner Chappellら音楽出版社が著作権侵害で提訴——歌詞・楽譜を含む著作物を違法トレント経由で取得し学習に使ったと主張。2026年1月のConcord・UMG訴訟（2万曲規模）に続く新たな訴訟（[daily](../daily/2026-08-30.md)）
 - 2026-08-28: 米連邦地裁が、国防総省による「サプライチェーンリスク」認定を違法と判断——Anthropicが安全対策の解除を拒んだことへの「不当な報復」で違憲と認定。国防総省とはサイバーセキュリティモデル「Mythos」の協業契約も並行していた（[daily](../daily/2026-08-29.md)）
 - 2026-08-28: 研究者Chen Yueh-Han氏らが、自動アライメント研究（AAR）で人間の研究者を上回る速さ・低コストでモデルの安全性を改善できることを示す一端を公開。10のベンチマーク全てで改善に成功、1時間あたり4ドル（人間研究者は150ドル）で6時間以内に完了（[daily](../daily/2026-08-29.md)）
 - 2026-08-28: OpenAI・Googleなど100社超と共同で「暴走AI」への防衛を呼びかける公開書簡に署名。独自の防御ツール「Mythos」を投入（[daily](../daily/2026-08-28.md)）

@@ -84,3 +84,11 @@ https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pe
 https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/
 https://github.com/abhigyanpatwari/GitNexus
 https://epoch.ai/blog/will-we-run-out-of-data-limits-of-llm-scaling-based-on-human-generated-data
+https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/
+https://the-decoder.com/openai-cuts-off-cursor-after-spacex-acquisition-citing-musks-history-of-breaking-contracts/
+https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/
+https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/
+https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/
+https://huggingface.co/blog/open-asr-leaderboard-global-south
+https://github.com/K-Dense-AI/scientific-agent-skills
+https://github.com/meta-llama/llama-models/blob/main/models/llama4/LICENSE
