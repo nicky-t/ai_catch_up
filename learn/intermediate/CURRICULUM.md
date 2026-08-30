@@ -23,7 +23,7 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 - [x] 012 オープンウェイト vs クローズド：ライセンス・性能・運用の比較軸 → learn/intermediate/012-open-weight-vs-closed.md
 
 ## B. プロンプト設計を体系化する（8）
-- [ ] 013 プロンプトの構造化：役割・制約・手順・出力形式・例の 5 要素
+- [x] 013 プロンプトの構造化：役割・制約・手順・出力形式・例の 5 要素 → learn/intermediate/013-prompt-structure-5-elements.md
 - [ ] 014 Few-shot と例示の選び方：効く例と効かない例
 - [ ] 015 Chain-of-Thought と「考えさせる」設計の現在地（推論モデル時代の再評価）
 - [ ] 016 出力フォーマット制御：JSON / 構造化出力 / スキーマ指定

@@ -92,3 +92,10 @@ https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluatio
 https://huggingface.co/blog/open-asr-leaderboard-global-south
 https://github.com/K-Dense-AI/scientific-agent-skills
 https://github.com/meta-llama/llama-models/blob/main/models/llama4/LICENSE
+https://www.itmedia.co.jp/news/article/2608/30/2000000949/
+https://www.publickey1.jp/blog/26/jetbrainsmacjunie_localclaude_sonnet_45rtx5909.html
+https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/
+https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md
+https://simonwillison.net/2026/Aug/29/hy4/
+https://github.com/mvanhorn/last30days-skill
+https://github.com/THU-MAIC/OpenMAIC
