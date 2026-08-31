@@ -3,7 +3,7 @@ type: topic
 title: "NVIDIA（エヌビディア）"
 slug: nvidia
 created: 2026-08-28
-updated: 2026-08-30
+updated: 2026-09-01
 tags: [nvidia]
 level: beginner
 audience: [engineer, business, instructor]
@@ -30,6 +30,7 @@ AIモデルの学習・推論に使われるGPU（画像処理用半導体）を
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-01: 台湾MediaTekに35億ドル出資。MediaTekはNvidia技術でAI企業・ハイパースケーラー向けカスタムチップを設計可能に。Amazon・Google・Microsoft・OpenAI・Anthropicなど大手の自社チップ開発に対抗する布石（[daily](../daily/2026-09-01.md)）
 - 2026-08-29: 次世代アーキテクチャ「Vera Rubin」により、GPU単体からデータセンター全体（CPU・推論アクセラレータ・ストレージ／ネットワーク込み）の最適化へ強みが拡大。Veraチップでデータ流通が「3倍以上改善」（[daily](../daily/2026-08-30.md)）
 - 2026-08-28: オープンウェイトAI企業の買収競争が加速——NVIDIAはHugging Face（約130億ドル）に加えPoolsideも60億ドルで買収。企業のオープンウェイトモデル利用率は6%・利用エンジニアは2%とまだ少数派（[daily](../daily/2026-08-29.md)）
 - 2026-08-28: Hugging Face買収交渉が最終段階に。129億ドル規模だが正式合意はまだ（[daily](../daily/2026-08-28.md)）

@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-08-31
+updated: 2026-09-01
 tags: [claude-code, anthropic, agent]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-01: 週次利用枠を9月14日から恒久25%増（125）に変更すると発表——5月13日から適用中だった期間限定の50%増（150）からは実質17%減。オープンソースの統合ハーネスツール「ECC」（68エージェント・286スキル）がGitHubで24万スター超に成長（[daily](../daily/2026-09-01.md) / [topics/agent-harness](agent-harness.md)）
 - 2026-08-31: バージョン2.1.251で、権限チェック後のシンボリックリンク差し替えやプラグインのパストラバーサルなど複数のセキュリティ問題を修正（Auto Modeの脆弱性とは別系統）。JetBrainsがQwenベースのローカル版コーディングエージェント「Junie Local」を投入し、社内テストでClaude Sonnet 4.5相当の性能と比較された（[daily](../daily/2026-08-31.md) / [topics/qwen](qwen.md)）
 - 2026-08-28: セキュリティ研究者Johann Rehberger氏が、Auto ModeへのZIP展開を悪用したプロンプトインジェクション攻撃を報告（成功率約80%）。侵害を検知しても、Auto Modeが復旧コマンドの実行をブロックしてしまう問題も判明（[daily](../daily/2026-08-29.md)）
 - 2026-08-28: Agent Skill「archify」がGitHub Trendingで急上昇（本日+4,260スター）。コードやシステム構成からアーキテクチャ図・シーケンス図などをエージェントに生成させられる（[daily](../daily/2026-08-28.md)）

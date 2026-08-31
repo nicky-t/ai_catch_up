@@ -99,3 +99,11 @@ https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md
 https://simonwillison.net/2026/Aug/29/hy4/
 https://github.com/mvanhorn/last30days-skill
 https://github.com/THU-MAIC/OpenMAIC
+https://www.itmedia.co.jp/aiplus/article/2608/31/2000000951/
+https://www.itmedia.co.jp/news/article/2608/31/2000000865/
+https://atmarkit.itmedia.co.jp/ait/articles/2609/01/news012.html
+https://atmarkit.itmedia.co.jp/ait/articles/2609/01/news009.html
+https://www.itmedia.co.jp/aiplus/article/2608/31/2000000964/
+https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/
+https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads
+https://github.com/affaan-m/ECC

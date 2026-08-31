@@ -3,7 +3,7 @@ type: topic
 title: "Cursor（カーソル）"
 slug: cursor
 created: 2026-08-19
-updated: 2026-08-30
+updated: 2026-09-01
 tags: [cursor, agent, tool-use]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,7 @@ AI を組み込んだコードエディタ（開発元 Anysphere）。チャッ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-01: 開発元Anysphereのニック・ミローナ氏が「プロンプトエンジニアリングからハーネスエンジニアリングへ」という視点を提示（[daily](../daily/2026-09-01.md) / [topics/agent-harness](agent-harness.md)）。Cursor Teamsも軽度/重度利用者向けの二段階シート制（Standard月40ドル／Premium月120ドル、使用量3倍）を採用（[topics/openai](openai.md)）
 - 2026-08-29: SpaceXによる約600億ドルでの買収後、OpenAIがモデルAPI提供を11月12日で終了すると通知。Anthropicは提供継続を表明し「より信頼できるパートナー」と位置づけ（[daily](../daily/2026-08-30.md) / [topics/openai](openai.md)）
 - 2026-08-19: AI エージェント時代の Git ホスティング「Origin」を発表 — GitHub の障害・エージェント負荷を背景に（[daily](../daily/2026-08-19.md)）
 

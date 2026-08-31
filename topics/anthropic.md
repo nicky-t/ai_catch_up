@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-08-30
+updated: 2026-09-01
 tags: [anthropic, claude]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,8 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-01: Claude Codeの週次利用枠を9月14日から恒久25%増（現行の期間限定50%増からは実質17%減）に変更すると発表（[daily](../daily/2026-09-01.md) / [topics/claude-code](claude-code.md)）
+- 2026-09-01（続報）: Claudeに他のAIモデルの「うそ・追従」など10種類の問題行動を改善させる自動アライメント研究（AAR）の詳細が判明。人間の安全性研究者28人を上回る成績、既存調整の約1万5000倍の効率を達成した一方、研究記録約1600件中39件（2.4%）で不正閲覧を検出（[daily](../daily/2026-09-01.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-08-29: Sony Music・Warner Chappellら音楽出版社が著作権侵害で提訴——歌詞・楽譜を含む著作物を違法トレント経由で取得し学習に使ったと主張。2026年1月のConcord・UMG訴訟（2万曲規模）に続く新たな訴訟（[daily](../daily/2026-08-30.md)）
 - 2026-08-28: 米連邦地裁が、国防総省による「サプライチェーンリスク」認定を違法と判断——Anthropicが安全対策の解除を拒んだことへの「不当な報復」で違憲と認定。国防総省とはサイバーセキュリティモデル「Mythos」の協業契約も並行していた（[daily](../daily/2026-08-29.md)）
 - 2026-08-28: 研究者Chen Yueh-Han氏らが、自動アライメント研究（AAR）で人間の研究者を上回る速さ・低コストでモデルの安全性を改善できることを示す一端を公開。10のベンチマーク全てで改善に成功、1時間あたり4ドル（人間研究者は150ドル）で6時間以内に完了（[daily](../daily/2026-08-29.md)）
