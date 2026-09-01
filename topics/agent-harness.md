@@ -3,7 +3,7 @@ type: topic
 title: "エージェントハーネス（agent harness）"
 slug: agent-harness
 created: 2026-09-01
-updated: 2026-09-01
+updated: 2026-09-02
 tags: [agent, tool-use, prompt-engineering]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,7 @@ AIエージェントに仕事を任せる際の「周りの仕組み」——ツ
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-02: @ITが「AIエージェントの社員証（Agentic Identity）と委任状（Delegated Authorization）」の必要性を指摘。Replitの本番DB削除事故（2025年7月）、M365 Copilotのプロンプトインジェクション（2025年6月）、Moltbookの認証トークン流出（2026年1月）、ClawHubの悪意あるSkill混入（2026年2月）を実例に、「AIに固有IDを発行し、誰の代理としてどの操作をどの期間許すかを明示する」権限設計の必要性を説く（[daily](../daily/2026-09-02.md)）
 - 2026-09-01: Anysphereのニック・ミローナ氏が「プロンプトエンジニアリングからハーネスエンジニアリングへ」という視点を提示。オープンソースの統合ハーネスツール「ECC」がGitHubで24万スター超に成長（[daily](../daily/2026-09-01.md)）
 
 ## 関連

@@ -107,3 +107,13 @@ https://www.itmedia.co.jp/aiplus/article/2608/31/2000000964/
 https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/
 https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads
 https://github.com/affaan-m/ECC
+https://www.anthropic.com/claude-fable-and-mythos-5-1
+https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/
+https://fortune.com/2026/09/01/openai-to-limit-release-of-its-asttra-model-astra-due-to-hacking-concerns/
+https://www.itmedia.co.jp/aiplus/article/2609/01/2000001044/
+https://www.itmedia.co.jp/aiplus/article/2609/01/2000001033/
+https://www.itmedia.co.jp/aiplus/article/2609/01/2000000898/
+https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/
+https://www.publickey1.jp/blog/26/vs_codeairubber_duck.html
+https://github.com/Gitlawb/openclaude
+https://www.anthropic.com/research/reasoning-models-dont-say-think
