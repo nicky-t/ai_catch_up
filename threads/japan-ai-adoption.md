@@ -3,7 +3,7 @@ type: thread
 title: "国内 AI 導入動向（japan-ai-adoption）"
 slug: japan-ai-adoption
 created: 2026-08-19
-updated: 2026-09-02
+updated: 2026-09-03
 tags: [adoption, japan-company, case-study]
 status: active
 related: [topics/openai.md]
@@ -24,6 +24,7 @@ related: [topics/openai.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-03: NECがAnthropicの高セキュリティ性能モデル「Claude Mythos Preview」を導入し、Anthropic主導のサイバー防衛連合「Project Glasswing」に日本企業として初のグローバルパートナー参加。用途はソフトウェア開発・システム運用・脆弱性管理など社内業務に限定（[daily](../daily/2026-09-03.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2609/02/2000001075/)）
 - 2026-09-02: 総務省が「AX・新技術戦略室」を新設。7月決定の「第2期人工知能基本計画」に基づき、省内のAI推進施策の統括と関係省庁連携を担う（林芳正総務大臣発表）（[daily](../daily/2026-09-02.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2609/01/2000001044/)）
 - 2026-08-27: Confluent「Data Streaming Report 2026」（14カ国4,625人・日本275人が回答）で、生成AIエージェントを本番環境で実運用する日本企業は17%と14カ国中最下位。北米・欧州（32%）を大きく下回る。障壁は「AIスキル・専門知識の不足」80%、「データ品質の不確実性」71%、「リアルタイムデータ処理技術」69%（[daily](../daily/2026-08-27.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2608/26/news040.html)）
 - 2026-08-26: LIFEFUNDの企業AI活用実態調査（2026年3〜8月の追跡調査）で、実業務でAI活用する「Level2以上」企業が43.4%→68.5%に増加。Claude利用企業は18.9%→71.0%へ急拡大（[daily](../daily/2026-08-26.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2608/25/news041.html)）

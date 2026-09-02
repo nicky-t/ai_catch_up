@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-08-30
+updated: 2026-09-03
 tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,7 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-03: サイバーセキュリティ特化の新モデル「Gemini 3.8 Flash Cyber」と、限定提供プログラム「Fairwind」を発表。自動修正ツール「CodeMender」と組み合わせ脆弱性の検証済みパッチを数分で生成。CyberGymベンチマークで先代・大型モデルを上回り、実世界の脆弱性発見で20言語にわたり成功率70%超。Fairwindには政府機関・重要インフラ事業者など650以上のパートナーが参加（[daily](../daily/2026-09-03.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-08-27: DeepMindがGemini Flash Liteを対象に、モデルの重みと評価質問を互いに非公開のまま検証できる「二重盲検評価」を機密コンピューティング基盤上で試験導入。ベンチマーク汚染への技術的対策（[daily](../daily/2026-08-30.md)）
 - 2026-08-28: 動画生成AI「Gemini Omni 1.1 Flash」を公開。直前10秒分の文脈を参照したシーン延長で最長40秒まで生成可能に、キーフレーム指定など本格運用向けの制御機能を追加（[daily](../daily/2026-08-29.md)）
 - 2026-08-23: チーフサイエンティスト Jeff Dean 氏が Y Combinator でAIスタートアップ向けに「1%ルール」を語る。モデルが0〜1%しかできない問題を狙う戦略を提示（[daily](../daily/2026-08-23.md)）
