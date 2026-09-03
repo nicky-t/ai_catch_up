@@ -3,7 +3,7 @@ type: topic
 title: "NVIDIA（エヌビディア）"
 slug: nvidia
 created: 2026-08-28
-updated: 2026-09-01
+updated: 2026-09-04
 tags: [nvidia]
 level: beginner
 audience: [engineer, business, instructor]
@@ -18,7 +18,7 @@ AIモデルの学習・推論に使われるGPU（画像処理用半導体）を
 ## 仕組み
 - 主力製品はデータセンター向けGPU。世代ごとに「Vera Rubin」のような開発コード名が付き、AI各社が次世代チップの調達を競っている。世代は Hopper（2022年〜、機密コンピューティングを初導入）→ Blackwell（2024年〜、FP32マトリックス演算 227 TFLOPS・NVLink帯域 1,800 GB/s）→ Rubin / Vera Rubin（2026年後半〜、FP32マトリックス演算 400 TFLOPS・NVLink帯域 3,600 GB/s・HBM4メモリでBlackwell比約2.8倍の帯域）と進み、年1回のペースで刷新している（出典: [NVIDIA Technical Blog — Inside the NVIDIA Vera Rubin Platform](https://developer.nvidia.com/blog/inside-the-nvidia-rubin-platform-six-new-chips-one-ai-supercomputer/)、取得日 2026-08-30）
 - 自社製品の販売だけでなく、有望なAI関連企業への出資（例：Hugging Faceへの出資提案）や、自社チップを使う企業への大型計算基盤契約という形でもエコシステムに関わる
-- 2026年8月、AIモデル共有プラットフォームのHugging Faceを129億ドルで買収することに合意したと報じられた（未確定、[topics/hugging-face](hugging-face.md)）
+- 2026年9月3日、AIモデル共有プラットフォームのHugging Faceを129.3億ドルで買収することに正式合意した（[topics/hugging-face](hugging-face.md)）
 
 ## 実務での使い方
 - AI導入のコスト構造を理解する上で、モデル提供企業（OpenAI・Anthropicなど）だけでなく、その計算基盤を支えるNVIDIAの動向（供給状況・チップ価格）も間接的にサービス価格に影響しうる点を押さえておく（要追記：チップ需給とAPI価格の関係の具体例）
@@ -30,6 +30,7 @@ AIモデルの学習・推論に使われるGPU（画像処理用半導体）を
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-04: Hugging Face買収に正式合意。買収額は129.3億ドルで確定。Jensen Huang CEOは「Hugging Faceはエコシステム全体に開かれたプラットフォームであり続ける」と表明し、独立性維持を強調（[daily](../daily/2026-09-04.md) / [topics/hugging-face](hugging-face.md)）
 - 2026-09-01: 台湾MediaTekに35億ドル出資。MediaTekはNvidia技術でAI企業・ハイパースケーラー向けカスタムチップを設計可能に。Amazon・Google・Microsoft・OpenAI・Anthropicなど大手の自社チップ開発に対抗する布石（[daily](../daily/2026-09-01.md)）
 - 2026-08-29: 次世代アーキテクチャ「Vera Rubin」により、GPU単体からデータセンター全体（CPU・推論アクセラレータ・ストレージ／ネットワーク込み）の最適化へ強みが拡大。Veraチップでデータ流通が「3倍以上改善」（[daily](../daily/2026-08-30.md)）
 - 2026-08-28: オープンウェイトAI企業の買収競争が加速——NVIDIAはHugging Face（約130億ドル）に加えPoolsideも60億ドルで買収。企業のオープンウェイトモデル利用率は6%・利用エンジニアは2%とまだ少数派（[daily](../daily/2026-08-29.md)）

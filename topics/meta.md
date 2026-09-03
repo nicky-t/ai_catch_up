@@ -3,7 +3,7 @@ type: topic
 title: "Meta（メタ）"
 slug: meta
 created: 2026-09-03
-updated: 2026-09-03
+updated: 2026-09-04
 tags: [meta, speech]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,7 @@ Facebook・Instagram・WhatsAppなどを運営する米国のテクノロジー�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-04: コーディング・エージェント向け新モデル「Muse Spark 1.3」を公開。DeepSWE v1.1で75.4点・MRCR（512K〜1M）で98.1点。プロンプト・出力の提供と引き換えに入出力価格を最大95%割引する「貢献者向け価格」も導入（[daily](../daily/2026-09-04.md)）
 - 2026-09-03: 初のリアルタイム音声認識モデル「Muse Voice Transcribe」を発表。70以上の言語（日本語含む25言語検証済み）に対応、20人以上の話者を区別可能。単語誤り率3.1%、発話終了からの遅延0.16秒。Meta Model APIで1時間0.18ドル（[daily](../daily/2026-09-03.md)）
 
 ## 関連

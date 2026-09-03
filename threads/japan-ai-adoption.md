@@ -3,7 +3,7 @@ type: thread
 title: "国内 AI 導入動向（japan-ai-adoption）"
 slug: japan-ai-adoption
 created: 2026-08-19
-updated: 2026-09-03
+updated: 2026-09-04
 tags: [adoption, japan-company, case-study]
 status: active
 related: [topics/openai.md]
@@ -24,6 +24,8 @@ related: [topics/openai.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-04: 茨城県鹿嶋市が、RAG＋Claude Sonnetで構築したAIチャットボットの実証実験（73日間）で市民対応時間を約590時間削減できると試算。利用者アンケート（118件）で「非常に良い」評価が約70%（[daily](../daily/2026-09-04.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2609/03/news019.html)）
+- 2026-09-04: 創業108年のみそメーカー、ハナマルキが従業員290人対象にGeminiを導入し利用率86%を達成。「規程・共有・教育」の3つのK戦略とAI支援者11名の配置が奏功（[daily](../daily/2026-09-04.md) / [出典](https://www.itmedia.co.jp/business/articles/2609/03/news017.html)）
 - 2026-09-03: NECがAnthropicの高セキュリティ性能モデル「Claude Mythos Preview」を導入し、Anthropic主導のサイバー防衛連合「Project Glasswing」に日本企業として初のグローバルパートナー参加。用途はソフトウェア開発・システム運用・脆弱性管理など社内業務に限定（[daily](../daily/2026-09-03.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2609/02/2000001075/)）
 - 2026-09-02: 総務省が「AX・新技術戦略室」を新設。7月決定の「第2期人工知能基本計画」に基づき、省内のAI推進施策の統括と関係省庁連携を担う（林芳正総務大臣発表）（[daily](../daily/2026-09-02.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2609/01/2000001044/)）
 - 2026-08-27: Confluent「Data Streaming Report 2026」（14カ国4,625人・日本275人が回答）で、生成AIエージェントを本番環境で実運用する日本企業は17%と14カ国中最下位。北米・欧州（32%）を大きく下回る。障壁は「AIスキル・専門知識の不足」80%、「データ品質の不確実性」71%、「リアルタイムデータ処理技術」69%（[daily](../daily/2026-08-27.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2608/26/news040.html)）

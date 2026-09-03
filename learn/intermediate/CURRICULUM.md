@@ -27,7 +27,7 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 - [x] 014 Few-shot と例示の選び方：効く例と効かない例 → learn/intermediate/014-fewshot-example-selection.md
 - [x] 015 Chain-of-Thought と「考えさせる」設計の現在地（推論モデル時代の再評価） → learn/intermediate/015-chain-of-thought-reasoning-design.md
 - [x] 016 出力フォーマット制御：JSON / 構造化出力 / スキーマ指定 → learn/intermediate/016-output-format-control.md
-- [ ] 017 システムプロンプトの設計と運用（バージョン管理・テスト）
+- [x] 017 システムプロンプトの設計と運用（バージョン管理・テスト） → learn/intermediate/017-system-prompt-design-versioning.md
 - [ ] 018 プロンプトインジェクション：攻撃パターンと防御の基本
 - [ ] 019 長文入力の扱い：要約・分割・位置バイアス（lost in the middle）
 - [ ] 020 プロンプト改善のループ：評価セットを作って回す

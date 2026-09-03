@@ -3,7 +3,7 @@ type: topic
 title: "OpenAI"
 slug: openai
 created: 2026-08-19
-updated: 2026-09-03
+updated: 2026-09-04
 tags: [openai, chatgpt, gpt]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,8 @@ ChatGPT と GPT 系モデルを開発する米国の AI 企業。一般利用者
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-04: 「GPT-6 Astra」を正式ローンチ。目玉のARC-AGI-3ベンチマーク99.9%は1回1.9万ドルの専用アダプター使用時の数字で、標準ハーネス（2.6万ドル）では62.7%にとどまると開発者Simon Willison氏が指摘。価格はClaude Fable 5.1と同水準（[daily](../daily/2026-09-04.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
+- 2026-09-04（同日）: ChatGPTが深夜に接続障害。Claude・Grokとほぼ同時に発生し、原因は不明（[daily](../daily/2026-09-04.md) / [topics/anthropic](anthropic.md)）
 - 2026-09-03: 開発中モデル「Astra」が採用する「不透明な再帰（opaque recurrence）」推論方式にAI安全専門家が警鐘。逐次的なChain-of-Thoughtと異なりクエリをループ処理するため判断過程の痕跡が減り、不正な振る舞いの検知（CoT監視）をすり抜けうると懸念される。Redwood ResearchのBuck Shlegeris氏は「再帰を増やせばCoT監視を完全に破壊できる」と警告、OpenAIのJakub Pachocki氏は「CoT監視の維持は研究プログラムの中核目標」と応じた（[daily](../daily/2026-09-03.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-09-03: トランプ政権が、NYT対OpenAIの著作権訴訟にOpenAI寄りの20ページの意見書を提出。「AI産業の競争力維持」を理由にフェアユースの狭い解釈を批判した。法的拘束力はないが行政府の立場表明として注目される（[daily](../daily/2026-09-03.md) / [threads/ai-copyright](../threads/ai-copyright.md)）
 - 2026-09-02: 開発中モデル「Astra」が、未知の脆弱性を人間の詳細な指示なしに発見・悪用できる「Critical」水準のサイバーセキュリティ能力しきい値に初めて到達したと発表（Preparedness Framework）。ExploitBench（重大脆弱性20件）で先代GPT-5.6 Solを上回り、ゼロデイ脆弱性2件を自律的に発見・悪用。不適切な要求への拒否率は91.5%（GPT-5.6 Solは59%）。当面は重要インフラ防御に関わる米政府機関・信頼済みパートナーのみに提供（Fortune報道）（[daily](../daily/2026-09-02.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）

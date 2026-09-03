@@ -3,7 +3,7 @@ type: thread
 title: "AI安全規制の動き（ai-safety-regulation）"
 slug: ai-safety-regulation
 created: 2026-08-23
-updated: 2026-09-03
+updated: 2026-09-04
 tags: [regulation, safety]
 status: active
 related: [topics/openai.md]
@@ -24,6 +24,8 @@ related: [topics/openai.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-04: OpenAIが「GPT-6 Astra」を正式ローンチ。「不透明な再帰」への懸念が指摘されたまま実運用に投入された形で、目玉ベンチマークも専用の高コストハーネス頼みだったと判明（[daily](../daily/2026-09-04.md) / [出典](https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/)）
+- 2026-09-04（未検証）: OpenAI公式ニュースRSSに、重要インフラ防衛向けAI「Daybreak」の拡大に10億ドル規模を投じるとの記事が掲載されたが、記事本体は403で取得できず詳細未確認（[daily](../daily/2026-09-04.md)）
 - 2026-09-03: OpenAIの「Astra」が採用する「不透明な再帰（opaque recurrence）」推論方式にAI安全専門家が警鐘。逐次的なChain-of-Thoughtと異なりクエリをループ処理するため判断過程の痕跡が減り、不正な振る舞いの検知（CoT監視）をすり抜けうると懸念される。Redwood ResearchのBuck Shlegeris氏は「再帰を増やせばCoT監視を完全に破壊できる」と警告（[daily](../daily/2026-09-03.md) / [出典](https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/)）
 - 2026-09-03: Googleがサイバーセキュリティ特化モデル「Gemini 3.8 Flash Cyber」と限定提供プログラム「Fairwind」を発表。脆弱性の検証済みパッチを自動生成し、政府機関・重要インフラ事業者など650以上のパートナーに提供。OpenAIの「Astra」と同時期に、防御側でも高性能サイバーセキュリティAIの限定提供が始まった（[daily](../daily/2026-09-03.md) / [出典](https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/)）
 - 2026-09-02: OpenAIの開発中モデル「Astra」が、未知の脆弱性を人間の詳細な指示なしに発見・悪用できる「Critical」サイバーセキュリティ能力しきい値に初到達したと発表。Preparedness Frameworkに基づき、当面は重要インフラ防御に関わる米政府機関・信頼済みパートナーに限定提供（Fortune報道）（[daily](../daily/2026-09-02.md) / [出典](https://fortune.com/2026/09/01/openai-to-limit-release-of-its-asttra-model-astra-due-to-hacking-concerns/)）

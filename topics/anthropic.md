@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-09-03
+updated: 2026-09-04
 tags: [anthropic, claude]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-04: ClaudeとGrokが深夜に接続障害。その後ChatGPTも障害となり、9月4日1〜2時台にかけて順次復旧。3社とも原因は非公表（[daily](../daily/2026-09-04.md) / [topics/openai](openai.md)）
 - 2026-09-03: NECが高セキュリティ性能モデル「Claude Mythos Preview」を導入し、Anthropic主導のサイバー防衛連合「Project Glasswing」に日本企業として初のグローバルパートナー参加。用途はソフトウェア開発・システム運用・脆弱性管理など社内業務に限定（[daily](../daily/2026-09-03.md) / [threads/japan-ai-adoption](../threads/japan-ai-adoption.md)）
 - 2026-09-03: 企業顧客向け監視サービス「Enterprise Frontier Safeguards（EFS）」を発表。監視用の活動データをAnthropicではなく顧客管理下のクラウドストレージに保存し、顧客の暗号鍵・アクセスポリシーで保護。Bank of America傘下ARC・Comcast・KPMG・Mastercard・Visaなど100社以上と設計に協働（[daily](../daily/2026-09-03.md)）
 - 2026-09-03（続報）: 「Claude Fable 5.1」のシステムプロンプトに、歌詞・詩・書籍の一節を一切再生成しない新しい制約が追加されたことをSimon Willison氏が確認。8月末のSony Music・Warner Chappellによる歌詞学習訴訟のタイミングと符合すると指摘（[daily](../daily/2026-09-03.md) / [threads/ai-copyright](../threads/ai-copyright.md)）

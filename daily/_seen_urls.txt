@@ -134,3 +134,15 @@ https://www.itmedia.co.jp/news/article/2609/02/2000001058/
 https://openai.com/index/path-to-astra
 https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/
 https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments/
+https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/
+https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/
+https://simonwillison.net/2026/Sep/3/gpt6-astra/
+https://www.itmedia.co.jp/aiplus/article/2609/04/2000001152/
+https://www.itmedia.co.jp/aiplus/article/2609/03/2000001101/
+https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/
+https://atmarkit.itmedia.co.jp/ait/articles/2609/03/news019.html
+https://www.itmedia.co.jp/business/articles/2609/03/news017.html
+https://www.itmedia.co.jp/aiplus/article/2609/03/2000001144/
+https://openai.com/index/daybreak-for-frontline-defenders
+https://raw.githubusercontent.com/mattpocock/skills/main/README.md
+https://raw.githubusercontent.com/DietrichGebert/ponytail/main/README.md
