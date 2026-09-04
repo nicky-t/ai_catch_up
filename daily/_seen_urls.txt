@@ -146,3 +146,15 @@ https://www.itmedia.co.jp/aiplus/article/2609/03/2000001144/
 https://openai.com/index/daybreak-for-frontline-defenders
 https://raw.githubusercontent.com/mattpocock/skills/main/README.md
 https://raw.githubusercontent.com/DietrichGebert/ponytail/main/README.md
+https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/
+https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/
+https://kn.itmedia.co.jp/kn/article/2609/04/2000001139/
+https://openai.com/news/rss.xml
+https://www.helpnetsecurity.com/2026/09/04/openai-daybreak-frontline-defenders-access/
+https://www.itmedia.co.jp/news/article/2609/04/2000001161/
+https://www.itmedia.co.jp/news/article/2609/04/2000001153/
+https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/
+https://www.itmedia.co.jp/aiplus/article/2609/04/2000001165/
+https://raw.githubusercontent.com/blader/humanizer/main/README.md
+https://raw.githubusercontent.com/affaan-m/ECC/main/README.md
+https://www.superblocks.com/blog/owasp-llm-top-10

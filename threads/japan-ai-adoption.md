@@ -3,7 +3,7 @@ type: thread
 title: "国内 AI 導入動向（japan-ai-adoption）"
 slug: japan-ai-adoption
 created: 2026-08-19
-updated: 2026-09-04
+updated: 2026-09-05
 tags: [adoption, japan-company, case-study]
 status: active
 related: [topics/openai.md]
@@ -24,6 +24,7 @@ related: [topics/openai.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-05: RIZAPグループで、特定保健指導対象者の個人情報（疾患情報など要配慮個人情報を含む）が、許諾していない外部AIサービスに従業員の誤操作でアップロードされ漏洩。24時間以内に削除し個人情報保護委員会へ報告。導入事例の広がりと表裏一体の「シャドーAI」リスクが要配慮個人情報を含む形で現実化した事例（[daily](../daily/2026-09-05.md) / [出典](https://www.itmedia.co.jp/news/article/2609/04/2000001161/)）
 - 2026-09-04: 茨城県鹿嶋市が、RAG＋Claude Sonnetで構築したAIチャットボットの実証実験（73日間）で市民対応時間を約590時間削減できると試算。利用者アンケート（118件）で「非常に良い」評価が約70%（[daily](../daily/2026-09-04.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2609/03/news019.html)）
 - 2026-09-04: 創業108年のみそメーカー、ハナマルキが従業員290人対象にGeminiを導入し利用率86%を達成。「規程・共有・教育」の3つのK戦略とAI支援者11名の配置が奏功（[daily](../daily/2026-09-04.md) / [出典](https://www.itmedia.co.jp/business/articles/2609/03/news017.html)）
 - 2026-09-03: NECがAnthropicの高セキュリティ性能モデル「Claude Mythos Preview」を導入し、Anthropic主導のサイバー防衛連合「Project Glasswing」に日本企業として初のグローバルパートナー参加。用途はソフトウェア開発・システム運用・脆弱性管理など社内業務に限定（[daily](../daily/2026-09-03.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2609/02/2000001075/)）
