@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-09-04
+updated: 2026-09-06
 tags: [claude-code, anthropic, agent]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,8 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-06: バージョン2.1.259〜2.1.261を公開。組織がHTTP/SSE MCPサーバーをユーザーに提供できる「managedMcpServers」設定、無人実行用の`--permission-prompts none`オプション、会話横に変更内容を表示する差分パネル、`/skill-doctor`の未使用スキル確認機能などを追加（[daily](../daily/2026-09-06.md)）
+- 2026-09-06: GitHub TrendingでClaude Code向けSkillパック「humanlayer/skills」（本日+408スター）とローカルモデル実行ツール「Magnitude」（本日+686スター）が急上昇（[daily](../daily/2026-09-06.md)）
 - 2026-09-04: GitHub Trendingで、コーディングエージェント向けSkill集「mattpocock/skills」（本日+1,576スター）と、過剰実装を防ぐ「ponytail」（本日+2,138スター）が急上昇（[daily](../daily/2026-09-04.md)）
 - 2026-09-02: バージョン2.1.257で新モデル「Claude Fable 5.1」（`claude-fable-5-1`）を追加。複合コマンド実行時の権限確認スキップ、シンボリックリンク経由の権限外読み取りなど権限すり抜けの脆弱性7件を修正（[daily](../daily/2026-09-02.md) / [topics/anthropic](anthropic.md)）
 - 2026-09-01: 週次利用枠を9月14日から恒久25%増（125）に変更すると発表——5月13日から適用中だった期間限定の50%増（150）からは実質17%減。オープンソースの統合ハーネスツール「ECC」（68エージェント・286スキル）がGitHubで24万スター超に成長（[daily](../daily/2026-09-01.md) / [topics/agent-harness](agent-harness.md)）

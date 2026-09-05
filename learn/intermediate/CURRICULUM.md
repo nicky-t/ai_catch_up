@@ -29,7 +29,7 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 - [x] 016 出力フォーマット制御：JSON / 構造化出力 / スキーマ指定 → learn/intermediate/016-output-format-control.md
 - [x] 017 システムプロンプトの設計と運用（バージョン管理・テスト） → learn/intermediate/017-system-prompt-design-versioning.md
 - [x] 018 プロンプトインジェクション：攻撃パターンと防御の基本 → learn/intermediate/018-prompt-injection-patterns-defense.md
-- [ ] 019 長文入力の扱い：要約・分割・位置バイアス（lost in the middle）
+- [x] 019 長文入力の扱い：要約・分割・位置バイアス（lost in the middle） → learn/intermediate/019-long-context-handling.md
 - [ ] 020 プロンプト改善のループ：評価セットを作って回す
 
 ## C. RAG と知識接続（8）

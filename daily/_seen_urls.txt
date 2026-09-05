@@ -158,3 +158,12 @@ https://www.itmedia.co.jp/aiplus/article/2609/04/2000001165/
 https://raw.githubusercontent.com/blader/humanizer/main/README.md
 https://raw.githubusercontent.com/affaan-m/ECC/main/README.md
 https://www.superblocks.com/blog/owasp-llm-top-10
+https://www.itmedia.co.jp/news/article/2609/05/2000001200/
+https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/
+https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/
+https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-2
+https://xtech.nikkei.com/atcl/nxt/news/24/03372/
+https://atmarkit.itmedia.co.jp/ait/articles/2609/05/news009.html
+https://raw.githubusercontent.com/humanlayer/skills/main/README.md
+https://raw.githubusercontent.com/magnitudedev/magnitude/main/README.md
+https://arxiv.org/abs/2307.03172
