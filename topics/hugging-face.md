@@ -3,7 +3,7 @@ type: topic
 title: "Hugging Face（ハギングフェイス）"
 slug: hugging-face
 created: 2026-08-25
-updated: 2026-09-04
+updated: 2026-09-06
 tags: [hugging-face, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -23,7 +23,7 @@ related: [topics/glm.md, topics/openai.md]
 - 2026年9月3日、NVIDIAによる買収に正式合意。買収額は129.3億ドルで確定。CEOのClem Delangue氏は「もっと計算資源、支援、連携、認知度が必要だった。だからJensenに話をしに行った」と語った（出典: [TechCrunch — Nvidia confirms it will buy Hugging Face for $12.9 billion](https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/)、取得日 2026-09-04）
 
 ## 実務での使い方
-- 自社でオープンウェイトモデルを検証・導入する際の主要な入手経路の1つ。ライセンス条件はモデルごとに異なるため個別確認が必要（要追記：商用利用時の確認ポイント）
+- 自社でオープンウェイトモデルを検証・導入する際の主要な入手経路の1つ。ライセンス条件はモデルごとに異なるため個別確認が必要。Hugging Face Hub では各モデルのリポジトリカード（README.md）のメタデータに `license` タグ（`apache-2.0` `mit` `llama4` など）が付与される仕組みになっており、商用利用可否・改変可否はまずこのタグと元のライセンス条文を確認するのが基本（`other` の場合はリポジトリ内の `LICENSE` ファイルを直接確認する必要がある）（出典: [Hugging Face Docs — Licenses](https://huggingface.co/docs/hub/repositories-licenses)、取得日 2026-09-06）
 - コミュニティ主導のプラットフォームであるため、買収・経営方針の変化がエコシステム全体（無料利用・ホスティング条件など）に波及しうる点は導入判断で意識しておく
 
 ## 講座で使うなら

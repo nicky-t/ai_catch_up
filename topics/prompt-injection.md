@@ -38,4 +38,5 @@ AIに読み込ませたはずの「ただの文章」に紛れ込んだ指示を
 
 ## 関連
 - [topics/claude-code](claude-code.md)
+- [topics/microsoft](microsoft.md)（Word文書経由の間接的インジェクション事例）
 - [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)

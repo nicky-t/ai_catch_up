@@ -3,7 +3,7 @@ type: topic
 title: "Qwen（通義千問）"
 slug: qwen
 created: 2026-08-25
-updated: 2026-08-31
+updated: 2026-09-06
 tags: [qwen, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -20,7 +20,7 @@ related: [topics/glm.md]
 - 同時期にMeta「Muse Glimmer」（24GB VRAM対応）、NVIDIA「Nemotron 3.5 Lightning」（3B MoE構成）など、他社からも30Bクラス前後のオープンモデルが相次いで公開された（要追記：各モデルの詳細な仕様比較）
 
 ## 実務での使い方
-- パラメータ数が小さいため個人のPCやローカル環境での運用が現実的になり、API課金を抑えたいタスクの候補になる（要追記：日本語性能・商用ライセンス条件の確認）
+- パラメータ数が小さいため個人のPCやローカル環境での運用が現実的になり、API課金を抑えたいタスクの候補になる。Qwen3系列の主要モデルはHugging Face上で「Apache 2.0」ライセンスが付与されており（例：Qwen3-235B-A22B、出典: [huggingface.co/Qwen/Qwen3-235B-A22B](https://huggingface.co/Qwen/Qwen3-235B-A22B)、取得日 2026-09-06）商用利用の制限は緩いが、個別モデルのモデルカードでライセンスタグを都度確認するのが安全。日本語性能については本稿執筆時点で第三者評価の報告は確認できていない（未検証）
 - 「巨大モデル1つに頼る」のではなく、タスクごとに小型オープンモデルと大型クローズドモデルを使い分ける設計の選択肢が広がっている
 
 ## 講座で使うなら

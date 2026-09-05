@@ -3,7 +3,7 @@ type: topic
 title: "Meta（メタ）"
 slug: meta
 created: 2026-09-03
-updated: 2026-09-04
+updated: 2026-09-06
 tags: [meta, speech]
 level: beginner
 audience: [engineer, business, instructor]
@@ -17,7 +17,7 @@ Facebook・Instagram・WhatsAppなどを運営する米国のテクノロジー�
 
 ## 仕組み
 - AI開発部門「Meta Superintelligence Labs」が、対話・コーディング（Muse Code）・音声認識（Muse Voice Transcribe）など複数の製品ラインを開発
-- Llamaファミリーはオープンウェイトモデルとしてライセンス配布されており、企業が自社環境で動かす選択肢を提供している（要追記：最新Llamaのライセンス条件の詳細）
+- Llamaファミリーはオープンウェイトモデルとしてライセンス配布されており、企業が自社環境で動かす選択肢を提供している。「Llama 4 Community License」では、ライセンシー（関連企業含む）の月間アクティブユーザーが直前の暦月で700万人を超える場合、Metaから別途ライセンスを取得する必要がある。無償利用は禁止ではないが一定規模を超えると事前承認が必要で、"Built with Llama" の表示義務・無保証・間接損害の免責も定められている（出典: [Llama 4 Community License Agreement](https://developer.meta.com/ai/llama4/license/)、取得日 2026-09-06）
 - 2026年9月、初のリアルタイム音声認識モデル「Muse Voice Transcribe」を発表。ストリーミング音声認識・話者分離・発話終了検知を単一モデルで処理する設計
 
 ## 実務での使い方

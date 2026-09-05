@@ -34,7 +34,7 @@ related: [topics/anthropic.md, topics/openai.md]
 | モデル | コンテキストウィンドウ | 最大出力 |
 |---|---|---|
 | Claude Opus 5 / Sonnet 5 / Mythos 5 など | 100万トークン | 12.8万トークン |
-| Claude Sonnet 4.5 など一部モデル | 20万トークン | （要追記） |
+| Claude Sonnet 4.5 など一部モデル | 20万トークン | 6.4万トークン |
 | GPT-5.6（Sol / Terra / Luna） | 105万トークン | 12.8万トークン |
 
 （出典: Anthropic・OpenAI 公式ドキュメント。数字は2026年8月時点）
@@ -57,6 +57,7 @@ related: [topics/anthropic.md, topics/openai.md]
 ## 出典・参考
 - [Context windows - Claude Docs](https://platform.claude.com/docs/en/build-with-claude/context-windows)（取得日 2026-08-23）
 - [Models - OpenAI Developers](https://developers.openai.com/api/docs/models)（取得日 2026-08-23）
+- [Claude Sonnet 4.5 - Claude Docs](https://platform.claude.com/docs/en/models/sonnet-4-5/overview)（取得日 2026-09-06、最大出力6.4万トークンを確認）
 
 ## 関連
 - [topics/anthropic](../../topics/anthropic.md)
