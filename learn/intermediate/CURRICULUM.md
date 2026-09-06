@@ -30,7 +30,7 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 - [x] 017 システムプロンプトの設計と運用（バージョン管理・テスト） → learn/intermediate/017-system-prompt-design-versioning.md
 - [x] 018 プロンプトインジェクション：攻撃パターンと防御の基本 → learn/intermediate/018-prompt-injection-patterns-defense.md
 - [x] 019 長文入力の扱い：要約・分割・位置バイアス（lost in the middle） → learn/intermediate/019-long-context-handling.md
-- [ ] 020 プロンプト改善のループ：評価セットを作って回す
+- [x] 020 プロンプト改善のループ：評価セットを作って回す → learn/intermediate/020-eval-driven-prompt-improvement.md
 
 ## C. RAG と知識接続（8）
 - [ ] 021 RAG の全体像：検索→生成のパイプラインと失敗ポイント

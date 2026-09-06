@@ -167,3 +167,12 @@ https://atmarkit.itmedia.co.jp/ait/articles/2609/05/news009.html
 https://raw.githubusercontent.com/humanlayer/skills/main/README.md
 https://raw.githubusercontent.com/magnitudedev/magnitude/main/README.md
 https://arxiv.org/abs/2307.03172
+https://www.unite.ai/in-an-alien-mind-openais-jakub-pachocki-urges-shared-safety-bars/
+https://openai.com/index/an-alien-mind
+https://insideai.news/news/agentic-ai/openai-coding-agents-research-acceleration/9779/
+https://openai.com/index/research-acceleration-view-inside-openai
+https://www.itmedia.co.jp/news/article/2609/06/2000001202/
+https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/
+https://huggingface.co/blog/funes
+https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90
+https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents

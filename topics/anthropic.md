@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-09-06
+updated: 2026-09-07
 tags: [anthropic, claude]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-07: 著作権集団訴訟の和解金（15億ドル・対象約50万タイトル・1作品3,000ドル）の配分方法をめぐり著者らが異議。自費出版・版権失効済み作品は著者が全額受け取るべきところ、出版社の過大請求が複数報告された（[daily](../daily/2026-09-07.md) / [threads/ai-copyright](../threads/ai-copyright.md)）
 - 2026-09-06: 第三者ベンチマーク機関Artificial Analysisの「Intelligence Index」がv4.2に更新され、「Claude Fable 5.1」が首位（僅差2位はOpenAI「GPT-6 Astra」）。実務寄りタスク「AA-Briefcase」等を新設し非公開テストセットの比率を高めた（[daily](../daily/2026-09-06.md) / [topics/openai](openai.md)）
 - 2026-09-06（続報）: ITmediaが改めて「Claude Fable 5.1」を紹介する記事で、キャッシュ読み取り価格引き下げによる最大45%のコスト削減と、ソフトウェアの脆弱性を防御目的で検出できる新機能（エクスプロイト生成は不可）を紹介（[daily](../daily/2026-09-06.md)）
 - 2026-09-04: ClaudeとGrokが深夜に接続障害。その後ChatGPTも障害となり、9月4日1〜2時台にかけて順次復旧。3社とも原因は非公表（[daily](../daily/2026-09-04.md) / [topics/openai](openai.md)）

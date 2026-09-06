@@ -3,7 +3,7 @@ type: thread
 title: "AI学習と著作権をめぐる訴訟・議論（ai-copyright）"
 slug: ai-copyright
 created: 2026-08-24
-updated: 2026-09-06
+updated: 2026-09-07
 tags: [copyright, regulation]
 status: active
 related: [topics/anthropic.md]
@@ -18,12 +18,14 @@ related: [topics/anthropic.md]
 <!-- 新規作成時に 3〜5 行で埋める。以後は週次 agent が更新 -->
 - AI学習の合法性は「フェアユース（公正利用）」に該当するかどうかで判断が割れており、統一的な結論は出ていない。トランプ政権は9月2日、NYT対OpenAIの著作権訴訟にOpenAI寄りの意見書を提出し、「AI産業の競争力維持」を理由にフェアユースの狭い解釈を批判——司法判断だけでなく行政府の立場表明という3つ目の力学が明示的に加わった
 - Anthropicは2025年、学習データを違法な海賊版サイトから調達した点を理由に著作者らへ15億ドルを支払う和解に応じた。担当判事はLLMの学習行為自体（データの入手経路ではなく）は適法と判断した
+- 2026年9月、その和解金（約50万タイトル・1作品3,000ドル）の配分方法をめぐり著者らが出版社を批判。現役契約作品は著者・出版社で50-50分配だが、自費出版や版権失効済み作品でも出版社が請求するケースが複数報告され、「和解が成立した後の実務」という新しい論点が浮上した
 - 2026年8月末、Sony Music・Warner Chappellら音楽出版社が「歌詞・楽譜を違法トレント経由で取得し学習に使った」としてAnthropicを新たに提訴。これを受けAnthropicは「Claude Fable 5.1」のシステムプロンプトに歌詞・詩・書籍の一節を再生成しない制約を追加したことが判明しており、訴訟が製品側の挙動にも直接影響し始めている
 - Thomson Reuters対Ross Intelligenceの訴訟では、競合サービスを作る目的での学習は「変容的」と言えず著作権侵害と認定されており、学習の「目的」次第で結論が変わりうる
 - 日本は法的拘束力のない「プリンシプル・コード」（2026年8月策定）で透明性・知財保護の自主的対応を促す方針を取っており、米国の訴訟ラッシュ・行政府の介入とは対照的に緩やかなアプローチが続いている
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-07: Anthropicの著作権和解金（15億ドル・約50万タイトル・1作品3,000ドル）の配分方法をめぐり著者らが出版社に異議。現役契約作品は50-50分配だが、自費出版・版権失効済み作品は著者全額のはずが、出版社の過大請求（例：版権失効から17年以上経過した作品へのHarperCollinsの請求）が複数報告された。Writers BewareのVictoria Strauss氏は「単純なシステムエラーを超えた体系的な問題の可能性」を指摘（[daily](../daily/2026-09-07.md) / [出典](https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/)）
 - 2026-09-03: トランプ政権が、NYT対OpenAIの著作権訴訟（米ニューヨーク州南部地区連邦地裁）にOpenAI寄りの立場を示す20ページの意見書を提出。「AI産業の競争力維持」を理由にフェアユースの狭い解釈を批判。法的拘束力はないが行政府の立場表明として注目される（[daily](../daily/2026-09-03.md) / [出典](https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/)）
 - 2026-09-03: Anthropicが「Claude Fable 5.1」のシステムプロンプトに、歌詞・詩・書籍の一節を一切再生成しない新しい制約を追加していたことをSimon Willison氏が確認。8月末のSony Music・Warner Chappellによる歌詞学習訴訟のタイミングと符合すると指摘（[daily](../daily/2026-09-03.md) / [出典](https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/)）
 - 2026-08-29: Sony Music・Warner Chappellら音楽出版社がAnthropicを提訴。歌詞・楽譜を含む著作物を違法トレント経由で取得したと主張し「意図的な海賊行為」と表現。2026年1月のConcord・UMG訴訟（2万曲規模）に続く音楽業界からの追加提訴（[daily](../daily/2026-08-30.md) / [出典](https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/)）
