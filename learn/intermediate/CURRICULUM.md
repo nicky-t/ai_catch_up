@@ -33,7 +33,7 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 - [x] 020 プロンプト改善のループ：評価セットを作って回す → learn/intermediate/020-eval-driven-prompt-improvement.md
 
 ## C. RAG と知識接続（8）
-- [ ] 021 RAG の全体像：検索→生成のパイプラインと失敗ポイント
+- [x] 021 RAG の全体像：検索→生成のパイプラインと失敗ポイント → learn/intermediate/021-rag-overview-pipeline-failure-points.md
 - [ ] 022 チャンキング戦略：サイズ・重なり・構造を意識した分割
 - [ ] 023 ハイブリッド検索とリランキング
 - [ ] 024 RAG の評価：検索精度と回答品質を分けて測る

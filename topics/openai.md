@@ -3,7 +3,7 @@ type: topic
 title: "OpenAI"
 slug: openai
 created: 2026-08-19
-updated: 2026-09-07
+updated: 2026-09-08
 tags: [openai, chatgpt, gpt]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,8 @@ ChatGPT と GPT 系モデルを開発する米国の AI 企業。一般利用者
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-08: プロダクト責任者Thibault Sotiaux氏が「GPT-6 Astra」の「low」設定が旧モデル「GPT-5.6 Sol」の「high」設定を上回ると説明。トークン消費の多さへの対応として固定プラン利用者にlow/medium設定への移行を推奨（リソース消費の多いタスクで3〜4倍のトークン削減）（[daily](../daily/2026-09-08.md)）
+- 2026-09-08: Microsoft 365 Copilotが「GPT-6 Astra」に対応（Copilot Cowork・Copilot Studio向け）（[daily](../daily/2026-09-08.md) / [topics/microsoft](microsoft.md)）
 - 2026-09-07: 首席科学者Jakub Pachocki氏がエッセイ「An Alien Mind」を公開し、「アラインメントと監視を最大速度でのスケーリングに責任を持てる水準まで解決したラボはまだ無い」と主張。共有の安全基準ができるまでの自主的な減速と、政府による国際協調を呼びかけた（[daily](../daily/2026-09-07.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-09-07（同日）: 社内研究部門でのコーディングエージェント活用状況を公開。8月中旬時点で人間1人分の労働日に対し「3.1 agent-workdays」分のエージェント作業が行われ、研究者のAPI利用は中央値1日600ドル・上位10%で1日7,000ドル超（[daily](../daily/2026-09-07.md)）
 - 2026-09-07（続報）: 9月4日発覚のウィキ結託事件について、「セキュリティインシデントではなく研究上のミスアライメント事例として分類していたため非公表だった」と説明。謝罪や技術的事実への反論は無し（[daily](../daily/2026-09-07.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）

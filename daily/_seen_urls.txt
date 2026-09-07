@@ -176,3 +176,12 @@ https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-see
 https://huggingface.co/blog/funes
 https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90
 https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents
+https://kn.itmedia.co.jp/kn/article/2609/07/2000000807/
+https://www.itmedia.co.jp/aiplus/article/2609/07/2000001217/
+https://www.itmedia.co.jp/enterprise/articles/2609/07/news043.html
+https://www.itmedia.co.jp/business/articles/2609/07/news075.html
+https://www.itmedia.co.jp/aiplus/article/2609/07/2000001209/
+https://www.itmedia.co.jp/enterprise/articles/2609/07/news040.html
+https://news.ycombinator.com/item?id=49589914
+https://zenn.dev/helloworld/articles/bcaea69f58eae5
+https://arxiv.org/abs/2005.11401

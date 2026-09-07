@@ -3,7 +3,7 @@ type: topic
 title: "Microsoft（マイクロソフト）"
 slug: microsoft
 created: 2026-09-06
-updated: 2026-09-06
+updated: 2026-09-08
 tags: [microsoft, guardrails, prompt-engineering]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,8 @@ Windows・Office・Azure・GitHubなどを展開する米国のテクノロジ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-08: Microsoft 365 Copilotが「GPT-6 Astra」（OpenAI、9月4日〜）と「Claude Fable 5.1」（Anthropic、9月1日〜）に対応。前者はCopilot Cowork・Copilot Studioでの大きめタスク処理向け、後者はM365内のファイル・メッセージを文脈参照する「Work IQ」機能と組み合わせて使う（[daily](../daily/2026-09-08.md) / [topics/openai](openai.md) / [topics/anthropic](anthropic.md)）
+- 2026-09-08: 福島県庁がM365 Copilotを約6,000人規模に本格展開。試行段階（100アカウント）では効率化実感80%・品質向上実感70%だったが、本格展開後は利用が個人差で二極化。入力ルールの明確化や成功事例の共有で定着を図る（[daily](../daily/2026-09-08.md) / [threads/japan-ai-adoption](../threads/japan-ai-adoption.md)）
 - 2026-09-05: ノルウェーの研究者が、Word文書に仕込んだ白文字の指示がMicrosoft Copilotの生成物にコピーされ、社内で自己増殖する新型脅威を報告（7月28日発表の手法をITmediaが改めて紹介）。マクロ実行やシステム侵入を伴わず、通常業務で過去資料を参照しながら新規文書を作るだけで感染しうる点が特徴（[daily](../daily/2026-09-05.md) / [topics/prompt-injection](prompt-injection.md)）
 - 2026-08-28: OpenAI・Anthropic・Googleなど100社超の「暴走AI」共同防衛書簡に署名。各社が投入する独自の防御ツールの一つとして「Perception」が紹介された（[daily](../daily/2026-08-28.md)）
 - 2026-08-24: OpenRouterに突如登場した匿名モデル「Ox Alpha」の開発元候補として、Microsoftの未発表モデル「MAI」がコミュニティで憶測された（後にZ.aiのGLM系と判明）（[daily](../daily/2026-08-24.md) / [topics/glm](glm.md)）
