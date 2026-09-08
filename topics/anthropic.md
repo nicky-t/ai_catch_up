@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-09-08
+updated: 2026-09-09
 tags: [anthropic, claude]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-09: 数学のミレニアム懸賞問題「ナビエ・ストークス方程式」の証明を巡るOpenAIとの"フェアプレー違反"疑惑に、Anthropic所属の数学者Levent Alpöge氏が当事者として登場。NYU数学者Buckmaster氏との未公開の共同研究をOpenAIに先回りされたと主張されている（[daily](../daily/2026-09-09.md) / [topics/openai](openai.md)）
 - 2026-09-08: 日立製作所がフィジカルAI基盤「HMAX」の新サービス群で、ソフトウェア脆弱性を検出するセキュリティサービス「HMAX Cyber」にClaudeモデルを活用する「White Hackers」を組み込んだと発表（[daily](../daily/2026-09-08.md)）
 - 2026-09-08: Microsoft 365 Copilotが「Claude Fable 5.1」に対応。M365内のファイル・メッセージを文脈参照する「Work IQ」機能と組み合わせて使える（[daily](../daily/2026-09-08.md) / [topics/microsoft](microsoft.md)）
 - 2026-09-07: 著作権集団訴訟の和解金（15億ドル・対象約50万タイトル・1作品3,000ドル）の配分方法をめぐり著者らが異議。自費出版・版権失効済み作品は著者が全額受け取るべきところ、出版社の過大請求が複数報告された（[daily](../daily/2026-09-07.md) / [threads/ai-copyright](../threads/ai-copyright.md)）

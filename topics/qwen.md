@@ -3,7 +3,7 @@ type: topic
 title: "Qwen（通義千問）"
 slug: qwen
 created: 2026-08-25
-updated: 2026-09-06
+updated: 2026-09-09
 tags: [qwen, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -30,6 +30,7 @@ related: [topics/glm.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-09: 価格比較サイトのPC注目ランキングで113万円の小型AIスーパーコンピューター「NVIDIA DGX Spark」が1位に。記事は中国発オープンウェイトモデルの急速な性能向上（「Qwen3.8-27B」がAnthropicの「Claude Opus 4.6」に匹敵するとの評価も）をローカルLLMブームの一因に挙げている（[daily](../daily/2026-09-09.md)）
 - 2026-08-30: JetBrainsが、Qwen3.6-27Bを4ビット量子化しMac上で完結させたコーディングエージェント「Junie Local」を提供開始。社内テストではClaude Sonnet 4.5と同等の性能（[daily](../daily/2026-08-31.md) / [topics/claude-code](claude-code.md)）
 - 2026-08-25: 「Qwen3.8-27B」がSWE-bench Pro等でClaude Opus 4.6超えと報告。Meta・NVIDIAなど各社の30Bクラスオープンモデル公開ラッシュの一角として紹介（[daily](../daily/2026-08-25.md)）
 

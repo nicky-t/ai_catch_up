@@ -185,3 +185,14 @@ https://www.itmedia.co.jp/enterprise/articles/2609/07/news040.html
 https://news.ycombinator.com/item?id=49589914
 https://zenn.dev/helloworld/articles/bcaea69f58eae5
 https://arxiv.org/abs/2005.11401
+https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/
+https://www.itmedia.co.jp/enterprise/articles/2609/07/news005.html
+https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/
+https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/
+https://kn.itmedia.co.jp/kn/article/2609/08/2000001255/
+https://www.itmedia.co.jp/aiplus/article/2609/08/2000001257/
+https://www.itmedia.co.jp/aiplus/article/2609/08/2000001245/
+https://github.com/trailofbits/coop
+https://raw.githubusercontent.com/mksglu/context-mode/main/README.md
+https://www.premai.io/blog/rag-chunking-strategies-the-2026-benchmark-guide/
+https://www.firecrawl.dev/blog/best-chunking-strategies-rag

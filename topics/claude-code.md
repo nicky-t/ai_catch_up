@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-09-07
+updated: 2026-09-09
 tags: [claude-code, anthropic, agent]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-09: 今日の現場ネタで2件紹介。使い捨てVMでClaude Code・Codexを分離実行するRust製CLI「coop」（GitHub 180スター）と、ツール出力をサンドボックス化してコンテキスト消費を削減するMCPサーバー「context-mode」（GitHub Trending本日+652スター、累計21,340）（[daily](../daily/2026-09-09.md)）
 - 2026-09-07: Spotifyのエンジニアが公開したプラグイン「Portal」が、ファイル一括読み込みやテスト・ボイラープレート生成を安価なモデルへ委譲することでトークン使用量を最大90%削減できると報告（HN 266pt）（[daily](../daily/2026-09-07.md)）
 - 2026-09-06: バージョン2.1.259〜2.1.261を公開。組織がHTTP/SSE MCPサーバーをユーザーに提供できる「managedMcpServers」設定、無人実行用の`--permission-prompts none`オプション、会話横に変更内容を表示する差分パネル、`/skill-doctor`の未使用スキル確認機能などを追加（[daily](../daily/2026-09-06.md)）
 - 2026-09-06: GitHub TrendingでClaude Code向けSkillパック「humanlayer/skills」（本日+408スター）とローカルモデル実行ツール「Magnitude」（本日+686スター）が急上昇（[daily](../daily/2026-09-06.md)）
