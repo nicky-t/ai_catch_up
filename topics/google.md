@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-09-09
+updated: 2026-09-10
 tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,7 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-10: 脅威分析部門Google Threat Intelligence Group（GTIG）が報告書を公開。チーフアナリストのジョン・ハルトクイスト氏は「すべての脅威アクターが何らかの形でAIを使用」と指摘。ある事例では6時間未満で数千件の認証情報が侵害された（[daily](../daily/2026-09-10.md)）
 - 2026-09-09: 新モデル「Gemini 3.8 Flash」がGoogle Managed AgentsおよびAntigravity SDKの既定モデルに採用。低・中・高の3段階の「思考レベル」を選べる設計で、コンテキストウィンドウ最大100万トークン・出力最大6万4,000トークン。価格は2026年12月31日まで入力$0.75／出力$3.75（100万トークンあたり）、2027年1月以降は$1.50／$7.50（[daily](../daily/2026-09-09.md)）
 - 2026-09-06: 「Gemini」を使って登山計画を立てたハイカー3人が、実際に必要な量より大幅に少ない食料・水を助言され山中で一晩を過ごし救助される事態に。地元保安官事務所は「AI単独での計画立案を避けるべき」と呼びかけ（[daily](../daily/2026-09-06.md)）
 - 2026-09-05: 個人向けAIエージェント「Gemini Spark」がGoogle Photosの写真編集・アルバム自動作成に対応。お気に入り写真からの共有アルバム自動作成やチラシ写真のカレンダー化などを含み、Gemini AI Pro／Ultra加入者の米国・英語ユーザー向けに展開開始（[daily](../daily/2026-09-05.md)）

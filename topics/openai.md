@@ -3,7 +3,7 @@ type: topic
 title: "OpenAI"
 slug: openai
 created: 2026-08-19
-updated: 2026-09-09
+updated: 2026-09-10
 tags: [openai, chatgpt, gpt]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,8 @@ ChatGPT と GPT 系モデルを開発する米国の AI 企業。一般利用者
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-10: 9月8日発表のナビエ・ストークス証明について続報。GPT-6 Astraより高性能な内部モデルによるもので、AIエージェントが270万件のメッセージ・約1300億トークンを出力、開発コストは数百万ドル。Lean形式化済みだが賞金請求の意図はなく外部査読も未了（[daily](../daily/2026-09-10.md) / [topics/anthropic](anthropic.md)）
+- 2026-09-10: プロダクト責任者ティボー・ソティオ氏が、GPT-6 Astra人気でChatGPT Proの新規受付を一時停止する可能性をXで示唆（[daily](../daily/2026-09-10.md)）
 - 2026-09-09: 数学のミレニアム懸賞問題「ナビエ・ストークス方程式」（クレイ数学研究所・賞金100万ドル）を巡り、"フェアプレー違反"の疑惑が浮上。NYU数学者Tristan Buckmaster氏は、自身とAnthropic所属のLevent Alpöge氏の未公開の研究進捗をOpenAIが把握した上で9月1日から独自に取り組みを開始し、3,000億出力トークン（当時のAstra料金換算で2,250万ドル相当）を投じて先に証明を完成させたと主張。OpenAI幹部Sibsankar Bubeck氏が共著者のクレジット表記を外すよう迫ったとされる（[daily](../daily/2026-09-09.md) / [topics/anthropic](anthropic.md)）
 - 2026-09-09: OpenAIエンジニアSharif Shameem氏が、ボット判定を模したパロディゲーム「I'm Not a Robot」（全48面）をGPT-6 Astraが約4分で完全クリアする様子を公開（[daily](../daily/2026-09-09.md)）
 - 2026-09-08: プロダクト責任者Thibault Sotiaux氏が「GPT-6 Astra」の「low」設定が旧モデル「GPT-5.6 Sol」の「high」設定を上回ると説明。トークン消費の多さへの対応として固定プラン利用者にlow/medium設定への移行を推奨（リソース消費の多いタスクで3〜4倍のトークン削減）（[daily](../daily/2026-09-08.md)）

@@ -35,7 +35,7 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 ## C. RAG と知識接続（8）
 - [x] 021 RAG の全体像：検索→生成のパイプラインと失敗ポイント → learn/intermediate/021-rag-overview-pipeline-failure-points.md
 - [x] 022 チャンキング戦略：サイズ・重なり・構造を意識した分割 → learn/intermediate/022-chunking-strategies.md
-- [ ] 023 ハイブリッド検索とリランキング
+- [x] 023 ハイブリッド検索とリランキング → learn/intermediate/023-hybrid-search-reranking.md
 - [ ] 024 RAG の評価：検索精度と回答品質を分けて測る
 - [ ] 025 社内文書検索の現実：権限・更新・PDF 表の地獄
 - [ ] 026 長文コンテキスト vs RAG：どちらを選ぶかの判断基準
