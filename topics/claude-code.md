@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-09-10
+updated: 2026-09-11
 tags: [claude-code, anthropic, agent]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,8 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-11: バージョン2.1.268を公開。`gateway.yaml`の`pricing:`設定によるClaude apps gateway料金連携、WebFetchの300秒タイムアウト化、サードパーティAnthropic互換エンドポイントでのHTTP 400不具合修正などを追加（[daily](../daily/2026-09-11.md)）
+- 2026-09-11: 今日の現場ネタで、352プロバイダーをローカルで束ねる無料AIゲートウェイ「OmniRoute」を紹介（GitHub Trending本日+591スター）（[daily](../daily/2026-09-11.md) / [topics/openrouter](openrouter.md)）
 - 2026-09-10: バージョン2.1.263〜267を公開。`maxEffortLevel`設定による全プロバイダー横断のエフォートレベル制限、LLMゲートウェイ認証失敗の修正、テレメトリへの`user.email`／`user.groups`追加、`--plugin-dir`によるプラグインフォルダ対応、ツール結果1GBキャップなどを追加（[daily](../daily/2026-09-10.md)）
 - 2026-09-10: 今日の現場ネタで、回答を行動優先・前置きなしの簡潔な形式に変えるSkill「i-have-adhd」を紹介（GitHub Trending本日+4,624スター）（[daily](../daily/2026-09-10.md)）
 - 2026-09-09: 今日の現場ネタで2件紹介。使い捨てVMでClaude Code・Codexを分離実行するRust製CLI「coop」（GitHub 180スター）と、ツール出力をサンドボックス化してコンテキスト消費を削減するMCPサーバー「context-mode」（GitHub Trending本日+652スター、累計21,340）（[daily](../daily/2026-09-09.md)）

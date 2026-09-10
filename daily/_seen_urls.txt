@@ -207,3 +207,13 @@ https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md
 https://github.com/ayghri/i-have-adhd
 https://denser.ai/blog/hybrid-search-for-rag/
 https://www.digitalapplied.com/blog/hybrid-search-bm25-vector-reranking-reference-2026
+https://www.itmedia.co.jp/news/article/2609/10/2000001346/
+https://www.itmedia.co.jp/news/article/2609/10/2000001342/
+https://www.anthropic.com/threat-intelligence-report-september-2026
+https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/
+https://www.itmedia.co.jp/aiplus/article/2609/10/2000001374/
+https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/
+https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/
+https://atmarkit.itmedia.co.jp/ait/articles/2609/10/news011.html
+https://raw.githubusercontent.com/diegosouzapw/OmniRoute/main/README.md
+https://docs.ragas.io/en/stable/concepts/metrics/available_metrics/

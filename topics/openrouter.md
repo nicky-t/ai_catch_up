@@ -3,7 +3,7 @@ type: topic
 title: "OpenRouter（オープンルーター）"
 slug: openrouter
 created: 2026-08-20
-updated: 2026-08-27
+updated: 2026-09-11
 tags: [api, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,7 @@ related: [topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-11: 週間トークン利用量が2025年9月8日の週の490万トークンから2026年8月31日〜9月6日の週には1億1,500万トークンへ、約23倍に急増。最も使われるモデルはTencentの「Hy4 Preview」に交代（[daily](../daily/2026-09-11.md)）
 - 2026-08-27（続報）: 正体不明だった無料モデル「Ox Alpha」の開発元がZ.aiと確定。同社は「GLM系」の最新版と説明（[daily](../daily/2026-08-27.md) / [topics/glm](glm.md)）
 - 2026-08-26: OpenRouter経由の中国製オープンウェイトモデルのトークン利用率が過去7カ月で58％まで上昇（1年前は20%）。米企業のAIサービスに中国モデルが組み込まれる例が拡大（[daily](../daily/2026-08-26.md)）
 - 2026-08-24: 正体不明の無料モデル「Ox Alpha」がOpenRouter経由で登場。開発元は非公開で、コミュニティで憶測が拡散（[daily](../daily/2026-08-24.md)）
