@@ -217,3 +217,14 @@ https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the
 https://atmarkit.itmedia.co.jp/ait/articles/2609/10/news011.html
 https://raw.githubusercontent.com/diegosouzapw/OmniRoute/main/README.md
 https://docs.ragas.io/en/stable/concepts/metrics/available_metrics/
+https://zenn.dev/tashikani/articles/openai-agents-api-2026
+https://www.itmedia.co.jp/news/article/2609/11/2000001396/
+https://www.itmedia.co.jp/news/article/2609/11/2000001399/
+https://atmarkit.itmedia.co.jp/ait/articles/2609/11/news018.html
+https://www.itmedia.co.jp/aiplus/article/2609/11/2000001405/
+https://www.itmedia.co.jp/news/article/2609/11/2000001392/
+https://www.itmedia.co.jp/enterprise/articles/2609/11/news026.html
+https://www.itmedia.co.jp/business/articles/2609/11/news043.html
+https://raw.githubusercontent.com/obra/superpowers/main/README.md
+https://thehackernews.com/2025/06/zero-click-ai-vulnerability-exposes.html
+https://truto.one/blog/how-to-maintain-document-level-rbac-in-enterprise-rag-pipelines/

@@ -3,7 +3,7 @@ type: topic
 title: "OpenAI"
 slug: openai
 created: 2026-08-19
-updated: 2026-09-11
+updated: 2026-09-12
 tags: [openai, chatgpt, gpt]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,9 @@ ChatGPT と GPT 系モデルを開発する米国の AI 企業。一般利用者
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-12: Codexを支えてきた基盤を全開発者に開放する「Agents API」を公開。数時間規模のセッション継続・大量ツールの並列実行・複数サブエージェントへの並行委任を単一APIで扱える。全開発者向けパブリックベータ、API自体の追加料金なし（[daily](../daily/2026-09-12.md) / [topics/agent-harness](agent-harness.md)）
+- 2026-09-12: Amazon Adsと提携し、Free・Goプランのログイン済み成人ユーザー向けにChatGPT内で広告配信を開始（米国限定パイロット）。Amazonが広告購入・キャンペーン管理、OpenAIが配信制御を担当。広告事業は年換算10億ドル規模（[daily](../daily/2026-09-12.md) / [topics/amazon](amazon.md)）
+- 2026-09-12: 金融機関向け「ChatGPT for Financial Services」を発表。Daloopa・PitchBook・LSEG Newsのデータを内蔵し、Morgan Stanley・Evercoreがデザインパートナー（[daily](../daily/2026-09-12.md)）
 - 2026-09-11: ChatGPT Proの新規登録を9月10日に実際に一時停止。プロダクト責任者Thibault Sottiaux氏は「これまで見たことがない」規模の需要とし、既存ユーザーの品質維持に必要な「最小限の措置」と説明。前日にXで示唆していた措置が実行された（[daily](../daily/2026-09-11.md)）
 - 2026-09-11: RLHFの開発者でAI「ドゥーマー」として知られるPaul Christiano氏を取締役会・Safety and Security Committeeに招聘。「急速な能力向上が制御不能な破局的損失につながる有意なリスクがある」とコメント（[daily](../daily/2026-09-11.md) / [topics/anthropic](anthropic.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-09-10: 9月8日発表のナビエ・ストークス証明について続報。GPT-6 Astraより高性能な内部モデルによるもので、AIエージェントが270万件のメッセージ・約1300億トークンを出力、開発コストは数百万ドル。Lean形式化済みだが賞金請求の意図はなく外部査読も未了（[daily](../daily/2026-09-10.md) / [topics/anthropic](anthropic.md)）
@@ -75,3 +78,4 @@ ChatGPT と GPT 系モデルを開発する米国の AI 企業。一般利用者
 - [threads/japan-ai-adoption](../threads/japan-ai-adoption.md)
 - [topics/claude-code](claude-code.md)（競合のコーディングエージェント文脈）
 - [topics/jalapeno](jalapeno.md)（自社推論チップ）
+- [topics/amazon](amazon.md)（広告事業の提携先）

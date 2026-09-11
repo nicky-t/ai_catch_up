@@ -1,0 +1,37 @@
+---
+type: topic
+title: "Amazon（アマゾン）"
+slug: amazon
+created: 2026-09-12
+updated: 2026-09-12
+tags: [amazon]
+level: beginner
+audience: [engineer, business, instructor]
+related: [topics/openai.md]
+---
+
+# Amazon（アマゾン）
+
+## 一言で
+EC・クラウド（AWS）・広告事業を持つ米国のテクノロジー企業。自社AI（Alexa+など）に加え、広告配信網（Amazon DSP）やクラウド基盤を他社のAI事業と組み合わせる「土台としてのAI活用」が特徴。
+
+## 仕組み
+- クラウド事業のAWSは、OpenAIを含む複数のAI企業のモデル提供・実行基盤としても使われる（要追記：AWSとOpenAIのインフラ提携の詳細）
+- 広告事業「Amazon Ads」は、自社ECサイトだけでなく他社サービス上での広告配信網（Amazon DSP）を持つ。2026年9月、OpenAIとの提携でChatGPT内への広告配信を開始した
+- 自社AIアシスタント「Alexa+」など、EC・スマートホーム領域でのAI活用も展開（要追記：Alexa+の詳細）
+
+## 実務での使い方
+- 広告主にとっては、Amazon DSP経由でChatGPTという新しい広告面にリーチできる選択肢が増えた（要追記：出稿条件・審査基準）
+- 自社サービスがAWS基盤上で動いている場合、他社AI連携の技術的な相性を確認しやすい
+
+## 講座で使うなら
+- 30 秒説明: 「EC・クラウド・広告と手広く事業を持つAmazonが、2026年からOpenAIとの提携でChatGPTの広告面にも進出した会社です」
+- たとえ話: 街のあらゆる場所に看板を出す広告代理店が、AIチャットの回答欄という新しい看板スペースを見つけた
+- 演習案: 「無料のAIチャットに広告が入ること」について、検索エンジン広告との違いを受講者に議論させる
+
+## この話題の流れ
+<!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-12: Amazon AdsがOpenAIと提携し、Amazon DSPの広告主がChatGPT内（Free・Goプランの成人ログインユーザー向け）に広告を出稿できる仕組みを発表。米国限定のパイロット運用（[daily](../daily/2026-09-12.md) / [topics/openai](openai.md)）
+
+## 関連
+- [topics/openai](openai.md)

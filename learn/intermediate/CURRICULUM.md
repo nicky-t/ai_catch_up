@@ -37,7 +37,7 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 - [x] 022 チャンキング戦略：サイズ・重なり・構造を意識した分割 → learn/intermediate/022-chunking-strategies.md
 - [x] 023 ハイブリッド検索とリランキング → learn/intermediate/023-hybrid-search-reranking.md
 - [x] 024 RAG の評価：検索精度と回答品質を分けて測る → learn/intermediate/024-rag-evaluation.md
-- [ ] 025 社内文書検索の現実：権限・更新・PDF 表の地獄
+- [x] 025 社内文書検索の現実：権限・更新・PDF 表の地獄 → learn/intermediate/025-internal-document-search-reality.md
 - [ ] 026 長文コンテキスト vs RAG：どちらを選ぶかの判断基準
 - [ ] 027 GraphRAG・構造化知識との組み合わせ
 - [ ] 028 ナレッジベース運用：陳腐化・重複・責任者問題
