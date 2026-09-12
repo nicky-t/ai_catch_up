@@ -228,3 +228,12 @@ https://www.itmedia.co.jp/business/articles/2609/11/news043.html
 https://raw.githubusercontent.com/obra/superpowers/main/README.md
 https://thehackernews.com/2025/06/zero-click-ai-vulnerability-exposes.html
 https://truto.one/blog/how-to-maintain-document-level-rbac-in-enterprise-rag-pipelines/
+https://darioamodei.com/post/we-must-pace-the-frontier
+https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/
+https://www.unite.ai/altman-says-openai-will-match-anthropics-embedded-evaluator-pledge/
+https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/
+https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/
+https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/
+https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/
+https://tianpan.co/blog/2026-04-09-long-context-vs-rag-production-decision-framework
+https://arxiv.org/abs/2501.01880
