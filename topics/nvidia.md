@@ -3,7 +3,7 @@ type: topic
 title: "NVIDIA（エヌビディア）"
 slug: nvidia
 created: 2026-08-28
-updated: 2026-09-04
+updated: 2026-09-13
 tags: [nvidia]
 level: beginner
 audience: [engineer, business, instructor]
@@ -21,7 +21,7 @@ AIモデルの学習・推論に使われるGPU（画像処理用半導体）を
 - 2026年9月3日、AIモデル共有プラットフォームのHugging Faceを129.3億ドルで買収することに正式合意した（[topics/hugging-face](hugging-face.md)）
 
 ## 実務での使い方
-- AI導入のコスト構造を理解する上で、モデル提供企業（OpenAI・Anthropicなど）だけでなく、その計算基盤を支えるNVIDIAの動向（供給状況・チップ価格）も間接的にサービス価格に影響しうる点を押さえておく（要追記：チップ需給とAPI価格の関係の具体例）
+- AI導入のコスト構造を理解する上で、モデル提供企業（OpenAI・Anthropicなど）だけでなく、その計算基盤を支えるNVIDIAの動向（供給状況・チップ価格）も間接的にサービス価格に影響しうる点を押さえておく。具体例として、NVIDIAがサーバー向けメモリをDDR5からスマートフォン向けで使われるLPDDR方式へ切り替える方針を進めており、市場規模の桁違いな買い手（スマートフォン大手並みの調達規模）の急な参入でメモリ需給が逼迫し、調査会社Counterpoint Researchはサーバー向けメモリ価格が2026年末までに倍増しうると分析している。メモリ価格の上昇はクラウド事業者・AI開発企業のコストを押し上げ、API料金に波及する可能性がある（出典: [Reuters（Yahoo Finance配信）— Nvidia shift to smartphone-style memory could double server-memory prices by end-2026](https://finance.yahoo.com/news/nvidia-shift-smartphone-style-memory-122436986.html)、2025-11-19付、取得日 2026-09-13）
 
 ## 講座で使うなら
 - 30 秒説明: 「AIの計算に使われる半導体（GPU）を作っている会社です。AI各社がこぞってNVIDIA製チップを大量に調達しており、AIブームの裏方的な存在になっています」

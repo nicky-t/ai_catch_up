@@ -3,7 +3,7 @@ type: topic
 title: "DeepSeek（ディープシーク）"
 slug: deepseek
 created: 2026-09-11
-updated: 2026-09-11
+updated: 2026-09-13
 tags: [deepseek, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -17,7 +17,7 @@ related: [topics/openrouter.md, topics/qwen.md, topics/glm.md]
 
 ## 仕組み
 - モデルはMoE（Mixture of Experts、専門家混合）アーキテクチャを採用し、パラメータ規模の割に推論コストを抑える設計を特徴とする
-- API料金は「キャッシュヒット時」「キャッシュミス時」で入力価格が分かれ、ピーク・オフピークでも変動する時間帯別料金制を採用（要追記：料金改定の全履歴）
+- API料金は「キャッシュヒット時」「キャッシュミス時」で入力価格が分かれ、ピーク・オフピークでも変動する時間帯別料金制を採用。ピーク時間帯は毎週月〜金曜のUTC 01:00〜04:00・06:00〜10:00で、それ以外はオフピーク（オフピーク料金はピークの半額）。現行の主力モデルは、軽量版「DeepSeek-Flash」がオフピークで入力0.003ドル（キャッシュヒット時）／0.15ドル（キャッシュミス時）・出力0.6ドル（100万トークンあたり）、上位版「DeepSeek-V4-Pro」がオフピークで入力0.022ドル／0.66ドル・出力1.98ドルと、モデルの格に応じて価格帯が分かれる（出典: [DeepSeek API Docs — Models & Pricing](https://api-docs.deepseek.com/quick_start/pricing)、取得日 2026-09-13。過去の改定の全履歴は公式ドキュメントに記載がなく未確認）
 - モデル・重み（ウェイト）を公開するオープンウェイト路線を取り、OpenRouterなど他社サービス経由でも広く使われている（[topics/openrouter](openrouter.md)）
 
 ## 実務での使い方

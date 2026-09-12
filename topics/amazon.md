@@ -3,7 +3,7 @@ type: topic
 title: "Amazon（アマゾン）"
 slug: amazon
 created: 2026-09-12
-updated: 2026-09-12
+updated: 2026-09-13
 tags: [amazon]
 level: beginner
 audience: [engineer, business, instructor]
@@ -21,7 +21,7 @@ EC・クラウド（AWS）・広告事業を持つ米国のテクノロジー企
 - 自社AIアシスタント「Alexa+」など、EC・スマートホーム領域でのAI活用も展開（要追記：Alexa+の詳細）
 
 ## 実務での使い方
-- 広告主にとっては、Amazon DSP経由でChatGPTという新しい広告面にリーチできる選択肢が増えた（要追記：出稿条件・審査基準）
+- 広告主にとっては、Amazon DSP経由でChatGPTという新しい広告面にリーチできる選択肢が増えた。Amazon DSPのマネージドサービスとして提供され、Amazon側の担当チームがキャンペーン設定・最適化を支援し、ターゲティングにはAmazonの自社データ（ファーストパーティーデータ）を利用できる。ただし具体的な審査基準・出稿条件は現時点で公表されておらず、米国の一部広告主に限定したパイロット段階（出典: [ITmedia NEWS — Amazon、OpenAIと広告提携](https://www.itmedia.co.jp/news/article/2609/11/2000001396/)、取得日 2026-09-13）
 - 自社サービスがAWS基盤上で動いている場合、他社AI連携の技術的な相性を確認しやすい
 
 ## 講座で使うなら

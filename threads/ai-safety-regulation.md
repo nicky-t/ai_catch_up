@@ -58,3 +58,4 @@ related: [topics/openai.md, topics/anthropic.md]
 ## 関連
 - [topics/openai](../topics/openai.md)
 - [topics/anthropic](../topics/anthropic.md)
+- [topics/metr](../topics/metr.md)

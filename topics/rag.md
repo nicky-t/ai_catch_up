@@ -3,11 +3,11 @@ type: topic
 title: "RAG（検索拡張生成）"
 slug: rag
 created: 2026-09-09
-updated: 2026-09-10
-tags: [rag]
+updated: 2026-09-13
+tags: [rag, context-window]
 level: beginner
 audience: [engineer, business, instructor]
-related: [learn/intermediate/021-rag-overview-pipeline-failure-points.md, learn/intermediate/022-chunking-strategies.md, learn/intermediate/023-hybrid-search-reranking.md]
+related: [learn/intermediate/021-rag-overview-pipeline-failure-points.md, learn/intermediate/022-chunking-strategies.md, learn/intermediate/023-hybrid-search-reranking.md, learn/intermediate/024-rag-evaluation.md, learn/intermediate/025-internal-document-search-reality.md, learn/intermediate/026-long-context-vs-rag.md]
 ---
 
 # RAG（検索拡張生成）
@@ -23,7 +23,7 @@ LLMに質問する前に、社内文書やWebなど外部の情報源から関�
 
 ## 実務での使い方
 - 社内マニュアル・議事録・FAQなど「頻繁に更新されるが公開されていない情報」への回答に向く
-- 長文コンテキスト（モデルに全文を読ませる方式）とどちらを選ぶかは、文書量・更新頻度・コストで判断する（要追記：判断基準の詳細）
+- 長文コンテキスト（モデルに全文を読ませる方式）とどちらを選ぶかは、文書量・更新頻度・コストで判断する。具体的には「コーパスがウィンドウに収まらない」「対話的な速度が必要（RAGは1クエリ約1秒、長文コンテキストは16万トークン級で約20秒・89万トークン級で60秒超と30〜60倍遅い）」「クエリ量が多くコスト差が支配的（10万トークンを毎回読ませるコストはRAGクエリ1件の約1,250倍という試算もある）」「データが頻繁に更新される」のいずれかに該当すればRAGが有利（詳細: [learn/intermediate/026](../learn/intermediate/026-long-context-vs-rag.md)）
 - チャンクサイズ・オーバーラップは自社の文書・想定クエリで実際に試してから決める。業界のベンチマーク値をそのまま採用しない
 
 ## 講座で使うなら
@@ -33,6 +33,9 @@ LLMに質問する前に、社内文書やWebなど外部の情報源から関�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-13: 学習記事026「長文コンテキスト vs RAG：どちらを選ぶかの判断基準」を公開。「ウィンドウが広ければ検索は不要」という誤解に、精度（複数事実の再現率は実運用で約60%）・速度（30〜60倍）・コスト（約1,250倍）の数字で反論し、判断トリガーを整理（[daily](../daily/2026-09-13.md)）
+- 2026-09-12: 学習記事025「社内文書検索の現実：権限・更新・PDF表の地獄」を公開。検索精度以前に立ちはだかる「誰が何を見られるか」「情報の鮮度」「PDFの表の壊れ方」という運用課題と、RAG基盤を悪用したゼロクリック脆弱性「EchoLeak」の事例を紹介（[daily](../daily/2026-09-12.md)）
+- 2026-09-11: 学習記事024「RAGの評価：検索精度と回答品質を分けて測る」を公開。Context Precision/Recall・Faithfulness・Answer Relevancyの4指標で「検索の失敗」と「生成の失敗」を切り分ける考え方を整理（[daily](../daily/2026-09-11.md)）
 - 2026-09-10: 学習記事023「ハイブリッド検索とリランキング」を公開。BM25とベクトル検索をReciprocal Rank Fusionで統合する仕組みと、クロスエンコーダーによるリランキングを組み合わせた2段階アーキテクチャを整理（[daily](../daily/2026-09-10.md)）
 - 2026-09-09: 学習記事022「チャンキング戦略」を公開。チャンクサイズ・オーバーラップの目安と、測定条件によって結論が変わる点を整理（[daily](../daily/2026-09-09.md)）
 - 2026-09-08: 学習記事021「RAGの全体像」を公開。インデックス化→検索→拡張→生成の4段階と、失敗しやすいポイントを整理（[daily](../daily/2026-09-08.md)）
@@ -41,3 +44,6 @@ LLMに質問する前に、社内文書やWebなど外部の情報源から関�
 - [learn/intermediate/021-rag-overview-pipeline-failure-points](../learn/intermediate/021-rag-overview-pipeline-failure-points.md)
 - [learn/intermediate/022-chunking-strategies](../learn/intermediate/022-chunking-strategies.md)
 - [learn/intermediate/023-hybrid-search-reranking](../learn/intermediate/023-hybrid-search-reranking.md)
+- [learn/intermediate/024-rag-evaluation](../learn/intermediate/024-rag-evaluation.md)
+- [learn/intermediate/025-internal-document-search-reality](../learn/intermediate/025-internal-document-search-reality.md)
+- [learn/intermediate/026-long-context-vs-rag](../learn/intermediate/026-long-context-vs-rag.md)

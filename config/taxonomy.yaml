@@ -81,10 +81,7 @@ importance_levels:
   medium: "注目。文脈として知っておくべき"
   low:    "参考。記録として残す"
 
-_proposed_tags:
-  - tag: japanese-llm
-    category: model
-    reason: "国産 LLM（LLM-jp・tsuzumi 等）を企業タグ japan-company と区別したい（2026-08-19 提案）"
-  - tag: privacy-processing
-    category: technique
-    reason: "OpenAI の Private Safety Processing のようなゼロデータ保持と不正検知を両立する設計が今後も話題になりそうで、既存の privacy（policy）だけでは『技術的な仕組み』側を表しにくい（2026-08-20 提案、様子見でよい）"
+_proposed_tags: []
+# 2026-09-13（2026-W37）: 却下・取り下げ済みの提案（理由は weekly/2026-W37.md 参照）
+# - japanese-llm（2026-08-19提案、category: model）: W34〜W37の4週連続で新規登場・展開なしのため取り下げ
+# - privacy-processing（2026-08-20提案、category: technique）: 提案者も様子見と明言、W34〜W37の4週連続で新展開なしのため取り下げ
