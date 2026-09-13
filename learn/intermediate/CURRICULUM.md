@@ -39,7 +39,7 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 - [x] 024 RAG の評価：検索精度と回答品質を分けて測る → learn/intermediate/024-rag-evaluation.md
 - [x] 025 社内文書検索の現実：権限・更新・PDF 表の地獄 → learn/intermediate/025-internal-document-search-reality.md
 - [x] 026 長文コンテキスト vs RAG：どちらを選ぶかの判断基準 → learn/intermediate/026-long-context-vs-rag.md
-- [ ] 027 GraphRAG・構造化知識との組み合わせ
+- [x] 027 GraphRAG・構造化知識との組み合わせ → learn/intermediate/027-graphrag-structured-knowledge.md
 - [ ] 028 ナレッジベース運用：陳腐化・重複・責任者問題
 
 ## D. エージェントとツール利用（10）

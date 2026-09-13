@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-09-12
+updated: 2026-09-14
 tags: [claude-code, anthropic, agent]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-14: 今日の現場ネタで、静的解析とSnyk Agent Scanで安全性を検証済みのSkillを集めたオープンソースレジストリ「agent-skills」を紹介（GitHub Trending本日+215スター、累計5,600超。`npx @tech-leads-club/agent-skills` でインストール）（[daily](../daily/2026-09-14.md)）
 - 2026-09-12: 今日の現場ネタで、仕様設計→TDD→サブエージェント並列→2段階レビューを強制するSkillフレームワーク「Superpowers」を紹介（GitHub Trending本日+731スター、Claude Code公式マーケットプレイス対応）（[daily](../daily/2026-09-12.md) / [topics/agent-harness](agent-harness.md)）
 - 2026-09-12: 2026年8月7日付で自動実行モードをデフォルト化したと報道。1,053人の有資格テスターの評価で危険コマンド遮断率がAI側89%・人間側13.6%だったことが根拠（[daily](../daily/2026-09-12.md)）
 - 2026-09-11: バージョン2.1.268を公開。`gateway.yaml`の`pricing:`設定によるClaude apps gateway料金連携、WebFetchの300秒タイムアウト化、サードパーティAnthropic互換エンドポイントでのHTTP 400不具合修正などを追加（[daily](../daily/2026-09-11.md)）
