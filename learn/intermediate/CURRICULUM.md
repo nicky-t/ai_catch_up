@@ -40,7 +40,7 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 - [x] 025 社内文書検索の現実：権限・更新・PDF 表の地獄 → learn/intermediate/025-internal-document-search-reality.md
 - [x] 026 長文コンテキスト vs RAG：どちらを選ぶかの判断基準 → learn/intermediate/026-long-context-vs-rag.md
 - [x] 027 GraphRAG・構造化知識との組み合わせ → learn/intermediate/027-graphrag-structured-knowledge.md
-- [ ] 028 ナレッジベース運用：陳腐化・重複・責任者問題
+- [x] 028 ナレッジベース運用：陳腐化・重複・責任者問題 → learn/intermediate/028-knowledge-base-operations.md
 
 ## D. エージェントとツール利用（10）
 - [ ] 029 エージェントとは何か：ループ・ツール・状態・停止条件

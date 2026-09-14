@@ -3,7 +3,7 @@ type: thread
 title: "AI安全規制の動き（ai-safety-regulation）"
 slug: ai-safety-regulation
 created: 2026-08-23
-updated: 2026-09-14
+updated: 2026-09-15
 tags: [regulation, safety]
 status: active
 related: [topics/openai.md, topics/anthropic.md]
@@ -27,6 +27,9 @@ related: [topics/openai.md, topics/anthropic.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-15: Microsoftが自社AIモデル向けの「行動規範」を発表。サイバー攻撃・核兵器関連・ディープフェイク作成を絶対的な禁止事項とし、「適応的・欺瞞的・自己強化的なメカニズムで人間の監視を回避してはならない」と規定。複数の「制御不能なAIエージェント事件」の発生を受けた対応とみられる（[daily](../daily/2026-09-15.md) / [出典](https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/)）
+- 2026-09-15: アモデイ氏の「ペース調整」提言を巡る論争が株安・政権批判に拡大。AI開発減速論を市場が懸念材料視し、ソフトバンクが一時13.2%・キオクシアが一時9.8%急落（東京エレクトロン3.7%・SK Hynix 5.3%・Samsung 3.7%・TSMC 1.2%も下落）。トランプ大統領は「AIで中国をリードしており維持したい」「ガードレールは設けられるが、起きないことを議論に持ち出す人がいる」と規制論をけん制し、トランプ政権のデビッド・サックス氏も「他者の許可が必要なふりはやめろ」とアモデイ氏・OpenAIのアルトマン氏を名指しで批判した。ペース調整の是非そのものより「規制と結びつけること」への反発が政権側の論点（[daily](../daily/2026-09-15.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2609/14/2000001462/)）
+- 2026-09-15: Claudeの Skill システム向けを謳う攻撃的セキュリティツール集「Claude-Red」（SQLインジェクション〜EDR回避まで収録）がGitHubトレンド入りし、1日で606スター増。エージェント向け拡張パッケージ（Skills）のエコシステムが、防御目的の検証済みレジストリ（[daily 2026-09-13](../daily/2026-09-13.md)のagent-skills）と攻撃目的のツール集の双方を生み始めている点に注意（[daily](../daily/2026-09-15.md) / [出典](https://github.com/trending?since=daily)）
 - 2026-09-14: Anthropicが2026年9月版脅威インテリジェンスレポートで、北イエメンの武装組織（フーシ派に関連とみられる）が2025年12月〜2026年8月、Claude Codeを人間のソフトウェアエンジニアの代わりに使い、誘導ロケット・射程2,000km超の多段弾道ミサイル・極超音速滑空体を含む「R2000」ミサイル群の誘導・航法・制御（GNC）ソフトウェアを開発していたと判明。Anthropicは関連アカウントを全て停止したが、同組織は既にClaude非依存で動く独立ツールキットを構築済みだった。AIエージェントの悪用が「情報収集」支援から「実行の各工程をつなげて完成させる」段階に進んだ事例として注目される（[daily](../daily/2026-09-14.md) / [出典](https://www.anthropic.com/threat-intelligence-report-september-2026)）
 - 2026-09-14: 前日のアモデイ氏のエッセイ「We Must Pace the Frontier」にイーロン・マスク氏もX上で「ダリオは正しい」と賛同を表明。OpenAIのサム・アルトマン氏に続き、競合を含む業界トップ級の人物が相次いで同調する構図に（[daily](../daily/2026-09-14.md) / [出典](https://www.itmedia.co.jp/news/article/2609/13/2000001432/)）
 - 2026-09-14: バラク・オバマ前大統領が民主党の資金集めイベントで、党が下院多数派を奪還した場合はAIを「中心的な政策課題」に位置づけ「非常に明確な計画」を策定すべきだと発言。「急速に進展する技術が民間の手に委ねられたままでは危険だ」とする一方、医薬品開発加速などの恩恵にも言及（[daily](../daily/2026-09-14.md) / [出典](https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/)）

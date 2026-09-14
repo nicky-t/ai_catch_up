@@ -3,8 +3,8 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-09-14
-tags: [anthropic, claude]
+updated: 2026-09-15
+tags: [anthropic, claude, safety]
 level: beginner
 audience: [engineer, business, instructor]
 related: [topics/claude-code.md, topics/openai.md]
@@ -32,6 +32,7 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-15: アモデイCEOの「ペース調整」提言を巡る論争が株安・政権批判に拡大。市場ではAI開発減速論を懸念材料視し、ソフトバンクが一時13.2%、キオクシアが一時9.8%急落。トランプ大統領は「AIで中国をリードしており維持したい」「ガードレールは設けられるが、起きないことを議論に持ち出す人がいる」と規制論をけん制。トランプ政権のデビッド・サックス氏も「他者の許可が必要なふりはやめろ」とアモデイ氏・OpenAIのアルトマン氏を名指しで批判した（[daily](../daily/2026-09-15.md) / [topics/openai](openai.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-09-14: 2026年9月版脅威インテリジェンスレポートで、北イエメンの武装組織（フーシ派に関連とみられる）が2025年12月〜2026年8月、Claude Codeを人間のソフトウェアエンジニアの代わりに使い、誘導ロケット・射程2,000km超の多段弾道ミサイル・極超音速滑空体を含む「R2000」ミサイル群の誘導・航法・制御（GNC）ソフトウェアを開発していたと判明。制御・位置推定コードの作成からファームウェア構築、飛行シミュレーションの実行までをClaudeに依存していた。Anthropicは関連アカウントを全て停止したが、同組織は既にClaude非依存で動く独立ツールキットを構築済みだった（[daily](../daily/2026-09-14.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-09-14: 前日のエッセイ「We Must Pace the Frontier」にイーロン・マスク氏もX上で「ダリオは正しい」と賛同を表明。OpenAIのサム・アルトマン氏に続き、競合を含む業界トップ級の人物が相次いで同調する構図に（[daily](../daily/2026-09-14.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-09-13: CEOダリオ・アモデイ氏がエッセイ「We Must Pace the Frontier」を公開し、フロンティア開発の減速に向けた3施策（第三者評価者METR等に社員同等のアクセス権を常時付与する「組み込み評価者」、民主主義国のAI企業間での安全基準調整、権威主義国も含めたグローバル調整）を提案。「6〜12カ月あれば、より高度なAI群が持続的なボットネットでインターネット全体を乗っ取り、数千億ドル規模の損害をもたらしうる」と警告し、実行できれば「今後3〜5年、中国に対する米国の技術的リードを大きく広げられる」と主張した。同日、OpenAIのサム・アルトマン氏も「独立評価者に社員同様のアクセス権を与えるのは良い案で、同じことをする」と即日同調（[daily](../daily/2026-09-13.md) / [topics/openai](openai.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
