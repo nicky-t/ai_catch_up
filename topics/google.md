@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-09-12
+updated: 2026-09-16
 tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,8 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-16: リアルタイム音声対話向けモデル「Gemini 3.8 Live」と、複雑タスクにも対応する「Gemini 3.8 Live Extended Thinking」を発表。97言語を会話途中でも自動判別・切り替え、会話を止めずにバックグラウンドでツールを実行できる。Artificial AnalysisのSpeech to Speech Quality Indexで首位（82.6点）（[daily](../daily/2026-09-16.md)）
+- 2026-09-16（続報）: OpenAI政策責任者クリス・レヘイン氏が、Anthropic・Google DeepMindとの間でAI安全性について「数週間」水面下協議してきたと確認（[daily](../daily/2026-09-16.md) / [topics/anthropic](anthropic.md) / [topics/openai](openai.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-09-12: Windows 10/11向けネイティブアプリ「Gemini app for Windows」をグローバル公開（日本語対応済み）。Alt+Spaceで起動するフローティングウィンドウ形式で、Gemini Spark・Gmail/ドライブ統合・Nano Banana・Gemini Omniに対応（[daily](../daily/2026-09-12.md)）
 - 2026-09-10: 脅威分析部門Google Threat Intelligence Group（GTIG）が報告書を公開。チーフアナリストのジョン・ハルトクイスト氏は「すべての脅威アクターが何らかの形でAIを使用」と指摘。ある事例では6時間未満で数千件の認証情報が侵害された（[daily](../daily/2026-09-10.md)）
 - 2026-09-09: 新モデル「Gemini 3.8 Flash」がGoogle Managed AgentsおよびAntigravity SDKの既定モデルに採用。低・中・高の3段階の「思考レベル」を選べる設計で、コンテキストウィンドウ最大100万トークン・出力最大6万4,000トークン。価格は2026年12月31日まで入力$0.75／出力$3.75（100万トークンあたり）、2027年1月以降は$1.50／$7.50（[daily](../daily/2026-09-09.md)）

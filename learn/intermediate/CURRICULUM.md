@@ -43,7 +43,7 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 - [x] 028 ナレッジベース運用：陳腐化・重複・責任者問題 → learn/intermediate/028-knowledge-base-operations.md
 
 ## D. エージェントとツール利用（10）
-- [ ] 029 エージェントとは何か：ループ・ツール・状態・停止条件
+- [x] 029 エージェントとは何か：ループ・ツール・状態・停止条件 → learn/intermediate/029-agent-loop-tools-state-stop-conditions.md
 - [ ] 030 Function calling / tool use の仕組みとツール定義の書き方
 - [ ] 031 MCP（Model Context Protocol）：何を標準化したのか
 - [ ] 032 計画・実行・振り返り：エージェント設計パターン

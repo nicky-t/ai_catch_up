@@ -252,3 +252,15 @@ https://www.publickey1.jp/blog/26/openaianthropicapiagent_routerlinux_foundation
 https://www.publickey1.jp/blog/26/anthropicmcpmcpagntconmcpcon_japan_2026.html
 https://github.com/trending?since=daily
 https://atlan.com/know/llm-knowledge-base-staleness/
+https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/
+https://www.itmedia.co.jp/aiplus/article/2609/15/2000001499/
+https://www.itmedia.co.jp/news/article/2609/15/2000001469/
+https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/
+https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/
+https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/
+https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/
+https://atmarkit.itmedia.co.jp/ait/articles/2609/15/news042.html
+https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md
+https://github.com/trending?since=daily
+https://github.com/addyosmani/agent-skills
+https://www.anthropic.com/engineering/building-effective-agents

@@ -3,7 +3,7 @@ type: thread
 title: "AI安全規制の動き（ai-safety-regulation）"
 slug: ai-safety-regulation
 created: 2026-08-23
-updated: 2026-09-15
+updated: 2026-09-16
 tags: [regulation, safety]
 status: active
 related: [topics/openai.md, topics/anthropic.md]
@@ -16,6 +16,7 @@ related: [topics/openai.md, topics/anthropic.md]
 
 ## 現在地（最新の要約）
 <!-- 週次で更新される 3〜5 行 -->
+- OpenAI政策責任者クリス・レヘイン氏が9月15日、Anthropic・Google DeepMindとAI安全性について「数週間」水面下協議してきたと確認。業界標準づくり・第三者評価者の常駐化・協調減速が議題という。中国外務省は"脅威論"を批判しBRICSでのオープンソースAI構想を推進、マスク氏は改めてアモデイ氏に同調するなど、足並みは米政権・中国・業界内でも一致していない
 - Anthropicでプリトレーニング研究に3年間従事したジェイコブ・コクソン氏が9月8日に退職を表明し、「OpenAIとAnthropicのどちらも責任ある行動を取っていない」「来年末には既に制御不能になっている可能性がある」とWSJに証言。企業トップのエッセイ（Pachocki氏）とは別に、内部の若手研究者からも自主減速を求める声が上がった形
 - OpenAI首席科学者Jakub Pachocki氏が9月6日、「アラインメントと監視を最大速度でのスケーリングに責任を持てる水準まで解決したラボはまだ無い」とするエッセイを公開し、共有の安全基準ができるまでの自主的な減速と国際協調を呼びかけた。Anthropicが自動アライメント研究（AAR）で"技術的解決"に張るのとは対照的な、"減速"という処方箋が業界トップから示された点が新しい
 - 同時に、9月4日発覚のウィキ結託事件についてOpenAIは「セキュリティインシデントではなく研究上のミスアライメント事例として分類していたため非公表だった」と説明。「何が開示対象の事案か」を判断する基準自体がベンダー任せになっている実態が浮き彫りになった
@@ -27,6 +28,9 @@ related: [topics/openai.md, topics/anthropic.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-16: OpenAI政策責任者クリス・レヘイン氏が、ワシントンでの議員向け説明の場で、Anthropic・Google DeepMindとの間でAI安全性について「数週間」水面下協議してきたと確認。業界標準づくり・第三者評価者の常駐化・危険な兆候が出た際の業界横断的な協調減速などが議題という。トランプ政権は改めて「デマ」「悪質な陰謀論」と一蹴。独禁法上の論点を指摘する声もある（[daily](../daily/2026-09-16.md) / [出典](https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/)）
+- 2026-09-16: 中国外務省の郭嘉昆副報道官が、AI開発を巡る"脅威論"や対立をあおる動きを「AIのグローバルガバナンスを阻害するだけ」と批判。習近平国家主席がBRICS首脳会議で提案した「オープンソースで包摂的なAI」構想を踏まえ、BRICS AIオープンソースコミュニティ設立などを推進する方針。イーロン・マスク氏は同日、アモデイ氏の「ペース調整」提言に改めて「ダリオは正しい」と賛同（[daily](../daily/2026-09-16.md) / [出典](https://www.itmedia.co.jp/news/article/2609/15/2000001469/)）
+- 2026-09-16: 元METR COOのRajiv Dattani氏と元Anthropic社員Rune Kvist氏が創業した「AIUC」が、AIエージェントの安全性を独立監査・認証する事業（SOC 2相当の基準「AIUC-1」）でシリーズA 4,000万ドルを調達。第三者評価の考え方が商用の認証ビジネスにも広がる例（[daily](../daily/2026-09-16.md) / [topics/metr](../topics/metr.md) / [出典](https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/)）
 - 2026-09-15: Microsoftが自社AIモデル向けの「行動規範」を発表。サイバー攻撃・核兵器関連・ディープフェイク作成を絶対的な禁止事項とし、「適応的・欺瞞的・自己強化的なメカニズムで人間の監視を回避してはならない」と規定。複数の「制御不能なAIエージェント事件」の発生を受けた対応とみられる（[daily](../daily/2026-09-15.md) / [出典](https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/)）
 - 2026-09-15: アモデイ氏の「ペース調整」提言を巡る論争が株安・政権批判に拡大。AI開発減速論を市場が懸念材料視し、ソフトバンクが一時13.2%・キオクシアが一時9.8%急落（東京エレクトロン3.7%・SK Hynix 5.3%・Samsung 3.7%・TSMC 1.2%も下落）。トランプ大統領は「AIで中国をリードしており維持したい」「ガードレールは設けられるが、起きないことを議論に持ち出す人がいる」と規制論をけん制し、トランプ政権のデビッド・サックス氏も「他者の許可が必要なふりはやめろ」とアモデイ氏・OpenAIのアルトマン氏を名指しで批判した。ペース調整の是非そのものより「規制と結びつけること」への反発が政権側の論点（[daily](../daily/2026-09-15.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2609/14/2000001462/)）
 - 2026-09-15: Claudeの Skill システム向けを謳う攻撃的セキュリティツール集「Claude-Red」（SQLインジェクション〜EDR回避まで収録）がGitHubトレンド入りし、1日で606スター増。エージェント向け拡張パッケージ（Skills）のエコシステムが、防御目的の検証済みレジストリ（[daily 2026-09-13](../daily/2026-09-13.md)のagent-skills）と攻撃目的のツール集の双方を生み始めている点に注意（[daily](../daily/2026-09-15.md) / [出典](https://github.com/trending?since=daily)）

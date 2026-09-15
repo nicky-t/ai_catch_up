@@ -3,7 +3,7 @@ type: topic
 title: "Meta（メタ）"
 slug: meta
 created: 2026-09-03
-updated: 2026-09-11
+updated: 2026-09-16
 tags: [meta, speech, agent]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,7 @@ Facebook・Instagram・WhatsAppなどを運営する米国のテクノロジー�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-16: 「WhatsApp Business Tools MCP」サーバーを公開。Claude・Cursor・Codex・ChatGPTなどのAIコーディングエージェントに、アカウント作成・電話番号認証・Cloud API登録・メッセージテンプレートの作成編集・Webhookテストまでを会話形式で任せられる（[daily](../daily/2026-09-16.md) / [topics/mcp](mcp.md)）
 - 2026-09-11（続報）: 米国限定提供のパーソナルAIエージェント「Muse」が、9月10日時点で米App Store総合2位に浮上。iOSダウンロード数は8万3,000件超だが、Google PlayではProductivityカテゴリ338位と低迷。Threadsの初日430万ダウンロードと比べると立ち上がりは緩やか（[daily](../daily/2026-09-11.md)）
 - 2026-09-09: パーソナルAIエージェント「Muse」（Muse Sparkモデル搭載）を米国で提供開始。メール送信・旅行予約・請求書見直し・フォーム入力・買い物代行などをこなし、Web・iOS・Android・WhatsAppに対応（将来はAIグラスにも展開予定）。無料プランのほかPower（月20ドル）・Maximum（月100ドル）を用意。2011年以降複数回のFTC和解歴やCambridge Analytica事件、直近の18億ドル規模の集団訴訟和解という文脈のなか、消費者の信頼を得られるかが焦点（[daily](../daily/2026-09-09.md)）
 - 2026-09-04: コーディング・エージェント向け新モデル「Muse Spark 1.3」を公開。DeepSWE v1.1で75.4点・MRCR（512K〜1M）で98.1点。プロンプト・出力の提供と引き換えに入出力価格を最大95%割引する「貢献者向け価格」も導入（[daily](../daily/2026-09-04.md)）
