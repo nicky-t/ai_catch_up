@@ -264,3 +264,13 @@ https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md
 https://github.com/trending?since=daily
 https://github.com/addyosmani/agent-skills
 https://www.anthropic.com/engineering/building-effective-agents
+https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/
+https://simonwillison.net/2026/Sep/16/one-claude/
+https://www.itmedia.co.jp/news/article/2609/16/2000001540/
+https://www.itmedia.co.jp/news/article/2609/16/2000001522/
+https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/
+https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/
+https://www.itmedia.co.jp/aiplus/article/2609/16/2000001552/
+https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html
+https://insideai.news/news/agentic-ai/factory-funding-round/11992/
+https://github.com/cloudflare/security-audit-skill

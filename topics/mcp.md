@@ -3,7 +3,7 @@ type: topic
 title: "MCP（Model Context Protocol）"
 slug: mcp
 created: 2026-08-23
-updated: 2026-09-16
+updated: 2026-09-17
 tags: [mcp, agent, tool-use, guardrails]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,7 @@ AI アシスタントが外部のデータ源・ツール・業務システム�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-17: Googleが「Google Home」向けMCPサーバーへのアーリーアクセスを開始。Claude・ChatGPTなどMCP対応のAIエージェントからスマートホームデバイスを制御可能に（[daily](../daily/2026-09-17.md) / [topics/google](google.md)）。Cloudflareが公開したセキュリティ監査Skill「security-audit-skill」もGitHubトレンド入り（6.8kスター・本日+1,249）し、Skillの配布・MCP双方でエコシステムの厚みが増している（[daily](../daily/2026-09-17.md)）
 - 2026-09-16: Metaが「WhatsApp Business Tools MCP」サーバーを公開。Claude・Cursor・Codex・ChatGPTなどのAIコーディングエージェントに、WhatsApp Business APIのアカウント作成・電話番号認証・テンプレート作成・Webhookテストまでを会話形式で任せられる（[daily](../daily/2026-09-16.md) / [topics/meta](meta.md)）
 - 2026-09-15: Anthropicの MCP 共同作者David Soria Parra氏が来日し、AGNTCon＋MCPCon Japan 2026で基調講演「MCP and the Era of Connectivity」。MCP経由のツール呼び出しはClaudeだけで累計10億件超、SDK月間ダウンロードは5億件超と説明。今後12ヶ月は「MCP Tasks」（数分〜数月単位の長期処理に対応するエージェント型メッセージング）、「Skills over MCP」（AIスキルをMCP経由で提供・共有）、自律エージェント向けの認可・アイデンティティ管理の3領域に注力すると説明（[daily](../daily/2026-09-15.md)）
 - 2026-09-15: 複数AIベンダのAPI差異を吸収しOpenAI互換APIで一括アクセスできるオープンソース「Agent Router」（旧Envoy AI Gateway）が、MCPと同じ中立団体Agentic AI Foundation傘下で業界標準を目指す形に。MCP Gateway・トラフィック管理・可観測性などを備え、Bloomberg・Tencent Cloud・LY Corporationなど11社が採用済み（[daily](../daily/2026-09-15.md)）

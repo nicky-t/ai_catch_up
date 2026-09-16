@@ -3,7 +3,7 @@ type: thread
 title: "AI安全規制の動き（ai-safety-regulation）"
 slug: ai-safety-regulation
 created: 2026-08-23
-updated: 2026-09-16
+updated: 2026-09-17
 tags: [regulation, safety]
 status: active
 related: [topics/openai.md, topics/anthropic.md]
@@ -16,6 +16,8 @@ related: [topics/openai.md, topics/anthropic.md]
 
 ## 現在地（最新の要約）
 <!-- 週次で更新される 3〜5 行 -->
+- 9月16日、Meta ザッカーバーグCEOが業界協調による開発速度制限を拒否、Nvidia フアンCEOも「規制は不要、安全性は任せてほしい」と発言。Anthropic・OpenAIが主導した"協調減速"路線に、規模の大きい2社が公然と距離を置いた。FTC委員長は反トラスト適用除外の議論に「深く疑ってかかる」と警告し、上院でも超知能禁止法案・限定的適用除外法案の動きが並行
+- TechCrunchの分析記事は、AI各社が求める「第三者監査」より基本的なネットワーク境界管理（ログ・権限管理）の方が実効性があるとの専門家の指摘を紹介。過去の重大インシデントはいずれも被害者報告やネットワーク活動の痕跡から発覚しており、企業自身の直接監視からではなかった点を問題視
 - OpenAI政策責任者クリス・レヘイン氏が9月15日、Anthropic・Google DeepMindとAI安全性について「数週間」水面下協議してきたと確認。業界標準づくり・第三者評価者の常駐化・協調減速が議題という。中国外務省は"脅威論"を批判しBRICSでのオープンソースAI構想を推進、マスク氏は改めてアモデイ氏に同調するなど、足並みは米政権・中国・業界内でも一致していない
 - Anthropicでプリトレーニング研究に3年間従事したジェイコブ・コクソン氏が9月8日に退職を表明し、「OpenAIとAnthropicのどちらも責任ある行動を取っていない」「来年末には既に制御不能になっている可能性がある」とWSJに証言。企業トップのエッセイ（Pachocki氏）とは別に、内部の若手研究者からも自主減速を求める声が上がった形
 - OpenAI首席科学者Jakub Pachocki氏が9月6日、「アラインメントと監視を最大速度でのスケーリングに責任を持てる水準まで解決したラボはまだ無い」とするエッセイを公開し、共有の安全基準ができるまでの自主的な減速と国際協調を呼びかけた。Anthropicが自動アライメント研究（AAR）で"技術的解決"に張るのとは対照的な、"減速"という処方箋が業界トップから示された点が新しい
@@ -28,6 +30,8 @@ related: [topics/openai.md, topics/anthropic.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-17: Meta ザッカーバーグCEOがXで、AI業界協調による開発速度制限を拒否。「各社には自らのモデルを安全に訓練できるペースで開発を進める責任がある」とし、独立評価者の活用は推奨するが業界横断の協調は求めない立場を示した。同日Nvidiaのジェンスン・フアンCEOも「規制は不要、安全性は我々に任せてほしい」と発言。Bloomberg報道ではFTC委員長アンドリュー・ファーガソン氏が反トラスト適用除外の議論に「深く疑ってかかる」と警告したことも判明。上院ではサンダース議員の超知能禁止法案、バンクス議員らの限定的適用除外法案が並行して動いている（[daily](../daily/2026-09-17.md) / [出典](https://www.itmedia.co.jp/news/article/2609/16/2000001540/)）
+- 2026-09-17: TechCrunchが、AI各社が求める第三者監査より基本的なネットワーク境界管理（ログ・権限管理）の方が実効性があるとの専門家指摘を報道。Luta SecurityのCEOケイティ・ムソーリス氏は、これまでの重大な発見はいずれも被害者報告やネットワーク活動の痕跡から見つかったもので、企業自身の直接監視からではなかったと指摘（[daily](../daily/2026-09-17.md) / [出典](https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/)）
 - 2026-09-16: OpenAI政策責任者クリス・レヘイン氏が、ワシントンでの議員向け説明の場で、Anthropic・Google DeepMindとの間でAI安全性について「数週間」水面下協議してきたと確認。業界標準づくり・第三者評価者の常駐化・危険な兆候が出た際の業界横断的な協調減速などが議題という。トランプ政権は改めて「デマ」「悪質な陰謀論」と一蹴。独禁法上の論点を指摘する声もある（[daily](../daily/2026-09-16.md) / [出典](https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/)）
 - 2026-09-16: 中国外務省の郭嘉昆副報道官が、AI開発を巡る"脅威論"や対立をあおる動きを「AIのグローバルガバナンスを阻害するだけ」と批判。習近平国家主席がBRICS首脳会議で提案した「オープンソースで包摂的なAI」構想を踏まえ、BRICS AIオープンソースコミュニティ設立などを推進する方針。イーロン・マスク氏は同日、アモデイ氏の「ペース調整」提言に改めて「ダリオは正しい」と賛同（[daily](../daily/2026-09-16.md) / [出典](https://www.itmedia.co.jp/news/article/2609/15/2000001469/)）
 - 2026-09-16: 元METR COOのRajiv Dattani氏と元Anthropic社員Rune Kvist氏が創業した「AIUC」が、AIエージェントの安全性を独立監査・認証する事業（SOC 2相当の基準「AIUC-1」）でシリーズA 4,000万ドルを調達。第三者評価の考え方が商用の認証ビジネスにも広がる例（[daily](../daily/2026-09-16.md) / [topics/metr](../topics/metr.md) / [出典](https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/)）

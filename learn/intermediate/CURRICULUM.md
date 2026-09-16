@@ -44,7 +44,7 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 
 ## D. エージェントとツール利用（10）
 - [x] 029 エージェントとは何か：ループ・ツール・状態・停止条件 → learn/intermediate/029-agent-loop-tools-state-stop-conditions.md
-- [ ] 030 Function calling / tool use の仕組みとツール定義の書き方
+- [x] 030 Function calling / tool use の仕組みとツール定義の書き方 → learn/intermediate/030-function-calling-tool-use.md
 - [ ] 031 MCP（Model Context Protocol）：何を標準化したのか
 - [ ] 032 計画・実行・振り返り：エージェント設計パターン
 - [ ] 033 マルチエージェント：分業させる価値と失敗のしかた

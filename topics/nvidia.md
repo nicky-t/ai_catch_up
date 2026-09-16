@@ -3,7 +3,7 @@ type: topic
 title: "NVIDIA（エヌビディア）"
 slug: nvidia
 created: 2026-08-28
-updated: 2026-09-13
+updated: 2026-09-17
 tags: [nvidia]
 level: beginner
 audience: [engineer, business, instructor]
@@ -30,6 +30,7 @@ AIモデルの学習・推論に使われるGPU（画像処理用半導体）を
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-17: ジェンスン・フアンCEOが「AI規制は不要、安全性は我々に任せてほしい」と発言。Meta ザッカーバーグCEOの業界協調拒否と同日に表明され、AI安全性の"協調減速"路線に距離を置く動きが大手2社に広がった（[daily](../daily/2026-09-17.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-09-04: Hugging Face買収に正式合意。買収額は129.3億ドルで確定。Jensen Huang CEOは「Hugging Faceはエコシステム全体に開かれたプラットフォームであり続ける」と表明し、独立性維持を強調（[daily](../daily/2026-09-04.md) / [topics/hugging-face](hugging-face.md)）
 - 2026-09-01: 台湾MediaTekに35億ドル出資。MediaTekはNvidia技術でAI企業・ハイパースケーラー向けカスタムチップを設計可能に。Amazon・Google・Microsoft・OpenAI・Anthropicなど大手の自社チップ開発に対抗する布石（[daily](../daily/2026-09-01.md)）
 - 2026-08-29: 次世代アーキテクチャ「Vera Rubin」により、GPU単体からデータセンター全体（CPU・推論アクセラレータ・ストレージ／ネットワーク込み）の最適化へ強みが拡大。Veraチップでデータ流通が「3倍以上改善」（[daily](../daily/2026-08-30.md)）
