@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-09-16
+updated: 2026-09-18
 tags: [claude-code, anthropic, agent]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,8 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-18: ITmedia（@IT）が、コストが想定より膨らむ主な原因（プロンプトキャッシュの理解不足、ファイル参照時の不要な内容の読み込み、複数タスクを1セッションで実行した際のコンテキスト保持）と対策（`/clear`・`/model`・`/effort`の事前設定・`/compact`の活用）を紹介（[daily](../daily/2026-09-18.md)）
+- 2026-09-18: 今日の現場ネタで、ログイン済みブラウザをそのままAIエージェントに操作させるSkill「BrowserSkill」（Tencent）を紹介（GitHubスター4,032・本日+1,350）（[daily](../daily/2026-09-18.md)）
 - 2026-09-16: バージョン2.1.271〜273を公開。LLMゲートウェイ識別用のリクエストヘッダー追加、リモートコントロールセッションのバックグラウンドでの「フォーク」機能、危険なコマンド・サブシェル検知の権限チェック強化などを追加（[daily](../daily/2026-09-16.md)）
 - 2026-09-16: 今日の現場ネタで、著名エンジニアAddy Osmani氏が公開する本番品質エンジニアリング向けSkill集「agent-skills」を紹介（GitHubスター94.7k・本日+386）。仕様策定→計画→実装→テスト→レビュー→出荷の6フェーズに対応する9個のスラッシュコマンドを持つ（[daily](../daily/2026-09-16.md)）
 - 2026-09-14: 今日の現場ネタで、静的解析とSnyk Agent Scanで安全性を検証済みのSkillを集めたオープンソースレジストリ「agent-skills」を紹介（GitHub Trending本日+215スター、累計5,600超。`npx @tech-leads-club/agent-skills` でインストール）（[daily](../daily/2026-09-14.md)）

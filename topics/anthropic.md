@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-09-17
+updated: 2026-09-18
 tags: [anthropic, claude, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-18: フロンティアAI開発の速度を外部からも把握できるようにする3指標（AI主導のR&D自動化・エージェント監視能力・安全研究への計算資源配分）を提案。Claudeが自社モデル研究業務の26%を主導（2月時点は1%未満）、エージェントの行動は100%が監視を通過するがブロックされたのは0.002%（約4.7万件に1件）、AI主導のR&D向け計算資源の12%が安全研究に配分されたと開示した。9月13日のアモデイ氏「ペース調整」提言以降の論争に、定量データで応じた形（[daily](../daily/2026-09-18.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-09-17: Claude ChatとCowork、Artifactsを1つのインターフェースに統合。新機能「Claude Docs」「Claude Slides」もベータ公開し、Pro・Maxプランから数週間かけて展開。8月26日のChat/Cowork記憶統合に続く、インターフェースそのものの統合（[daily](../daily/2026-09-17.md)）
 - 2026-09-16: OpenAI政策責任者クリス・レヘイン氏が、Anthropic・Google DeepMindとの間でAI安全性について「数週間」水面下協議してきたと確認。業界標準づくり・第三者評価者の常駐化・協調減速などが議題という。中国外務省は"脅威論"を批判しBRICS AIオープンソースコミュニティ構想を推進、イーロン・マスク氏は改めて「ダリオは正しい」と同調するなど、足並みはグローバルで割れる（[daily](../daily/2026-09-16.md) / [topics/openai](openai.md) / [topics/google](google.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-09-15: アモデイCEOの「ペース調整」提言を巡る論争が株安・政権批判に拡大。市場ではAI開発減速論を懸念材料視し、ソフトバンクが一時13.2%、キオクシアが一時9.8%急落。トランプ大統領は「AIで中国をリードしており維持したい」「ガードレールは設けられるが、起きないことを議論に持ち出す人がいる」と規制論をけん制。トランプ政権のデビッド・サックス氏も「他者の許可が必要なふりはやめろ」とアモデイ氏・OpenAIのアルトマン氏を名指しで批判した（[daily](../daily/2026-09-15.md) / [topics/openai](openai.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）

@@ -274,3 +274,13 @@ https://www.itmedia.co.jp/aiplus/article/2609/16/2000001552/
 https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html
 https://insideai.news/news/agentic-ai/factory-funding-round/11992/
 https://github.com/cloudflare/security-audit-skill
+https://www.anthropic.com/institute/measuring-pace-of-ai-development
+https://www.itmedia.co.jp/news/article/2609/17/2000001570/
+https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/
+https://www.itmedia.co.jp/news/article/2609/17/2000001573/
+https://www.itmedia.co.jp/aiplus/article/2609/17/2000001584/
+https://atmarkit.itmedia.co.jp/ait/articles/2609/17/news038.html
+https://www.itmedia.co.jp/business/articles/2609/17/news035.html
+https://atmarkit.itmedia.co.jp/ait/articles/2609/17/news030.html
+https://github.com/Tencent/BrowserSkill
+https://github.com/alibaba/open-code-review

@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-09-17
+updated: 2026-09-18
 tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,7 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-18: Google DeepMindが、AGI（汎用人工知能）が社会にもたらす影響を分野横断で議論する場「DeepMind Institute」を設立したと発表（9月16日発表）。共同創業者のデミス・ハサビス氏、シェーン・レッグ氏、Google研究統括のジェームズ・マニカ氏がディレクターを務め、エッセイ5本を公開。「AGIに近づいている」との認識を示しつつ、掲載内容はGoogleの公式見解ではなく研究者の多様な視点を示す場と位置づける（[daily](../daily/2026-09-18.md)）
 - 2026-09-17: Google HomeエコシステムのMCPサーバーへのアーリーアクセスを開始。Claude・ChatGPT・Google AntigravityなどMCP対応のAIエージェントがスマートホームデバイスを制御可能に。米国の「Google Home Premium Advanced」（月額20ドル）購読者向けに段階提供（[daily](../daily/2026-09-17.md) / [topics/mcp](mcp.md)）
 - 2026-09-16: リアルタイム音声対話向けモデル「Gemini 3.8 Live」と、複雑タスクにも対応する「Gemini 3.8 Live Extended Thinking」を発表。97言語を会話途中でも自動判別・切り替え、会話を止めずにバックグラウンドでツールを実行できる。Artificial AnalysisのSpeech to Speech Quality Indexで首位（82.6点）（[daily](../daily/2026-09-16.md)）
 - 2026-09-16（続報）: OpenAI政策責任者クリス・レヘイン氏が、Anthropic・Google DeepMindとの間でAI安全性について「数週間」水面下協議してきたと確認（[daily](../daily/2026-09-16.md) / [topics/anthropic](anthropic.md) / [topics/openai](openai.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）

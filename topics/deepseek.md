@@ -3,7 +3,7 @@ type: topic
 title: "DeepSeek（ディープシーク）"
 slug: deepseek
 created: 2026-09-11
-updated: 2026-09-13
+updated: 2026-09-18
 tags: [deepseek, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,7 @@ related: [topics/openrouter.md, topics/qwen.md, topics/glm.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-18: 米NSA・CISA・FBIが、中国のAI企業が米国製フロンティアAIモデルから「知識蒸留」の手法で機能を抽出し、低コストで効率的な自社モデルの開発に利用していると警告（9月8日発表）。対象としてDeepSeek・Moonshot AI・Alibaba Group・MiniMax・StepFun・Z.AIの6社を挙げ、APIプロキシの悪用やプロンプトインジェクションなどの抽出手法をMITRE ATLASフレームワークとともに列挙（[daily](../daily/2026-09-18.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-09-11: 552BパラメータのMoEモデル「DeepSeek-V4.1-Flash」を発表。KVキャッシュ要件を削減する改良アーキテクチャで、GPT-5.6 SolやClaude Opus 5を一部ベンチマークで上回ると主張。8月13日の値上げから一転し、オフピーク料金を入力0.003ドル（キャッシュヒット時）／出力0.6ドル（100万トークンあたり）に値下げ（[daily](../daily/2026-09-11.md)）
 
 ## 関連

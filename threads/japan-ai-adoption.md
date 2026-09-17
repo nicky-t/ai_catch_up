@@ -3,7 +3,7 @@ type: thread
 title: "国内 AI 導入動向（japan-ai-adoption）"
 slug: japan-ai-adoption
 created: 2026-08-19
-updated: 2026-09-12
+updated: 2026-09-18
 tags: [adoption, japan-company, case-study]
 status: active
 related: [topics/openai.md]
@@ -24,6 +24,7 @@ related: [topics/openai.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-18: 千代田区が、全職員約900人にMicrosoft 365 Copilotのライセンスを付与する形で生成AIの全庁展開を進め、年間4000時間の業務削減効果を見込むと公表。AI機能の24時間稼働による不正アクセス検知などセキュリティ面での活用も進め、今後は「職員向け生成AIエンジニア」の育成を目指す（[daily](../daily/2026-09-18.md) / [出典](https://www.itmedia.co.jp/business/articles/2609/17/news035.html)）
 - 2026-09-12: NECが「コーポレートAI・Workforce」体制を発足（8月1日付）。AIが職位を持ち組織に配置され、計画ミス発生時はAIマネージャーが担当AIと1対1で対話して改善案を引き出す仕組み（[daily](../daily/2026-09-12.md) / [出典](https://www.itmedia.co.jp/business/articles/2609/11/news043.html)）
 - 2026-09-09: デジタル庁の生成AI基盤「源内」（Amazon Bedrock採用）が、行政職員18万人規模の利用を運用担当者わずか1〜2人で支えていると判明。宣言的なInfrastructure as Code（YAML）とGitHub連携による自動デプロイで、新規テナントの追加は30行程度の設定で1時間以内に完了。全18都道府県への展開をわずか5カ月で達成した（[daily](../daily/2026-09-09.md) / [出典](https://www.itmedia.co.jp/enterprise/articles/2609/07/news005.html)）
 - 2026-09-08: 福島県庁がM365 Copilotを試行導入（2025年、100アカウント・約50人）から本格展開（2026年、約6,000人）へ拡大。試行段階では効率化実感80%・品質向上実感70%、検索4.0分・文書作成5.0分・要約6.7分の時間短縮を確認したが、本格展開後は個人の意欲によって利用が二極化。入力ルールの明確化・階層型プラン・監査目的中心のログ運用・成功事例の共有で定着を図る（[daily](../daily/2026-09-08.md) / [出典](https://kn.itmedia.co.jp/kn/article/2609/07/2000000807/)）
