@@ -3,7 +3,7 @@ type: topic
 title: "エージェントハーネス（agent harness）"
 slug: agent-harness
 created: 2026-09-01
-updated: 2026-09-13
+updated: 2026-09-19
 tags: [agent, tool-use, prompt-engineering]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,7 @@ AIエージェントに仕事を任せる際の「周りの仕組み」——ツ
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-19: 統合ハーネスツール「ECC」（affaan-m/ECC）が、Claude Codeのプラグインマーケットプレイス経由でのインストール（`/plugin marketplace add` → `/plugin install ecc@ecc`）に対応。`/ecc:plan`・`/code-review`・`/build-fix`など「計画→テスト→実装→レビュー→検証→記憶→改善」の各工程に対応するコマンドを提供し、GitHubスターは9月1日の24万超から262kへ拡大（[daily](../daily/2026-09-19.md) / [learn/intermediate/032](../learn/intermediate/032-agent-design-patterns.md)）
 - 2026-09-12: OpenAIが、コーディングエージェント「Codex」を支えてきた基盤を全開発者向けに開放する「Agents API」を公開。従来は自前で構築していた「数時間規模のセッション継続」「大量のツール定義の並列・連鎖実行」「複数サブエージェントへの並行委任」を単一APIで扱えるようにした。「エージェントを自作する」から「エージェント基盤を借りる」への移行を象徴する動き（[daily](../daily/2026-09-12.md) / [topics/openai](openai.md)）
 - 2026-09-12: コーディングエージェント向けSkillフレームワーク「Superpowers」が公開。仕様ヒアリング・TDD強制・サブエージェントへの並列委任・2段階レビューという開発プロセスを「スキル」として組み込む仕組みで、GitHub Trendingで急上昇（[daily](../daily/2026-09-12.md) / [topics/claude-code](claude-code.md)）
 - 2026-09-03: AIコーディングエージェントによる開発速度の向上が組織全体の生産性に結びつかない「AIパラドックス」が指摘される。McKinseyの2025年調査では生成AI継続利用企業65%のうちEBIT貢献を実現した企業は5%未満、METRの2025年RCTでは開発者の体感に反して実作業時間が19%増加したと判明。原因は「スキル侵食」と「AIがそう言ったから」という思考停止によるオーナーシップの欠如とされる（[daily](../daily/2026-09-03.md)）

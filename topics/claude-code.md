@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-09-18
+updated: 2026-09-19
 tags: [claude-code, anthropic, agent]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,8 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-19: ITmedia（@IT）が、Claude利用時にありがちな「念のため」の過剰な確認・制約指示がトークンを浪費する6つのアンチパターン（確認基準の曖昧さ・過度な制限・モデル固有設定の誤解・モデルバージョン間の非互換・キャッシング未活用・古いシステム指示の蓄積）を紹介（[daily](../daily/2026-09-19.md)）
+- 2026-09-19: 今日の現場ネタで、エージェント・ハーネス「ECC」がClaude Codeのプラグインマーケットプレイス経由でインストール可能になったことを紹介（GitHubスター262k・本日+965）（[daily](../daily/2026-09-19.md) / [topics/agent-harness](agent-harness.md)）
 - 2026-09-18: ITmedia（@IT）が、コストが想定より膨らむ主な原因（プロンプトキャッシュの理解不足、ファイル参照時の不要な内容の読み込み、複数タスクを1セッションで実行した際のコンテキスト保持）と対策（`/clear`・`/model`・`/effort`の事前設定・`/compact`の活用）を紹介（[daily](../daily/2026-09-18.md)）
 - 2026-09-18: 今日の現場ネタで、ログイン済みブラウザをそのままAIエージェントに操作させるSkill「BrowserSkill」（Tencent）を紹介（GitHubスター4,032・本日+1,350）（[daily](../daily/2026-09-18.md)）
 - 2026-09-16: バージョン2.1.271〜273を公開。LLMゲートウェイ識別用のリクエストヘッダー追加、リモートコントロールセッションのバックグラウンドでの「フォーク」機能、危険なコマンド・サブシェル検知の権限チェック強化などを追加（[daily](../daily/2026-09-16.md)）
