@@ -47,7 +47,7 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 - [x] 030 Function calling / tool use の仕組みとツール定義の書き方 → learn/intermediate/030-function-calling-tool-use.md
 - [x] 031 MCP（Model Context Protocol）：何を標準化したのか → learn/intermediate/031-mcp-what-it-standardizes.md
 - [x] 032 計画・実行・振り返り：エージェント設計パターン → learn/intermediate/032-agent-design-patterns.md
-- [ ] 033 マルチエージェント：分業させる価値と失敗のしかた
+- [x] 033 マルチエージェント：分業させる価値と失敗のしかた → learn/intermediate/033-multi-agent-division-of-labor.md
 - [ ] 034 メモリ：短期・長期・外部記憶の設計
 - [ ] 035 コーディングエージェント（Claude Code 等）：何が自動化され、何が人に残るか
 - [ ] 036 ブラウザ操作・コンピュータ操作エージェントの現在地

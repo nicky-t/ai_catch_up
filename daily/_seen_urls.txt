@@ -293,3 +293,10 @@ https://techcrunch.com/2026/09/18/manus-seeks-4b-valuation-in-new-500m-fundraise
 https://atmarkit.itmedia.co.jp/ait/articles/2609/18/news040.html
 https://github.com/affaan-m/ECC
 https://github.com/cloudflare/security-audit-skill
+https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/
+https://kn.itmedia.co.jp/kn/article/2609/19/2000001624/
+https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/
+https://kn.itmedia.co.jp/kn/article/2609/19/2000001616/
+https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/
+https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md
+https://github.com/anthropics/knowledge-work-plugins
