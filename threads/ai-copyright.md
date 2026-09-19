@@ -3,7 +3,7 @@ type: thread
 title: "AI学習と著作権をめぐる訴訟・議論（ai-copyright）"
 slug: ai-copyright
 created: 2026-08-24
-updated: 2026-09-07
+updated: 2026-09-20
 tags: [copyright, regulation]
 status: active
 related: [topics/anthropic.md]
@@ -16,6 +16,7 @@ related: [topics/anthropic.md]
 
 ## 現在地（最新の要約）
 <!-- 新規作成時に 3〜5 行で埋める。以後は週次 agent が更新 -->
+- 訴訟・行政府の意見表明に加え、サイト運営者側の技術的な対抗手段も増えた：Cloudflareが「検索クロールは許可、AI学習だけ拒否」を両立できるrobots.txt設定を新たに公開（Google・Appleは対応済み）。訴訟の行方を待つだけでなく、事業者自身がAI学習への同意・不同意を選別できる手段が実務レベルで整い始めている
 - AI学習の合法性は「フェアユース（公正利用）」に該当するかどうかで判断が割れており、統一的な結論は出ていない。トランプ政権は9月2日、NYT対OpenAIの著作権訴訟にOpenAI寄りの意見書を提出し、「AI産業の競争力維持」を理由にフェアユースの狭い解釈を批判——司法判断だけでなく行政府の立場表明という3つ目の力学が明示的に加わった
 - Anthropicは2025年、学習データを違法な海賊版サイトから調達した点を理由に著作者らへ15億ドルを支払う和解に応じた。担当判事はLLMの学習行為自体（データの入手経路ではなく）は適法と判断した
 - 2026年9月、その和解金（約50万タイトル・1作品3,000ドル）の配分方法をめぐり著者らが出版社を批判。現役契約作品は著者・出版社で50-50分配だが、自費出版や版権失効済み作品でも出版社が請求するケースが複数報告され、「和解が成立した後の実務」という新しい論点が浮上した
@@ -25,6 +26,7 @@ related: [topics/anthropic.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-18: Cloudflareが、Webサイト運営者が検索エンジンのクロールを許可したまま同じクローラーによるAI学習だけを拒否できる新機能を発表。従来はGoogle・Apple・Microsoftなど「検索とAI学習を兼ねるクローラー」を拒否すると検索クロールごとブロックされていたが、robots.txtの記載でこの両立が可能に。GoogleとAppleは対応済み、Microsoftは2027年初頭までに対応予定。OpenAI・Anthropic・Meta・Amazonは元々検索用と学習用のクローラーを分けており、この機能を使わずとも学習用のみ拒否できる。訴訟・行政府の介入とは別の、サイト運営者側の技術的な対抗手段が一つ増えた形（[daily](../daily/2026-09-18.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2609/17/2000001584/)）
 - 2026-09-07: Anthropicの著作権和解金（15億ドル・約50万タイトル・1作品3,000ドル）の配分方法をめぐり著者らが出版社に異議。現役契約作品は50-50分配だが、自費出版・版権失効済み作品は著者全額のはずが、出版社の過大請求（例：版権失効から17年以上経過した作品へのHarperCollinsの請求）が複数報告された。Writers BewareのVictoria Strauss氏は「単純なシステムエラーを超えた体系的な問題の可能性」を指摘（[daily](../daily/2026-09-07.md) / [出典](https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/)）
 - 2026-09-03: トランプ政権が、NYT対OpenAIの著作権訴訟（米ニューヨーク州南部地区連邦地裁）にOpenAI寄りの立場を示す20ページの意見書を提出。「AI産業の競争力維持」を理由にフェアユースの狭い解釈を批判。法的拘束力はないが行政府の立場表明として注目される（[daily](../daily/2026-09-03.md) / [出典](https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/)）
 - 2026-09-03: Anthropicが「Claude Fable 5.1」のシステムプロンプトに、歌詞・詩・書籍の一節を一切再生成しない新しい制約を追加していたことをSimon Willison氏が確認。8月末のSony Music・Warner Chappellによる歌詞学習訴訟のタイミングと符合すると指摘（[daily](../daily/2026-09-03.md) / [出典](https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/)）

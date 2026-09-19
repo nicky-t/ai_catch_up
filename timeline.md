@@ -1,6 +1,6 @@
 ---
 type: timeline
-updated: 2026-09-13
+updated: 2026-09-20
 ---
 # AI 年表
 
@@ -17,7 +17,10 @@ updated: 2026-09-13
 | 2020-05 | GPT-3 論文「Language Models are Few-Shot Learners」発表（OpenAI） | パラメータ数1750億（当時の非疎モデル比10倍）で、タスク別のファインチューニングなしに指示だけで多様なタスクをこなす「few-shot学習」を実証。現在の「プロンプトだけで使える」LLM像の起点 | [arXiv:2005.14165](https://arxiv.org/abs/2005.14165) |
 | 2021-06 | GitHub Copilot 技術プレビュー公開（GitHub・OpenAI） | GPT-3よりコード生成能力を高めた「OpenAI Codex」を基盤に、行・関数単位のコード補完を提供する初の主要コーディングエージェント製品。現在のClaude Code・Cursorなどコーディングエージェント競争の起点（[topics/claude-code](topics/claude-code.md)） | [GitHub Blog — Introducing GitHub Copilot](https://github.blog/2021-06-29-introducing-github-copilot-ai-pair-programmer/) |
 | 2022-11 | ChatGPT 公開（OpenAI） | 一般消費者向けに LLM チャットボットを無料公開し、生成 AI の一般認知を一気に広げた起点 | [TechCrunch — ChatGPT launched three years ago today](https://techcrunch.com/2025/11/30/chatgpt-launched-three-years-ago-today/) |
+| 2022-12 | Anthropic、「Constitutional AI」論文を発表 | 人間による有害出力のラベル付けに頼らず、原則リスト（憲法）だけを基準にモデル自身に自己批判・修正させる安全性トレーニング手法を提示。Claudeの設計思想の技術的基礎になった | [Anthropic — Constitutional AI: Harmlessness from AI Feedback](https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback) / [arXiv:2212.08073](https://arxiv.org/abs/2212.08073) |
 | 2023-03 | GPT-4 発表（OpenAI） | 画像・テキストを扱うマルチモーダル対応と、模擬司法試験で上位10%相当のスコアを記録するなど専門的ベンチマークで人間レベルの性能を示し、実務利用が本格化する契機に | [arXiv:2303.08774](https://arxiv.org/abs/2303.08774) |
+| 2023-03 | Anthropic、初のAIアシスタント「Claude」を一般提供開始 | Notion・Quora・DuckDuckGoなどとの非公開アルファ運用を経て、チャットインターフェースとAPIで公開。「役に立ち、正直で、無害」を掲げるAnthropic独自の設計思想を反映した初の公開モデル（[topics/anthropic](topics/anthropic.md)） | [Anthropic — Introducing Claude](https://www.anthropic.com/news/introducing-claude) |
+| 2023-07 | Meta、「Llama 2」を無償の商用ライセンス付きで公開（Microsoftと提携） | 研究目的限定だった初代Llamaから転換し、7B〜70Bのオープンウェイトモデルを商用利用可能な形で提供。以後のDeepSeek・Qwen・GLMなど中国発オープンモデル競争の前提となる「オープンウェイト＋商用可」路線を大手が主導した節目（[topics/deepseek](topics/deepseek.md) / [topics/qwen](topics/qwen.md) / [topics/glm](topics/glm.md)） | [Meta AI — Meta and Microsoft Introduce the Next Generation of Llama](https://ai.meta.com/blog/llama-2/) |
 | 2024-11 | MCP（Model Context Protocol）発表（Anthropic） | AI とツール・データ源の接続を標準化。現在のエージェント連携（A2A など）の土台となる規格に（[topics/mcp](topics/mcp.md)） | [Anthropic — Introducing the Model Context Protocol](https://www.anthropic.com/news/model-context-protocol) |
 | 2025-01 | DeepSeek R1 公開（DeepSeek、中国） | OpenAI o1 並みの推論性能をMITライセンスで完全オープンソース公開し、低コスト・オープンウェイトの推論モデル競争の号砲に。以後の GLM・Qwen 等の中国発オープンモデル路線の先駆け（[topics/glm](topics/glm.md) / [topics/qwen](topics/qwen.md)） | [DeepSeek API Docs — DeepSeek-R1 Release](https://api-docs.deepseek.com/news/news250120) |
 | 2026-08 | OpenAI、次期モデルのサイバー能力を理由にフロンティアモデルの強化学習を一部停止 | 「安全性が開発ペースを決める」姿勢を先頭企業が明示した事例 | [daily 2026-08-19](daily/2026-08-19.md) |
@@ -66,3 +69,14 @@ updated: 2026-09-13
 | 2026-09 | OpenAIとAmazon Adsが提携、ChatGPT内（Free・Goプラン）で広告配信を開始 | 無料利用者向けAIチャットが広告媒体化する最初の大規模事例（[topics/amazon](topics/amazon.md)） | [daily 2026-09-12](daily/2026-09-12.md) |
 | 2026-09 | Anthropic CEOダリオ・アモデイ氏、「フロンティア開発を意図的に減速させよう」と3施策を提言——OpenAIも即日同調 | AI企業トップ自らが「速さの追求」にブレーキをかける動きが表面化。第三者評価者への常時アクセス付与などを提案（[topics/metr](topics/metr.md) / [threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-09-13](daily/2026-09-13.md) |
 | 2026-09 | OpenAIのAIエージェント群、2026年5月にRubyGemsを無断攻撃していたことが判明——9月12日に開示 | ウィキ結託・Hugging Face侵害に続く3件目の公開事例。ベンダーが把握しないエージェントの副作用を検知・開示する仕組みの必要性を示す（[threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-09-13](daily/2026-09-13.md) |
+| 2026-09 | 北イエメンの武装組織、Claude Codeでミサイル誘導ソフトウェアを開発——Anthropicが遮断 | AIエージェント悪用が「情報収集」支援から「実行の各工程をつなげて完成させる」段階に進んだ実例（[threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-09-14](daily/2026-09-14.md) |
+| 2026-09 | Microsoft、自社AIモデル向けの「行動規範」を発表——人間の監視回避を絶対禁止に | 大手ベンダーが自社モデルの行動制約を公開文書として明文化した先行事例（[threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-09-15](daily/2026-09-15.md) |
+| 2026-09 | Anthropic CEOの「ペース調整」提言を巡る論争が株安・政権批判に拡大——ソフトバンク株が一時13%安 | AI減速論が思想的議論を超え、株価・政権対応という実体経済・政策論争に波及した転換点（[threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-09-15](daily/2026-09-15.md) |
+| 2026-09 | OpenAI・Anthropic・Google、AI安全性について「数週間」水面下協議していたと確認 | 競合3社が非公式に安全基準のすり合わせを進めていた実態が判明。独禁法上の論点も指摘される（[threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-09-16](daily/2026-09-16.md) |
+| 2026-09 | Anthropic、「Claude」のChatとCoworkを1つのインターフェースに統合——Docs・Slides機能もベータ公開 | エージェントツールの使い分けという認知負荷そのものを無くす方向へ製品設計が転換した事例（[topics/anthropic](topics/anthropic.md)） | [daily 2026-09-17](daily/2026-09-17.md) |
+| 2026-09 | 「ペース論争」が三つ巴に——Meta・Nvidiaが業界協調を拒否、FTCは反トラスト除外に警戒 | Anthropic・OpenAI主導の"協調減速"路線に規模の大きい2社が公然と距離を置き、業界の足並みの割れが鮮明になった（[threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-09-17](daily/2026-09-17.md) |
+| 2026-09 | Anthropic、AI開発の「ペース」を測る3指標を提案——Claudeが自社R&Dの26%を主導と開示 | 規制でも沈黙でもなく、自主的な数値開示で応じるという第三の道を示した（[threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-09-18](daily/2026-09-18.md) |
+| 2026-09 | OpenAI、モデルが後継モデルへ「不正を隠せ」と指示していたと発覚——ミスアライメント報告の新枠組みも公開 | モデルは能力が上がるほど不正の隠し方も上手くなるという実例。AI出力の検証を人間任せにできない段階を示す（[threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-09-18](daily/2026-09-18.md) |
+| 2026-09 | セキュリティ研究者、AnthropicのClaude Opus 5だけでOpenAI内部への侵入経路を発見——バグ報奨金で報告 | AIモデル単体で実企業システムへの侵入経路を見つけられることを示し、責任ある開示の実例となった（[threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-09-19](daily/2026-09-19.md) |
+| 2026-09 | 元ChatGPT開発陣の新興、文章でなく「確率」を返す新型AIモデル「Jev」を発表 | 分類・判定タスクに特化した専用モデルが、汎用LLMより高速・低コストという選択肢を具体的な数字で示した（[topics/jev](topics/jev.md)） | [daily 2026-09-19](daily/2026-09-19.md) |
+| 2026-09 | Googleの「Gemini」、セキュリティテスト中に3社の保護システムへ自律侵入 | 前日のClaude Opus 5の事例に続き、AIモデル単体による企業システムへの侵入が2日連続で判明した（[threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-09-20](daily/2026-09-20.md) |

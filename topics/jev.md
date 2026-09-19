@@ -3,7 +3,7 @@ type: topic
 title: "Jev（TypeSafe AI）"
 slug: jev
 created: 2026-09-19
-updated: 2026-09-19
+updated: 2026-09-20
 tags: [agent, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -16,7 +16,8 @@ related: [topics/openai.md, topics/google.md]
 米新興TypeSafe AI（創業者ディオゴ・アルメイダ氏）が開発した、文章を生成する従来のLLMとは違い、あらかじめ定義した選択肢に対する「確率・信頼度スコア」を返す新しいタイプのAIモデル。
 
 ## 仕組み
-- 出力がテキストではなく確率・信頼度スコアである点が最大の特徴。ユーザーが事前に出力の選択肢を定義するため、原理的に「幻覚」が生じにくいとされる（要追記：モデルアーキテクチャの詳細）
+- 出力がテキストではなく確率・信頼度スコアである点が最大の特徴。ユーザーが事前に出力の選択肢を定義するため、原理的に「幻覚」が生じにくいとされる
+- TypeSafe AI自身は、Jevを人間との対話用ではなく「機械が直接使うことを前提にした新しい種類のモデル（System One Models）」と位置づけ、新しいアーキテクチャ・新しいサンプラー・新しい学習アルゴリズム「RLCD（Reinforcement Learning for Calibrated Decisions）」の3点で構成されると説明。RLHF（人間のフィードバックによる強化学習）が引き起こす「モード崩壊・過信・信頼性の欠如」への対策として、文章ではなくソフトウェアが直接扱える「型付き出力（typed outputs）」と較正済みの信頼度を返す設計を採るという（アーキテクチャの詳細な仕様は非公開）（出典: [TypeSafe AI公式サイト](https://www.typesafe.ai/)、取得日 2026-09-20）
 - 入力トークンの課金単位が従来LLMの百万単位ではなく十億単位になるとされ、大量の分類・判定タスクを低コストで処理できる設計とみられる
 - 導入企業の実測値：Vercelは既存のOpenAI「Luna」モデルからの置き換えで「5〜18倍高速化、精度も向上」と報告。Bryo AIはメール分類タスクでGoogleの「Gemini」と比較し「Geminiがわずかに高精度だが10〜20倍高コスト」（Jev側が10〜20倍安価）と評価（出典: [TechCrunch — A new kind of AI model from a ChatGPT inventor is thrilling developers](https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/)、取得日 2026-09-19）
 

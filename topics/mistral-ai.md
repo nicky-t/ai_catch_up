@@ -3,7 +3,7 @@ type: topic
 title: "Mistral AI（ミストラルAI）"
 slug: mistral-ai
 created: 2026-09-09
-updated: 2026-09-09
+updated: 2026-09-20
 tags: [mistral-ai]
 level: beginner
 audience: [engineer, business, instructor]
@@ -18,7 +18,8 @@ related: [topics/openai.md, topics/anthropic.md, topics/google.md]
 ## 仕組み
 - 2026年9月、Samsung Electronicsを主導としたシリーズDラウンドで30億ユーロ（約3,580億円）を調達したと発表。調達後の評価額は210億ユーロ（約2兆4,390億円）超となり、欧州テック企業として過去最大の株式調達ラウンド。EQT運用のScaleup Europe Fund・既存投資家PSG Equityも共同リード、a16z・NVIDIA・Salesforce Ventures・BlackRockなども参加（出典: [TechCrunch — Mistral raises €3B as sovereign AI becomes big business](https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/)、取得日 2026-09-09）
 - 「主権AI」の訴求点は、地域内でのデータ処理・顧客が使うAIモデルを自ら選べること・欧州域内の計算基盤。米中のAIベンダーへの依存を減らしたい政府・企業を主な対象とする
-- フランスのマクロン大統領は今回の調達を「米中の覇権に対する第三の道（third way）」を築く動きと位置づけている（要追記：具体的なモデルラインナップ・技術詳細）
+- フランスのマクロン大統領は今回の調達を「米中の覇権に対する第三の道（third way）」を築く動きと位置づけている
+- モデルラインナップは、旗艦モデル「Mistral Large 3」（スパースMoE構成、総パラメータ675B・アクティブパラメータ41B）を筆頭に、エッジ向け軽量モデル群「Ministral 3」（3B/8B/14Bの3サイズ、各サイズにベース・指示応答・推論の3種＋画像理解対応）、文書処理特化「Mistral OCR 4」、汎用「Mistral Medium 3.5」、軽量推論「Mistral Small 4」、音声合成「Voxtral TTS」で構成。全モデルをApache 2.0ライセンスでオープンウェイト公開する路線を継続している（出典: [Mistral AI — Mistral 3](https://mistral.ai/news/mistral-3)、取得日 2026-09-20）
 
 ## 実務での使い方
 - データを国外に出したくない・特定国のベンダーに依存したくない企業にとって、選択肢の1つとして押さえておく価値がある（要追記：日本国内での導入事例・提供状況）

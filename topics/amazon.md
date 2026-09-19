@@ -3,7 +3,7 @@ type: topic
 title: "Amazon（アマゾン）"
 slug: amazon
 created: 2026-09-12
-updated: 2026-09-13
+updated: 2026-09-20
 tags: [amazon]
 level: beginner
 audience: [engineer, business, instructor]
@@ -18,7 +18,7 @@ EC・クラウド（AWS）・広告事業を持つ米国のテクノロジー企
 ## 仕組み
 - クラウド事業のAWSは、OpenAIを含む複数のAI企業のモデル提供・実行基盤としても使われる（要追記：AWSとOpenAIのインフラ提携の詳細）
 - 広告事業「Amazon Ads」は、自社ECサイトだけでなく他社サービス上での広告配信網（Amazon DSP）を持つ。2026年9月、OpenAIとの提携でChatGPT内への広告配信を開始した
-- 自社AIアシスタント「Alexa+」など、EC・スマートホーム領域でのAI活用も展開（要追記：Alexa+の詳細）
+- 自社AIアシスタント「Alexa+」は、Amazon Nova（自社モデル）とAnthropicのモデル両方を組み合わせた新アーキテクチャに刷新。数日にまたがる文脈を記憶した対話、飲食予約・配車手配・サービス予約の代行などエージェント的な機能、Ring連携のカメラ監視やカレンダー同期を特徴とする。料金はPrime会員なら無料、非会員は月額19.99ドル（無料の文字チャット版は機能制限あり）。刷新後は利用回数が旧Alexa比で2倍超、単純な定型リクエストからより複雑な対話への利用シフトが見られるという（出典: [Amazon公式 — Alexa+ now available to everyone in the US](https://www.aboutamazon.com/news/devices/alexa-plus-available-free-prime-members-us)、取得日 2026-09-20）
 
 ## 実務での使い方
 - 広告主にとっては、Amazon DSP経由でChatGPTという新しい広告面にリーチできる選択肢が増えた。Amazon DSPのマネージドサービスとして提供され、Amazon側の担当チームがキャンペーン設定・最適化を支援し、ターゲティングにはAmazonの自社データ（ファーストパーティーデータ）を利用できる。ただし具体的な審査基準・出稿条件は現時点で公表されておらず、米国の一部広告主に限定したパイロット段階（出典: [ITmedia NEWS — Amazon、OpenAIと広告提携](https://www.itmedia.co.jp/news/article/2609/11/2000001396/)、取得日 2026-09-13）
