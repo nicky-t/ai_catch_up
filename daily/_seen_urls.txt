@@ -300,3 +300,10 @@ https://kn.itmedia.co.jp/kn/article/2609/19/2000001616/
 https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/
 https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md
 https://github.com/anthropics/knowledge-work-plugins
+https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/
+https://www.itmedia.co.jp/aiplus/article/2609/20/2000001664/
+https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/
+https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/
+https://kn.itmedia.co.jp/kn/article/2609/20/2000001661/
+https://kn.itmedia.co.jp/kn/article/2609/20/2000001660/
+https://github.com/addyosmani/agent-skills

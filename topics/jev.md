@@ -3,7 +3,7 @@ type: topic
 title: "Jev（TypeSafe AI）"
 slug: jev
 created: 2026-09-19
-updated: 2026-09-20
+updated: 2026-09-21
 tags: [agent, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [topics/openai.md, topics/google.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-21: 創業者ディオゴ・アルメイダ氏（元OpenAI研究者、「InstructGPT」論文共著者）によるX上の発表投稿が、9月20日時点で3700万回以上表示され話題化。同社は既存LLM比「20〜200倍速く」「40〜1000倍安い」とうたい、応答時間70〜500ミリ秒・入力単価100万トークンあたり0.042ドル（一般的なLLMは0.20〜10ドル）という数字を示した（[daily](../daily/2026-09-21.md)）
 - 2026-09-19: TypeSafe AIが新型モデル「Jev」を発表。Vercelが既存のOpenAI「Luna」から置き換えて5〜18倍高速化、Bryo AIがGoogleの「Gemini」比10〜20倍安価と報告（[daily](../daily/2026-09-19.md)）
 
 ## 関連

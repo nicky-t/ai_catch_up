@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-09-20
+updated: 2026-09-21
 tags: [claude-code, anthropic, agent]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-21（続報）: 今日の現場ネタで、著名エンジニアAddy Osmani氏公開のSkill集「agent-skills」を再掲。9月16日時点のGitHubスター94.7k・本日+386から、97.6k・本日+729へ拡大。9個のスラッシュコマンド（`/spec`〜`/ship`）と25個の自動活性化スキルでClaude Code・Cursor・Codexなど70以上のエージェントに対応、`npx skills add addyosmani/agent-skills`で導入できる（[daily](../daily/2026-09-21.md) / [topics/agent-harness](agent-harness.md)）
 - 2026-09-20: バージョン2.1.278を公開。Claude API・Enterprise利用者およびBedrock/Vertex/Foundry/ゲートウェイ経由で、「自動モード」の判定をローカル分類器からサーバー側分類器に切り替え、分類器のオーバーヘッド課金を回避できるようにした（[daily](../daily/2026-09-20.md)）
 - 2026-09-20: 今日の現場ネタで、Anthropic公式の知識労働者向けプラグイン集「knowledge-work-plugins」を紹介。営業・マーケティング・法務・財務など11分野のプラグインを`claude plugin marketplace add`経由でインストールでき、Slack・HubSpot・Notionなど外部ツール連携済み（GitHubスター25.1k・本日+280）（[daily](../daily/2026-09-20.md) / [topics/agent-harness](agent-harness.md)）
 - 2026-09-19: ITmedia（@IT）が、Claude利用時にありがちな「念のため」の過剰な確認・制約指示がトークンを浪費する6つのアンチパターン（確認基準の曖昧さ・過度な制限・モデル固有設定の誤解・モデルバージョン間の非互換・キャッシング未活用・古いシステム指示の蓄積）を紹介（[daily](../daily/2026-09-19.md)）

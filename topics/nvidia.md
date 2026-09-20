@@ -3,7 +3,7 @@ type: topic
 title: "NVIDIA（エヌビディア）"
 slug: nvidia
 created: 2026-08-28
-updated: 2026-09-19
+updated: 2026-09-21
 tags: [nvidia]
 level: beginner
 audience: [engineer, business, instructor]
@@ -30,6 +30,7 @@ AIモデルの学習・推論に使われるGPU（画像処理用半導体）を
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-21: ジェンスン・フアンCEOが、トランプ大統領との電話をステージで披露しつつ「減速は起こらない」「規制は不要」と改めて主張。同日AnthropicはAccentureを初の「組み込み評価者」に迎えると発表しており、AI安全性を巡る業界内の路線対立が続いている（[daily](../daily/2026-09-21.md) / [topics/anthropic](anthropic.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-09-19: Googleおよび電力管理ソフト企業Emerald AIと「AI Energy Management Alliance（AEMA）」を設立。電力網の状況に応じてAIデータセンターの消費電力を動的に調整する仕組みの普及を目指す。米OracleのアリゾナのデータセンターではEmerald AIのソフト「Emerald Conductor」導入でピーク時のAIクラスタ消費電力を25％削減した実績があるという（[daily](../daily/2026-09-19.md) / [topics/google](google.md)）
 - 2026-09-17: ジェンスン・フアンCEOが「AI規制は不要、安全性は我々に任せてほしい」と発言。Meta ザッカーバーグCEOの業界協調拒否と同日に表明され、AI安全性の"協調減速"路線に距離を置く動きが大手2社に広がった（[daily](../daily/2026-09-17.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-09-04: Hugging Face買収に正式合意。買収額は129.3億ドルで確定。Jensen Huang CEOは「Hugging Faceはエコシステム全体に開かれたプラットフォームであり続ける」と表明し、独立性維持を強調（[daily](../daily/2026-09-04.md) / [topics/hugging-face](hugging-face.md)）
