@@ -307,3 +307,10 @@ https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/
 https://kn.itmedia.co.jp/kn/article/2609/20/2000001661/
 https://kn.itmedia.co.jp/kn/article/2609/20/2000001660/
 https://github.com/addyosmani/agent-skills
+https://www.itmedia.co.jp/news/article/2609/21/2000001665/
+https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/
+https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/
+https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/
+https://kn.itmedia.co.jp/kn/article/2609/21/2000001657/
+https://kn.itmedia.co.jp/kn/article/2609/21/2000001604/
+https://github.com/BuilderIO/agent-native

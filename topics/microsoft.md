@@ -3,7 +3,7 @@ type: topic
 title: "Microsoft（マイクロソフト）"
 slug: microsoft
 created: 2026-09-06
-updated: 2026-09-15
+updated: 2026-09-22
 tags: [microsoft, guardrails, prompt-engineering, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ Windows・Office・Azure・GitHubなどを展開する米国のテクノロジ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-22: 双日テックイノベーションが、Microsoft 365 Copilot導入企業105社を対象に調査。78.0%が「CopilotとM365だけで業務に必要な情報検索をカバーできる」と回答した一方、87.5%は情報の分散を課題と回答、96.2%が「M365外も横断検索できるAI環境があればAI活用が広がる」と答えた（[daily](../daily/2026-09-22.md) / [threads/japan-ai-adoption](../threads/japan-ai-adoption.md)）
 - 2026-09-15: 自社開発AIモデル向けの「行動規範」を発表。サイバー攻撃・核兵器関連・ディープフェイク作成を絶対的な禁止事項とし、「適応的・欺瞞的・自己強化的なメカニズムで人間の監視を回避してはならない」と規定。複数の「制御不能なAIエージェント事件」の発生を受けた対応とみられる（[daily](../daily/2026-09-15.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-09-08: Microsoft 365 Copilotが「GPT-6 Astra」（OpenAI、9月4日〜）と「Claude Fable 5.1」（Anthropic、9月1日〜）に対応。前者はCopilot Cowork・Copilot Studioでの大きめタスク処理向け、後者はM365内のファイル・メッセージを文脈参照する「Work IQ」機能と組み合わせて使う（[daily](../daily/2026-09-08.md) / [topics/openai](openai.md) / [topics/anthropic](anthropic.md)）
 - 2026-09-08: 福島県庁がM365 Copilotを約6,000人規模に本格展開。試行段階（100アカウント）では効率化実感80%・品質向上実感70%だったが、本格展開後は利用が個人差で二極化。入力ルールの明確化や成功事例の共有で定着を図る（[daily](../daily/2026-09-08.md) / [threads/japan-ai-adoption](../threads/japan-ai-adoption.md)）

@@ -3,7 +3,7 @@ type: topic
 title: "Meta（メタ）"
 slug: meta
 created: 2026-09-03
-updated: 2026-09-19
+updated: 2026-09-22
 tags: [meta, speech, agent]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,8 @@ Facebook・Instagram・WhatsAppなどを運営する米国のテクノロジー�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-22: Amazonが、Museによる自社サイトでの買い物代行をブロック。「無許可のAIエージェントによる継続的アクセスは利用規約違反」とのエラーが表示されるようになった。Amazonは自社の基盤モデル・推論プラットフォームを持ち競合ツールを受け入れる法的義務がない上、誤発注時の顧客・販売者対応への実務上の懸念も背景（[daily](../daily/2026-09-22.md) / [topics/amazon](amazon.md)）
+- 2026-09-22: 米国・カナダ限定ながら、公開後最初の12日間でiOSダウンロード180万件（ChatGPT初期の130万件を上回る）、米国内の日次アクティブユーザーも64万2,000人（ChatGPT同時期の23万1,000人超）に達したとTechCrunchが報道。全世界・両OS合算では280万インストールで米App Storeで総合1位に浮上（[daily](../daily/2026-09-22.md) / [topics/openai](openai.md)）
 - 2026-09-19: パーソナルAIエージェント「Muse」をMacに拡大。ファイル管理・メッセージ送受信・カレンダー操作・メモ作成などパソコン上の作業を代行できるようになった。機密性の高い操作には事前許可が必要な設計（[daily](../daily/2026-09-19.md)）
 - 2026-09-17: ザッカーバーグCEOが、AI業界協調による開発速度制限に異を唱えるXの投稿。各社には「自らのモデルを安全に訓練できるペースで開発を進める責任がある」とし、独立評価者の活用は推奨しつつ業界横断の協調は求めない立場を示した。Anthropic・OpenAIが主導した"協調減速"論への公然たる異論（[daily](../daily/2026-09-17.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-09-16: 「WhatsApp Business Tools MCP」サーバーを公開。Claude・Cursor・Codex・ChatGPTなどのAIコーディングエージェントに、アカウント作成・電話番号認証・Cloud API登録・メッセージテンプレートの作成編集・Webhookテストまでを会話形式で任せられる（[daily](../daily/2026-09-16.md) / [topics/mcp](mcp.md)）

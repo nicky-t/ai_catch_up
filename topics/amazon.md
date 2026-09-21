@@ -3,7 +3,7 @@ type: topic
 title: "Amazon（アマゾン）"
 slug: amazon
 created: 2026-09-12
-updated: 2026-09-20
+updated: 2026-09-22
 tags: [amazon]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,7 +31,9 @@ EC・クラウド（AWS）・広告事業を持つ米国のテクノロジー企
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-22: Metaのパーソナルエージェント「Muse」による自社サイトでの買い物代行をブロック。「無許可のAIエージェントによる継続的アクセスは利用規約違反」とのエラーメッセージが表示されるようになった。自社の基盤モデル・推論プラットフォームを持ち競合ツールを受け入れる法的義務がない点、誤発注時の顧客・販売者対応への実務上の懸念が背景とみられる（[daily](../daily/2026-09-22.md) / [topics/meta](meta.md)）
 - 2026-09-12: Amazon AdsがOpenAIと提携し、Amazon DSPの広告主がChatGPT内（Free・Goプランの成人ログインユーザー向け）に広告を出稿できる仕組みを発表。米国限定のパイロット運用（[daily](../daily/2026-09-12.md) / [topics/openai](openai.md)）
 
 ## 関連
 - [topics/openai](openai.md)
+- [topics/meta](meta.md)

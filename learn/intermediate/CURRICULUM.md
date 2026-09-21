@@ -49,7 +49,7 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 - [x] 032 計画・実行・振り返り：エージェント設計パターン → learn/intermediate/032-agent-design-patterns.md
 - [x] 033 マルチエージェント：分業させる価値と失敗のしかた → learn/intermediate/033-multi-agent-division-of-labor.md
 - [x] 034 メモリ：短期・長期・外部記憶の設計 → learn/intermediate/034-memory-short-long-external.md
-- [ ] 035 コーディングエージェント（Claude Code 等）：何が自動化され、何が人に残るか
+- [x] 035 コーディングエージェント（Claude Code 等）：何が自動化され、何が人に残るか → learn/intermediate/035-coding-agents-what-is-automated.md
 - [ ] 036 ブラウザ操作・コンピュータ操作エージェントの現在地
 - [ ] 037 エージェントの安全設計：権限・承認・サンドボックス・監査ログ
 - [ ] 038 エージェントのコスト管理とトークン予算
