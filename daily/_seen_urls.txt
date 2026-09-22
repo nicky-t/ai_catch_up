@@ -314,3 +314,11 @@ https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-ama
 https://kn.itmedia.co.jp/kn/article/2609/21/2000001657/
 https://kn.itmedia.co.jp/kn/article/2609/21/2000001604/
 https://github.com/BuilderIO/agent-native
+https://www.anthropic.com/claude-opus-5-5
+https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/
+https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/
+https://www.itmedia.co.jp/news/article/2609/22/2000001669/
+https://www.itmedia.co.jp/news/article/2609/22/2000001668/
+https://www.itmedia.co.jp/news/article/2609/22/2000001670/
+https://atmarkit.itmedia.co.jp/ait/articles/2609/22/news009.html
+https://github.com/browser-use/video-use

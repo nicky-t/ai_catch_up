@@ -3,7 +3,7 @@ type: thread
 title: "国内 AI 導入動向（japan-ai-adoption）"
 slug: japan-ai-adoption
 created: 2026-08-19
-updated: 2026-09-22
+updated: 2026-09-23
 tags: [adoption, japan-company, case-study]
 status: active
 related: [topics/openai.md]
@@ -24,6 +24,7 @@ related: [topics/openai.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-23: キユーピーが、DeNA AI Link提供のAIエージェント「Devin」を活用し、製造シミュレーションソフト「Tecnomatix Plant Simulation」のモデル開発工数を8.5人月から1.8人月（78.8%減）に削減したと発表（[daily](../daily/2026-09-23.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2609/22/news009.html)）
 - 2026-09-22: 双日テックイノベーションが、Microsoft 365 Copilot導入企業105社を対象に調査。78.0%が「CopilotとM365だけで業務に必要な情報検索をカバーできる」と回答した一方、87.5%は情報の分散を課題と回答、96.2%が「M365外も横断検索できるAI環境があればAI活用が広がる」と答えた。9/20のクラウドワークス調査（8割超が「チャット止まり」）と同様、「導入した」段階から一歩進むための壁を具体的な数字で裏付けた（[daily](../daily/2026-09-22.md) / [出典](https://kn.itmedia.co.jp/kn/article/2609/21/2000001657/)）
 - 2026-09-22: NEXER GroupとLISKILLINGの共同調査（全国就業者300人）で、AI・DX研修の受講経験が「ない」人が90.7%に上る一方、AI・デジタルスキル習得を希望する人は44.4%に上ることが判明。研修受講経験者の満足度は89.3%と高く、希望者が求める条件は「実務ですぐに使える実践的な内容」が最多（23.2%）（[daily](../daily/2026-09-22.md) / [出典](https://kn.itmedia.co.jp/kn/article/2609/21/2000001604/)）
 - 2026-09-20: 豊川信用金庫が、ココペリの生成AIサービス「SAF」を導入し、職員が自然言語で業務規定・商品知識を質問できる環境を整備。従来のキーワード検索と異なりAIが質問の文脈を読み取って関連情報を提示し、情報探索時間の短縮・若手職員の早期習熟・問い合わせ対応負担の軽減を狙う。地域金融機関という「AI活用が進みにくい」業種での社内FAQ活用例（[daily](../daily/2026-09-20.md) / [出典](https://kn.itmedia.co.jp/kn/article/2609/19/2000001616/)）

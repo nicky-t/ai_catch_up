@@ -3,7 +3,7 @@ type: topic
 title: "Meta（メタ）"
 slug: meta
 created: 2026-09-03
-updated: 2026-09-22
+updated: 2026-09-23
 tags: [meta, speech, agent]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,8 @@ Facebook・Instagram・WhatsAppなどを運営する米国のテクノロジー�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-23: Meta幹部Nat Friedman氏が、パーソナルAIエージェント「Muse」が競合ツール「OpenClaw」から「確実に大きく影響を受けた」ことを公式に認めた。Museの設定ファイル名や内容がOpenClawの「SOUL.md」とほぼ同一である点が以前から指摘されていた（[daily](../daily/2026-09-23.md)）
+- 2026-09-23（続報）: AmazonによるMuseの買い物代行ブロックが9月20日実施と判明。事前通知なし・顧客認証情報の取得保存リスク・自社ルール違反が理由。対照的にShopifyは9月21日、全ストアでShop Pay経由のMuse決済を有効化すると発表（[daily](../daily/2026-09-23.md) / [topics/amazon](amazon.md)）
 - 2026-09-22: Amazonが、Museによる自社サイトでの買い物代行をブロック。「無許可のAIエージェントによる継続的アクセスは利用規約違反」とのエラーが表示されるようになった。Amazonは自社の基盤モデル・推論プラットフォームを持ち競合ツールを受け入れる法的義務がない上、誤発注時の顧客・販売者対応への実務上の懸念も背景（[daily](../daily/2026-09-22.md) / [topics/amazon](amazon.md)）
 - 2026-09-22: 米国・カナダ限定ながら、公開後最初の12日間でiOSダウンロード180万件（ChatGPT初期の130万件を上回る）、米国内の日次アクティブユーザーも64万2,000人（ChatGPT同時期の23万1,000人超）に達したとTechCrunchが報道。全世界・両OS合算では280万インストールで米App Storeで総合1位に浮上（[daily](../daily/2026-09-22.md) / [topics/openai](openai.md)）
 - 2026-09-19: パーソナルAIエージェント「Muse」をMacに拡大。ファイル管理・メッセージ送受信・カレンダー操作・メモ作成などパソコン上の作業を代行できるようになった。機密性の高い操作には事前許可が必要な設計（[daily](../daily/2026-09-19.md)）

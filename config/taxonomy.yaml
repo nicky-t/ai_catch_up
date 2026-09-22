@@ -81,7 +81,11 @@ importance_levels:
   medium: "注目。文脈として知っておくべき"
   low:    "参考。記録として残す"
 
-_proposed_tags: []
+_proposed_tags:
+  - name: grok
+    category: model
+    proposed: 2026-09-23
+    reason: xAIの主力モデル。9月21日のGrok 4.7発表など言及頻度が増えており、company:xaiだけでなくmodel別タグがあると他社モデルとの横断整理がしやすい
 # 2026-09-13（2026-W37）: 却下・取り下げ済みの提案（理由は weekly/2026-W37.md 参照）
 # - japanese-llm（2026-08-19提案、category: model）: W34〜W37の4週連続で新規登場・展開なしのため取り下げ
 # - privacy-processing（2026-08-20提案、category: technique）: 提案者も様子見と明言、W34〜W37の4週連続で新展開なしのため取り下げ
