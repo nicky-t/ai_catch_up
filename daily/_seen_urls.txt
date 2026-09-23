@@ -322,3 +322,11 @@ https://www.itmedia.co.jp/news/article/2609/22/2000001668/
 https://www.itmedia.co.jp/news/article/2609/22/2000001670/
 https://atmarkit.itmedia.co.jp/ait/articles/2609/22/news009.html
 https://github.com/browser-use/video-use
+https://www.anthropic.com/news/claude-discovers-novel-enzyme-system
+https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/
+https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/
+https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/
+https://www.itmedia.co.jp/news/article/2609/23/2000001676/
+https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/
+https://kn.itmedia.co.jp/kn/article/2609/23/2000001607/
+https://github.com/google/ax

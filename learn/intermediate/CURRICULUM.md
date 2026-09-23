@@ -51,7 +51,7 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 - [x] 034 メモリ：短期・長期・外部記憶の設計 → learn/intermediate/034-memory-short-long-external.md
 - [x] 035 コーディングエージェント（Claude Code 等）：何が自動化され、何が人に残るか → learn/intermediate/035-coding-agents-what-is-automated.md
 - [x] 036 ブラウザ操作・コンピュータ操作エージェントの現在地 → learn/intermediate/036-browser-computer-use-agents.md
-- [ ] 037 エージェントの安全設計：権限・承認・サンドボックス・監査ログ
+- [x] 037 エージェントの安全設計：権限・承認・サンドボックス・監査ログ → learn/intermediate/037-agent-safety-design.md
 - [ ] 038 エージェントのコスト管理とトークン予算
 
 ## E. 評価・品質・運用（8）
