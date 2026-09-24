@@ -3,7 +3,7 @@ type: topic
 title: "Meta（メタ）"
 slug: meta
 created: 2026-09-03
-updated: 2026-09-23
+updated: 2026-09-25
 tags: [meta, speech, agent]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,7 @@ Facebook・Instagram・WhatsAppなどを運営する米国のテクノロジー�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-25（続報）: 年次イベント「Connect」で、カメラを搭載しない音声専用のAIグラス「Ray-Ban Meta Audio」（349ドル、10月13日予約開始、43g、最大12時間駆動）と、パーソナルAIエージェント「Muse」搭載のタマゴッチ風装着ガジェット「Muse Charm」を発表。端末自体は課金せず「取引からの少額手数料」で収益化する方針を示した（[daily](../daily/2026-09-25.md)）
 - 2026-09-23: Meta幹部Nat Friedman氏が、パーソナルAIエージェント「Muse」が競合ツール「OpenClaw」から「確実に大きく影響を受けた」ことを公式に認めた。Museの設定ファイル名や内容がOpenClawの「SOUL.md」とほぼ同一である点が以前から指摘されていた（[daily](../daily/2026-09-23.md)）
 - 2026-09-23（続報）: AmazonによるMuseの買い物代行ブロックが9月20日実施と判明。事前通知なし・顧客認証情報の取得保存リスク・自社ルール違反が理由。対照的にShopifyは9月21日、全ストアでShop Pay経由のMuse決済を有効化すると発表（[daily](../daily/2026-09-23.md) / [topics/amazon](amazon.md)）
 - 2026-09-22: Amazonが、Museによる自社サイトでの買い物代行をブロック。「無許可のAIエージェントによる継続的アクセスは利用規約違反」とのエラーが表示されるようになった。Amazonは自社の基盤モデル・推論プラットフォームを持ち競合ツールを受け入れる法的義務がない上、誤発注時の顧客・販売者対応への実務上の懸念も背景（[daily](../daily/2026-09-22.md) / [topics/amazon](amazon.md)）

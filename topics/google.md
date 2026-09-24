@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-09-24
+updated: 2026-09-25
 tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,8 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-25: Geminiがユーザーに代わって店舗・企業に電話をかける機能「Call for Me」のベータを開始。名乗り・自動音声メニュー操作・保留待ち・会話までを代行しつつユーザーはリアルタイム文字起こしを見て介入できる。米国のPixel 11所有者かつGemini有料プラン限定（[daily](../daily/2026-09-25.md)）
+- 2026-09-25: リアルタイム音声対話モデル「Gemini 3.8 Live」に、映像生成と音声を組み合わせ唇の動き・表情まで再現する「Live Avatar」機能を追加。97言語対応、SynthID電子透かし付き。まずGemini Enterprise限定でカスタマーサポート等の用途を想定（[daily](../daily/2026-09-25.md)）
 - 2026-09-24: DeepMindが、クラウド上のAIアシスタント機能に「セキュアなサーバー側メモリ」を追加すると発表。ハードウェア保護されたセキュアエンクレーブとエンドツーエンド暗号化チャネルを組み合わせ、復号化キーはユーザーのデバイスのみが保持する設計で、オンデバイス処理と同等のプライバシー水準をクラウド規模で目指す（[daily](../daily/2026-09-24.md)）
 - 2026-09-24: 新しい音声合成モデル「Gemini 3.8 Flash TTS」「Gemini 3.8 Flash-Lite TTS」を発表。2,000以上のプロダクション対応音声・100以上の言語に対応し、30秒の音声サンプルから声を再現する「音声レプリケーション」も可能（[daily](../daily/2026-09-24.md)）
 - 2026-09-24: オープンソースのエージェント・オーケストレーション・ランタイム「ax」（google/ax）が公開され、GitHub Trendingで急上昇（スター8,917・本日+1,542）。宣言型YAMLでエージェントタスクを定義し、サンドボックス隔離・ネットワーク許可リスト・チェックポイント保存/再開に対応（[daily](../daily/2026-09-24.md) / [topics/agent-harness](agent-harness.md)）

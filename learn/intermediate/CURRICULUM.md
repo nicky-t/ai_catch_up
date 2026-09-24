@@ -52,7 +52,7 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 - [x] 035 コーディングエージェント（Claude Code 等）：何が自動化され、何が人に残るか → learn/intermediate/035-coding-agents-what-is-automated.md
 - [x] 036 ブラウザ操作・コンピュータ操作エージェントの現在地 → learn/intermediate/036-browser-computer-use-agents.md
 - [x] 037 エージェントの安全設計：権限・承認・サンドボックス・監査ログ → learn/intermediate/037-agent-safety-design.md
-- [ ] 038 エージェントのコスト管理とトークン予算
+- [x] 038 エージェントのコスト管理とトークン予算 → learn/intermediate/038-agent-cost-management-token-budgets.md
 
 ## E. 評価・品質・運用（8）
 - [ ] 039 LLM-as-a-judge：AI の出力を AI で評価する設計と落とし穴
