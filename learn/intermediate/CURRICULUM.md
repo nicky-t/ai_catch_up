@@ -55,7 +55,7 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 - [x] 038 エージェントのコスト管理とトークン予算 → learn/intermediate/038-agent-cost-management-token-budgets.md
 
 ## E. 評価・品質・運用（8）
-- [ ] 039 LLM-as-a-judge：AI の出力を AI で評価する設計と落とし穴
+- [x] 039 LLM-as-a-judge：AI の出力を AI で評価する設計と落とし穴 → learn/intermediate/039-llm-as-a-judge.md
 - [ ] 040 ベンチマークの読み方：何を測っていて何を測っていないか
 - [ ] 041 評価データセットの作り方：業務タスクをどう切り出すか
 - [ ] 042 オブザーバビリティ：ログ・トレース・コスト可視化
