@@ -56,7 +56,7 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 
 ## E. 評価・品質・運用（8）
 - [x] 039 LLM-as-a-judge：AI の出力を AI で評価する設計と落とし穴 → learn/intermediate/039-llm-as-a-judge.md
-- [ ] 040 ベンチマークの読み方：何を測っていて何を測っていないか
+- [x] 040 ベンチマークの読み方：何を測っていて何を測っていないか → learn/intermediate/040-how-to-read-benchmarks.md
 - [ ] 041 評価データセットの作り方：業務タスクをどう切り出すか
 - [ ] 042 オブザーバビリティ：ログ・トレース・コスト可視化
 - [ ] 043 ガードレール：入出力フィルタと業務ルールの実装

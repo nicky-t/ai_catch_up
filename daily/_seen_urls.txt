@@ -349,3 +349,13 @@ https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-
 https://kn.itmedia.co.jp/kn/article/2609/25/2000001724/
 https://kn.itmedia.co.jp/kn/article/2609/25/2000001723/
 https://github.com/paperclipai/paperclip
+https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/
+https://www.itmedia.co.jp/news/article/2609/26/2000001773/
+https://www.itmedia.co.jp/aiplus/article/2609/26/2000001774/
+https://atmarkit.itmedia.co.jp/ait/articles/2609/26/news013.html
+https://atmarkit.itmedia.co.jp/ait/articles/2609/26/news011.html
+https://kn.itmedia.co.jp/kn/article/2609/26/2000001725/
+https://kn.itmedia.co.jp/kn/article/2609/26/2000001731/
+https://github.com/brumar/chess-postmortem-skills
+https://github.com/Avinash-jetwani/jevmem
+https://arxiv.org/abs/2609.08812

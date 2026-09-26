@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-09-25
+updated: 2026-09-27
 tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,7 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-27: 「1週間の開発タスク」相当の長期タスク（Long-Horizon Tasks）でAIのAndroidアプリ開発力を測る「Android Bench 2.0」を公開（元発表は9月17日）。ライブラリのアップグレードや新機能追加など実務に近い複雑なタスクを対象とし、最高成績のGPT-6 Astraでも成功率28%にとどまった。粒度の細かいタスクで構成される従来のAndroid Benchでは同モデル系統が91%を記録しており、タスクが長く・実践的になるほど成功率が大きく落ちることを示した（[daily](../daily/2026-09-27.md) / [learn/intermediate/040](../learn/intermediate/040-how-to-read-benchmarks.md)）
 - 2026-09-25: Geminiがユーザーに代わって店舗・企業に電話をかける機能「Call for Me」のベータを開始。名乗り・自動音声メニュー操作・保留待ち・会話までを代行しつつユーザーはリアルタイム文字起こしを見て介入できる。米国のPixel 11所有者かつGemini有料プラン限定（[daily](../daily/2026-09-25.md)）
 - 2026-09-25: リアルタイム音声対話モデル「Gemini 3.8 Live」に、映像生成と音声を組み合わせ唇の動き・表情まで再現する「Live Avatar」機能を追加。97言語対応、SynthID電子透かし付き。まずGemini Enterprise限定でカスタマーサポート等の用途を想定（[daily](../daily/2026-09-25.md)）
 - 2026-09-24: DeepMindが、クラウド上のAIアシスタント機能に「セキュアなサーバー側メモリ」を追加すると発表。ハードウェア保護されたセキュアエンクレーブとエンドツーエンド暗号化チャネルを組み合わせ、復号化キーはユーザーのデバイスのみが保持する設計で、オンデバイス処理と同等のプライバシー水準をクラウド規模で目指す（[daily](../daily/2026-09-24.md)）
