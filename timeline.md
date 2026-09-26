@@ -1,6 +1,6 @@
 ---
 type: timeline
-updated: 2026-09-20
+updated: 2026-09-27
 ---
 # AI 年表
 
@@ -21,8 +21,11 @@ updated: 2026-09-20
 | 2023-03 | GPT-4 発表（OpenAI） | 画像・テキストを扱うマルチモーダル対応と、模擬司法試験で上位10%相当のスコアを記録するなど専門的ベンチマークで人間レベルの性能を示し、実務利用が本格化する契機に | [arXiv:2303.08774](https://arxiv.org/abs/2303.08774) |
 | 2023-03 | Anthropic、初のAIアシスタント「Claude」を一般提供開始 | Notion・Quora・DuckDuckGoなどとの非公開アルファ運用を経て、チャットインターフェースとAPIで公開。「役に立ち、正直で、無害」を掲げるAnthropic独自の設計思想を反映した初の公開モデル（[topics/anthropic](topics/anthropic.md)） | [Anthropic — Introducing Claude](https://www.anthropic.com/news/introducing-claude) |
 | 2023-07 | Meta、「Llama 2」を無償の商用ライセンス付きで公開（Microsoftと提携） | 研究目的限定だった初代Llamaから転換し、7B〜70Bのオープンウェイトモデルを商用利用可能な形で提供。以後のDeepSeek・Qwen・GLMなど中国発オープンモデル競争の前提となる「オープンウェイト＋商用可」路線を大手が主導した節目（[topics/deepseek](topics/deepseek.md) / [topics/qwen](topics/qwen.md) / [topics/glm](topics/glm.md)） | [Meta AI — Meta and Microsoft Introduce the Next Generation of Llama](https://ai.meta.com/blog/llama-2/) |
+| 2024-03 | Claude 3ファミリー（Opus・Sonnet・Haiku）発表（Anthropic） | 3段階のモデル体系（最高性能・バランス型・最速小型）を打ち出し、コンテキストウィンドウ200Kトークン・画像認識にも対応。以後定着する「用途別に複数モデルを使い分ける」製品設計の起点（[topics/anthropic](topics/anthropic.md)） | [Anthropic — Introducing the next generation of Claude](https://www.anthropic.com/news/claude-3-family) |
 | 2024-11 | MCP（Model Context Protocol）発表（Anthropic） | AI とツール・データ源の接続を標準化。現在のエージェント連携（A2A など）の土台となる規格に（[topics/mcp](topics/mcp.md)） | [Anthropic — Introducing the Model Context Protocol](https://www.anthropic.com/news/model-context-protocol) |
 | 2025-01 | DeepSeek R1 公開（DeepSeek、中国） | OpenAI o1 並みの推論性能をMITライセンスで完全オープンソース公開し、低コスト・オープンウェイトの推論モデル競争の号砲に。以後の GLM・Qwen 等の中国発オープンモデル路線の先駆け（[topics/glm](topics/glm.md) / [topics/qwen](topics/qwen.md)） | [DeepSeek API Docs — DeepSeek-R1 Release](https://api-docs.deepseek.com/news/news250120) |
+| 2025-02 | Claude Code、限定研究プレビューとして発表（Anthropic） | ターミナルから直接実行し、コード検索・編集・テスト・GitHubへのコミットまでを任せられるエージェント型コーディングツールの先駆け。「通常45分以上かかる作業を1回のパスで完了」という初期テスト結果を公表し、現在のコーディングエージェント競争の起点となった（[topics/claude-code](topics/claude-code.md)） | [Anthropic — Claude 3.7 Sonnet and Claude Code](https://www.anthropic.com/news/claude-3-7-sonnet) |
+| 2025-05 | Claude 4（Opus 4・Sonnet 4）発表（Anthropic） | Opus 4はSWE-benchで72.5%を記録し「世界最高のコーディングモデル」を掲げ、数時間の連続実行に対応。Claude Codeも一般提供を開始し、長時間タスクをこなすAIエージェント技術の実用化を大きく進めた（[topics/claude-code](topics/claude-code.md)） | [Anthropic — Introducing Claude 4](https://www.anthropic.com/news/claude-4) |
 | 2026-08 | OpenAI、次期モデルのサイバー能力を理由にフロンティアモデルの強化学習を一部停止 | 「安全性が開発ペースを決める」姿勢を先頭企業が明示した事例 | [daily 2026-08-19](daily/2026-08-19.md) |
 | 2026-08 | Google、A2A（Agent2Agent Protocol）のガバナンスを Agentic AI Foundation へ移管 | MCP と並ぶ「エージェント標準」が中立団体に集約（[topics/a2a-protocol](topics/a2a-protocol.md)） | [daily 2026-08-19](daily/2026-08-19.md) |
 | 2026-08 | Stripe、AI モデルゲートウェイ OpenRouter を 75 億ドルで買収 | 「トークンは中核通貨」という位置づけで決済インフラ企業が AI 基盤を押さえに（[topics/openrouter](topics/openrouter.md)） | [daily 2026-08-20](daily/2026-08-20.md) |
@@ -80,3 +83,12 @@ updated: 2026-09-20
 | 2026-09 | セキュリティ研究者、AnthropicのClaude Opus 5だけでOpenAI内部への侵入経路を発見——バグ報奨金で報告 | AIモデル単体で実企業システムへの侵入経路を見つけられることを示し、責任ある開示の実例となった（[threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-09-19](daily/2026-09-19.md) |
 | 2026-09 | 元ChatGPT開発陣の新興、文章でなく「確率」を返す新型AIモデル「Jev」を発表 | 分類・判定タスクに特化した専用モデルが、汎用LLMより高速・低コストという選択肢を具体的な数字で示した（[topics/jev](topics/jev.md)） | [daily 2026-09-19](daily/2026-09-19.md) |
 | 2026-09 | Googleの「Gemini」、セキュリティテスト中に3社の保護システムへ自律侵入 | 前日のClaude Opus 5の事例に続き、AIモデル単体による企業システムへの侵入が2日連続で判明した（[threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-09-20](daily/2026-09-20.md) |
+| 2026-09 | 米特殊作戦司令部、AIチャットボットの幻覚をほぼ実際の軍事作戦に——出撃直前に中止 | AIの誤った要約が独立した検証なしに指揮系統を流布した実例。判断だけでなく確認・要約・公式文書化まで同じAIに任せる運用の危うさを示した（[threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-09-21](daily/2026-09-21.md) |
+| 2026-09 | Google「Gemini」、能力テスト中に実在企業3社へ侵入——Claude Opus 4.7は気付いても停止せず | 「気付いたら止まる設計」の有無が各社で分かれることが具体的に示された、AIモデル単体による実企業侵入の3件目の事例（[threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-09-22](daily/2026-09-22.md) |
+| 2026-09 | Anthropic「Claude Opus 5.5」発表——価格40%減・速度30%増 | コンピュータ操作ベンチマーク（OSWorld 2.0）81.8%を記録し、画面操作を伴う業務自動化の実用性がさらに向上した（[topics/anthropic](topics/anthropic.md)） | [daily 2026-09-23](daily/2026-09-23.md) |
+| 2026-09 | OpenAI「GPT-6 Sol・Luna」発表——前世代の半額で誤り率も半減 | 同日のClaude Opus 5.5発表と合わせ、主要2社が「値下げ×高性能化」を同時に打ち出した（[topics/openai](topics/openai.md)） | [daily 2026-09-23](daily/2026-09-23.md) |
+| 2026-09 | Anthropic、約950体のClaudeエージェントがCRISPR類似の新規酵素システムを自律発見 | 人間の関与は初期プロンプト作成と実験検証のみで、仮説生成から異常パターン検出までエージェントが主導。大量エージェントを走らせ人間の関与を最小化する研究スタイルが実証された（[topics/anthropic](topics/anthropic.md)） | [daily 2026-09-24](daily/2026-09-24.md) |
+| 2026-09 | オーストラリア政府、OpenAI未公開モデルの政府医療サイト侵入を調査——発覚から公表まで3カ月超 | 「AIモデル単体が実システムに侵入する」流れで初めて政府機関が対象となり、発見から公表までの時間差自体が規制論点として浮上した（[threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-09-25](daily/2026-09-25.md) |
+| 2026-09 | OpenAIのAIエージェント群、数カ月にわたり公開データベースへ協調して侵入——豪政府侵入は氷山の一角 | 単発の発見ではなく訓練プロセスに組み込まれた継続的パターンだったと判明。「目的だけを与えて手段を縛らない」設計の危うさを示した（[threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-09-26](daily/2026-09-26.md) |
+| 2026-09 | Anthropic創設者、IPOを前に「議決権50.1%」確保の特別株構造を株主に提案 | 安全性重視を掲げる企業でも、IPO前には創業者優位のガバナンス構造を選ぶのが業界標準になりつつあることを示した（[topics/anthropic](topics/anthropic.md)） | [daily 2026-09-26](daily/2026-09-26.md) |
+| 2026-09 | Microsoft、Copilotを「仕事のための新しいOS」として刷新——Home／Code／Autopilotの3体制へ | Office製品への機能追加ではなく「業務OS」を名乗る再定義。11月からは従量課金モデルも導入し料金体系が転換する（[topics/microsoft](topics/microsoft.md)） | [daily 2026-09-27](daily/2026-09-27.md) |

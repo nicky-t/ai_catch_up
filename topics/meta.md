@@ -3,11 +3,11 @@ type: topic
 title: "Meta（メタ）"
 slug: meta
 created: 2026-09-03
-updated: 2026-09-25
+updated: 2026-09-27
 tags: [meta, speech, agent]
 level: beginner
 audience: [engineer, business, instructor]
-related: [topics/openai.md, topics/anthropic.md, topics/google.md]
+related: [topics/openai.md, topics/anthropic.md, topics/google.md, topics/muse.md]
 ---
 
 # Meta（メタ）
@@ -21,7 +21,7 @@ Facebook・Instagram・WhatsAppなどを運営する米国のテクノロジー�
 - 2026年9月、初のリアルタイム音声認識モデル「Muse Voice Transcribe」を発表。ストリーミング音声認識・話者分離・発話終了検知を単一モデルで処理する設計
 
 ## 実務での使い方
-- オープンウェイトのLlamaは、社外にデータを出したくない企業が自社インフラで動かす選択肢になる（要追記：導入事例）
+- オープンウェイトのLlamaは、社外にデータを出したくない企業が自社インフラで動かす選択肢になる。Meta公式は、AWS・AMD・Microsoft Azure・Databricks・Dell・Google Cloud・Groq・NVIDIA・IBM watsonx・Oracle Cloud・ScaleAI・Snowflakeなど幅広いパートナー経由で「あらゆる環境」でLlamaを実行できるとしており、導入事例としてBlock・Accenture・Spotify・LinkedInの名を挙げている（出典: [ai.meta.com/blog — The future of AI: Built with Llama](https://ai.meta.com/blog/future-of-ai-built-with-llama/)、取得日 2026-09-27）
 - Muse Voice Transcribeのような低遅延・低コストの音声認識は、会議の議事録作成や複数話者インタビューの文字起こしなど、話者識別が必要な業務の自動化に使える
 
 ## 講座で使うなら
@@ -48,3 +48,4 @@ Facebook・Instagram・WhatsAppなどを運営する米国のテクノロジー�
 - [topics/openai](openai.md)
 - [topics/anthropic](anthropic.md)
 - [topics/google](google.md)
+- [topics/muse](muse.md)（パーソナルAIエージェント単体の詳細）

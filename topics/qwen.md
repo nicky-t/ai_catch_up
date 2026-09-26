@@ -3,7 +3,7 @@ type: topic
 title: "Qwen（通義千問）"
 slug: qwen
 created: 2026-08-25
-updated: 2026-09-09
+updated: 2026-09-27
 tags: [qwen, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -17,7 +17,7 @@ related: [topics/glm.md]
 
 ## 仕組み
 - 2026年8月、300億パラメータ級モデル「Qwen3.8-27B」を公開。SWE-bench Pro（61.7点）やLiveCodeBench v6など複数のベンチマークでClaude Opus 4.6を上回ったと報じられているが、これらはいずれもAlibaba自身が計測・公表した数値。第三者ベンチマークのArtificial Analysis Intelligence Index（52ポイント）は測定済みだが、SWE-bench Pro等の個別スコアについては本稿執筆時点（2026-08-30）で第三者による独立検証・再現の報告は確認できていない（未検証、要継続確認）
-- 同時期にMeta「Muse Glimmer」（24GB VRAM対応）、NVIDIA「Nemotron 3.5 Lightning」（3B MoE構成）など、他社からも30Bクラス前後のオープンモデルが相次いで公開された（要追記：各モデルの詳細な仕様比較）
+- 同時期にMeta「Muse Glimmer」、NVIDIA「Nemotron 3.5 Lightning」など、他社からも30Bクラス前後のオープンモデルが相次いで公開された。両者は同じ「30B」でも設計思想が異なり、Muse Glimmerは全パラメータを常に使うdense型（30B・120K+トークンのコンテキスト窓、単一GPUのVRAMに収まる設計）、Nemotron 3.5 LightningはMamba-2＋MoE＋Attentionのハイブリッド型（総30B・トークンごとに使うのは3Bのみ、最大100万トークンのコンテキストに対応）という対照的なアプローチを取っている（出典: [NVIDIA Developer Blog — Run Local Agentic AI Workflows with Meta's Muse Glimmer on NVIDIA](https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/) / [huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16)、いずれも取得日 2026-09-27）
 
 ## 実務での使い方
 - パラメータ数が小さいため個人のPCやローカル環境での運用が現実的になり、API課金を抑えたいタスクの候補になる。Qwen3系列の主要モデルはHugging Face上で「Apache 2.0」ライセンスが付与されており（例：Qwen3-235B-A22B、出典: [huggingface.co/Qwen/Qwen3-235B-A22B](https://huggingface.co/Qwen/Qwen3-235B-A22B)、取得日 2026-09-06）商用利用の制限は緩いが、個別モデルのモデルカードでライセンスタグを都度確認するのが安全。日本語性能については本稿執筆時点で第三者評価の報告は確認できていない（未検証）

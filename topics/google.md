@@ -23,7 +23,7 @@ related: [topics/a2a-protocol.md]
 - 単一の最強モデルを追うのではなく、TPU（テンソル処理ユニット）を広くエコシステムに提供しクラウド全体に AI を統合する「電力網」型の戦略を Google Cloud は掲げている（要追記：Gemini とのモデル戦略との関係）
 
 ## 実務での使い方
-- 検索・Workspace との統合を前提に、既存の Google 業務環境に AI を組み込みたい企業・教育機関にとって導入障壁が低い（要追記：企業向けプラン比較）
+- 検索・Workspace との統合を前提に、既存の Google 業務環境に AI を組み込みたい企業・教育機関にとって導入障壁が低い。企業向け Google Workspace は Business Starter（30GB/ユーザー）・Business Standard（2TB/ユーザー）・Business Plus（5TB/ユーザー）・Enterprise（ユーザー数上限なし）の4段階で、Gemini in Workspace apps（Gmail・Docs・Sheets・Slides・Drive・Meet・Chat）は Standard 以上で広く利用可能になる一方、Starter では機能が限定される（出典: [workspace.google.com/pricing.html](https://workspace.google.com/pricing.html)、取得日 2026-09-27）
 - 学生・教育機関向け施策は、研修・講座設計の「無償で試せる入口」として案内しやすい
 - 自社サイトが AI 検索経由の流入減に悩む場合、「Preferred Sources」ボタンの設置で読者からの指名クリックを増やす施策が使える（読者から選ばれる場合、クリック率は2倍という Google 側の説明あり）
 
