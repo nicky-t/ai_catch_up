@@ -3,7 +3,7 @@ type: topic
 title: "MCP（Model Context Protocol）"
 slug: mcp
 created: 2026-08-23
-updated: 2026-09-17
+updated: 2026-09-28
 tags: [mcp, agent, tool-use, guardrails]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,7 @@ AI アシスタントが外部のデータ源・ツール・業務システム�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-28: セキュリティ企業Hush Securityが、GitHub上で公開されているMCP設定ファイル約8万2000件を分析した結果、8件に1件の割合で認証情報（APIキー・パスワード・アクセストークン）が露出していたと報告。露出した認証情報の24%は有効期限がなく広範なアクセス権を持ち、認証情報スロットの約12%がハードコード化されていた。攻撃者がコピー＆ペーストするだけで悪用できる状態で、AnthropicやOpenAIのAPIキー悪用による費用被害にもつながりうると指摘。対策として環境変数・シークレット管理ツールの利用、MCPゲートウェイ導入、認証情報の即時ローテーション、2026年7月28日版の最新MCP仕様への移行が挙げられている。9/15の調査（MCPサーバーの53%に認証情報関連の脆弱性）に続き、MCP導入時の認証情報管理の甘さが数字で改めて裏付けられた（[daily](../daily/2026-09-28.md)）
 - 2026-09-17: Googleが「Google Home」向けMCPサーバーへのアーリーアクセスを開始。Claude・ChatGPTなどMCP対応のAIエージェントからスマートホームデバイスを制御可能に（[daily](../daily/2026-09-17.md) / [topics/google](google.md)）。Cloudflareが公開したセキュリティ監査Skill「security-audit-skill」もGitHubトレンド入り（6.8kスター・本日+1,249）し、Skillの配布・MCP双方でエコシステムの厚みが増している（[daily](../daily/2026-09-17.md)）
 - 2026-09-16: Metaが「WhatsApp Business Tools MCP」サーバーを公開。Claude・Cursor・Codex・ChatGPTなどのAIコーディングエージェントに、WhatsApp Business APIのアカウント作成・電話番号認証・テンプレート作成・Webhookテストまでを会話形式で任せられる（[daily](../daily/2026-09-16.md) / [topics/meta](meta.md)）
 - 2026-09-15: Anthropicの MCP 共同作者David Soria Parra氏が来日し、AGNTCon＋MCPCon Japan 2026で基調講演「MCP and the Era of Connectivity」。MCP経由のツール呼び出しはClaudeだけで累計10億件超、SDK月間ダウンロードは5億件超と説明。今後12ヶ月は「MCP Tasks」（数分〜数月単位の長期処理に対応するエージェント型メッセージング）、「Skills over MCP」（AIスキルをMCP経由で提供・共有）、自律エージェント向けの認可・アイデンティティ管理の3領域に注力すると説明（[daily](../daily/2026-09-15.md)）

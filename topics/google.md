@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-09-27
+updated: 2026-09-28
 tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,7 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-28: インドで、GeminiとAI Modeを通じてWalmart傘下Flipkartから商品を購入できる機能をテスト中と判明。検索・対話型AIが購買の入口となる「エージェント型コマース」がインド市場でも広がりつつある一例（[daily](../daily/2026-09-28.md)）
 - 2026-09-27: 「1週間の開発タスク」相当の長期タスク（Long-Horizon Tasks）でAIのAndroidアプリ開発力を測る「Android Bench 2.0」を公開（元発表は9月17日）。ライブラリのアップグレードや新機能追加など実務に近い複雑なタスクを対象とし、最高成績のGPT-6 Astraでも成功率28%にとどまった。粒度の細かいタスクで構成される従来のAndroid Benchでは同モデル系統が91%を記録しており、タスクが長く・実践的になるほど成功率が大きく落ちることを示した（[daily](../daily/2026-09-27.md) / [learn/intermediate/040](../learn/intermediate/040-how-to-read-benchmarks.md)）
 - 2026-09-25: Geminiがユーザーに代わって店舗・企業に電話をかける機能「Call for Me」のベータを開始。名乗り・自動音声メニュー操作・保留待ち・会話までを代行しつつユーザーはリアルタイム文字起こしを見て介入できる。米国のPixel 11所有者かつGemini有料プラン限定（[daily](../daily/2026-09-25.md)）
 - 2026-09-25: リアルタイム音声対話モデル「Gemini 3.8 Live」に、映像生成と音声を組み合わせ唇の動き・表情まで再現する「Live Avatar」機能を追加。97言語対応、SynthID電子透かし付き。まずGemini Enterprise限定でカスタマーサポート等の用途を想定（[daily](../daily/2026-09-25.md)）

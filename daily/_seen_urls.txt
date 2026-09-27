@@ -359,3 +359,12 @@ https://kn.itmedia.co.jp/kn/article/2609/26/2000001731/
 https://github.com/brumar/chess-postmortem-skills
 https://github.com/Avinash-jetwani/jevmem
 https://arxiv.org/abs/2609.08812
+https://techtarget.itmedia.co.jp/tt/article/2609/28/2000001760/
+https://techtarget.itmedia.co.jp/tt/article/2609/28/2000001750/
+https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/
+https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/
+https://kn.itmedia.co.jp/kn/article/2609/27/2000001764/
+https://www.publickey1.jp/blog/26/docker_cloud_snadboxesai.html
+https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/
+https://github.com/paperclipai/paperclip
+https://github.com/vectorize-io/hindsight
