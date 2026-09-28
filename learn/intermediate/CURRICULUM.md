@@ -58,7 +58,7 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 - [x] 039 LLM-as-a-judge：AI の出力を AI で評価する設計と落とし穴 → learn/intermediate/039-llm-as-a-judge.md
 - [x] 040 ベンチマークの読み方：何を測っていて何を測っていないか → learn/intermediate/040-how-to-read-benchmarks.md
 - [x] 041 評価データセットの作り方：業務タスクをどう切り出すか → learn/intermediate/041-eval-dataset-construction.md
-- [ ] 042 オブザーバビリティ：ログ・トレース・コスト可視化
+- [x] 042 オブザーバビリティ：ログ・トレース・コスト可視化 → learn/intermediate/042-observability-logs-traces-cost.md
 - [ ] 043 ガードレール：入出力フィルタと業務ルールの実装
 - [ ] 044 モデル更新への追従：バージョン固定と回帰テスト
 - [ ] 045 A/B テストと段階的ロールアウト

@@ -368,3 +368,13 @@ https://www.publickey1.jp/blog/26/docker_cloud_snadboxesai.html
 https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/
 https://github.com/paperclipai/paperclip
 https://github.com/vectorize-io/hindsight
+https://www.anthropic.com/claude-sonnet-5-5
+https://www.itmedia.co.jp/news/article/2609/28/2000001776/
+https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/
+https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/
+https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/
+https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/
+https://www.itmedia.co.jp/enterprise/articles/2609/28/news016.html
+https://kn.itmedia.co.jp/kn/article/2609/28/2000001798/
+https://github.com/debpalash/VoiceStudio
+https://github.com/dream-num/univer

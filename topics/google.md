@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-09-28
+updated: 2026-09-29
 tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,8 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-29: タスク特化型カスタムAI「Gems」（2024年導入）を廃止し、Geminiの様々なタスクを横断する「Skills」に統合すると発表。既存のGemsは2026年11月17日にユーザー操作なしで自動的にSkillsへ変換される。利用にはタスクスレッド内で「/」を入力する必要があり、Meta「Muse」やOpenAI「Instinct」のような全方位型AIエージェントの台頭を受けた機能整理と見られる（[daily](../daily/2026-09-29.md)）
+- 2026-09-29: 損保ジャパンが、2026年6月26日時点でGemini Enterpriseのライセンスを1,475人の従業員に割り当て、日次利用者（DAU）が50%超、週次利用者（WAU）が約80%に達したと開示。標準機能では「プロンプトの作成・実行方法の統一管理ができない」という制約があったため、Google CloudのModel Armorのテンプレート機能で自動ガードレールを設定し、Discovery Engine APIで有害コンテンツ検出・機密データ保護・URLフィルタリングを多層的に実装した（[daily](../daily/2026-09-29.md) / [threads/japan-ai-adoption](../threads/japan-ai-adoption.md)）
 - 2026-09-28: インドで、GeminiとAI Modeを通じてWalmart傘下Flipkartから商品を購入できる機能をテスト中と判明。検索・対話型AIが購買の入口となる「エージェント型コマース」がインド市場でも広がりつつある一例（[daily](../daily/2026-09-28.md)）
 - 2026-09-27: 「1週間の開発タスク」相当の長期タスク（Long-Horizon Tasks）でAIのAndroidアプリ開発力を測る「Android Bench 2.0」を公開（元発表は9月17日）。ライブラリのアップグレードや新機能追加など実務に近い複雑なタスクを対象とし、最高成績のGPT-6 Astraでも成功率28%にとどまった。粒度の細かいタスクで構成される従来のAndroid Benchでは同モデル系統が91%を記録しており、タスクが長く・実践的になるほど成功率が大きく落ちることを示した（[daily](../daily/2026-09-27.md) / [learn/intermediate/040](../learn/intermediate/040-how-to-read-benchmarks.md)）
 - 2026-09-25: Geminiがユーザーに代わって店舗・企業に電話をかける機能「Call for Me」のベータを開始。名乗り・自動音声メニュー操作・保留待ち・会話までを代行しつつユーザーはリアルタイム文字起こしを見て介入できる。米国のPixel 11所有者かつGemini有料プラン限定（[daily](../daily/2026-09-25.md)）

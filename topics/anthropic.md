@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-09-28
+updated: 2026-09-29
 tags: [anthropic, claude, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-29: 中位モデル「Claude Sonnet 5.5」を発表。エージェント型コーディングのベンチマークTerminal-Bench 4.0でSonnet 5比10.3%→70.6%に急伸し、知識労働評価GDPval-AAでは上位モデルOpus 5.5（1846）にほぼ並ぶ1844を記録。出力速度はSonnet 5比30%以上高速化し、同一トークン単価（入力$2／出力$10、キャッシュ読み取り$0.20/百万トークン）ながらタスクあたりコストは最大30%減。サイバーセキュリティ対策もOpus 5.5相当に強化された（[daily](../daily/2026-09-29.md) / [topics/claude-code](claude-code.md)）
 - 2026-09-28: CEOダリオ・アモデイ氏が9月27日夜、ホワイトハウスでトランプ大統領と初の一対一会談を予定。両者はAI安全性を巡って対立してきた関係で、アモデイ氏は開発ペース調整（[threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）を提言する一方、トランプ大統領は「AI反発は民主党による陰謀」と主張。トランプ政権は過去にAnthropicを「サプライチェーンリスク」に指定し同社が裁判で対抗中（[daily](../daily/2026-09-28.md)）
 - 2026-09-28: 情シス向け分析記事で、Claude Opus 5.5とOpenAI「GPT-6 Sol／Luna」の登場を受け、企業がモデル単体運用からワークロードごとに最適なモデルを選ぶ「マルチモデル運用」へ移行する必要があると指摘。Palo Alto Networksの検証では、複雑な環境で単一モデルが検出できた脆弱性は40%を超えるものがなく、モデルとアプリを分離する「オーケストレーション層」の構築が課題になるという（[daily](../daily/2026-09-28.md) / [topics/openai](openai.md)）
 - 2026-09-26: IPOを見据え、株主にCEOダリオ・アモデイ氏を含む共同創設者7人へ特別株を付与する構造の承認を求めていると報じられた。現状は各創設者が約2%ずつしか持ち株がないが、特別株により7人合計で「大半の企業事項について50.1%の議決権」を確保する設計。企業評価額は5月時点で9,650億ドル、8月のセカンダリー市場では1.5兆ドルまで上昇。MetaのザッカーバーグCEOやSnapのスピーゲルCEOと同様の「スーパー議決権株」の枠組みで、上場後も創業者が経営支配を維持する狙い（[daily](../daily/2026-09-26.md)）
