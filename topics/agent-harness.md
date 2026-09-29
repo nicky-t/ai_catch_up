@@ -3,7 +3,7 @@ type: topic
 title: "エージェントハーネス（agent harness）"
 slug: agent-harness
 created: 2026-09-01
-updated: 2026-09-28
+updated: 2026-09-30
 tags: [agent, tool-use, prompt-engineering]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,8 @@ AIエージェントに仕事を任せる際の「周りの仕組み」——ツ
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-30: AWSが、数行のコードでAIエージェントを構築できるオープンソースフレームワーク「Strands」を公開。Bedrock上のモデルだけでなくAnthropic Claude・OpenAI GPT・Google Gemini・Ollama・LiteLLMなど複数プロバイダーに対応し、コード上の1パラメータ変更でモデルを切り替えられる（[daily](../daily/2026-09-30.md) / [topics/amazon](amazon.md)）
+- 2026-09-30: Claude CodeとCodexなど複数のコーディングエージェントをYAML定義で1つのチームとして起動・管理できるオープンソースツール「OpenRig」（mvschwarz/openrig）がGitHub Trendingで急上昇（本日+733スター、累計2,300超）。TUIダッシュボードでの状態可視化、エージェント間メッセージ送受信、トポロジーのスナップショット保存/復元に対応（[daily](../daily/2026-09-30.md)）
 - 2026-09-28: OpenClaw・Claude Code・Codexなど複数プロバイダーのエージェントを組織図（役割・権限・報告ライン）付きで一元管理できるオープンソースアプリ「paperclip」（paperclipai/paperclip）がGitHub Trendingで急上昇（本日+2,527スター）。チケットベースのタスク管理、トークン使用量・コストの自動追跡と支出制限、承認ワークフロー・監査ログ、cron的な定期実行にも対応し、`curl -fsSL https://paperclip.ing/install.sh | bash` で導入できる（[daily](../daily/2026-09-28.md)）
 - 2026-09-24: Googleがオープンソースのエージェント・オーケストレーション・ランタイム「ax」（google/ax）を公開。Kubernetesのような宣言型YAMLでエージェントのタスクを定義し、サンドボックス隔離・ワークスペース事前設定・許可ホスト限定のネットワーク制御・チェックポイント保存/再開を1つのランタイムで扱える。GitHub Trendingで急上昇（スター8,917・本日+1,542）（[daily](../daily/2026-09-24.md) / [topics/google](google.md)）
 - 2026-09-19: 統合ハーネスツール「ECC」（affaan-m/ECC）が、Claude Codeのプラグインマーケットプレイス経由でのインストール（`/plugin marketplace add` → `/plugin install ecc@ecc`）に対応。`/ecc:plan`・`/code-review`・`/build-fix`など「計画→テスト→実装→レビュー→検証→記憶→改善」の各工程に対応するコマンドを提供し、GitHubスターは9月1日の24万超から262kへ拡大（[daily](../daily/2026-09-19.md) / [learn/intermediate/032](../learn/intermediate/032-agent-design-patterns.md)）

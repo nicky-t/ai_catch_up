@@ -84,7 +84,11 @@ importance_levels:
 
 # 2026-09-27（2026-W39）: 採用済みの提案
 # - grok（2026-09-23提案、category: model）: 既存のmodelカテゴリ（gpt/claude/gemini/llama等）が企業タグと別に用意されている慣例に合わせ採用。company:xaiタグと併用する
-_proposed_tags: []
+_proposed_tags:
+  - name: amd
+    category: company
+    proposed: 2026-09-30
+    reason: Fei-Fei Li氏のWorld Labsを82億ドルで買収しNvidia対抗のAIチップ戦略を進めるなど、AI文脈での言及が今後も見込まれる。既存のcompanyカテゴリ（nvidia/xai等）と同様の粒度で追加を提案。今回のdaily/2026-09-30では代わりにnvidiaタグで代替した
 # 2026-09-13（2026-W37）: 却下・取り下げ済みの提案（理由は weekly/2026-W37.md 参照）
 # - japanese-llm（2026-08-19提案、category: model）: W34〜W37の4週連続で新規登場・展開なしのため取り下げ
 # - privacy-processing（2026-08-20提案、category: technique）: 提案者も様子見と明言、W34〜W37の4週連続で新展開なしのため取り下げ

@@ -378,3 +378,14 @@ https://www.itmedia.co.jp/enterprise/articles/2609/28/news016.html
 https://kn.itmedia.co.jp/kn/article/2609/28/2000001798/
 https://github.com/debpalash/VoiceStudio
 https://github.com/dream-num/univer
+https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/
+https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/
+https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/
+https://www.itmedia.co.jp/aiplus/article/2609/30/2000001865/
+https://techcrunch.com/2026/09/29/openai-repotedly-in-talks-to-raise-30b-round-at-1-4t-valuation/
+https://www.itmedia.co.jp/news/article/2609/29/2000001837/
+https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/
+https://www.itmedia.co.jp/aiplus/article/2609/30/2000001866/
+https://techcrunch.com/2026/09/29/meta-is-expanding-its-ai-agent-muse-to-small-businesses/
+https://github.com/mvschwarz/openrig
+https://github.com/VectifyAI/PageIndex

@@ -3,7 +3,7 @@ type: topic
 title: "Muse（ミューズ）"
 slug: muse
 created: 2026-09-27
-updated: 2026-09-28
+updated: 2026-09-30
 tags: [meta, agent]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,7 @@ Metaが2026年9月に米国限定で提供を始めたパーソナルAIエージ
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-09-30: 中小企業向けに拡張した「Muse for Small Business」を発表。Shopify・Slack・QuickBooks・Stripeなど15以上のツールと連携し、Instagram・Facebook・Meta広告のデータも参照して企業の売上内容やブランドトーンを把握する。利用制限付きで無料提供し、追加利用は有料プランで対応（[daily](../daily/2026-09-30.md) / [topics/meta](meta.md)）
 - 2026-09-28: TechCrunch記者の試用レポートで、Museが「未請求の資金がないか確認する」と提案し実際に受取可能な資金を発見した一方（初回限定の利益）、クレジットカードやGmailなど金融情報をMuseに提供する際の懸念が指摘された。記者は「Metaの本業は広告販売」と述べ、広告事業に依存するMetaが個人の金融データを広告ターゲティングに活用する可能性への不信感を指摘。広告モデルに依存しないAppleのSiriとの対比も示された（[daily](../daily/2026-09-28.md)）
 - 2026-09-25: 年次イベント「Connect」で、Muse搭載のタマゴッチ風装着ガジェット「Muse Charm」を発表。端末自体は課金せず「取引からの少額手数料」で収益化する方針（[daily](../daily/2026-09-25.md)）
 - 2026-09-23: Meta幹部Nat Friedman氏が、Museが競合ツール「OpenClaw」から「確実に大きく影響を受けた」ことを公式に認めた（[daily](../daily/2026-09-23.md)）
