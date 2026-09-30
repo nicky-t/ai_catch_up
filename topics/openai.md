@@ -3,7 +3,7 @@ type: topic
 title: "OpenAI"
 slug: openai
 created: 2026-08-19
-updated: 2026-09-30
+updated: 2026-10-01
 tags: [openai, chatgpt, gpt]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,7 @@ ChatGPT と GPT 系モデルを開発する米国の AI 企業。一般利用者
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-01（続報）: 「Decisions API」によるエージェント監視のデモが判明。Jev同種の低コスト分類モデルでの監視コストが2.94ドルだったのに対し、フロンティアLLMでの同等監視は372ドルかかったと報告された。エージェントが「オープンなインターネット上で問題行動を起こす」事例への対策と位置づけられる（[daily](../daily/2026-10-01.md) / [topics/jev](jev.md)）
 - 2026-09-30: DevDay 2026で「GPT-6.1 Sol」を発表。上位モデル「GPT-6 Astra」に迫る性能を持ちながら入出力トークン価格は標準の5分の1に抑えた。低い推論努力レベルでの誤り率は11.4%から7.7%に低下し、全推論設定でAstraとの差は1.9%以内に縮まった（[daily](../daily/2026-09-30.md) / [topics/anthropic](anthropic.md)）
 - 2026-09-30: DevDay 2026で、GPT-6 Astra搭載の個人向け自律エージェント「dots」を発表。ユーザーが設定した目標をバックグラウンドで継続的に追求する設計で、複数の「dots」に役割を分けて協働させることも可能。9月29日からPro・Business Premiumユーザー向けに提供開始（[daily](../daily/2026-09-30.md) / [learn/intermediate/037](../learn/intermediate/037-agent-safety-design.md)）
 - 2026-09-30: ChatGPTにGPT-6 Astraの推論を最大8倍高速化する「Ultrafast」モードを追加。利用には月額500ドルの新プラン「Pro 500」への加入が必須（[daily](../daily/2026-09-30.md)）

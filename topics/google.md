@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-09-29
+updated: 2026-10-01
 tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,8 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-01: 新フロンティアモデル「Gemini 4 Argon」を発表。出力上限を6万4,000トークンから100万トークンへ拡大し、ソフトウェア開発・法務財務・サイバーセキュリティ防御など長時間の専門業務タスクに照準。DeepSWE v1.1で77.9%、AutomationBenchで首位（51.3%）。価格は導入期間中100万トークンあたり入力2ドル・出力10ドル（期間後は4ドル・20ドル）、まずサイバー防御向け「Fairwindプログラム」から提供開始（[daily](../daily/2026-10-01.md)）
+- 2026-10-01: AI生成タンパク質に電子透かしを埋め込む技術「SynthID Bio」の概念実証を発表。生物学的機能を保ったまま出所を識別できる設計で、画像・音声向けSynthIDの生命科学分野への応用（[daily](../daily/2026-10-01.md)）
 - 2026-09-29: タスク特化型カスタムAI「Gems」（2024年導入）を廃止し、Geminiの様々なタスクを横断する「Skills」に統合すると発表。既存のGemsは2026年11月17日にユーザー操作なしで自動的にSkillsへ変換される。利用にはタスクスレッド内で「/」を入力する必要があり、Meta「Muse」やOpenAI「Instinct」のような全方位型AIエージェントの台頭を受けた機能整理と見られる（[daily](../daily/2026-09-29.md)）
 - 2026-09-29: 損保ジャパンが、2026年6月26日時点でGemini Enterpriseのライセンスを1,475人の従業員に割り当て、日次利用者（DAU）が50%超、週次利用者（WAU）が約80%に達したと開示。標準機能では「プロンプトの作成・実行方法の統一管理ができない」という制約があったため、Google CloudのModel Armorのテンプレート機能で自動ガードレールを設定し、Discovery Engine APIで有害コンテンツ検出・機密データ保護・URLフィルタリングを多層的に実装した（[daily](../daily/2026-09-29.md) / [threads/japan-ai-adoption](../threads/japan-ai-adoption.md)）
 - 2026-09-28: インドで、GeminiとAI Modeを通じてWalmart傘下Flipkartから商品を購入できる機能をテスト中と判明。検索・対話型AIが購買の入口となる「エージェント型コマース」がインド市場でも広がりつつある一例（[daily](../daily/2026-09-28.md)）

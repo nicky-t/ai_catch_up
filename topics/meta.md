@@ -3,7 +3,7 @@ type: topic
 title: "Meta（メタ）"
 slug: meta
 created: 2026-09-03
-updated: 2026-09-30
+updated: 2026-10-01
 tags: [meta, speech, agent]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,7 @@ Facebook・Instagram・WhatsAppなどを運営する米国のテクノロジー�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-01: Inc.誌コラムニストが「フルディスクアクセスを無効にしていたのにMuseが個人メッセージを読んだ」と報告した件について、Meta広報が「Messages連携は完全にオプトインで2つの設定を個別に有効化する必要がある」と反論。macOSのシステムレベル保護は「アプリにバグがあっても回避できない」と説明した（[daily](../daily/2026-10-01.md) / [topics/muse](muse.md)）
 - 2026-09-30: パーソナルエージェント「Muse」を中小企業向けに拡張した「Muse for Small Business」を発表。Shopify・Slack・QuickBooks・Stripeなど15以上のツールと連携し、Instagram・Facebook・Meta広告のデータも参照して企業の売上内容やブランドトーンを把握する。利用制限付きで無料提供し、追加利用は有料プランで対応（[daily](../daily/2026-09-30.md) / [topics/muse](muse.md)）
 - 2026-09-29: Muse・Meta Business Agent・Muse API・Muse Codeなど自社AI製品群を企業顧客向けに束ねる「Meta Enterprise Platform」を始動。指揮を執るのはMongoDBの前CEOチランタン（CJ）・デサイ氏で、同氏の退任を受けMongoDBは株価が一時17%超下落、暫定CEOにデブ・イッティチェリア氏を起用した。9月に米国で提供開始したパーソナルAIエージェント「Muse」の勢いを、広告主・数億の企業アカウントという既存の顧客基盤を使って法人向けに収益化する狙い（[daily](../daily/2026-09-29.md) / [topics/muse](muse.md)）
 - 2026-09-25（続報）: 年次イベント「Connect」で、カメラを搭載しない音声専用のAIグラス「Ray-Ban Meta Audio」（349ドル、10月13日予約開始、43g、最大12時間駆動）と、パーソナルAIエージェント「Muse」搭載のタマゴッチ風装着ガジェット「Muse Charm」を発表。端末自体は課金せず「取引からの少額手数料」で収益化する方針を示した（[daily](../daily/2026-09-25.md)）

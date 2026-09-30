@@ -60,7 +60,7 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 - [x] 041 評価データセットの作り方：業務タスクをどう切り出すか → learn/intermediate/041-eval-dataset-construction.md
 - [x] 042 オブザーバビリティ：ログ・トレース・コスト可視化 → learn/intermediate/042-observability-logs-traces-cost.md
 - [x] 043 ガードレール：入出力フィルタと業務ルールの実装 → learn/intermediate/043-guardrails-input-output-filtering.md
-- [ ] 044 モデル更新への追従：バージョン固定と回帰テスト
+- [x] 044 モデル更新への追従：バージョン固定と回帰テスト → learn/intermediate/044-model-update-pinning-regression-testing.md
 - [ ] 045 A/B テストと段階的ロールアウト
 - [ ] 046 SLA・レイテンシ・可用性：業務システムに組み込むときの要件
 

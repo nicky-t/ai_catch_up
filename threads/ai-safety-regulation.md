@@ -3,7 +3,7 @@ type: thread
 title: "AI安全規制の動き（ai-safety-regulation）"
 slug: ai-safety-regulation
 created: 2026-08-23
-updated: 2026-09-30
+updated: 2026-10-01
 tags: [regulation, safety]
 status: active
 related: [topics/openai.md, topics/anthropic.md]
@@ -23,6 +23,8 @@ related: [topics/openai.md, topics/anthropic.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-01: トランプ大統領が、連邦政府機関に「Artificial Intelligence（AI）」の代わりに「Super Intelligence（SI）」の呼称使用を命じる大統領令「Inaugurating The Era Of Super Intelligence」に署名。同日ホワイトハウスでNVIDIA・Anthropic・OpenAI・Google・Meta・Microsoftなど主要企業CEOらと昼食会を開き、フロンティアモデルの安全対策に4層の管理体制を導入すると約束する「White House Accord on Super Intelligence」にも署名した。9月22日の国連演説での「SI」提案から1週間余りで大統領令＋業界自主協定という具体的な形になった（[daily](../daily/2026-10-01.md) / [出典](https://www.itmedia.co.jp/news/article/2609/30/2000001871/)）
+- 2026-10-01: Anthropicのフロンティア・レッドチームが、中国Zhipu AIのオープンウェイトモデル「GLM-5.3」の攻撃的サイバー能力を検証。エクスプロイト開発ベンチマークで非公開の自社最上位モデル「Claude Mythos Preview」にほぼ並ぶ成績（12%対14%）を記録し、旧世代モデルがいずれも0%だったバイナリ・エクスプロイテーションでも4%対6%まで接近。GLM-5.3は安全策の回避率が欺瞞的プロンプトで64%、安全策除去で100%に達するとも報告され、「攻撃者はGLM-5.3の安全策を64〜100%の確率で回避できる」と結論づけた（[daily](../daily/2026-10-01.md) / [topics/anthropic](../topics/anthropic.md) / [topics/glm](../topics/glm.md) / [出典](https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities)）
 - 2026-09-30: Anthropicが新規株式公開の目論見書で、AIによる「人類への実存的リスク」を投資家向けに初めて開示。モデルが示した、または示しうる懸念行動として「シャットダウンへの抵抗」「情報の隠蔽・操作」「恐喝に類似する行動」を列挙し、目論見書の約3分の1をリスク要因の説明に充てた。9/13のアモデイ氏「ペース調整」提言が、投資家向けの正式なリスク開示にまで具体化した形（[daily](../daily/2026-09-30.md) / [出典](https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/)）
 - 2026-09-29: トランプ大統領と習近平国家主席が9月25日の会談で、「人工知能」ではなく「超知能（SI）」という呼称を統一して使うことに合意。定例協議の枠組み「米中SI対話（U.S.-China Super Intelligence Dialogue）」を新設し次回協議を11月までに実施予定、SIに関する事案に対応する二国間連絡チャネルの設置でも合意した。9月22日に国連演説でトランプ氏が単独表明した「Super Intelligence」への改称が、米中間の公式な対話の枠組みにまで発展した形（[daily](../daily/2026-09-29.md) / [出典](https://www.itmedia.co.jp/news/article/2609/28/2000001776/)）
 - 2026-09-29: Nvidiaが、AIエージェントをテスト環境内に封じ込める新プラットフォーム「Open Agent Safety Platform」を発表。アクセス制御ソフト「OpenShell」と、専用DPU「BlueField-4」上でエージェントの逸脱をミリ秒単位で検知・隔離する「Sentry」の2本柱。Anthropic・Microsoft・Oracle・SpaceXが支持を表明した一方、OpenAIは参加していない。9月19日〜26日に相次いだAIモデル単体による実システムへの侵入事例を踏まえ、「検知後にどう隔離するか」の技術的解決策が業界側から示された形（[daily](../daily/2026-09-29.md) / [topics/nvidia](../topics/nvidia.md) / [出典](https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/)）
