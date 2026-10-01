@@ -3,11 +3,11 @@ type: topic
 title: "Jev（TypeSafe AI）"
 slug: jev
 created: 2026-09-19
-updated: 2026-10-01
+updated: 2026-10-02
 tags: [agent, cost]
 level: beginner
 audience: [engineer, business, instructor]
-related: [topics/openai.md, topics/google.md]
+related: [topics/openai.md, topics/google.md, topics/amazon.md]
 ---
 
 # Jev（TypeSafe AI）
@@ -32,6 +32,7 @@ related: [topics/openai.md, topics/google.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-02: AWS傘下のStrands Labsが、同種の判断特化型モデル「Strands Decider 2B」（Qwen3.5-2Bベース、オープンソース）を公開。あらかじめ定義した選択肢から最適なものを選び確信度スコアを返す設計で、「Jev」「Decisions API」に続き大手が同系統のアプローチに参入した形（[daily](../daily/2026-10-02.md) / [topics/amazon](amazon.md)）
 - 2026-10-01（続報）: OpenAIの「Decisions API」について、Jev同種の低コスト分類モデルによるエージェント監視のデモが判明。フロンティアLLMでの監視コスト372ドルに対し、Jev同等モデルでは2.94ドルまで圧縮できたと報告された（[daily](../daily/2026-10-01.md) / [topics/openai](openai.md)）
 - 2026-09-30: OpenAIがDevDay 2026で発表した「Decisions API」（プレビュー版）が、あらかじめ定めた質問と回答候補を低コストモデル「Luna」に与えて数分の1秒で判定を返す、Jevと同種のアプローチを採用。文章生成ではなく構造化された判定に特化するJevの設計思想を、大手プラットフォームが自社サービスに取り込んだ形（[daily](../daily/2026-09-30.md) / [topics/openai](openai.md)）
 - 2026-09-21: 創業者ディオゴ・アルメイダ氏（元OpenAI研究者、「InstructGPT」論文共著者）によるX上の発表投稿が、9月20日時点で3700万回以上表示され話題化。同社は既存LLM比「20〜200倍速く」「40〜1000倍安い」とうたい、応答時間70〜500ミリ秒・入力単価100万トークンあたり0.042ドル（一般的なLLMは0.20〜10ドル）という数字を示した（[daily](../daily/2026-09-21.md)）
@@ -40,3 +41,4 @@ related: [topics/openai.md, topics/google.md]
 ## 関連
 - [topics/openai](openai.md)（比較対象のLunaモデル）
 - [topics/google](google.md)（比較対象のGeminiモデル）
+- [topics/amazon](amazon.md)（同種モデル「Strands Decider 2B」）

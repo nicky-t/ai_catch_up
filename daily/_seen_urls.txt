@@ -398,3 +398,10 @@ https://deepmind.google/blog/introducing-synthid-bio/
 https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/
 https://github.com/mksglu/context-mode
 https://github.com/mattpocock/skills
+https://www.itmedia.co.jp/news/article/2610/01/2000001929/
+https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/
+https://www.anthropic.com/news/barclays-scales-claude
+https://simonwillison.net/2026/Oct/1/matthew-green/
+https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/
+https://www.itmedia.co.jp/aiplus/article/2610/01/2000001936/
+https://github.com/DietrichGebert/ponytail

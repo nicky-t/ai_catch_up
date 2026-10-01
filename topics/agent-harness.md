@@ -3,7 +3,7 @@ type: topic
 title: "エージェントハーネス（agent harness）"
 slug: agent-harness
 created: 2026-09-01
-updated: 2026-09-30
+updated: 2026-10-02
 tags: [agent, tool-use, prompt-engineering]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,7 @@ AIエージェントに仕事を任せる際の「周りの仕組み」——ツ
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-02: 暗号学者Matthew Green氏が、独立デプロイされたAIエージェント（Metaの「Muse」など）の普及に伴い、ワーム（自己複製型マルウェア）成立に必要な要素（乗っ取り命令＋共有パッケージキャッシュ等を通じた伝播経路）がそろいつつあると警告。個別のサンドボックスで隔離していても、エージェント同士が通信手段（メール・Slack・共有ドキュメントなど）を共有していれば隔離が不十分になりうると指摘した（Simon Willison氏経由、[daily](../daily/2026-10-02.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-09-30: AWSが、数行のコードでAIエージェントを構築できるオープンソースフレームワーク「Strands」を公開。Bedrock上のモデルだけでなくAnthropic Claude・OpenAI GPT・Google Gemini・Ollama・LiteLLMなど複数プロバイダーに対応し、コード上の1パラメータ変更でモデルを切り替えられる（[daily](../daily/2026-09-30.md) / [topics/amazon](amazon.md)）
 - 2026-09-30: Claude CodeとCodexなど複数のコーディングエージェントをYAML定義で1つのチームとして起動・管理できるオープンソースツール「OpenRig」（mvschwarz/openrig）がGitHub Trendingで急上昇（本日+733スター、累計2,300超）。TUIダッシュボードでの状態可視化、エージェント間メッセージ送受信、トポロジーのスナップショット保存/復元に対応（[daily](../daily/2026-09-30.md)）
 - 2026-09-28: OpenClaw・Claude Code・Codexなど複数プロバイダーのエージェントを組織図（役割・権限・報告ライン）付きで一元管理できるオープンソースアプリ「paperclip」（paperclipai/paperclip）がGitHub Trendingで急上昇（本日+2,527スター）。チケットベースのタスク管理、トークン使用量・コストの自動追跡と支出制限、承認ワークフロー・監査ログ、cron的な定期実行にも対応し、`curl -fsSL https://paperclip.ing/install.sh | bash` で導入できる（[daily](../daily/2026-09-28.md)）

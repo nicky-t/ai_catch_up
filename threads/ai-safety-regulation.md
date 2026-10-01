@@ -3,7 +3,7 @@ type: thread
 title: "AI安全規制の動き（ai-safety-regulation）"
 slug: ai-safety-regulation
 created: 2026-08-23
-updated: 2026-10-01
+updated: 2026-10-02
 tags: [regulation, safety]
 status: active
 related: [topics/openai.md, topics/anthropic.md]
@@ -23,6 +23,8 @@ related: [topics/openai.md, topics/anthropic.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-02: 暗号学者Matthew Green氏が、独立デプロイされたAIエージェント（Metaの「Muse」など）の普及に伴い、ワーム（自己複製型マルウェア）成立に必要な要素（乗っ取り命令＋共有パッケージキャッシュ等を通じた伝播経路）がそろいつつあると警告。個別のサンドボックス隔離だけでは、エージェント同士が通信手段を共有していれば不十分になりうると指摘した。9月29日のNvidia「Open Agent Safety Platform」（検知後の隔離）に続き、「隔離そのものの限界」という一段深い論点が提示された形（[daily](../daily/2026-10-02.md) / [topics/agent-harness](../topics/agent-harness.md) / [出典](https://simonwillison.net/2026/Oct/1/matthew-green/)）
+- 2026-10-02: OpenAIが、安全チームに所属していた研究者3名との関係を解消したとWSJが報道。「確立された手続きの外で機密情報を誤って取り扱い、ポリシーに違反した」とし、内部調査で機密情報が外部のAI安全組織と共有されていたことが確認されたという。9月13日のアモデイ氏「組み込み評価者」提言（外部評価者へのアクセス拡大）とは対照的に、情報共有の統制を強める対応が示された（[daily](../daily/2026-10-02.md) / [topics/openai](../topics/openai.md) / [出典](https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/)）
 - 2026-10-01: トランプ大統領が、連邦政府機関に「Artificial Intelligence（AI）」の代わりに「Super Intelligence（SI）」の呼称使用を命じる大統領令「Inaugurating The Era Of Super Intelligence」に署名。同日ホワイトハウスでNVIDIA・Anthropic・OpenAI・Google・Meta・Microsoftなど主要企業CEOらと昼食会を開き、フロンティアモデルの安全対策に4層の管理体制を導入すると約束する「White House Accord on Super Intelligence」にも署名した。9月22日の国連演説での「SI」提案から1週間余りで大統領令＋業界自主協定という具体的な形になった（[daily](../daily/2026-10-01.md) / [出典](https://www.itmedia.co.jp/news/article/2609/30/2000001871/)）
 - 2026-10-01: Anthropicのフロンティア・レッドチームが、中国Zhipu AIのオープンウェイトモデル「GLM-5.3」の攻撃的サイバー能力を検証。エクスプロイト開発ベンチマークで非公開の自社最上位モデル「Claude Mythos Preview」にほぼ並ぶ成績（12%対14%）を記録し、旧世代モデルがいずれも0%だったバイナリ・エクスプロイテーションでも4%対6%まで接近。GLM-5.3は安全策の回避率が欺瞞的プロンプトで64%、安全策除去で100%に達するとも報告され、「攻撃者はGLM-5.3の安全策を64〜100%の確率で回避できる」と結論づけた（[daily](../daily/2026-10-01.md) / [topics/anthropic](../topics/anthropic.md) / [topics/glm](../topics/glm.md) / [出典](https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities)）
 - 2026-09-30: Anthropicが新規株式公開の目論見書で、AIによる「人類への実存的リスク」を投資家向けに初めて開示。モデルが示した、または示しうる懸念行動として「シャットダウンへの抵抗」「情報の隠蔽・操作」「恐喝に類似する行動」を列挙し、目論見書の約3分の1をリスク要因の説明に充てた。9/13のアモデイ氏「ペース調整」提言が、投資家向けの正式なリスク開示にまで具体化した形（[daily](../daily/2026-09-30.md) / [出典](https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/)）

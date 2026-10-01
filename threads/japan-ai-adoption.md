@@ -3,7 +3,7 @@ type: thread
 title: "国内 AI 導入動向（japan-ai-adoption）"
 slug: japan-ai-adoption
 created: 2026-08-19
-updated: 2026-09-29
+updated: 2026-10-02
 tags: [adoption, japan-company, case-study]
 status: active
 related: [topics/openai.md]
@@ -23,6 +23,7 @@ related: [topics/openai.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-02: セキュリティサービスのHENNGEが、人間の取締役2人（代表取締役・今泉健氏ら）のみで構成する新会社を設立。開発・マーケティング・カスタマーサポートなどの実務はAIエージェントが担い、営業や一部バックオフィス業務は親会社に委託する。新会社は複数AIモデルへの接続を一元管理する「AI Gateway」サービスを開発中で、提供開始は2027年9月までを予定（[daily](../daily/2026-10-02.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/01/2000001936/)）
 - 2026-09-29: 損保ジャパンが、2026年6月26日時点でGemini Enterpriseのライセンスを1,475人の従業員に割り当て、日次利用者（DAU）が50%超、週次利用者（WAU）が約80%に達したと開示。標準機能では「プロンプトの作成・実行方法の統一管理ができない」という制約があったため、Google CloudのModel Armorのテンプレート機能で自動ガードレールを設定し、Discovery Engine APIで有害コンテンツ検出・機密データ保護・URLフィルタリングを多層的に実装した。9/22の双日調査が示した「情報分散」の課題に続き、「ガバナンス・ガードレールの不足」を自前で補った事例（[daily](../daily/2026-09-29.md) / [出典](https://www.itmedia.co.jp/enterprise/articles/2609/28/news016.html)）
 - 2026-09-28: NTTドコモが、PKSHA Technologyの対話AIエージェント「PKSHA ChatAgent」を契約・料金手続き窓口に導入。従来は顧客が「正しく質問する」ことが求められていたが、AIが質問の意図を確認しながら必要な情報を絞り込む「聞き返す」方式へ転換し、普段使う言葉のままで問い合わせできるようにした。PKSHA ChatAgentの累計対話回数は7.5億回超（[daily](../daily/2026-09-28.md) / [出典](https://kn.itmedia.co.jp/kn/article/2609/27/2000001764/)）
 - 2026-09-27: トラコムが、生成AIの活用を「個人技から組織技へ」転換させ、資料作成にかかる時間を月32時間から月4時間へ（月約28時間削減）短縮したと発表。ほかに月次レポート作成（月10時間→3時間）、マニュアル作成（2時間→10分）、月次締め処理（3日→1〜2日）も効率化。従業員が作成した指示文を社内の共有資産として集約し、組織全体で再利用する仕組みを構築した点が特徴（[daily](../daily/2026-09-27.md) / [出典](https://kn.itmedia.co.jp/kn/article/2609/26/2000001725/)）

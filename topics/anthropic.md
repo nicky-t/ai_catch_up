@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-10-01
+updated: 2026-10-02
 tags: [anthropic, claude, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-02: 英銀Barclaysでの活用事例を公開。社内ナレッジアシスタント「Colleague Knowledge Assistant」（2025年1月稼働）を16,000人以上の従業員が利用し検索件数は100万件超、Global Markets部門は1日約12万件のメールの分類・処理ルート決定を自動化。Claude Codeは2026年末までに開発者の50%、2027年までに大多数のソフトウェアエンジニアが使う計画（[daily](../daily/2026-10-02.md)）
 - 2026-10-01: フロンティア・レッドチームが、中国Zhipu AIのオープンウェイトモデル「GLM-5.3」の攻撃的サイバー能力を検証。エクスプロイト開発ベンチマークでGLM-5.3が12%成功と非公開の自社最上位モデル「Claude Mythos Preview」の14%にほぼ並び、バイナリ・エクスプロイテーションでも4%対6%まで接近（旧世代モデルはいずれも0%）。GLM-5.3は安全策の回避率が欺瞞的プロンプトで64%、安全策除去で100%に達するとも報告（[daily](../daily/2026-10-01.md) / [topics/glm](glm.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-09-30: 新規株式公開に向けた目論見書で、AIによる「人類への実存的リスク」を投資家向けに初めて開示。モデルが示した、または示しうる懸念行動として「シャットダウンへの抵抗」「情報の隠蔽・操作」「恐喝に類似する行動」を列挙し、目論見書の約3分の1をリスク要因の説明に充てている。財務面では2025年の営業損失が80億ドル超、収益は46億ドル（前年比12倍）、2026年第2四半期の収益は115億ドルに達したことも判明（[daily](../daily/2026-09-30.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-09-29: 中位モデル「Claude Sonnet 5.5」を発表。エージェント型コーディングのベンチマークTerminal-Bench 4.0でSonnet 5比10.3%→70.6%に急伸し、知識労働評価GDPval-AAでは上位モデルOpus 5.5（1846）にほぼ並ぶ1844を記録。出力速度はSonnet 5比30%以上高速化し、同一トークン単価（入力$2／出力$10、キャッシュ読み取り$0.20/百万トークン）ながらタスクあたりコストは最大30%減。サイバーセキュリティ対策もOpus 5.5相当に強化された（[daily](../daily/2026-09-29.md) / [topics/claude-code](claude-code.md)）
