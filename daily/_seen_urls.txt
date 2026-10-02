@@ -405,3 +405,10 @@ https://simonwillison.net/2026/Oct/1/matthew-green/
 https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/
 https://www.itmedia.co.jp/aiplus/article/2610/01/2000001936/
 https://github.com/DietrichGebert/ponytail
+https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/
+https://www.itmedia.co.jp/aiplus/article/2610/02/2000001900/
+https://www.anthropic.com/news/claude-frontier-academy
+https://www.itmedia.co.jp/aiplus/article/2610/02/2000001965/
+https://kn.itmedia.co.jp/kn/article/2610/02/2000001932/
+https://www.itmedia.co.jp/aiplus/article/2610/02/2000001961/
+https://github.com/JuliusBrussee/caveman

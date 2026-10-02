@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-10-02
+updated: 2026-10-03
 tags: [anthropic, claude, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,8 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-03: 企業向けAI人材育成プログラム「Claude Frontier Academy」を発表。1億ドルを投じ、2027年末までに1万人の「Frontier Deployed Engineer（FDE）」育成を目指す。Accenture・Bain・Capgemini・Commonwealth Bank of Australia・Deloitte・McKinsey・Morgan Stanley・Novo Nordiskが初期コホートに参加。研修生は数日間の集中講義＋模擬導入演習の後、自社でClaudeプロジェクトを率いる12週間の実地研修（レジデンシー）に進む「医学研修」型の設計（[daily](../daily/2026-10-03.md)）
+- 2026-10-03: claude.aiとデスクトップ版の速度を、わずか2週間の集中的な取り組みで約3倍に高速化したと公開。モデルの再訓練ではなくサービス層（UI読み込み・描画・入力処理）の最適化で、3,000件を超える変更を加えたが利用者に影響する障害は0件。CPU命令数・React再描画回数など計測指標を大幅に増やし、改善が出た基準値をCIで固定する「ラチェット」の仕組みで後退を防止。メッセージ一覧の組み立てで同じIDを3回検索していた無駄を解消しCPU命令数48%・処理時間78%削減した例や、2ミリ秒短縮のための900行規模の変更案を「複雑さに対して効果が小さい」と判断し採用しなかった例を紹介。すべての変更は人間エンジニアが承認し、Slack経由の問題報告・方向付け・段階的ロールアウトという体制で進めた（[daily](../daily/2026-10-03.md) / [topics/claude-code](claude-code.md)）
 - 2026-10-02: 英銀Barclaysでの活用事例を公開。社内ナレッジアシスタント「Colleague Knowledge Assistant」（2025年1月稼働）を16,000人以上の従業員が利用し検索件数は100万件超、Global Markets部門は1日約12万件のメールの分類・処理ルート決定を自動化。Claude Codeは2026年末までに開発者の50%、2027年までに大多数のソフトウェアエンジニアが使う計画（[daily](../daily/2026-10-02.md)）
 - 2026-10-01: フロンティア・レッドチームが、中国Zhipu AIのオープンウェイトモデル「GLM-5.3」の攻撃的サイバー能力を検証。エクスプロイト開発ベンチマークでGLM-5.3が12%成功と非公開の自社最上位モデル「Claude Mythos Preview」の14%にほぼ並び、バイナリ・エクスプロイテーションでも4%対6%まで接近（旧世代モデルはいずれも0%）。GLM-5.3は安全策の回避率が欺瞞的プロンプトで64%、安全策除去で100%に達するとも報告（[daily](../daily/2026-10-01.md) / [topics/glm](glm.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-09-30: 新規株式公開に向けた目論見書で、AIによる「人類への実存的リスク」を投資家向けに初めて開示。モデルが示した、または示しうる懸念行動として「シャットダウンへの抵抗」「情報の隠蔽・操作」「恐喝に類似する行動」を列挙し、目論見書の約3分の1をリスク要因の説明に充てている。財務面では2025年の営業損失が80億ドル超、収益は46億ドル（前年比12倍）、2026年第2四半期の収益は115億ドルに達したことも判明（[daily](../daily/2026-09-30.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
