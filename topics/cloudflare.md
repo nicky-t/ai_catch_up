@@ -4,7 +4,7 @@ title: "Cloudflare（クラウドフレア）"
 slug: cloudflare
 created: 2026-10-04
 updated: 2026-10-04
-tags: [agent, cost]
+tags: [cloudflare, agent, cost]
 level: beginner
 audience: [engineer, business, instructor]
 related: [topics/jev.md, topics/amazon.md, topics/mcp.md]

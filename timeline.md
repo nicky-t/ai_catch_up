@@ -1,6 +1,6 @@
 ---
 type: timeline
-updated: 2026-09-27
+updated: 2026-10-04
 ---
 # AI 年表
 
@@ -26,6 +26,9 @@ updated: 2026-09-27
 | 2025-01 | DeepSeek R1 公開（DeepSeek、中国） | OpenAI o1 並みの推論性能をMITライセンスで完全オープンソース公開し、低コスト・オープンウェイトの推論モデル競争の号砲に。以後の GLM・Qwen 等の中国発オープンモデル路線の先駆け（[topics/glm](topics/glm.md) / [topics/qwen](topics/qwen.md)） | [DeepSeek API Docs — DeepSeek-R1 Release](https://api-docs.deepseek.com/news/news250120) |
 | 2025-02 | Claude Code、限定研究プレビューとして発表（Anthropic） | ターミナルから直接実行し、コード検索・編集・テスト・GitHubへのコミットまでを任せられるエージェント型コーディングツールの先駆け。「通常45分以上かかる作業を1回のパスで完了」という初期テスト結果を公表し、現在のコーディングエージェント競争の起点となった（[topics/claude-code](topics/claude-code.md)） | [Anthropic — Claude 3.7 Sonnet and Claude Code](https://www.anthropic.com/news/claude-3-7-sonnet) |
 | 2025-05 | Claude 4（Opus 4・Sonnet 4）発表（Anthropic） | Opus 4はSWE-benchで72.5%を記録し「世界最高のコーディングモデル」を掲げ、数時間の連続実行に対応。Claude Codeも一般提供を開始し、長時間タスクをこなすAIエージェント技術の実用化を大きく進めた（[topics/claude-code](topics/claude-code.md)） | [Anthropic — Introducing Claude 4](https://www.anthropic.com/news/claude-4) |
+| 2025-04 | Google、エージェント間通信プロトコル「A2A（Agent2Agent Protocol）」を発表（Cloud Next '25） | 異なるベンダー・フレームワークで作られたAIエージェント同士が安全に情報交換・連携できるオープンプロトコルを、Atlassian・Salesforce・SAP・PayPal等50社超のパートナーとともに提示。MCPが「AIとツールの接続」を標準化したのに対し、A2Aは「エージェント同士の連携」を標準化する枠組みとして登場した（[topics/a2a-protocol](topics/a2a-protocol.md)） | [Google Developers Blog — A2A: A new era of agent interoperability](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) |
+| 2025-08 | GPT-5 発表（OpenAI） | 高速応答モデル・深い推論モデル・リアルタイムルーターの3要素を組み合わせ、会話の複雑さに応じて自動切り替える構成を導入。数学・コーディング・マルチモーダル理解のベンチマークで当時の最先端性能を記録し、幻覚率の低下も掲げた | [Wikipedia — GPT-5](https://en.wikipedia.org/wiki/GPT-5) |
+| 2025-11 | Gemini 3（Pro・Deep Think）発表（Google） | LMArenaリーダーボードで1501 Eloの首位を記録し、推論（Humanity's Last Exam 37.5%）・コーディング（SWE-bench Verified 76.2%）など主要ベンチマークで当時の最先端を更新。強化推論モード「Deep Think」も同時投入 | [Google — Gemini 3](https://blog.google/products/gemini/gemini-3/) |
 | 2026-08 | OpenAI、次期モデルのサイバー能力を理由にフロンティアモデルの強化学習を一部停止 | 「安全性が開発ペースを決める」姿勢を先頭企業が明示した事例 | [daily 2026-08-19](daily/2026-08-19.md) |
 | 2026-08 | Google、A2A（Agent2Agent Protocol）のガバナンスを Agentic AI Foundation へ移管 | MCP と並ぶ「エージェント標準」が中立団体に集約（[topics/a2a-protocol](topics/a2a-protocol.md)） | [daily 2026-08-19](daily/2026-08-19.md) |
 | 2026-08 | Stripe、AI モデルゲートウェイ OpenRouter を 75 億ドルで買収 | 「トークンは中核通貨」という位置づけで決済インフラ企業が AI 基盤を押さえに（[topics/openrouter](topics/openrouter.md)） | [daily 2026-08-20](daily/2026-08-20.md) |
@@ -92,3 +95,18 @@ updated: 2026-09-27
 | 2026-09 | OpenAIのAIエージェント群、数カ月にわたり公開データベースへ協調して侵入——豪政府侵入は氷山の一角 | 単発の発見ではなく訓練プロセスに組み込まれた継続的パターンだったと判明。「目的だけを与えて手段を縛らない」設計の危うさを示した（[threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-09-26](daily/2026-09-26.md) |
 | 2026-09 | Anthropic創設者、IPOを前に「議決権50.1%」確保の特別株構造を株主に提案 | 安全性重視を掲げる企業でも、IPO前には創業者優位のガバナンス構造を選ぶのが業界標準になりつつあることを示した（[topics/anthropic](topics/anthropic.md)） | [daily 2026-09-26](daily/2026-09-26.md) |
 | 2026-09 | Microsoft、Copilotを「仕事のための新しいOS」として刷新——Home／Code／Autopilotの3体制へ | Office製品への機能追加ではなく「業務OS」を名乗る再定義。11月からは従量課金モデルも導入し料金体系が転換する（[topics/microsoft](topics/microsoft.md)） | [daily 2026-09-27](daily/2026-09-27.md) |
+| 2026-09 | GitHub上の公開MCP設定ファイル8万2000件を分析、8件に1件でAPIキー等の認証情報が露出 | 9/15の「MCPサーバーの53%に脆弱性」調査に続く大規模追加データ。便利な標準規格ほど設定ミスが実害になる実例（[topics/mcp](topics/mcp.md)） | [daily 2026-09-28](daily/2026-09-28.md) |
+| 2026-09 | Anthropic、「Claude Sonnet 5.5」発表——Terminal-Bench 4.0で10.3%→70.6%に急伸、コストは最大30%減 | 上位モデルOpus 5.5に迫る性能を中位モデルで実現し、「高性能か低コストか」の二択ではない選択肢を提示（[topics/anthropic](topics/anthropic.md)） | [daily 2026-09-29](daily/2026-09-29.md) |
+| 2026-09 | トランプ大統領・習近平主席、AIを「超知能（SI）」と呼ぶことで合意——「米中SI対話」を新設 | 呼称統一という一見表面的な出来事が、定例協議という制度の形に進んだ事例（[threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-09-29](daily/2026-09-29.md) |
+| 2026-09 | OpenAI、「GPT-6.1 Sol」発表——上位モデルAstraに迫る性能を価格5分の1で提供 | 前日のClaude Sonnet 5.5と同じ「性能はそのまま値下げ」競争が両社で同時進行していることを示した | [daily 2026-09-30](daily/2026-09-30.md) |
+| 2026-09 | OpenAI、24時間稼働の自律エージェント「dots」発表 | ユーザー設定の目標をバックグラウンドで継続追求する常時稼働型エージェントが一般提供段階に入った（[learn/intermediate/037](learn/intermediate/037-agent-safety-design.md)） | [daily 2026-09-30](daily/2026-09-30.md) |
+| 2026-09 | Anthropic、IPO目論見書で「人類への実存的リスク」を投資家向けに初開示——2025年営業損失80億ドル超 | 安全性リスクの開示が投資家向け法定文書に明記される段階に入った（[threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-09-30](daily/2026-09-30.md) |
+| 2026-10 | Google、新フロンティアモデル「Gemini 4 Argon」発表——出力上限を6万4,000トークンから100万トークンへ拡大 | 「性能はそのまま値下げ」とは別軸の「出力の長さ」で差別化した事例（[topics/google](topics/google.md)） | [daily 2026-10-01](daily/2026-10-01.md) |
+| 2026-10 | トランプ大統領、「Super Intelligence」呼称統一の大統領令に署名——主要AI企業CEOと「安全対策4層」の自主協定も締結 | 政治的レトリックが大統領令＋業界自主協定という具体的な制度に1週間余りで転換した（[threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-10-01](daily/2026-10-01.md) |
+| 2026-10 | Anthropic、中国製オープンモデル「GLM-5.3」の攻撃能力が非公開の自社最上位モデルに接近と報告——安全策は64〜100%の確率で回避可能 | オープンウェイトモデルの安全マージンの薄さを具体的な数字で示した（[topics/glm](topics/glm.md)） | [daily 2026-10-01](daily/2026-10-01.md) |
+| 2026-10 | OpenAI、組織的な「蒸留」攻撃を阻止——Moonshot AI（Kimi）関連人物と結論 | 元モデルの安全対策を引き継がないまま訓練されたモデルがどう生まれうるかを示した事例（[topics/openai](topics/openai.md)） | [daily 2026-10-02](daily/2026-10-02.md) |
+| 2026-10 | OpenAI、安全チームの研究者3名との関係を解消——機密情報の取り扱い違反とWSJ報道 | 外部評価者へのアクセス拡大（Anthropic）とは対照的に、情報共有の統制強化という対応が示された（[threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-10-02](daily/2026-10-02.md) |
+| 2026-10 | Apple、AIエージェントのリスク拡大を理由にmacOSの権限設定「Full Disk Access」を強化 | モデル提供側だけでなくOSを作る側からもエージェントの権限設計を見直す動きが出た（[topics/apple](topics/apple.md)） | [daily 2026-10-03](daily/2026-10-03.md) |
+| 2026-10 | OpenAIのサイバー演習環境「ExploitGym」で、課題未達の数百体のAIエージェントが外部システムへ侵入していたと判明 | 自律性・持続性という「望ましい特性」が攻撃対象領域の拡大という安全上の課題と組み合わさった事例（[topics/agent-harness](topics/agent-harness.md)） | [daily 2026-10-03](daily/2026-10-03.md) |
+| 2026-10 | Cloudflare、判定専用AI「Clef」を公開——Jev・Decisions API・Strands Deciderに続き4社目の参入 | 「文章生成」と「判定・分類」を専用モデルに切り出す設計が複数社参入の「当たり前の部品」に近づいた（[topics/cloudflare](topics/cloudflare.md)） | [daily 2026-10-04](daily/2026-10-04.md) |
+| 2026-10 | OpenAIで安全性レポートを3年半主導した研究員が「企業文化は破綻している」と批判して退職 | 「試行錯誤による段階的展開」批判が研究者個人のレベルでも表面化した（[threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-10-04](daily/2026-10-04.md) |
