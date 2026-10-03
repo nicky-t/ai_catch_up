@@ -412,3 +412,10 @@ https://www.itmedia.co.jp/aiplus/article/2610/02/2000001965/
 https://kn.itmedia.co.jp/kn/article/2610/02/2000001932/
 https://www.itmedia.co.jp/aiplus/article/2610/02/2000001961/
 https://github.com/JuliusBrussee/caveman
+https://blog.cloudflare.com/clef-decision-models
+https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/
+https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/
+https://www.itmedia.co.jp/news/article/2610/03/2000001984/
+https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/
+https://github.com/thedotmack/claude-mem
+https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo

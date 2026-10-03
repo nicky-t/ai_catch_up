@@ -85,6 +85,10 @@ importance_levels:
 # 2026-09-27（2026-W39）: 採用済みの提案
 # - grok（2026-09-23提案、category: model）: 既存のmodelカテゴリ（gpt/claude/gemini/llama等）が企業タグと別に用意されている慣例に合わせ採用。company:xaiタグと併用する
 _proposed_tags:
+  - name: cloudflare
+    category: company
+    proposed: 2026-10-04
+    reason: セキュリティ監査Skill「security-audit-skill」（9月）、判定専用AIモデル「Clef」（10月）など、AIエージェント向けの基盤的な部品をCloudflareが相次いで公開しており、既存のcompanyカテゴリ（nvidia/hugging-face等）と同様の粒度で追加を提案。今回のdaily/2026-10-04・topics/cloudflareでは代わりにagent/costタグで代替した
   - name: amd
     category: company
     proposed: 2026-09-30

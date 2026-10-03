@@ -3,11 +3,11 @@ type: topic
 title: "Jev（TypeSafe AI）"
 slug: jev
 created: 2026-09-19
-updated: 2026-10-02
+updated: 2026-10-04
 tags: [agent, cost]
 level: beginner
 audience: [engineer, business, instructor]
-related: [topics/openai.md, topics/google.md, topics/amazon.md]
+related: [topics/openai.md, topics/google.md, topics/amazon.md, topics/cloudflare.md]
 ---
 
 # Jev（TypeSafe AI）
@@ -32,6 +32,7 @@ related: [topics/openai.md, topics/google.md, topics/amazon.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-04: Cloudflareが判定専用モデル「Clef」「Clef-flash」を公開。中央値レイテンシ209.3ミリ秒（Clef-flashは38.8ミリ秒）、BFCL精度98.47%。汎用LLM比2倍以上速いと報告され、「Jev」「Decisions API」「Strands Decider」に続き判定特化型モデルへの参入は4社目となった（[daily](../daily/2026-10-04.md) / [topics/cloudflare](cloudflare.md)）
 - 2026-10-02: AWS傘下のStrands Labsが、同種の判断特化型モデル「Strands Decider 2B」（Qwen3.5-2Bベース、オープンソース）を公開。あらかじめ定義した選択肢から最適なものを選び確信度スコアを返す設計で、「Jev」「Decisions API」に続き大手が同系統のアプローチに参入した形（[daily](../daily/2026-10-02.md) / [topics/amazon](amazon.md)）
 - 2026-10-01（続報）: OpenAIの「Decisions API」について、Jev同種の低コスト分類モデルによるエージェント監視のデモが判明。フロンティアLLMでの監視コスト372ドルに対し、Jev同等モデルでは2.94ドルまで圧縮できたと報告された（[daily](../daily/2026-10-01.md) / [topics/openai](openai.md)）
 - 2026-09-30: OpenAIがDevDay 2026で発表した「Decisions API」（プレビュー版）が、あらかじめ定めた質問と回答候補を低コストモデル「Luna」に与えて数分の1秒で判定を返す、Jevと同種のアプローチを採用。文章生成ではなく構造化された判定に特化するJevの設計思想を、大手プラットフォームが自社サービスに取り込んだ形（[daily](../daily/2026-09-30.md) / [topics/openai](openai.md)）
@@ -42,3 +43,4 @@ related: [topics/openai.md, topics/google.md, topics/amazon.md]
 - [topics/openai](openai.md)（比較対象のLunaモデル）
 - [topics/google](google.md)（比較対象のGeminiモデル）
 - [topics/amazon](amazon.md)（同種モデル「Strands Decider 2B」）
+- [topics/cloudflare](cloudflare.md)（同種モデル「Clef」）

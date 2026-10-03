@@ -3,7 +3,7 @@ type: topic
 title: "Muse（ミューズ）"
 slug: muse
 created: 2026-09-27
-updated: 2026-10-01
+updated: 2026-10-04
 tags: [meta, agent]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,7 @@ Metaが2026年9月に米国限定で提供を始めたパーソナルAIエージ
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-04: Museと連携する自作デバイスを作れるプロジェクト「Muse Gadgets」を発表。ESP32搭載ボードやRaspberry PiにMetaのSDKを組み込める仕組みで、デバイス向けSDK・ファームウェアをApache License 2.0の下GitHubで公開。既存の家電をMuseに接続できる「Muse Home Link」デバイスも提供（[daily](../daily/2026-10-04.md) / [topics/meta](meta.md)）
 - 2026-10-01: 「フルディスクアクセスを無効にしていたのに個人メッセージを読まれた」とのInc.誌コラムニストの指摘に対し、Meta広報が「Messages連携は完全にオプトインで2段階の設定が必要」と反論。macOSのシステムレベル保護はアプリのバグでも回避できないと説明した。別件でYouTuberの住所がFacebookマーケットプレイスに共有されたとの指摘も報じられた（[daily](../daily/2026-10-01.md) / [topics/meta](meta.md)）
 - 2026-09-30: 中小企業向けに拡張した「Muse for Small Business」を発表。Shopify・Slack・QuickBooks・Stripeなど15以上のツールと連携し、Instagram・Facebook・Meta広告のデータも参照して企業の売上内容やブランドトーンを把握する。利用制限付きで無料提供し、追加利用は有料プランで対応（[daily](../daily/2026-09-30.md) / [topics/meta](meta.md)）
 - 2026-09-28: TechCrunch記者の試用レポートで、Museが「未請求の資金がないか確認する」と提案し実際に受取可能な資金を発見した一方（初回限定の利益）、クレジットカードやGmailなど金融情報をMuseに提供する際の懸念が指摘された。記者は「Metaの本業は広告販売」と述べ、広告事業に依存するMetaが個人の金融データを広告ターゲティングに活用する可能性への不信感を指摘。広告モデルに依存しないAppleのSiriとの対比も示された（[daily](../daily/2026-09-28.md)）

@@ -3,7 +3,7 @@ type: topic
 title: "Amazon（アマゾン）"
 slug: amazon
 created: 2026-09-12
-updated: 2026-10-02
+updated: 2026-10-04
 tags: [amazon]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,7 @@ EC・クラウド（AWS）・広告事業を持つ米国のテクノロジー企
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-04: AWSのマット・ガーマンCEOが、データセンター建設への地域からの批判に反論。「過去3年間で地域コミュニティに10億ドル超を寄付した」と説明し、政府機関との契約でのNDA（秘密保持契約）使用を今後取りやめると表明。水使用についても「データセンターの直接消費は米国の産業用水使用量の0.5%」と主張したが、米国内では100件超のデータセンター建設モラトリアムが検討されており透明性への懸念は続く（[daily](../daily/2026-10-04.md)）
 - 2026-10-02: AWS傘下のStrands Labsが、判断特化型のオープンソースモデル「Strands Decider 2B」を公開。Qwen3.5-2Bベースの小型モデルで、事前定義した選択肢から最適なものを選び確信度スコアを返す。文章生成ではなく構造化判断に特化する点で、同時期の「Jev」（TypeSafe AI）・OpenAI「Decisions API」と同じ系統（[daily](../daily/2026-10-02.md) / [topics/jev](jev.md)）
 - 2026-09-30: 数行のコードでAIエージェントを構築できるオープンソースフレームワーク「Strands」を公開。シェル実行・ファイル読み書き・Web検索などのツールを標準装備し、プロンプトキャッシングとセッション記憶にも対応。Bedrock上のモデルだけでなくAnthropic Claude・OpenAI GPT・Google Gemini・Ollama・LiteLLMなど複数プロバイダーに対応し、コード上の1パラメータ変更でモデルを切り替えられる（[daily](../daily/2026-09-30.md) / [topics/agent-harness](agent-harness.md)）
 - 2026-09-23（続報）: Museのブロックが9月20日実施と判明。理由はMetaの事前通知なし・顧客認証情報の取得保存リスク・自社ルール違反。対照的にShopifyは9月21日、全ストアでShop Pay経由のMuse決済を有効化すると発表しており、プラットフォーム側の対応が分かれている（[daily](../daily/2026-09-23.md) / [topics/meta](meta.md)）
