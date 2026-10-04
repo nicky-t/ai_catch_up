@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-10-03
+updated: 2026-10-05
 tags: [anthropic, claude, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-05: CEOダリオ・アモデイ氏が、トランプ大統領主催の会合でNVIDIA・Google・Meta・Microsoftなど大手AI企業CEOらと共に「フロンティア責任に関する共同声明」に署名。法的拘束力のない声明だが、政権とAnthropicの間の緊張が公の場で一旦和らいだ形となった一方、国防総省内では同社への不信がなお残っているとも報じられた（[daily](../daily/2026-10-05.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-10-03: 企業向けAI人材育成プログラム「Claude Frontier Academy」を発表。1億ドルを投じ、2027年末までに1万人の「Frontier Deployed Engineer（FDE）」育成を目指す。Accenture・Bain・Capgemini・Commonwealth Bank of Australia・Deloitte・McKinsey・Morgan Stanley・Novo Nordiskが初期コホートに参加。研修生は数日間の集中講義＋模擬導入演習の後、自社でClaudeプロジェクトを率いる12週間の実地研修（レジデンシー）に進む「医学研修」型の設計（[daily](../daily/2026-10-03.md)）
 - 2026-10-03: claude.aiとデスクトップ版の速度を、わずか2週間の集中的な取り組みで約3倍に高速化したと公開。モデルの再訓練ではなくサービス層（UI読み込み・描画・入力処理）の最適化で、3,000件を超える変更を加えたが利用者に影響する障害は0件。CPU命令数・React再描画回数など計測指標を大幅に増やし、改善が出た基準値をCIで固定する「ラチェット」の仕組みで後退を防止。メッセージ一覧の組み立てで同じIDを3回検索していた無駄を解消しCPU命令数48%・処理時間78%削減した例や、2ミリ秒短縮のための900行規模の変更案を「複雑さに対して効果が小さい」と判断し採用しなかった例を紹介。すべての変更は人間エンジニアが承認し、Slack経由の問題報告・方向付け・段階的ロールアウトという体制で進めた（[daily](../daily/2026-10-03.md) / [topics/claude-code](claude-code.md)）
 - 2026-10-02: 英銀Barclaysでの活用事例を公開。社内ナレッジアシスタント「Colleague Knowledge Assistant」（2025年1月稼働）を16,000人以上の従業員が利用し検索件数は100万件超、Global Markets部門は1日約12万件のメールの分類・処理ルート決定を自動化。Claude Codeは2026年末までに開発者の50%、2027年までに大多数のソフトウェアエンジニアが使う計画（[daily](../daily/2026-10-02.md)）

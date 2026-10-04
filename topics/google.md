@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-10-01
+updated: 2026-10-05
 tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,8 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-05: オープンソースソフトウェアの脆弱性報奨金制度（OSS VRP）を10月1日付で一時停止。AI生成の自動投稿が急増し、その大半が無効な内容だったため審査が立ち行かなくなったと説明。再開見通しは2027年第1四半期に「アップデート」を出す予定（[daily](../daily/2026-10-05.md)）
+- 2026-10-05: 個人向けGeminiの利用可能モデルを契約プラン別に再編。無料ユーザーは「Flash-Lite」のみ、Google AI Plusは「Flash-Lite」「Flash」、Pro/Ultraは3モデル全て利用可能に。無料ユーザーへの適用は10月9日から（[daily](../daily/2026-10-05.md)）
 - 2026-10-01: 新フロンティアモデル「Gemini 4 Argon」を発表。出力上限を6万4,000トークンから100万トークンへ拡大し、ソフトウェア開発・法務財務・サイバーセキュリティ防御など長時間の専門業務タスクに照準。DeepSWE v1.1で77.9%、AutomationBenchで首位（51.3%）。価格は導入期間中100万トークンあたり入力2ドル・出力10ドル（期間後は4ドル・20ドル）、まずサイバー防御向け「Fairwindプログラム」から提供開始（[daily](../daily/2026-10-01.md)）
 - 2026-10-01: AI生成タンパク質に電子透かしを埋め込む技術「SynthID Bio」の概念実証を発表。生物学的機能を保ったまま出所を識別できる設計で、画像・音声向けSynthIDの生命科学分野への応用（[daily](../daily/2026-10-01.md)）
 - 2026-09-29: タスク特化型カスタムAI「Gems」（2024年導入）を廃止し、Geminiの様々なタスクを横断する「Skills」に統合すると発表。既存のGemsは2026年11月17日にユーザー操作なしで自動的にSkillsへ変換される。利用にはタスクスレッド内で「/」を入力する必要があり、Meta「Muse」やOpenAI「Instinct」のような全方位型AIエージェントの台頭を受けた機能整理と見られる（[daily](../daily/2026-09-29.md)）
