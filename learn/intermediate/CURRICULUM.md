@@ -67,7 +67,7 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 ## F. 業務導入の実務（8）
 - [x] 047 ユースケース発掘：効く業務・効かない業務の見分け方 → learn/intermediate/047-use-case-discovery.md
 - [x] 048 ROI の出し方：工数削減をどう測り、どう報告するか → learn/intermediate/048-roi-measurement.md
-- [ ] 049 セキュリティとデータ取り扱い：学習利用・保存・越境の論点
+- [x] 049 セキュリティとデータ取り扱い：学習利用・保存・越境の論点 → learn/intermediate/049-security-data-handling.md
 - [ ] 050 社内ガイドライン設計：禁止事項より「使い方」を示す
 - [ ] 051 PoC から本番へ：失敗パターンと乗り越え方
 - [ ] 052 チェンジマネジメント：現場に定着させる方法

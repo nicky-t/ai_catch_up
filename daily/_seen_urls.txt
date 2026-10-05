@@ -426,3 +426,11 @@ https://www.itmedia.co.jp/news/article/2610/04/2000001987/
 https://www.publickey1.jp/blog/26/supabase1sqlitetursoaidb.html
 https://www.publickey1.jp/blog/26/state_of_devs_2026_ai.html
 https://github.com/garrytan/gstack
+https://www.itmedia.co.jp/news/article/2610/05/2000001937/
+https://atmarkit.itmedia.co.jp/ait/articles/2610/06/news004.html
+https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/
+https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/
+https://www.itmedia.co.jp/business/articles/2610/05/news037.html
+https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/
+https://www.publickey1.jp/blog/26/cloudflare_containersai6.html
+https://github.com/earthtojake/text-to-cad
