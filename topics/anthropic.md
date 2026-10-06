@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-10-06
+updated: 2026-10-07
 tags: [anthropic, claude, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,9 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-07: 業務エージェント「Cowork」の「このコンピュータのみ」オプションを廃止。10月6日以降開始のタスクから、モデル推論・VMともにクラウド実行に一本化された。開発者Felix Rieseberg氏は「マシン負荷」「ノートPCを閉じると作業が止まる」というローカル実行の弱点を理由に挙げ、各セッションへの専用サンドボックス割り当てでクロスデバイス対応を可能にした（[daily](../daily/2026-10-07.md)）
+- 2026-10-07: AIモデル開発ではなくその上にプロダクトを作るスタートアップ向けに、Claude Teamプラン1年無償＋1,000ドル分トークンクレジットを提供するプログラムを開始（[daily](../daily/2026-10-07.md)）
+- 2026-10-07: サイバーセキュリティ検証プログラム「Cyber Verification Program」を拡充し、Defense/Red Team/Specializedの3段階アクセスに整理。参加企業は2026年4〜7月で12万9,000件超の脆弱性（うち3万3,000件超が重大・高深刻度）を検出、自社のオープンソーススキャンでも4〜10月で5,500件超を追加検出したという（[daily](../daily/2026-10-07.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-10-06: 最上位モデル「Claude Mythos 5」「Claude Fable 5」について、複数ユーザーへのアクセスを制限したと報じられた（Fable 5の提供終了は3カ月程度の見込み）。日本では、この「海外モデル依存のリスク」が国産基盤モデルプロジェクト「Noetra」（NEDO支援・44社参加）を後押しする論拠の一つとして紹介された（[daily](../daily/2026-10-06.md) / [threads/japan-ai-adoption](../threads/japan-ai-adoption.md)）
 - 2026-10-05: CEOダリオ・アモデイ氏が、トランプ大統領主催の会合でNVIDIA・Google・Meta・Microsoftなど大手AI企業CEOらと共に「フロンティア責任に関する共同声明」に署名。法的拘束力のない声明だが、政権とAnthropicの間の緊張が公の場で一旦和らいだ形となった一方、国防総省内では同社への不信がなお残っているとも報じられた（[daily](../daily/2026-10-05.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-10-03: 企業向けAI人材育成プログラム「Claude Frontier Academy」を発表。1億ドルを投じ、2027年末までに1万人の「Frontier Deployed Engineer（FDE）」育成を目指す。Accenture・Bain・Capgemini・Commonwealth Bank of Australia・Deloitte・McKinsey・Morgan Stanley・Novo Nordiskが初期コホートに参加。研修生は数日間の集中講義＋模擬導入演習の後、自社でClaudeプロジェクトを率いる12週間の実地研修（レジデンシー）に進む「医学研修」型の設計（[daily](../daily/2026-10-03.md)）

@@ -3,7 +3,7 @@ type: thread
 title: "国内 AI 導入動向（japan-ai-adoption）"
 slug: japan-ai-adoption
 created: 2026-08-19
-updated: 2026-10-06
+updated: 2026-10-07
 tags: [adoption, japan-company, case-study]
 status: active
 related: [topics/openai.md]
@@ -23,6 +23,7 @@ related: [topics/openai.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-07: サーバーワークスが全国のITエンジニア260人を対象に実施した調査（2026年6月29日〜7月5日）で、52.7%が「ほぼ全て運用」または「一部運用で実験」としてAIエージェントを導入済みと回答。AIエージェント導入による人間業務の置き換わりは「かなり」「一部」を合わせ81.1%が実感、今後5年では73.1%がさらなる置き換わりを予想した（[daily](../daily/2026-10-07.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2610/05/news017.html)）
 - 2026-10-06: 日本政府がNEDO支援のもと、ソフトバンク・NEC・富士通など44社が出資する国産基盤モデルプロジェクト「Noetra」を推進していると判明。2026年度の予算はプロジェクト全体で約387.3億円、5年間の支援総額は1兆円規模に達する見通し。背景には、Anthropicが最上位モデル「Claude Mythos 5」「Claude Fable 5」の複数ユーザーへのアクセスを制限した事態（Fable 5の提供終了は3カ月程度の見込み）があり、記事は「海外モデル依存のリスク」が国産AI開発を後押しする「最後のチャンス」と位置づけている（[daily](../daily/2026-10-06.md) / [topics/anthropic](../topics/anthropic.md)）
 - 2026-10-03: KDDI傘下のELYZAが、国産基盤モデル「LLM-jp-4」をベースに日本語処理能力を強化した2モデルをApache 2.0ライセンスでHugging Face上に無料公開。一部ベンチマークでNIIの新しい「LLM-jp-4.1」系列を上回るスコアを記録したという。8/19に取り上げたNII「LLM-jp-4 33B」の公開から約1カ月半、国産オープンモデルを土台にした追加学習の成果が出てきた形（[daily](../daily/2026-10-03.md) / [topics/elyza](../topics/elyza.md)）
 - 2026-10-02: セキュリティサービスのHENNGEが、人間の取締役2人（代表取締役・今泉健氏ら）のみで構成する新会社を設立。開発・マーケティング・カスタマーサポートなどの実務はAIエージェントが担い、営業や一部バックオフィス業務は親会社に委託する。新会社は複数AIモデルへの接続を一元管理する「AI Gateway」サービスを開発中で、提供開始は2027年9月までを予定（[daily](../daily/2026-10-02.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/01/2000001936/)）
