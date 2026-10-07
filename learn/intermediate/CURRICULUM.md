@@ -69,7 +69,7 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 - [x] 048 ROI の出し方：工数削減をどう測り、どう報告するか → learn/intermediate/048-roi-measurement.md
 - [x] 049 セキュリティとデータ取り扱い：学習利用・保存・越境の論点 → learn/intermediate/049-security-data-handling.md
 - [x] 050 社内ガイドライン設計：禁止事項より「使い方」を示す → learn/intermediate/050-internal-ai-guideline-design.md
-- [ ] 051 PoC から本番へ：失敗パターンと乗り越え方
+- [x] 051 PoC から本番へ：失敗パターンと乗り越え方 → learn/intermediate/051-poc-to-production-failure-patterns.md
 - [ ] 052 チェンジマネジメント：現場に定着させる方法
 - [ ] 053 ベンダー・ツール選定：自社開発 / SaaS / プラットフォームの比較軸
 - [ ] 054 料金体系の理解：トークン課金・席課金・従量とコスト試算
