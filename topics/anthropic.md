@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-10-07
+updated: 2026-10-08
 tags: [anthropic, claude, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-08: 低価格・高速の小型モデル「Claude Haiku 5.5」を発表。価格は100万トークンあたり入力0.10ドル・出力0.50ドルで旧Haiku 4.5から平均75%減（短文では最大90%減）。Sonnet 5.5のキャッシュ読み込み価格も半減し、エージェント型コーディングの典型コストを約20%下げるという（[daily](../daily/2026-10-08.md)）
 - 2026-10-07: 業務エージェント「Cowork」の「このコンピュータのみ」オプションを廃止。10月6日以降開始のタスクから、モデル推論・VMともにクラウド実行に一本化された。開発者Felix Rieseberg氏は「マシン負荷」「ノートPCを閉じると作業が止まる」というローカル実行の弱点を理由に挙げ、各セッションへの専用サンドボックス割り当てでクロスデバイス対応を可能にした（[daily](../daily/2026-10-07.md)）
 - 2026-10-07: AIモデル開発ではなくその上にプロダクトを作るスタートアップ向けに、Claude Teamプラン1年無償＋1,000ドル分トークンクレジットを提供するプログラムを開始（[daily](../daily/2026-10-07.md)）
 - 2026-10-07: サイバーセキュリティ検証プログラム「Cyber Verification Program」を拡充し、Defense/Red Team/Specializedの3段階アクセスに整理。参加企業は2026年4〜7月で12万9,000件超の脆弱性（うち3万3,000件超が重大・高深刻度）を検出、自社のオープンソーススキャンでも4〜10月で5,500件超を追加検出したという（[daily](../daily/2026-10-07.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）

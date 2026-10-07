@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-10-07
+updated: 2026-10-08
 tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,8 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-08: 画像生成モデル「Nano Banana 2.1」の提供を開始。Eloスコアが1050（旧990）に向上、API出力料金はほぼ半減（1Kサイズ0.0336ドル、旧0.067ドル）だが入力トークン単価は逆に上昇（[daily](../daily/2026-10-08.md)）
+- 2026-10-08: AI生成メディアを誰でも判定できるサイト「synthid.com」を一般公開。これまで一部の記者・研究者限定だった検証機能を開放し、1日約100万件の検証リクエストが発生中（[daily](../daily/2026-10-08.md)）
 - 2026-10-07: Google DeepMindが、オープンウェイトの軽量マルチモーダル埋め込みモデル「EmbeddingGemma 2」をApache 2.0ライセンスで公開。開発者Simon Willison氏は「埋め込みモデルはオープンウェイトの方が理にかなっている」と評し、ベンダーがモデルを廃止すると保存済みベクトルの作り直しが必要になる点を理由に挙げた（[daily](../daily/2026-10-07.md) / [topics/rag](rag.md)）
 - 2026-10-05: オープンソースソフトウェアの脆弱性報奨金制度（OSS VRP）を10月1日付で一時停止。AI生成の自動投稿が急増し、その大半が無効な内容だったため審査が立ち行かなくなったと説明。再開見通しは2027年第1四半期に「アップデート」を出す予定（[daily](../daily/2026-10-05.md)）
 - 2026-10-05: 個人向けGeminiの利用可能モデルを契約プラン別に再編。無料ユーザーは「Flash-Lite」のみ、Google AI Plusは「Flash-Lite」「Flash」、Pro/Ultraは3モデル全て利用可能に。無料ユーザーへの適用は10月9日から（[daily](../daily/2026-10-05.md)）
