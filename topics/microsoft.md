@@ -3,7 +3,7 @@ type: topic
 title: "Microsoft（マイクロソフト）"
 slug: microsoft
 created: 2026-09-06
-updated: 2026-10-08
+updated: 2026-10-09
 tags: [microsoft, guardrails, prompt-engineering, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ Windows・Office・Azure・GitHubなどを展開する米国のテクノロジ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-09: 富士通が、2025年7月に試験配布した7,500ライセンスから拡大し2026年4月までにほぼ全社員に相当する約10万ライセンスのMicrosoft 365 Copilotを展開、利用率90%超を2026年6月時点まで維持していると公表。部署別ハンズオン研修・業務改善コンテスト・経営層が自ら使う「Customer Zero」戦略で浸透を後押しし、社内サービスデスクでは問い合わせ対応プロセスの約75%をAIエージェントが自動化（[daily](../daily/2026-10-09.md) / [learn/intermediate/052](../learn/intermediate/052-change-management-for-adoption.md) / [threads/japan-ai-adoption](../threads/japan-ai-adoption.md)）
 - 2026-10-08: Windowsを「ハイブリッド・インテリジェンス」に刷新。エージェントサンドボックス「Microsoft Execution Containers」が正式提供開始、ローカル動作の軽量モデル「MAI Code 1.1 Flash」とローカル/クラウド自動選択ルーター「HydraFusion」を発表。NVIDIA RTX Spark搭載の「Surface Laptop Ultra」（最大128GB統合メモリ、51万3,480円〜109万4,280円）も発表（[daily](../daily/2026-10-08.md)）
 - 2026-09-27: ナデラCEOが、Copilotを「あらゆるモデル・あらゆるフォームファクター」に対応する「仕事のための新しいOS」として刷新すると発表。質問応答・下書き（Home、Copilot Coworkと統合）／自然言語でアプリ・ダッシュボード・自動化を構築する「Code」（IT部門管理下で展開する「Managed Runtime」付き）／サプライヤー評価などの業務プロセスを一気通貫で自動処理する「Autopilot」の3機能で構成。HomeとCodeは数週間以内にFrontierプログラムで展開、Autopilotは9月末にプライベートプレビュー拡大。11月2日からCSP経由の新規購入に従量課金（UBB）モデルを導入（[daily](../daily/2026-09-27.md)）
 - 2026-09-22: 双日テックイノベーションが、Microsoft 365 Copilot導入企業105社を対象に調査。78.0%が「CopilotとM365だけで業務に必要な情報検索をカバーできる」と回答した一方、87.5%は情報の分散を課題と回答、96.2%が「M365外も横断検索できるAI環境があればAI活用が広がる」と答えた（[daily](../daily/2026-09-22.md) / [threads/japan-ai-adoption](../threads/japan-ai-adoption.md)）

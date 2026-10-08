@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-10-08
+updated: 2026-10-09
 tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,7 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-09: Geminiを単一の統合エージェントに刷新。CEOトーマス・クリアン氏は「指示だけでなく目的を託せる」と説明し、Google Workspace・Microsoft 365・Slack・Jira・BigQuery等やMCPサーバーに接続可能。モデルは既定で自動選択だがAnthropicのClaudeなど他社モデルも選べ、エージェントには専用のWorkspaceアカウント（固有メールアドレス）を割り当て行動ログもエージェント自身に記録。Gemini全体の月間利用者は10億人超、Fortune100の9割近くがGemini Enterpriseを利用。まず企業向けから展開（[daily](../daily/2026-10-09.md)）
 - 2026-10-08: 画像生成モデル「Nano Banana 2.1」の提供を開始。Eloスコアが1050（旧990）に向上、API出力料金はほぼ半減（1Kサイズ0.0336ドル、旧0.067ドル）だが入力トークン単価は逆に上昇（[daily](../daily/2026-10-08.md)）
 - 2026-10-08: AI生成メディアを誰でも判定できるサイト「synthid.com」を一般公開。これまで一部の記者・研究者限定だった検証機能を開放し、1日約100万件の検証リクエストが発生中（[daily](../daily/2026-10-08.md)）
 - 2026-10-07: Google DeepMindが、オープンウェイトの軽量マルチモーダル埋め込みモデル「EmbeddingGemma 2」をApache 2.0ライセンスで公開。開発者Simon Willison氏は「埋め込みモデルはオープンウェイトの方が理にかなっている」と評し、ベンダーがモデルを廃止すると保存済みベクトルの作り直しが必要になる点を理由に挙げた（[daily](../daily/2026-10-07.md) / [topics/rag](rag.md)）

@@ -456,3 +456,17 @@ https://www.itmedia.co.jp/news/article/2610/07/2000002078/
 https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/
 https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/
 https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/
+https://www.itmedia.co.jp/news/article/2610/08/2000002119/
+https://www.itmedia.co.jp/aiplus/article/2610/08/2000002136/
+https://www.itmedia.co.jp/news/article/2610/08/2000002101/
+https://atmarkit.itmedia.co.jp/ait/articles/2610/08/news022.html
+https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/
+https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/
+https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/
+https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/
+https://www.itmedia.co.jp/news/article/2610/08/2000002125/
+https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/
+https://github.com/thedotmack/claude-mem
+https://github.com/cathrynlavery/diagram-design
+https://www.prosci.com/methodology/adkar
+https://www.prosci.com/resources/success-stories/united-concordia-dental
