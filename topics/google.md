@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-10-09
+updated: 2026-10-10
 tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,7 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-10（続報）: 損保ジャパンが、2026年1月に約2万人へ導入したGemini Enterpriseの運用詳細を公開。6月時点で平日DAU50%超・WAU約80%。AIリテラシーテスト合格者だけに権限を付与する日次自動更新、Model Armorによるプロンプト・回答のリアルタイム検査、BigQueryへの監査ログ集約、従業員によるエージェント作成・共有のガバナンスという4点の仕組みを整理。9月29日既報の「標準機能の制約を自前のガードレールで補った」話に、具体的な利用率・運用体制が加わった（[daily](../daily/2026-10-10.md) / [threads/japan-ai-adoption](../threads/japan-ai-adoption.md)）
 - 2026-10-09: Geminiを単一の統合エージェントに刷新。CEOトーマス・クリアン氏は「指示だけでなく目的を託せる」と説明し、Google Workspace・Microsoft 365・Slack・Jira・BigQuery等やMCPサーバーに接続可能。モデルは既定で自動選択だがAnthropicのClaudeなど他社モデルも選べ、エージェントには専用のWorkspaceアカウント（固有メールアドレス）を割り当て行動ログもエージェント自身に記録。Gemini全体の月間利用者は10億人超、Fortune100の9割近くがGemini Enterpriseを利用。まず企業向けから展開（[daily](../daily/2026-10-09.md)）
 - 2026-10-08: 画像生成モデル「Nano Banana 2.1」の提供を開始。Eloスコアが1050（旧990）に向上、API出力料金はほぼ半減（1Kサイズ0.0336ドル、旧0.067ドル）だが入力トークン単価は逆に上昇（[daily](../daily/2026-10-08.md)）
 - 2026-10-08: AI生成メディアを誰でも判定できるサイト「synthid.com」を一般公開。これまで一部の記者・研究者限定だった検証機能を開放し、1日約100万件の検証リクエストが発生中（[daily](../daily/2026-10-08.md)）

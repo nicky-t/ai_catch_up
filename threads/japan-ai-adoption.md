@@ -3,7 +3,7 @@ type: thread
 title: "国内 AI 導入動向（japan-ai-adoption）"
 slug: japan-ai-adoption
 created: 2026-08-19
-updated: 2026-10-09
+updated: 2026-10-10
 tags: [adoption, japan-company, case-study]
 status: active
 related: [topics/openai.md]
@@ -23,6 +23,7 @@ related: [topics/openai.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-10（続報）: 損保ジャパンが、2026年1月に約2万人へ導入したGemini Enterpriseの運用詳細を公開。6月時点で平日DAU50%超・WAU約80%に達している。AIリテラシーテスト合格者のみに権限を自動更新する仕組み、Model Armorによるプロンプト・回答のリアルタイム検査、BigQueryへの監査ログ集約、従業員によるエージェント作成・共有のガバナンスという4点の対策を整理。9/29既報の「標準機能の制約を自前のガードレールで補った」話が、具体的な利用率と運用体制の数字で肉付けされた（[daily](../daily/2026-10-10.md) / [topics/google](../topics/google.md) / [出典](https://kn.itmedia.co.jp/kn/article/2610/09/2000002145/)）
 - 2026-10-09: 富士通が、2025年7月に試験配布した7,500ライセンスから拡大し2026年4月までにほぼ全社員に相当する約10万ライセンスのMicrosoft 365 Copilotを展開、利用率90%超を2026年6月時点まで維持していると公表。部署別ハンズオン研修・業務改善コンテスト・経営層が自ら使う「Customer Zero」戦略で浸透を後押しした。9/20のクラウドワークス調査（AI導入企業の8割超が「チャット止まり」）・9/22の双日調査（情報分散の課題）が示した定着の壁に対し、具体的な打ち手と高い利用率を示した事例（[daily](../daily/2026-10-09.md) / [topics/microsoft](../topics/microsoft.md) / [学習052](../learn/intermediate/052-change-management-for-adoption.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2610/08/news022.html)）
 - 2026-10-07: サーバーワークスが全国のITエンジニア260人を対象に実施した調査（2026年6月29日〜7月5日）で、52.7%が「ほぼ全て運用」または「一部運用で実験」としてAIエージェントを導入済みと回答。AIエージェント導入による人間業務の置き換わりは「かなり」「一部」を合わせ81.1%が実感、今後5年では73.1%がさらなる置き換わりを予想した（[daily](../daily/2026-10-07.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2610/05/news017.html)）
 - 2026-10-06: 日本政府がNEDO支援のもと、ソフトバンク・NEC・富士通など44社が出資する国産基盤モデルプロジェクト「Noetra」を推進していると判明。2026年度の予算はプロジェクト全体で約387.3億円、5年間の支援総額は1兆円規模に達する見通し。背景には、Anthropicが最上位モデル「Claude Mythos 5」「Claude Fable 5」の複数ユーザーへのアクセスを制限した事態（Fable 5の提供終了は3カ月程度の見込み）があり、記事は「海外モデル依存のリスク」が国産AI開発を後押しする「最後のチャンス」と位置づけている（[daily](../daily/2026-10-06.md) / [topics/anthropic](../topics/anthropic.md)）

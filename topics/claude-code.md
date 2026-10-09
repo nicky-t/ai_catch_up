@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-10-05
+updated: 2026-10-10
 tags: [claude-code, anthropic, agent]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-10: 韓国の金融機関を狙った9月末からの一連のサイバー攻撃をCrowdStrikeが分析。攻撃者は中国公開の侵入テスト自動化ツール「ARTEX」経由で主にDeepSeekを使っていたが、攻撃用サーバには「Claude Code」の利用記録が残っており、攻撃者が漏えいデータの売買場所の探し方や、攻撃成果を盛り込んだ「セキュリティ研究者の履歴書」の作成をClaudeに依頼していたことが判明。依頼文に含まれた年齢・居住地・Telegramユーザー名が身元特定の手がかりになった（[daily](../daily/2026-10-10.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-10-05（今日の現場ネタ）: Y Combinator社長Garry Tan氏が公開するSkill集「gstack」がGitHub Trendingで急上昇（スター135,124超・本日+121）。CEO・デザイナー・エンジニアリングマネージャー・QAなど役割別の23個のスラッシュコマンドで「考える→計画→実装→レビュー→テスト→出荷→振り返り」の開発フローをClaude Codeに組ませる設計（[daily](../daily/2026-10-05.md)）
 - 2026-10-03（今日の現場ネタ）: コーディングエージェントのトークン消費を約33%削減するSkill／CLI「caveman」がGitHub Trendingで急上昇（スター109,000超・本日+271）。「caveman-speak」という簡潔な文体で冗長な説明を省きつつコード・コマンド・技術的詳細は保持する設計で、ログ・JSON・diff・テスト出力を圧縮するローカルプロキシや`caveman learn`による過去セッションのトークン分析機能も持つ。JetBrainsの86タスク検証では出力トークン8.5%減・品質は変化なしと報告（[daily](../daily/2026-10-03.md)）
 - 2026-09-27（今日の現場ネタ）: チェス対局を振り返る個人向けSkill「chess-postmortem-skills」がHacker Newsで話題に（68pt）。Claude CodeとStockfishを組み合わせ、対局中の「独り言」音声を文字起こしして各手と対応付け、平易な言葉のミス解説・注釈付きPGN・対話的なHTML解析盤・ナレーション動画を生成する。`~/.claude/skills/`にコピーして使う個人向けツールの例（[daily](../daily/2026-09-27.md)）

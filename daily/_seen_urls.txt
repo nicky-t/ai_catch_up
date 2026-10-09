@@ -470,3 +470,14 @@ https://github.com/thedotmack/claude-mem
 https://github.com/cathrynlavery/diagram-design
 https://www.prosci.com/methodology/adkar
 https://www.prosci.com/resources/success-stories/united-concordia-dental
+https://www.itmedia.co.jp/news/article/2610/09/2000002164/
+https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/
+https://www.itmedia.co.jp/news/article/2610/09/2000002176/
+https://atmarkit.itmedia.co.jp/ait/articles/2610/09/news033.html
+https://kn.itmedia.co.jp/kn/article/2610/09/2000002145/
+https://www.itmedia.co.jp/aiplus/article/2610/09/2000002182/
+https://www.itmedia.co.jp/news/article/2610/09/2000002121/
+https://www.itmedia.co.jp/news/article/2610/09/2000002102/
+https://www.itmedia.co.jp/news/article/2610/09/2000002157/
+https://github.com/morluto/rea
+https://www.stackai.com/insights/build-vs-buy-for-enterprise-ai-the-2026-decision-framework

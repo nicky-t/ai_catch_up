@@ -3,7 +3,7 @@ type: topic
 title: "プロンプトインジェクション（prompt injection）"
 slug: prompt-injection
 created: 2026-09-05
-updated: 2026-09-05
+updated: 2026-10-10
 tags: [prompt-engineering, guardrails, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,7 @@ AIに読み込ませたはずの「ただの文章」に紛れ込んだ指示を
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-10: ノースカロライナ大学チャペルヒル校などの研究者が履歴書19万6,682件を分析（USENIX Security 2026）。文字を背景色と同化させる・極端に小さいフォントを使うなどの手口で、採用担当者には見えずAIの読み取りにだけ情報が届く「隠しテキスト」が約1%（2,030件）から検出された。最多はスキルキーワードの羅列、次点は虚偽の職歴・実績の記載。間接的インジェクションが履歴書選考にも及んでいる実例（[daily](../daily/2026-10-10.md)）
 - 2026-09-05: Word文書に白文字で仕込んだ指示をMicrosoft Copilotが命令として解釈し、生成する新しい文書にもコピーされて社内に広がる手口をノルウェーの研究者が報告。間接的インジェクションの典型例（[daily](../daily/2026-09-05.md)）
 
 ## 関連
