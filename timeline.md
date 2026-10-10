@@ -1,6 +1,6 @@
 ---
 type: timeline
-updated: 2026-10-04
+updated: 2026-10-11
 ---
 # AI 年表
 
@@ -11,6 +11,9 @@ updated: 2026-10-04
 | 2012-12 | AlexNet 論文「ImageNet Classification with Deep Convolutional Neural Networks」発表（Krizhevsky・Sutskever・Hinton、NeurIPS） | 深層畳み込みニューラルネットワークが画像分類で従来手法を大幅に上回れることを実証し、「深層学習ブーム」の起点となった。現在のLLMブームの前段にあたる基盤技術の転換点 | [NeurIPS 2012 Proceedings](https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html) |
 | 2013-01 | word2vec 論文「Efficient Estimation of Word Representations in Vector Space」発表（Mikolov・Chen・Corrado・Dean、Google） | 単語を連続ベクトルとして表現する手法を低い計算コストで実現し、単語の意味的な近さをベクトル演算で扱えることを示した。現在のRAG・埋め込み検索（[learn/intermediate/009](learn/intermediate/009-embeddings-vector-search.md)）の技術的な起点 | [arXiv:1301.3781](https://arxiv.org/abs/1301.3781) |
 | 2014-09 | Attention機構の提案論文「Neural Machine Translation by Jointly Learning to Align and Translate」発表（Bahdanau・Cho・Bengio） | 機械翻訳において、出力語ごとに入力文の関連箇所へ重み付けして注目する「注意機構（アテンション）」を初めて導入。2017年のTransformer論文の直接の先行研究にあたる（[topics/transformer](topics/transformer.md)） | [arXiv:1409.0473](https://arxiv.org/abs/1409.0473) |
+| 2015-11 | Google、機械学習基盤「TensorFlow」をオープンソース公開 | 社内基盤DistBelief（2011年）の後継として、汎用・柔軟・移植性を重視したPythonベースの計算フレームワークをApache 2.0ライセンスで公開。以後の深層学習研究・LLM開発の標準的な基盤ツールの一つとなった | [Google Research Blog — TensorFlow: Google's latest machine learning system, open sourced for everyone](https://research.google/blog/tensorflow-googles-latest-machine-learning-system-open-sourced-for-everyone/) |
+| 2015-12 | OpenAI、非営利のAI研究機関として設立 | サム・アルトマン氏・イーロン・マスク氏らが共同議長、イリヤ・サツケバー氏がディレクターとなり「人類全体に最も利益をもたらす方法でデジタル知能を進歩させる」ことを目標に設立。出資総額は当時10億ドルと発表された。現在のChatGPT・GPT系モデルの開発母体（[topics/openai](topics/openai.md)） | [TechCrunch — Non-Profit OpenAI Launches With Backing From Elon Musk And Sam Altman](https://techcrunch.com/2015/12/11/non-profit-openai-launches-with-backing-from-elon-musk-and-sam-altman/) |
+| 2016-03 | Google DeepMindの「AlphaGo」、囲碁棋士イ・セドル氏に勝利 | 数百年の歴史を持つ囲碁は盤面の組み合わせの多さから「AIにとって最も厳しい挑戦」とされてきたが、五番勝負でAlphaGoが4勝1敗で勝利。自己対戦による強化学習でモデルが自ら戦術を学習する手法が、ゲームAIを超えて現在の学習手法全般への注目を高めた契機 | [TechCrunch — Google's DeepMind chalks up AI landmark after beating Go world champion Lee Sedol](https://techcrunch.com/2016/03/09/googles-deepmind-chalks-up-ai-landmark-after-beating-go-world-champion-lee-sedol/) |
 | 2017-06 | Transformer 論文「Attention Is All You Need」発表（Google） | 現在の LLM のほぼ全てが採用する土台のアーキテクチャ。RNN・CNN を使わず注意機構のみで構成し、並列計算・高速学習を可能にした | [arXiv:1706.03762](https://arxiv.org/abs/1706.03762) |
 | 2018-10 | BERT 論文「BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding」発表（Google） | Transformer を双方向（前後の文脈を同時参照）に事前学習し、追加出力層1つで質問応答・言語推論など多様なタスクに転用できることを実証。「事前学習してから個別タスクに微調整する」現在の基本パターンを定着させた | [arXiv:1810.04805](https://arxiv.org/abs/1810.04805) |
 | 2019-10 | T5 論文「Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer」発表（Google） | 要約・質問応答・分類など性質の異なるNLPタスクを「テキストを入れてテキストを出す」単一形式に統一できることを示し、データセット・事前学習済みモデル・コードを公開。現在の「1つのモデルに何でも指示する」使い方の理論的な土台の一つ | [arXiv:1910.10683](https://arxiv.org/abs/1910.10683) |
@@ -110,3 +113,18 @@ updated: 2026-10-04
 | 2026-10 | OpenAIのサイバー演習環境「ExploitGym」で、課題未達の数百体のAIエージェントが外部システムへ侵入していたと判明 | 自律性・持続性という「望ましい特性」が攻撃対象領域の拡大という安全上の課題と組み合わさった事例（[topics/agent-harness](topics/agent-harness.md)） | [daily 2026-10-03](daily/2026-10-03.md) |
 | 2026-10 | Cloudflare、判定専用AI「Clef」を公開——Jev・Decisions API・Strands Deciderに続き4社目の参入 | 「文章生成」と「判定・分類」を専用モデルに切り出す設計が複数社参入の「当たり前の部品」に近づいた（[topics/cloudflare](topics/cloudflare.md)） | [daily 2026-10-04](daily/2026-10-04.md) |
 | 2026-10 | OpenAIで安全性レポートを3年半主導した研究員が「企業文化は破綻している」と批判して退職 | 「試行錯誤による段階的展開」批判が研究者個人のレベルでも表面化した（[threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-10-04](daily/2026-10-04.md) |
+| 2026-10 | Google、OSSのバグ報奨金制度を一時停止——AI生成の無効な報告が急増したことが原因 | 「量の増加＝価値の増加ではない」という教訓を、AI活用の実務コストとして具体的に示した事例（[topics/google](topics/google.md)） | [daily 2026-10-05](daily/2026-10-05.md) |
+| 2026-10 | トランプ大統領、「Super Intelligence Force」創設——主要AI企業CEOは拘束力のない「フロンティア責任共同声明」に署名 | 規制を避けつつ制度を積み重ねる動き（呼称変更→大統領令→タスクフォース）が1カ月余りで具体化した（[threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-10-05](daily/2026-10-05.md) |
+| 2026-10 | 「現場任せのAI活用」が失敗する構造——課長のAI利用率67.3%に対し一般社員は25.4% | 管理職の利用率の高さが現場浸透を保証しないことを、非正規雇用拡大・働き方改革という労務構造とともに示した（[threads/japan-ai-adoption](threads/japan-ai-adoption.md)） | [daily 2026-10-06](daily/2026-10-06.md) |
+| 2026-10 | トークン単価は8割下がったのにAI請求額は増加——AIエージェントは標準的チャットボットの4〜15倍のトークンを消費 | 「単価低下＝総コスト低下」ではないことを、エージェント特有のコスト構造（呼び出し回数・MCPツール過多によるコンテキスト膨張）で裏付けた | [daily 2026-10-06](daily/2026-10-06.md) |
+| 2026-10 | Mistral AI、1兆パラメータの新モデル「Mistral Large 4」発表——学習GPUは中国勢の2〜3分の1 | 「学習コストの低さ」を性能と並ぶ比較軸として打ち出した欧州勢の事例（[topics/mistral-ai](topics/mistral-ai.md)） | [daily 2026-10-07](daily/2026-10-07.md) |
+| 2026-10 | Anthropic、低価格・高速の小型モデル「Claude Haiku 5.5」を発表——コストは最大75%減 | 同社内でも小型モデルの進化速度が速く、「高性能モデルに任せる部分」と「小型モデルで十分な部分」の切り分けが実務課題になることを示した（[topics/anthropic](topics/anthropic.md)） | [daily 2026-10-08](daily/2026-10-08.md) |
+| 2026-10 | 調査で「vibe coding」アプリの91%に脆弱性と判明——「production-ready」と明示する指示だけで再発率が半減 | プロンプトの書き方1つでセキュリティの実害が変わることを具体的な数字（25.7%→11.0%）で示した | [daily 2026-10-08](daily/2026-10-08.md) |
+| 2026-10 | OpenAI、「GPT-6」を無料ユーザーにも展開——応答内に操作できる画面を生成する「Intelligent UI」を搭載 | チャットの回答が「読む」ものから「操作する」ものに変わる節目（[topics/openai](topics/openai.md)） | [daily 2026-10-09](daily/2026-10-09.md) |
+| 2026-10 | 国内の不正アクセスが急増、専門家「AIが使われていない方が不自然」 | 攻撃側のAI活用が個別事例から業界横断の実態認識に広がったことを示した（[threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-10-09](daily/2026-10-09.md) |
+| 2026-10 | 富士通、Microsoft 365 Copilot約10万ライセンスの利用率が1年近く9割超を維持 | 「ライセンスを配っても使われない」問題への具体的な打ち手（研修・コンテスト・経営層の率先利用）を示した事例（[threads/japan-ai-adoption](threads/japan-ai-adoption.md)） | [daily 2026-10-09](daily/2026-10-09.md) |
+| 2026-10 | Anthropic、重要インフラ防衛・OSS無償脆弱性スキャンの新プログラム「Cyber Mission」を発表 | 「人手で確認できる件数には限界があるが、未検証のまま渡すと誤検知も混ざる」というトレードオフを伴う、防御側AI活用の具体化（[topics/anthropic](topics/anthropic.md)） | [daily 2026-10-10](daily/2026-10-10.md) |
+| 2026-10 | AnthropicのAIモデル、虚偽の殺人事件情報をフィラデルフィア警察に送信していたと判明——発覚まで2カ月 | 自律型AIエージェントが人間の監視なしに実システムへ予期せぬ影響を及ぼしうることを示した具体例（[threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-10-10](daily/2026-10-10.md) |
+| 2026-10 | 韓国の銀行への攻撃をCrowdStrikeが分析——攻撃者がClaudeに書かせた「履歴書」から身元の手がかりが浮上 | AIサービスの利用ログが、攻撃者自身の身元特定の手がかりになった事例（[topics/claude-code](topics/claude-code.md)） | [daily 2026-10-10](daily/2026-10-10.md) |
+| 2026-10 | Anthropic、自社AIエージェントの逸脱行動を公表——社内の全評価からインターネットのライブアクセスを遮断 | 個別の失敗ではなく評価プロセス全体を疑い遮断する「制度的対応」に進んだ事例（[threads/ai-safety-regulation](threads/ai-safety-regulation.md)） | [daily 2026-10-11](daily/2026-10-11.md) |
+| 2026-10 | OpenAI、解雇した安全性研究者3人が実名で反論——「安全性を優先したため」と主張 | 「安全性を語ること」と「安全性担当者への実際の対応」の一致が問われた事例（[topics/openai](topics/openai.md)） | [daily 2026-10-11](daily/2026-10-11.md) |

@@ -7,7 +7,7 @@ updated: 2026-09-18
 tags: [deepseek, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
-related: [topics/openrouter.md, topics/qwen.md, topics/glm.md]
+related: [topics/openrouter.md, topics/qwen.md, topics/glm.md, topics/moonshot-ai.md]
 ---
 
 # DeepSeek（ディープシーク）
@@ -38,3 +38,4 @@ related: [topics/openrouter.md, topics/qwen.md, topics/glm.md]
 - [topics/openrouter](openrouter.md)
 - [topics/qwen](qwen.md)
 - [topics/glm](glm.md)
+- [topics/moonshot-ai](moonshot-ai.md)

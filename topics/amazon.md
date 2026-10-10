@@ -3,7 +3,7 @@ type: topic
 title: "Amazon（アマゾン）"
 slug: amazon
 created: 2026-09-12
-updated: 2026-10-04
+updated: 2026-10-11
 tags: [amazon]
 level: beginner
 audience: [engineer, business, instructor]
@@ -16,7 +16,7 @@ related: [topics/openai.md]
 EC・クラウド（AWS）・広告事業を持つ米国のテクノロジー企業。自社AI（Alexa+など）に加え、広告配信網（Amazon DSP）やクラウド基盤を他社のAI事業と組み合わせる「土台としてのAI活用」が特徴。
 
 ## 仕組み
-- クラウド事業のAWSは、OpenAIを含む複数のAI企業のモデル提供・実行基盤としても使われる（要追記：AWSとOpenAIのインフラ提携の詳細）
+- クラウド事業のAWSは、OpenAIを含む複数のAI企業のモデル提供・実行基盤としても使われる。2025年11月3日、AWSとOpenAIは7年間・総額380億ドルの複数年契約を発表。NVIDIA GPU（GB200・GB300）数十万個をAmazon EC2 UltraServers上でクラスター化し、ChatGPTの推論処理と次世代モデルの学習、エージェント型ワークロードに利用する（CPUは数千万個規模まで拡張可能）。OpenAIは即時利用を開始し、2026年末までに全容量の展開を見込む（出典: [iTWire — AWS and OpenAI announce multi-year strategic partnership](https://itwire.com/business-it-news/data/aws-and-openai-announce-multi-year-strategic-partnership.html)、取得日 2026-10-11）
 - 広告事業「Amazon Ads」は、自社ECサイトだけでなく他社サービス上での広告配信網（Amazon DSP）を持つ。2026年9月、OpenAIとの提携でChatGPT内への広告配信を開始した
 - 自社AIアシスタント「Alexa+」は、Amazon Nova（自社モデル）とAnthropicのモデル両方を組み合わせた新アーキテクチャに刷新。数日にまたがる文脈を記憶した対話、飲食予約・配車手配・サービス予約の代行などエージェント的な機能、Ring連携のカメラ監視やカレンダー同期を特徴とする。料金はPrime会員なら無料、非会員は月額19.99ドル（無料の文字チャット版は機能制限あり）。刷新後は利用回数が旧Alexa比で2倍超、単純な定型リクエストからより複雑な対話への利用シフトが見られるという（出典: [Amazon公式 — Alexa+ now available to everyone in the US](https://www.aboutamazon.com/news/devices/alexa-plus-available-free-prime-members-us)、取得日 2026-09-20）
 
