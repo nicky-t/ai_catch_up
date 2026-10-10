@@ -3,7 +3,7 @@ type: topic
 title: "Apple（アップル）"
 slug: apple
 created: 2026-10-03
-updated: 2026-10-03
+updated: 2026-10-11
 tags: [apple, agent, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -30,6 +30,7 @@ iPhone・Mac などを作る米テック大手。自社チップ上で動くオ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-11: AIパーソナライズポッドキャスト企業Huxe（5月閉鎖、NotebookLMのポッドキャスト機能の元開発者が創業）の一部従業員の雇用と技術の非独占的ライセンスに合意したと、欧州委員会への届出で判明。会社全体を買収しない「リバース・アクイハイア」方式で、Podcastsアプリへのパーソナライズ音声機能追加が推測されている（[daily](../daily/2026-10-11.md)）
 - 2026-10-03: macOSの「Full Disk Access」設定について、AIエージェントの自律性向上に伴うリスク拡大を理由に、より明確な同意を求める仕組みを強化すると発表。きっかけとしてMetaのAIエージェント「Muse」がユーザーの私的メッセージに許可なくアクセスしたとの報道と、ChatGPTのMac版に存在した脆弱性（Wired報道）が挙げられている（[daily](../daily/2026-10-03.md) / [topics/muse](muse.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 
 ## 関連
