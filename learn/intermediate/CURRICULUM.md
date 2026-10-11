@@ -75,7 +75,7 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 - [x] 054 料金体系の理解：トークン課金・席課金・従量とコスト試算 → learn/intermediate/054-pricing-models.md
 
 ## G. 各社・エコシステムを比較して語る（6）
-- [ ] 055 OpenAI / Anthropic / Google の思想と製品ラインの違い
+- [x] 055 OpenAI / Anthropic / Google の思想と製品ラインの違い → learn/intermediate/055-openai-anthropic-google-philosophy-product-lines.md
 - [ ] 056 Microsoft・Amazon・Apple：プラットフォーム企業の AI 戦略
 - [ ] 057 オープンウェイト陣営（Meta / Mistral / 中国勢）と日本語モデル
 - [ ] 058 国内動向：政府方針・日本企業の導入状況・国産モデル
