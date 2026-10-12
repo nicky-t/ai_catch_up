@@ -493,3 +493,10 @@ https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-oppon
 https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/
 https://www.itmedia.co.jp/business/articles/2610/11/news005.html
 https://zenn.dev/emilk1225/articles/73356c9b0e156d
+https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/
+https://www.itmedia.co.jp/news/article/2610/12/2000002195/
+https://www.itmedia.co.jp/aiplus/article/2610/12/2000002194/
+https://www.itmedia.co.jp/news/article/2610/12/2000002192/
+https://www.itmedia.co.jp/enterprise/articles/2610/08/news036.html
+https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/
+https://github.com/Alishahryar1/free-claude-code

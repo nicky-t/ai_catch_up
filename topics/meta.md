@@ -3,7 +3,7 @@ type: topic
 title: "Meta（メタ）"
 slug: meta
 created: 2026-09-03
-updated: 2026-10-04
+updated: 2026-10-13
 tags: [meta, speech, agent]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,7 @@ Facebook・Instagram・WhatsAppなどを運営する米国のテクノロジー�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-13: Superintelligence Labが、Meta初の「フロンティアモデル」Muse WonderとMuse Wonder Fullを公開。自社ベンチマークではFable 5.1・GPT-6 Astraと同等のスコア、長期記憶を測るMemoryBenchではFable・Opus・Astraを上回ると主張している（第三者検証はなし）。利用者の情報を数日〜数カ月保持する「active memory」が特徴で、Muse Wonderは入力$4／出力$20（100万トークン）でMeta Model API提供、より大きいMuse Wonder FullはMuse Codeの有料会員限定。2025年8月のAI体制再編後、初のフロンティアモデル公開（[daily](../daily/2026-10-13.md)）
 - 2026-10-04: パーソナルAIエージェント「Muse」と連携する自作デバイスを作れるプロジェクト「Muse Gadgets」を発表。ESP32搭載ボードやRaspberry PiにMetaのSDKを組み込める仕組みで、デバイス向けSDK・ファームウェアをApache License 2.0の下GitHubで公開。既存の家電をMuseに接続できる「Muse Home Link」デバイスも提供し、照明制御やテレビ操作などをAIエージェントに委任できるようになる（[daily](../daily/2026-10-04.md) / [topics/muse](muse.md)）
 - 2026-10-01: Inc.誌コラムニストが「フルディスクアクセスを無効にしていたのにMuseが個人メッセージを読んだ」と報告した件について、Meta広報が「Messages連携は完全にオプトインで2つの設定を個別に有効化する必要がある」と反論。macOSのシステムレベル保護は「アプリにバグがあっても回避できない」と説明した（[daily](../daily/2026-10-01.md) / [topics/muse](muse.md)）
 - 2026-09-30: パーソナルエージェント「Muse」を中小企業向けに拡張した「Muse for Small Business」を発表。Shopify・Slack・QuickBooks・Stripeなど15以上のツールと連携し、Instagram・Facebook・Meta広告のデータも参照して企業の売上内容やブランドトーンを把握する。利用制限付きで無料提供し、追加利用は有料プランで対応（[daily](../daily/2026-09-30.md) / [topics/muse](muse.md)）

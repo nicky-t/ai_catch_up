@@ -3,7 +3,7 @@ type: topic
 title: "Jev（TypeSafe AI）"
 slug: jev
 created: 2026-09-19
-updated: 2026-10-11
+updated: 2026-10-13
 tags: [agent, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [topics/openai.md, topics/google.md, topics/amazon.md, topics/cloudflar
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-13: Microsoftが、判断特化モデル「Microsoft-Decision-1」をMicrosoft FoundryとOpenRouterで公開。Alibaba「Qwen3.5-9B」ベースで、価格はJevと同じ入力100万トークン0.042ドル・出力無料。36ベンチマークで最高正答率・応答速度GPT-6 Solの35倍と主張するが、公開後に追記されたJevとの比較ではキャリブレーション（確率の正確さ）は3位にとどまった。「Jev」「Clef」（Cloudflare）「Strands Decider」（AWS）「Decisions API」（OpenAI）に続き5社目の参入（[daily](../daily/2026-10-13.md) / [topics/microsoft](microsoft.md)）
 - 2026-10-11: 開発元TypeSafe AIが、Andreessen Horowitz主導・Sequoia・DCVC参加で8億7,000万ドルを評価額75億ドルで調達。9月15日の公開から1カ月足らずでの急成長で、Fortune 500企業の3分の1が既に利用していると同社は主張している（[daily](../daily/2026-10-11.md)）
 - 2026-10-04: Cloudflareが判定専用モデル「Clef」「Clef-flash」を公開。中央値レイテンシ209.3ミリ秒（Clef-flashは38.8ミリ秒）、BFCL精度98.47%。汎用LLM比2倍以上速いと報告され、「Jev」「Decisions API」「Strands Decider」に続き判定特化型モデルへの参入は4社目となった（[daily](../daily/2026-10-04.md) / [topics/cloudflare](cloudflare.md)）
 - 2026-10-02: AWS傘下のStrands Labsが、同種の判断特化型モデル「Strands Decider 2B」（Qwen3.5-2Bベース、オープンソース）を公開。あらかじめ定義した選択肢から最適なものを選び確信度スコアを返す設計で、「Jev」「Decisions API」に続き大手が同系統のアプローチに参入した形（[daily](../daily/2026-10-02.md) / [topics/amazon](amazon.md)）

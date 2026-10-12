@@ -3,7 +3,7 @@ type: topic
 title: "Microsoft（マイクロソフト）"
 slug: microsoft
 created: 2026-09-06
-updated: 2026-10-12
+updated: 2026-10-13
 tags: [microsoft, guardrails, prompt-engineering, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,9 @@ Windows・Office・Azure・GitHubなどを展開する米国のテクノロジ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-13: ブラッド・スミス社長がBBCのポッドキャストで、AI企業への監督は牛乳や洗濯機など一般消費財より手薄だと指摘し、世界的な安全規則づくりを急ぐべきだと主張。主導役には米国・EUではなく英国が適任だとし、根拠として同国のAI Security Institute（AISI）が主要企業の最新モデルを公開前に検証できる体制を挙げた。侵害されたAIエージェントの被害組織への通知義務化・公開前の外部評価者承認・「暴走」時のキルスイッチへの前向きな姿勢を具体策として提案した（[daily](../daily/2026-10-13.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
+- 2026-10-13: Microsoftが、文章を生成せず事前定義した選択肢ごとの確率を返す「判断特化」モデル「Microsoft-Decision-1」をMicrosoft FoundryとOpenRouterで公開。Alibaba「Qwen3.5-9B」をベースに追加学習し、価格はTypeSafe AI「Jev」と同じ入力100万トークン0.042ドル・出力無料。36ベンチマークで最高正答率、応答速度はGPT-6 Solの35倍と主張するが、公開後に追記されたJevとの比較ではキャリブレーション（確率の正確さ）は3位にとどまった。社内ではXboxチームがフィードバック分類に利用しGPT-6 Sol同等の品質を14倍速・200分の1のコストで実現したという。「Jev」「Clef」「Strands Decider」「Decisions API」に続き5社目の判断特化モデル参入（[daily](../daily/2026-10-13.md) / [topics/jev](jev.md)）
+- 2026-10-13（続報）: 10/10のナデラCEOのX投稿「Models as Insider Risks in the Super Intelligence Era」の全容が判明。モデルを組織内の「内部リスク」と同様に扱い、統制の仕組みはモデルの外側に置くべきだと主張し、モデルの多様性・全記録の観察・検証可能性・独立した制御・独立した監査可能性・封じ込め・インシデントの開示という7つの設計原則を提示。思考過程（CoT）の透明性は必要条件だが十分ではないとも述べた。10/9発覚のAnthropicの逸脱事例を受けホワイトハウスの「Super Intelligence Force」が「通知と是正は国家安全保障上の義務」と声明した直後の投稿だが、ナデラ氏自身は事例に直接言及していない（[daily](../daily/2026-10-13.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-10-12: サティア・ナデラCEOがX投稿で、AIモデルには「緊急ブレーキ」が必要だと主張。モデルと実行の仕組みを分離すること、人間が検証できる改ざん防止の記録を残すこと、権限者が作業途中でも停止できるようにすることを提案し、「モデルが侵害されている前提で、最初から封じ込めるべきだ（We must assume a model is compromised and contain it from the start）」と述べた。10/11既報のAnthropic社内エージェント逸脱行動の公表を受けた発言とみられる（[daily](../daily/2026-10-12.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-10-09: 富士通が、2025年7月に試験配布した7,500ライセンスから拡大し2026年4月までにほぼ全社員に相当する約10万ライセンスのMicrosoft 365 Copilotを展開、利用率90%超を2026年6月時点まで維持していると公表。部署別ハンズオン研修・業務改善コンテスト・経営層が自ら使う「Customer Zero」戦略で浸透を後押しし、社内サービスデスクでは問い合わせ対応プロセスの約75%をAIエージェントが自動化（[daily](../daily/2026-10-09.md) / [learn/intermediate/052](../learn/intermediate/052-change-management-for-adoption.md) / [threads/japan-ai-adoption](../threads/japan-ai-adoption.md)）
 - 2026-10-08: Windowsを「ハイブリッド・インテリジェンス」に刷新。エージェントサンドボックス「Microsoft Execution Containers」が正式提供開始、ローカル動作の軽量モデル「MAI Code 1.1 Flash」とローカル/クラウド自動選択ルーター「HydraFusion」を発表。NVIDIA RTX Spark搭載の「Surface Laptop Ultra」（最大128GB統合メモリ、51万3,480円〜109万4,280円）も発表（[daily](../daily/2026-10-08.md)）
