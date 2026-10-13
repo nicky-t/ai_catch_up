@@ -500,3 +500,11 @@ https://www.itmedia.co.jp/news/article/2610/12/2000002192/
 https://www.itmedia.co.jp/enterprise/articles/2610/08/news036.html
 https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/
 https://github.com/Alishahryar1/free-claude-code
+https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/
+https://www.itmedia.co.jp/news/article/2610/13/2000002204/
+https://www.itmedia.co.jp/news/article/2610/13/2000002200/
+https://atmarkit.itmedia.co.jp/ait/articles/2610/13/news029.html
+https://www.itmedia.co.jp/news/article/2610/13/2000002224/
+https://www.itmedia.co.jp/aiplus/article/2610/13/2000002180/
+https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/
+https://github.com/lyogavin/airllm
