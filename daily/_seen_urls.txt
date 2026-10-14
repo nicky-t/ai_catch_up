@@ -508,3 +508,12 @@ https://www.itmedia.co.jp/news/article/2610/13/2000002224/
 https://www.itmedia.co.jp/aiplus/article/2610/13/2000002180/
 https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/
 https://github.com/lyogavin/airllm
+https://www.itmedia.co.jp/aiplus/article/2610/14/2000002262/
+https://www.itmedia.co.jp/aiplus/article/2610/14/2000002272/
+https://www.itmedia.co.jp/news/article/2610/14/2000002278/
+https://www.publickey1.jp/blog/26/windowsaimicrosoft_execution_containersmxc.html
+https://deepmind.google/blog/on-device-ai-scam-detection-mddi/
+https://www.anthropic.com/engineering/redesigning-source-control
+https://www.anthropic.com/news/singapore-office-opening
+https://github.com/ifixai-ai/iFixAi
+https://www8.cao.go.jp/cstp/ai/index.html

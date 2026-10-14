@@ -78,6 +78,6 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 - [x] 055 OpenAI / Anthropic / Google の思想と製品ラインの違い → learn/intermediate/055-openai-anthropic-google-philosophy-product-lines.md
 - [x] 056 Microsoft・Amazon・Apple：プラットフォーム企業の AI 戦略 → learn/intermediate/056-microsoft-amazon-apple-platform-ai-strategy.md
 - [x] 057 オープンウェイト陣営（Meta / Mistral / 中国勢）と日本語モデル → learn/intermediate/057-open-weight-camp-and-japanese-models.md
-- [ ] 058 国内動向：政府方針・日本企業の導入状況・国産モデル
+- [x] 058 国内動向：政府方針・日本企業の導入状況・国産モデル → learn/intermediate/058-japan-policy-adoption-domestic-models.md
 - [ ] 059 規制と著作権：EU AI Act・日本のガイドライン・実務への影響
 - [ ] 060 AI と雇用・スキル：業務効率化の先にある役割の変化

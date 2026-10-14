@@ -3,7 +3,7 @@ type: topic
 title: "Microsoft（マイクロソフト）"
 slug: microsoft
 created: 2026-09-06
-updated: 2026-10-14
+updated: 2026-10-15
 tags: [microsoft, guardrails, prompt-engineering, safety, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ Windows・Office・Azure・GitHubなどを展開する米国のテクノロジ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-15: Windows 11上でAIエージェントを安全に動かす隔離環境「Microsoft Execution Containers（MXC）」を正式リリース。ファイルアクセス・ネットワーク通信などの境界を実行時に強制するポリシーとして柔軟にカスタマイズでき、エージェントの意図しないファイル操作・外部通信を防ぐ（[daily](../daily/2026-10-15.md) / [learn/intermediate/037](../learn/intermediate/037-agent-safety-design.md) / [出典](https://www.publickey1.jp/blog/26/windowsaimicrosoft_execution_containersmxc.html)）
 - 2026-10-14: 自社開発AIアクセレータの第3世代「Maia 300」を発表。TSMC2nm級プロセス、FP4で13.8POPS・FP8で6.9POPS、TDP950W、HBM4を8スタック288GB搭載。96基構成のラックは167kWの電力枠でトークン/メガワットはGPU比40%向上、前世代Maia 200比でラック単位のスループットは最大7倍と主張。2027年に自社サービスの推論基盤として多ギガワット規模で展開予定で、ナデラCEOは「自社シリコンへのこれまでで最大の賭け」とX投稿。詳細は11月のMicrosoft Ignite 2026で発表予定（[daily](../daily/2026-10-14.md) / [topics/nvidia](nvidia.md)）
 - 2026-10-13: ブラッド・スミス社長がBBCのポッドキャストで、AI企業への監督は牛乳や洗濯機など一般消費財より手薄だと指摘し、世界的な安全規則づくりを急ぐべきだと主張。主導役には米国・EUではなく英国が適任だとし、根拠として同国のAI Security Institute（AISI）が主要企業の最新モデルを公開前に検証できる体制を挙げた。侵害されたAIエージェントの被害組織への通知義務化・公開前の外部評価者承認・「暴走」時のキルスイッチへの前向きな姿勢を具体策として提案した（[daily](../daily/2026-10-13.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-10-13: Microsoftが、文章を生成せず事前定義した選択肢ごとの確率を返す「判断特化」モデル「Microsoft-Decision-1」をMicrosoft FoundryとOpenRouterで公開。Alibaba「Qwen3.5-9B」をベースに追加学習し、価格はTypeSafe AI「Jev」と同じ入力100万トークン0.042ドル・出力無料。36ベンチマークで最高正答率、応答速度はGPT-6 Solの35倍と主張するが、公開後に追記されたJevとの比較ではキャリブレーション（確率の正確さ）は3位にとどまった。社内ではXboxチームがフィードバック分類に利用しGPT-6 Sol同等の品質を14倍速・200分の1のコストで実現したという。「Jev」「Clef」「Strands Decider」「Decisions API」に続き5社目の判断特化モデル参入（[daily](../daily/2026-10-13.md) / [topics/jev](jev.md)）

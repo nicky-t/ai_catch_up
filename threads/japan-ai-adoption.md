@@ -3,7 +3,7 @@ type: thread
 title: "国内 AI 導入動向（japan-ai-adoption）"
 slug: japan-ai-adoption
 created: 2026-08-19
-updated: 2026-10-14
+updated: 2026-10-15
 tags: [adoption, japan-company, case-study]
 status: active
 related: [topics/openai.md]
@@ -24,6 +24,7 @@ related: [topics/openai.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-15: デジタルハリウッド大学が、国内の大学として初めてAnthropicの「Claude」を全学導入すると発表。11月から学生・教職員が利用回数の上限を気にせず使える体制にする。企業向け事例が中心だった導入動向に、教育機関側からの大規模導入事例が加わった（[daily](../daily/2026-10-15.md) / [topics/anthropic](../topics/anthropic.md) / [出典](https://www.itmedia.co.jp/news/article/2610/14/2000002278/)）
 - 2026-10-14: ソフトバンク子会社SB Intuitionsが、日本語に強い大規模言語モデル「Sarashina」シリーズを体験できる「Sarashinaサービス」の無償β版を公開。Googleアカウントでログインすれば事前申し込みなしで誰でも無料で使え、対話・翻訳を試せるWebチャットと、文章生成・埋め込み・検索精度向上・安全性判定・翻訳の6モデルを呼び出せるAPIを提供する。日本語向けトークナイザにより同じ文章を米国モデルの半分のトークン数で表せるという。10/6既報のNoetra（国産基盤モデル推進策）とは別に、通信系大手自身が国産モデルを無料で一般開放する事例が加わった（[daily](../daily/2026-10-14.md) / [topics/sb-intuitions](../topics/sb-intuitions.md) / [出典](https://www.itmedia.co.jp/news/article/2610/13/2000002224/)）
 - 2026-10-10（続報）: 損保ジャパンが、2026年1月に約2万人へ導入したGemini Enterpriseの運用詳細を公開。6月時点で平日DAU50%超・WAU約80%に達している。AIリテラシーテスト合格者のみに権限を自動更新する仕組み、Model Armorによるプロンプト・回答のリアルタイム検査、BigQueryへの監査ログ集約、従業員によるエージェント作成・共有のガバナンスという4点の対策を整理。9/29既報の「標準機能の制約を自前のガードレールで補った」話が、具体的な利用率と運用体制の数字で肉付けされた（[daily](../daily/2026-10-10.md) / [topics/google](../topics/google.md) / [出典](https://kn.itmedia.co.jp/kn/article/2610/09/2000002145/)）
 - 2026-10-09: 富士通が、2025年7月に試験配布した7,500ライセンスから拡大し2026年4月までにほぼ全社員に相当する約10万ライセンスのMicrosoft 365 Copilotを展開、利用率90%超を2026年6月時点まで維持していると公表。部署別ハンズオン研修・業務改善コンテスト・経営層が自ら使う「Customer Zero」戦略で浸透を後押しした。9/20のクラウドワークス調査（AI導入企業の8割超が「チャット止まり」）・9/22の双日調査（情報分散の課題）が示した定着の壁に対し、具体的な打ち手と高い利用率を示した事例（[daily](../daily/2026-10-09.md) / [topics/microsoft](../topics/microsoft.md) / [学習052](../learn/intermediate/052-change-management-for-adoption.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2610/08/news022.html)）

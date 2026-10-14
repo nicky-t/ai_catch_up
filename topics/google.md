@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-10-14
+updated: 2026-10-15
 tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,7 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-15: Google DeepMindが、シンガポール政府機関GovTechと共同で、個人間チャットでの会話型詐欺（恋愛詐欺・投資詐欺等）を検知する小型モデルを開発したと発表。軽量なオープンウェイトモデル「Gemma」をファインチューニングし、端末内（オンデバイス）で動作させることでプライベートなチャット内容をクラウドに送らずに判定できる設計にした（[daily](../daily/2026-10-15.md) / [出典](https://deepmind.google/blog/on-device-ai-scam-detection-mddi/)）
 - 2026-10-14（続報）: 10/1にサイバー防御向け限定プログラム「Fairwind」から先行提供していた新フロンティアモデル「Gemini 4 Argon」を、開発者・企業・科学者・一般利用者へ公開範囲を拡大。経済分野の実務タスクを測る「Vals Index」で首位、Embodied Reasoning（ERQA）87%。Antigravity導入チームでエージェントによるコード提出が35%超増加・ロールバックはほぼ3分の1減少したと自社事例を公表。価格は導入期間中100万トークンあたり入力2ドル・出力10ドル、11月30日以降は入力4ドル・出力20ドルに上がる（[daily](../daily/2026-10-14.md)）
 - 2026-10-10（続報）: 損保ジャパンが、2026年1月に約2万人へ導入したGemini Enterpriseの運用詳細を公開。6月時点で平日DAU50%超・WAU約80%。AIリテラシーテスト合格者だけに権限を付与する日次自動更新、Model Armorによるプロンプト・回答のリアルタイム検査、BigQueryへの監査ログ集約、従業員によるエージェント作成・共有のガバナンスという4点の仕組みを整理。9月29日既報の「標準機能の制約を自前のガードレールで補った」話に、具体的な利用率・運用体制が加わった（[daily](../daily/2026-10-10.md) / [threads/japan-ai-adoption](../threads/japan-ai-adoption.md)）
 - 2026-10-09: Geminiを単一の統合エージェントに刷新。CEOトーマス・クリアン氏は「指示だけでなく目的を託せる」と説明し、Google Workspace・Microsoft 365・Slack・Jira・BigQuery等やMCPサーバーに接続可能。モデルは既定で自動選択だがAnthropicのClaudeなど他社モデルも選べ、エージェントには専用のWorkspaceアカウント（固有メールアドレス）を割り当て行動ログもエージェント自身に記録。Gemini全体の月間利用者は10億人超、Fortune100の9割近くがGemini Enterpriseを利用。まず企業向けから展開（[daily](../daily/2026-10-09.md)）

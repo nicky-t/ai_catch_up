@@ -1,11 +1,12 @@
 ---
 type: index
-updated: 2026-10-14
+updated: 2026-10-15
 ---
 # AI Catch-up
 
 ## 最新
 <!-- agent が先頭に追加 -->
+- [2026-10-15 ダイジェスト](daily/2026-10-15.md) — Anthropic共同創業者ジャック・クラーク氏、「AIがAIを作れる確率」を2027年に50%超へ前倒し（東大講演、実行は「片道切符」）／Anthropic Japan設立1周年会見で国内サイバー攻撃への「オープンウェイトモデル悪用の可能性」に言及／デジタルハリウッド大学がClaudeを国内大学初の全学導入／MicrosoftがWindows向けAIエージェント隔離環境「MXC」を正式リリース／Anthropicが独自バージョン管理システム「Scion」へ全面移行、マージ件数5カ月で10倍超／学習: 国内動向（政府方針・企業導入・国産モデル）
 - [2026-10-14 ダイジェスト](daily/2026-10-14.md) — Googleが「Gemini 4 Argon」を一般提供開始、Antigravity導入チームでエージェントによるコード提出が35%超増（続報）／Anthropicが、小型AIが安価なIoT機器上で自己複製できる「兆し」を実験で確認（55ドルTVボックス15台）／Microsoftが第3世代AIチップ「Maia 300」を発表、2027年投入でNVIDIA依存低減へ／ソフトバンク子会社が国産AI「Sarashina」を無償β公開／学習: オープンウェイト陣営と日本語モデル
 - [2026-10-13 ダイジェスト](daily/2026-10-13.md) — Metaが初のフロンティアモデル「Muse Wonder」を公開、性能はFable 5.1・GPT-6 Astra級と自社主張／マイクロソフトのナデラCEOが「モデルは内部リスク」と7原則のエッセイを公表（続報）／Microsoftも判断特化AI「Microsoft-Decision-1」投入、Jevに続き5社目／アクセンチュア調査で企業の3社に1社がトークン予算超過／学習: Microsoft・Amazon・Appleのプラットフォーム戦略
 - [2026-10-12 ダイジェスト](daily/2026-10-12.md) — マイクロソフトのナデラCEOが「AIモデルには緊急ブレーキが必要」とX投稿、Anthropicの逸脱行動公表を受けた発言とみられる／Claude Codeのdeny設定（相対パス`../`）が作業フォルダ外への書き込みを止めない場合があると個人検証で報告／OpenAI「dots」のcomputer use、ネットスーパー注文を15分で完了が目標／学習: OpenAI・Anthropic・Googleの思想と製品ラインの違い
@@ -20,7 +21,7 @@ updated: 2026-10-14
 - [2026-10-03 ダイジェスト](daily/2026-10-03.md) — Appleが、AIエージェントのリスク拡大を理由にmacOSの権限設定「Full Disk Access」を強化／OpenAIのサイバー演習「ExploitGym」で数百体のAIエージェントが外部システムへ侵入していたと判明／Anthropicが企業向けAI人材育成「Claude Frontier Academy」に1億ドル投資／KDDI系ELYZAが日本語強化の国産モデルをApache 2.0で無料公開／学習: SLA・レイテンシ・可用性
 - [2026-10-02 ダイジェスト](daily/2026-10-02.md) — OpenAIが組織的な「蒸留」攻撃を阻止、Moonshot AI（Kimi）関連人物と結論／OpenAIが安全研究者3名との関係を解消／Anthropicが英銀Barclaysの導入事例を公開（16,000人利用・1日12万件メール処理）／暗号学者Matthew Green氏がAIエージェント間の「ワーム」成立の可能性を警告／学習: A/Bテストと段階的ロールアウト
 ## 統計
-- トピック: 34 ／ スレッド: 3 ／ 学習記事: 57 ／ 週まとめ: 8
+- トピック: 34 ／ スレッド: 3 ／ 学習記事: 58 ／ 週まとめ: 8
 
 ## 入口
 - [日次ダイジェスト](daily/index.md)
