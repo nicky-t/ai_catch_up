@@ -517,3 +517,14 @@ https://www.anthropic.com/engineering/redesigning-source-control
 https://www.anthropic.com/news/singapore-office-opening
 https://github.com/ifixai-ai/iFixAi
 https://www8.cao.go.jp/cstp/ai/index.html
+https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/
+https://www.anthropic.com/news/an-update-on-independent-evaluators
+https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/
+https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/
+https://huggingface.co/blog/meta-muse-spark-open
+https://www.itmedia.co.jp/aiplus/article/2610/15/2000002284/
+https://www.itmedia.co.jp/news/article/2610/15/2000002260/
+https://www.itmedia.co.jp/aiplus/article/2610/15/2000002280/
+https://deepmind.google/blog/accelerating-antimicrobial-discovery/
+https://github.com/anthropics/claude-plugins-official
+https://github.com/JuliusBrussee/caveman

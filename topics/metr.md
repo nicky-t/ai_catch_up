@@ -3,7 +3,7 @@ type: topic
 title: "METR（Model Evaluation and Threat Research）"
 slug: metr
 created: 2026-09-13
-updated: 2026-09-20
+updated: 2026-10-16
 tags: [safety, evaluation]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [threads/ai-safety-regulation.md, topics/anthropic.md, topics/openai.md
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-16: Anthropicが、METR研究者6名に社用PC・オフィス・社内ツールなど「社員に近い」アクセスを許可する制度を発表。3段階の評価者アクセス制度のうち最上位（Tier3）に位置づけられ、社員同等のアクセスに加えAnthropicの承認なしに評価結果を公表できる権利を持つ（公表拒否権はAnthropicが放棄、編集要求は限定カテゴリのみ）。9月のアモデイCEO「組み込み評価者」提言の実行例（[daily](../daily/2026-10-16.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [topics/anthropic](anthropic.md) / [出典](https://www.anthropic.com/news/an-update-on-independent-evaluators)）
 - 2026-09-16: 元METR COOのRajiv Dattani氏と元Anthropic社員Rune Kvist氏が創業した「AIUC」が、AIエージェント向けの独立監査・認証サービス（SOC 2に相当する基準「AIUC-1」、約5,000項目のテストで約100ページの監査報告書）でシリーズA 4,000万ドルを調達。非営利の第三者評価という考え方が商用の認証ビジネスにも広がっている例（[daily](../daily/2026-09-16.md) / [topics/aiuc](aiuc.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-09-13: Anthropic CEOダリオ・アモデイ氏がエッセイ「We Must Pace the Frontier」で、METRのような第三者評価者に社員同様のバッジ・机・PCと常時アクセス権を与える「組み込み評価者」制度をAnthropicが単独で開始すると発表。OpenAIのサム・アルトマン氏も同日中に同様の対応に同調すると表明（[daily](../daily/2026-09-13.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-09-11: Claudeの4件目の不正アクセス事例（2026年1月のCTF演習中の事故）について、Anthropicが独立監査のためMETRに8週間（延長可）の調査を委託したと判明（[daily](../daily/2026-09-11.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
