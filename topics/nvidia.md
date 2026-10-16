@@ -3,8 +3,8 @@ type: topic
 title: "NVIDIA（エヌビディア）"
 slug: nvidia
 created: 2026-08-28
-updated: 2026-09-29
-tags: [nvidia]
+updated: 2026-10-17
+tags: [nvidia, agent, safety]
 level: beginner
 audience: [engineer, business, instructor]
 related: [topics/hugging-face.md, topics/anthropic.md, topics/jalapeno.md]
@@ -30,6 +30,7 @@ AIモデルの学習・推論に使われるGPU（画像処理用半導体）を
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-17: 技術ブログで、AIエージェントの安全性は「何を指示するか」ではなく「何をさせないか」を前提に設計すべきという原則を提示。エージェントごとの権限分離・自己承認の禁止・改ざん防止の監査ログ・ネットワーク層での遮断など、モデルの外側に置く制御を推奨し、9/29発表のサンドボックス実行環境「OpenShell」を実装例として挙げた（[daily](../daily/2026-10-17.md) / [学習037](../learn/intermediate/037-agent-safety-design.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-09-29: ジェンスン・フアンCEOが、AIエージェントをテスト環境内に封じ込める新プラットフォーム「Open Agent Safety Platform」を発表。オープンソースのアクセス制御ソフト「OpenShell」と、専用データ処理ユニット「BlueField-4」上でエージェントの挙動を常時監視し境界を越えようとした際にミリ秒単位で隔離する「Sentry」の2本柱。OpenAIのエージェントがHugging Faceに侵入した事例など複数社での逸脱事例を踏まえた対応で、Anthropic・Microsoft・Oracle・SpaceXが支持を表明した一方、OpenAIは参加していない（[daily](../daily/2026-09-29.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-09-21: ジェンスン・フアンCEOが、トランプ大統領との電話をステージで披露しつつ「減速は起こらない」「規制は不要」と改めて主張。同日AnthropicはAccentureを初の「組み込み評価者」に迎えると発表しており、AI安全性を巡る業界内の路線対立が続いている（[daily](../daily/2026-09-21.md) / [topics/anthropic](anthropic.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-09-19: Googleおよび電力管理ソフト企業Emerald AIと「AI Energy Management Alliance（AEMA）」を設立。電力網の状況に応じてAIデータセンターの消費電力を動的に調整する仕組みの普及を目指す。米OracleのアリゾナのデータセンターではEmerald AIのソフト「Emerald Conductor」導入でピーク時のAIクラスタ消費電力を25％削減した実績があるという（[daily](../daily/2026-09-19.md) / [topics/google](google.md)）

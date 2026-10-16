@@ -528,3 +528,13 @@ https://www.itmedia.co.jp/aiplus/article/2610/15/2000002280/
 https://deepmind.google/blog/accelerating-antimicrobial-discovery/
 https://github.com/anthropics/claude-plugins-official
 https://github.com/JuliusBrussee/caveman
+https://www.itmedia.co.jp/news/article/2610/16/2000002277/
+https://atmarkit.itmedia.co.jp/ait/articles/2610/16/news032.html
+https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/
+https://www.itmedia.co.jp/aiplus/article/2610/16/2000002313/
+https://www.itmedia.co.jp/aiplus/article/2610/16/2000002320/
+https://huggingface.co/blog/reflection-beam
+https://zenn.dev/matsushima_a/articles/day-017-scientific-agent-skills-stat-review
+https://github.com/K-Dense-AI/scientific-agent-skills
+https://github.com/mksglu/context-mode
+https://www.anthropic.com/research/labor-market-impacts

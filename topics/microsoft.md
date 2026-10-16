@@ -3,8 +3,8 @@ type: topic
 title: "Microsoft（マイクロソフト）"
 slug: microsoft
 created: 2026-09-06
-updated: 2026-10-15
-tags: [microsoft, guardrails, prompt-engineering, safety, cost]
+updated: 2026-10-17
+tags: [microsoft, guardrails, prompt-engineering, safety, cost, productivity]
 level: beginner
 audience: [engineer, business, instructor]
 related: [topics/openai.md, topics/claude-code.md, topics/prompt-injection.md]
@@ -32,6 +32,7 @@ Windows・Office・Azure・GitHubなどを展開する米国のテクノロジ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-17: 自社研究者らが、社内のソフトウェアエンジニア数万人を対象に2026年1月5日〜4月29日の4カ月間、コマンドライン型AIコーディングツール（Claude Code・Copilot CLI）の利用状況とプルリクエスト数の関係を分析した論文を発表。導入初週にツールを使ったエンジニアはマージされたPR数が平均24%増加し効果は4カ月持続、ツール別ではCopilot CLIが約24.9%・Claude Codeが約11.4%の増加だった。同僚・上司の利用率が高いほど自分も試すオッズが上がる「周囲の影響」も確認（[daily](../daily/2026-10-17.md) / [topics/claude-code](claude-code.md) / [学習048](../learn/intermediate/048-roi-measurement.md)）
 - 2026-10-15: Windows 11上でAIエージェントを安全に動かす隔離環境「Microsoft Execution Containers（MXC）」を正式リリース。ファイルアクセス・ネットワーク通信などの境界を実行時に強制するポリシーとして柔軟にカスタマイズでき、エージェントの意図しないファイル操作・外部通信を防ぐ（[daily](../daily/2026-10-15.md) / [learn/intermediate/037](../learn/intermediate/037-agent-safety-design.md) / [出典](https://www.publickey1.jp/blog/26/windowsaimicrosoft_execution_containersmxc.html)）
 - 2026-10-14: 自社開発AIアクセレータの第3世代「Maia 300」を発表。TSMC2nm級プロセス、FP4で13.8POPS・FP8で6.9POPS、TDP950W、HBM4を8スタック288GB搭載。96基構成のラックは167kWの電力枠でトークン/メガワットはGPU比40%向上、前世代Maia 200比でラック単位のスループットは最大7倍と主張。2027年に自社サービスの推論基盤として多ギガワット規模で展開予定で、ナデラCEOは「自社シリコンへのこれまでで最大の賭け」とX投稿。詳細は11月のMicrosoft Ignite 2026で発表予定（[daily](../daily/2026-10-14.md) / [topics/nvidia](nvidia.md)）
 - 2026-10-13: ブラッド・スミス社長がBBCのポッドキャストで、AI企業への監督は牛乳や洗濯機など一般消費財より手薄だと指摘し、世界的な安全規則づくりを急ぐべきだと主張。主導役には米国・EUではなく英国が適任だとし、根拠として同国のAI Security Institute（AISI）が主要企業の最新モデルを公開前に検証できる体制を挙げた。侵害されたAIエージェントの被害組織への通知義務化・公開前の外部評価者承認・「暴走」時のキルスイッチへの前向きな姿勢を具体策として提案した（[daily](../daily/2026-10-13.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）

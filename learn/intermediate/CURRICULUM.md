@@ -80,4 +80,4 @@ status_legend: "[ ] todo / [x] done（done の行末に記事パスを追記）"
 - [x] 057 オープンウェイト陣営（Meta / Mistral / 中国勢）と日本語モデル → learn/intermediate/057-open-weight-camp-and-japanese-models.md
 - [x] 058 国内動向：政府方針・日本企業の導入状況・国産モデル → learn/intermediate/058-japan-policy-adoption-domestic-models.md
 - [x] 059 規制と著作権：EU AI Act・日本のガイドライン・実務への影響 → learn/intermediate/059-regulation-copyright-eu-ai-act-japan-guideline.md
-- [ ] 060 AI と雇用・スキル：業務効率化の先にある役割の変化
+- [x] 060 AI と雇用・スキル：業務効率化の先にある役割の変化 → learn/intermediate/060-ai-and-employment-skills.md

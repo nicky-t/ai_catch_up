@@ -3,8 +3,8 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-10-16
-tags: [anthropic, claude, safety]
+updated: 2026-10-17
+tags: [anthropic, claude, safety, cost]
 level: beginner
 audience: [engineer, business, instructor]
 related: [topics/claude-code.md, topics/openai.md]
@@ -32,6 +32,7 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-17: ITmedia AI+が軽量モデル「Claude Haiku 5.5」を上位「Claude Sonnet 5.5」・競合「GPT-6 Luna」と日本語3課題（お詫びメール・議事録整理・英文メール要約）で比較検証。定型文書ではHaiku（medium）がSonnet（medium）の約11〜18分の1のコストでほぼ同等の点数だったが、力関係を読む課題では精度が落ち、思考量「max」設定ではコストがSonnet（medium）とほぼ同額まで上昇した（[daily](../daily/2026-10-17.md) / [学習054](../learn/intermediate/054-pricing-models.md)）
 - 2026-10-16: 第3四半期（7〜9月）の売上が前期比約46%増の168億ドルに達したと投資家向け説明会で明らかにしたとFTが報道（IPO準備が背景）。第1四半期約48億ドル→第2四半期115億ドル→第3四半期168億ドルと四半期ごとに急伸。コンピュート1ドルあたり売上1.70ドル、調整後営業利益率11%（株式報酬除く）、蒸留（distillation）収益は売上の5〜7%でQ3に大幅減少したという（[daily](../daily/2026-10-16.md) / [出典（経由: Simon Willison）](https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/)）
 - 2026-10-16: 外部評価団体METRの研究者6名に、社用PC・オフィス・社内ツールなど「社員に近い」アクセスを許可する新制度を発表。評価者を3段階（Tier1: SecureBioなど限定的レビュー／Tier2: 承認なしで公表可／Tier3: METRのみ・社員同等アクセス＋公表拒否権の放棄）に整理し、公表時の編集要求は顧客データ・秘匿特権情報・モデルアーキテクチャ情報など限定カテゴリのみに制限。9月のダリオ・アモデイCEOのエッセイ「We Must Pace the Frontier」の提案を実行に移した形で、OpenAIも同様の取り組みを表明している（[daily](../daily/2026-10-16.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [topics/metr](metr.md) / [出典](https://www.anthropic.com/news/an-update-on-independent-evaluators)）
 - 2026-10-15: 共同創業者ジャック・クラーク氏が東京大学・松尾研での講演で、「自らの後継システムを訓練できるほど強力なAIが2027年に登場する確率は50%以上」と、年始時点の予想（2027年30%・2028年末60%）から前倒し。再帰的自己改善（RSI）は一度始めると戻れない「片道切符」であり、来年中に実行に踏み切る確率は「ほぼゼロ」、進めるかは政府などが決める問題だと強調。2026年にはAnthropic社内コードベースの作業の26%がAI主導になったとした（[daily](../daily/2026-10-15.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/14/2000002262/)）
