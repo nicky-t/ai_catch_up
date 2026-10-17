@@ -3,7 +3,7 @@ type: topic
 title: "SB Intuitions（Sarashina）"
 slug: sb-intuitions
 created: 2026-10-14
-updated: 2026-10-14
+updated: 2026-10-18
 tags: [japan-company]
 level: beginner
 audience: [engineer, business, instructor]
@@ -19,7 +19,7 @@ related: [threads/japan-ai-adoption.md, topics/elyza.md]
 - 2026年10月13日、「Sarashinaサービス」の無償β版を公開。Webチャット（対話・翻訳の体験）と、6モデルを呼び出せるAPIを一般公開した
 - APIで使える6モデル：文章生成・対話の「Sarashina3 mini」、単純タスクの大量高速処理向け「Sarashina3 nano」、文書検索・RAG向け埋め込みの「Sarashina3 embedding」、検索結果の精度向上「Sarashina3 rerank」、入力テキストの安全性判定「Sarashina3 guard」、日英・英日翻訳「Sarashina3 translate」
 - 日本語向けに設計したトークナイザにより、同じ文章を米国モデルの半分のトークン数で表せるという
-- Googleアカウントでログインすれば事前申し込みなしで誰でも無料で利用できる。一定時間あたりのリクエスト数に上限があり、β版の終了時期は未定（要追記：正式版の提供時期・料金）
+- Googleアカウントでログインすれば事前申し込みなしで誰でも無料で利用できる。一定時間あたりのリクエスト数に上限があり、β版の終了時期は未定。公式リリースでも正式版（有料プラン等）の提供時期・料金への言及はなく、現時点では無償β版のみが確認できる状態（出典: [PR TIMES — SB Intuitionsプレスリリース](https://prtimes.jp/main/html/rd/p/000000002.000141057.html)、取得日 2026-10-18）。利用データはAIモデル・サービスの品質向上目的で活用される場合があるとも明記されている
 
 ## 実務での使い方
 - 自社システムへの組み込み前に、日本語タスクでの精度・トークン効率を無料で検証できる

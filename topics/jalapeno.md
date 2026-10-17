@@ -3,7 +3,7 @@ type: topic
 title: "Jalapeño（OpenAIの推論専用チップ）"
 slug: jalapeno
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-10-18
 tags: [openai, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -22,7 +22,7 @@ OpenAIがBroadcomと共同開発した、AIモデルの「推論」（学習済�
 - NVIDIAは「Vera Rubin」でGPU・CPU・推論アクセラレータ・ストレージ／ネットワークを一体提供する方向にシフトしており、Jalapeñoのような単体チップは既存GPUベンダーとの競合軸の一つとされる一方、システム全体の最適化（データセンター規模の設計）ではNVIDIAが依然優位という指摘もある（[daily 2026-08-30](../daily/2026-08-30.md) / [topics/nvidia](nvidia.md)）
 
 ## 実務での使い方
-- 推論コストの低下が進めば、API料金のさらなる値下げやレイテンシ改善につながる可能性があり、モデル選定時のコスト試算に影響しうる（要追記：商用提供開始後の料金への具体的な影響）
+- 推論コストの低下が進めば、API料金のさらなる値下げやレイテンシ改善につながる可能性があり、モデル選定時のコスト試算に影響しうる。2026年6月24日の正式発表では「2026年末にギガワット規模で初展開、Microsoftなどのデータセンターパートナーと稼働開始」という計画が示された一方、API料金への還元を約束する記述はなく、OpenAIの主張は「全スタックを自社で持つことでモデルをより速く・安定して・低コストで動かせる」という設計上の利点にとどまる（Broadcom CEOのHock Tan氏による説明。Microsoftが初期生産分の40%購入を保証したとの報道もあるが未確認）（出典: [The Decoder — OpenAI and Broadcom unveil Jalapeño, a custom chip built for LLM inference](https://the-decoder.com/openai-and-broadcom-unveil-jalapeno-a-custom-chip-built-for-llm-inference/)、取得日 2026-10-18）
 - 「モデルの賢さ」だけでなく「それを動かす基盤（チップ）」もコスト競争の対象になっている実例として押さえておく
 
 ## 講座で使うなら

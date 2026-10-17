@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-10-15
+updated: 2026-10-18
 tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -20,7 +20,7 @@ related: [topics/a2a-protocol.md]
 - 個人向けサブスクリプションは 3 段階：Google AI Plus（ストレージ 400GB・Gemini 利用量 2 倍）、Google AI Pro（5TB・4 倍、Gemini Spark 等の特典付き）、Google AI Ultra（20TB 以上・最大 20 倍、YouTube Premium 等の特典付き）。日本円での具体的な月額は地域別ページでの確認が必要（出典: [one.google.com/about/google-ai-plans](https://one.google.com/about/google-ai-plans/)、取得日 2026-08-23）
 - エージェント間通信の標準 A2A（Agent2Agent Protocol）の主導企業の一つで、2026 年 8 月に Agentic AI Foundation（AAIF）へガバナンスを移管した
 - 教育領域では学生向けに Search・Gemini アプリの学習支援機能や AI Plus/Pro の無償提供を展開している
-- 単一の最強モデルを追うのではなく、TPU（テンソル処理ユニット）を広くエコシステムに提供しクラウド全体に AI を統合する「電力網」型の戦略を Google Cloud は掲げている（要追記：Gemini とのモデル戦略との関係）
+- 単一の最強モデルを追うのではなく、TPU（テンソル処理ユニット）を広くエコシステムに提供しクラウド全体に AI を統合する「電力網」型の戦略を Google Cloud は掲げている。Google Cloud CEOのトーマス・クリアン氏は「チップ市場はゼロサムではなく、様々なモデルに最適化された様々な種類のチップ・システムがある」と説明し、Geminiだけに最適化するのでなくNVIDIA GPU上でもGeminiが動くようにする（知的財産は保護）など、モデルとハードウェアの組み合わせを顧客が選べる設計を重視しているという（出典: [Fortune — Google Cloud CEO Thomas Kurian on AI, energy and the TPU battle](https://fortune.com/2025/12/23/google-cloud-ceo-thomas-kurian-ai-energy-tpu-battle/)、取得日 2026-10-18）
 
 ## 実務での使い方
 - 検索・Workspace との統合を前提に、既存の Google 業務環境に AI を組み込みたい企業・教育機関にとって導入障壁が低い。企業向け Google Workspace は Business Starter（30GB/ユーザー）・Business Standard（2TB/ユーザー）・Business Plus（5TB/ユーザー）・Enterprise（ユーザー数上限なし）の4段階で、Gemini in Workspace apps（Gmail・Docs・Sheets・Slides・Drive・Meet・Chat）は Standard 以上で広く利用可能になる一方、Starter では機能が限定される（出典: [workspace.google.com/pricing.html](https://workspace.google.com/pricing.html)、取得日 2026-09-27）
