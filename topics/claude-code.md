@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-10-17
+updated: 2026-10-18
 tags: [claude-code, anthropic, agent, productivity]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-18: Anthropicが、Claude Codeチームのコードレビュー手法を解説するブログを公開。Claude Codeへの変更の約90%をClaude自身が書く中、6〜9月でマージ件数は倍増する一方リバート率は4割超減少。レビューをPR作成前のサブエージェント確認→並列AIレビューでのバグ探索→リスク別人間承認（低・中・高の3段階）という多層構造に再設計し、実質的なレビューコメントが付くPRの割合は16%→54%に上昇、平均レビュー往復数は2.08回から1.32回に短縮した（[daily](../daily/2026-10-18.md) / [topics/anthropic](anthropic.md) / [出典](https://claude.dev/blog/solving-code-review-at-anthropic/)）
 - 2026-10-17: バージョン2.1.299〜302を公開。約54分間アイドル状態が続いた200kトークン超の会話を自動で要約する「アイドルコンパクション」、サードパーティプロバイダーでの権限モードのデフォルト変更、フォークサブエージェントの既定有効化などを追加（[daily](../daily/2026-10-17.md)）
 - 2026-10-17: Microsoftの研究者らによる社内エンジニア数万人の4カ月調査で、導入初週の利用者はマージされたPR数が平均24%増加。ツール別ではClaude Codeが約11.4%増と報告された（Copilot CLIは約24.9%増）（[daily](../daily/2026-10-17.md) / [topics/microsoft](microsoft.md) / [学習048](../learn/intermediate/048-roi-measurement.md)）
 - 2026-10-12: Windows環境・バージョン2.1.296で、deny規則に相対パス（`../`）を使うと作業フォルダ外への書き込みを止められない場合があると個人の検証で報告された（Zenn記事）。絶対パスでのdeny指定なら組み込みツール（Write・Edit・Bash の `echo >`）は止まったが、Bashを自動許可していると`node`スクリプト経由の書き込みは止まらなかったという。対話モード・Mac・Linuxでは未検証で公式見解ではない点に注意（[daily](../daily/2026-10-12.md) / [learn/intermediate/037](../learn/intermediate/037-agent-safety-design.md)）

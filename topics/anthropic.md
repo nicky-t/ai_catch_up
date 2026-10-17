@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-10-17
+updated: 2026-10-18
 tags: [anthropic, claude, safety, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,9 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-18: 自社の人事・カレンダーデータを分析した報告を公表。技術部門のジュニア人材比率は2025年初の21%から14%に低下、新規採用に占めるジュニア比率も27%から9%に縮小。4月の社内調査では27%が「Claudeで生産性が上がった」と回答した一方、20%は「コードを書く仕事からClaudeの管理へ役割が変化した」と回答し、従業員1人当たりの会議時間は前年比20%増（技術職は16%増）だったという（[daily](../daily/2026-10-18.md) / [threads/ai-productivity-employment](../threads/ai-productivity-employment.md) / [出典](https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/)）
+- 2026-10-18: Claude Codeチームのコードレビュー手法を解説するブログを公開。Claude Codeへの変更の約90%をClaude自身が書く中、6〜9月でマージ件数は倍増する一方リバート率は4割超減。レビューを多層構造（サブエージェント確認→並列AIレビュー→リスク別人間承認）に再設計し、レビュー往復数は2.08回から1.32回に短縮したと報告（[daily](../daily/2026-10-18.md) / [topics/claude-code](claude-code.md) / [出典](https://claude.dev/blog/solving-code-review-at-anthropic/)）
+- 2026-10-18: 開発プラットフォームReplitのCEOが、デフォルトモデルをClaudeからOpenAIのモデルに切り替えたと発言。理由はコスト・パートナーシップ・性能の3点で、Replitは直近までAnthropicの上位5顧客の一社だったという。Anthropicに近い関係者は提携継続を主張しており説明に食い違いがある（[daily](../daily/2026-10-18.md) / [topics/openai](openai.md) / [出典](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/)）
 - 2026-10-17: ITmedia AI+が軽量モデル「Claude Haiku 5.5」を上位「Claude Sonnet 5.5」・競合「GPT-6 Luna」と日本語3課題（お詫びメール・議事録整理・英文メール要約）で比較検証。定型文書ではHaiku（medium）がSonnet（medium）の約11〜18分の1のコストでほぼ同等の点数だったが、力関係を読む課題では精度が落ち、思考量「max」設定ではコストがSonnet（medium）とほぼ同額まで上昇した（[daily](../daily/2026-10-17.md) / [学習054](../learn/intermediate/054-pricing-models.md)）
 - 2026-10-16: 第3四半期（7〜9月）の売上が前期比約46%増の168億ドルに達したと投資家向け説明会で明らかにしたとFTが報道（IPO準備が背景）。第1四半期約48億ドル→第2四半期115億ドル→第3四半期168億ドルと四半期ごとに急伸。コンピュート1ドルあたり売上1.70ドル、調整後営業利益率11%（株式報酬除く）、蒸留（distillation）収益は売上の5〜7%でQ3に大幅減少したという（[daily](../daily/2026-10-16.md) / [出典（経由: Simon Willison）](https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/)）
 - 2026-10-16: 外部評価団体METRの研究者6名に、社用PC・オフィス・社内ツールなど「社員に近い」アクセスを許可する新制度を発表。評価者を3段階（Tier1: SecureBioなど限定的レビュー／Tier2: 承認なしで公表可／Tier3: METRのみ・社員同等アクセス＋公表拒否権の放棄）に整理し、公表時の編集要求は顧客データ・秘匿特権情報・モデルアーキテクチャ情報など限定カテゴリのみに制限。9月のダリオ・アモデイCEOのエッセイ「We Must Pace the Frontier」の提案を実行に移した形で、OpenAIも同様の取り組みを表明している（[daily](../daily/2026-10-16.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [topics/metr](metr.md) / [出典](https://www.anthropic.com/news/an-update-on-independent-evaluators)）

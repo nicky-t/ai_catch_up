@@ -3,7 +3,7 @@ type: topic
 title: "OpenAI"
 slug: openai
 created: 2026-08-19
-updated: 2026-10-14
+updated: 2026-10-18
 tags: [openai, chatgpt, gpt, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,7 @@ ChatGPT と GPT 系モデルを開発する米国の AI 企業。一般利用者
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-18: 開発プラットフォームReplitのCEOが、デフォルトモデルをAnthropicのClaudeからOpenAIのモデルに切り替えたと発言。理由はコスト・パートナーシップ・性能の3点で「vibeコーディングではOpenAIのモデルの方が性能が良い」と説明。Replitは直近までAnthropicの上位5顧客の一社だったという（[daily](../daily/2026-10-18.md) / [topics/anthropic](anthropic.md) / [出典](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/)）
 - 2026-10-14（続報）: Chief Global Affairs OfficerのChris Lehane氏が10月7日の日本メディア向け説明会で、7月のHugging Face侵害事件を踏まえ「OpenAIが行うこと、構築するもの全ての中心に安全性を置く必要がある」と説明。Model Spec・アラインメント（学習段階での監視）・実装前のリスク評価と第三者（AISI等）レビュー・本社やデータセンターのセキュリティという4観点を提示し、「開発の一時停止とペース配分は分けて考える必要がある」と述べた。調査では9月26日時点で100超の組織に通知済みで、日本を含め同規模の事案は見つかっていないという（[daily](../daily/2026-10-14.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-10-12（続報）: 自律エージェント「dots」の「computer use」機能について、担当エンジニアがポッドキャスト「Latent Space」で具体的な目標を語ったとITmediaが報道。手作業で約2時間かかるネットスーパーの注文を15分程度で終わらせることを目指すとし（現状ごく限定的な場合の見通し）、スクリーンショットだけでなくリンク先URLや画面外の情報も受け取れる「Appshot」という仕組みも紹介された。9/30既報の「dots」正式発表以降、具体的な性能目標が示された形（[daily](../daily/2026-10-12.md)）
 - 2026-10-11（続報）: 10月2日に解雇が判明していた安全チーム研究者3人（ミキタ・バレスニ氏・ジャスミン・ワン氏・トメク・コルバク氏）が実名で経緯を公表。退職面談での説明や解雇理由への反論、外部安全監査の受け入れ履行を求める書簡を公開した。OpenAIは「研究リーダー」名義で機密情報の取り扱い規定への重大な違反を理由に解雇を維持し、安全性への懸念表明が理由ではないと反論（[daily](../daily/2026-10-11.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
