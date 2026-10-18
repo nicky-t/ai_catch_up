@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-10-18
+updated: 2026-10-19
 tags: [anthropic, claude, safety, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-18: 株主承認を前提に、株式の5%を新設の「Anthropic Public Benefit Fund」に拠出する方針を発表。企業価値が基準額から50%上昇するごとに取締役会の裁量で追加2%を積み増せる仕組みも用意し、共同創業者の80%寄付計画・従業員の株式寄付マッチング制度と合わせ約20%の株式が公益に充てられる見込み。ファンドの構造・ガバナンスの詳細は今後数か月以内に公表予定（[daily](../daily/2026-10-19.md) / [出典](https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/)）
 - 2026-10-18: 自社の人事・カレンダーデータを分析した報告を公表。技術部門のジュニア人材比率は2025年初の21%から14%に低下、新規採用に占めるジュニア比率も27%から9%に縮小。4月の社内調査では27%が「Claudeで生産性が上がった」と回答した一方、20%は「コードを書く仕事からClaudeの管理へ役割が変化した」と回答し、従業員1人当たりの会議時間は前年比20%増（技術職は16%増）だったという（[daily](../daily/2026-10-18.md) / [threads/ai-productivity-employment](../threads/ai-productivity-employment.md) / [出典](https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/)）
 - 2026-10-18: Claude Codeチームのコードレビュー手法を解説するブログを公開。Claude Codeへの変更の約90%をClaude自身が書く中、6〜9月でマージ件数は倍増する一方リバート率は4割超減。レビューを多層構造（サブエージェント確認→並列AIレビュー→リスク別人間承認）に再設計し、レビュー往復数は2.08回から1.32回に短縮したと報告（[daily](../daily/2026-10-18.md) / [topics/claude-code](claude-code.md) / [出典](https://claude.dev/blog/solving-code-review-at-anthropic/)）
 - 2026-10-18: 開発プラットフォームReplitのCEOが、デフォルトモデルをClaudeからOpenAIのモデルに切り替えたと発言。理由はコスト・パートナーシップ・性能の3点で、Replitは直近までAnthropicの上位5顧客の一社だったという。Anthropicに近い関係者は提携継続を主張しており説明に食い違いがある（[daily](../daily/2026-10-18.md) / [topics/openai](openai.md) / [topics/replit](replit.md) / [出典](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/)）
