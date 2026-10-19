@@ -3,7 +3,7 @@ type: thread
 title: "国内 AI 導入動向（japan-ai-adoption）"
 slug: japan-ai-adoption
 created: 2026-08-19
-updated: 2026-10-18
+updated: 2026-10-20
 tags: [adoption, japan-company, case-study]
 status: active
 related: [topics/openai.md]
@@ -24,6 +24,7 @@ related: [topics/openai.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-20: 世田谷区が、生成AIエージェントツール「Genspark」を導入し、情報収集・資料作成・スライドや画像の作成など14業務で3カ月間試行した結果、作業時間が合計約2900時間減ったとする試算を公表。一方でAIの出力は業務知識の正確さ・数値や計算の正しさ・法令との整合性などを確認・修正する負担が新たな課題として浮上したと報告。10/16既報のMicrosoft調査（提出量は増えてもレビューが新ボトルネック）と同じ構図が自治体でも確認された（[daily](../daily/2026-10-20.md) / [threads/ai-productivity-employment](ai-productivity-employment.md) / [出典](https://www.itmedia.co.jp/business/articles/2610/19/news064.html)）
 - 2026-10-15: デジタルハリウッド大学が、国内の大学として初めてAnthropicの「Claude」を全学導入すると発表。11月から学生・教職員が利用回数の上限を気にせず使える体制にする。企業向け事例が中心だった導入動向に、教育機関側からの大規模導入事例が加わった（[daily](../daily/2026-10-15.md) / [topics/anthropic](../topics/anthropic.md) / [出典](https://www.itmedia.co.jp/news/article/2610/14/2000002278/)）
 - 2026-10-14: ソフトバンク子会社SB Intuitionsが、日本語に強い大規模言語モデル「Sarashina」シリーズを体験できる「Sarashinaサービス」の無償β版を公開。Googleアカウントでログインすれば事前申し込みなしで誰でも無料で使え、対話・翻訳を試せるWebチャットと、文章生成・埋め込み・検索精度向上・安全性判定・翻訳の6モデルを呼び出せるAPIを提供する。日本語向けトークナイザにより同じ文章を米国モデルの半分のトークン数で表せるという。10/6既報のNoetra（国産基盤モデル推進策）とは別に、通信系大手自身が国産モデルを無料で一般開放する事例が加わった（[daily](../daily/2026-10-14.md) / [topics/sb-intuitions](../topics/sb-intuitions.md) / [出典](https://www.itmedia.co.jp/news/article/2610/13/2000002224/)）
 - 2026-10-10（続報）: 損保ジャパンが、2026年1月に約2万人へ導入したGemini Enterpriseの運用詳細を公開。6月時点で平日DAU50%超・WAU約80%に達している。AIリテラシーテスト合格者のみに権限を自動更新する仕組み、Model Armorによるプロンプト・回答のリアルタイム検査、BigQueryへの監査ログ集約、従業員によるエージェント作成・共有のガバナンスという4点の対策を整理。9/29既報の「標準機能の制約を自前のガードレールで補った」話が、具体的な利用率と運用体制の数字で肉付けされた（[daily](../daily/2026-10-10.md) / [topics/google](../topics/google.md) / [出典](https://kn.itmedia.co.jp/kn/article/2610/09/2000002145/)）

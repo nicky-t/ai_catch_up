@@ -552,3 +552,12 @@ https://xtech.nikkei.com/atcl/nxt/column/18/03786/100600001/
 https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/
 https://qiita.com/songchong/items/542892c6d4c569c9c15f
 https://github.com/akitaonrails/ai-memory
+https://anthropic.com/research/employment-at-anthropic
+https://www.itmedia.co.jp/news/article/2610/19/2000002353/
+https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/
+https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/
+https://www.itmedia.co.jp/aiplus/article/2610/19/2000002357/
+https://www.itmedia.co.jp/business/articles/2610/19/news064.html
+https://atmarkit.itmedia.co.jp/ait/articles/2610/19/news029.html
+https://crystl.dev/guides/tmux-for-ai-agents/
+https://github.com/headroomlabs-ai/headroom
