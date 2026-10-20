@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-10-20
+updated: 2026-10-21
 tags: [anthropic, claude, safety, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-21: Bloomberg報道によると、NscaleとAnthropicが8月26日発表分とは別に、新たに450億ドル規模の計算契約について協議中。交渉は継続中で条件は変わる可能性がある。両社ともIPOを目指す一方、Nscale自身は300億ドルの企業価値評価に投資家の抵抗を受けているとの報道もある（[daily](../daily/2026-10-21.md) / [出典](https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/)）
 - 2026-10-20: 自社の雇用変化を分析した報告書を公開。対話型AIエージェントの稼働時間は8月時点で従業員の6倍に達し、エージェント稼働時間（自律＋対話型）は3月に初めて人間の稼働時間を上回った。技術部門の新卒採用比率は27%から9%に急減、管理業務（エージェント監督等）が対話セッションの10%（2025年秋）から22%（2026年春）に増加、セッション時間の約8割は人間の入力待ちという（[daily](../daily/2026-10-20.md) / [threads/ai-productivity-employment](../threads/ai-productivity-employment.md) / [出典](https://anthropic.com/research/employment-at-anthropic)）
 - 2026-10-18: 株主承認を前提に、株式の5%を新設の「Anthropic Public Benefit Fund」に拠出する方針を発表。企業価値が基準額から50%上昇するごとに取締役会の裁量で追加2%を積み増せる仕組みも用意し、共同創業者の80%寄付計画・従業員の株式寄付マッチング制度と合わせ約20%の株式が公益に充てられる見込み。ファンドの構造・ガバナンスの詳細は今後数か月以内に公表予定（[daily](../daily/2026-10-19.md) / [出典](https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/)）
 - 2026-10-18: 自社の人事・カレンダーデータを分析した報告を公表。技術部門のジュニア人材比率は2025年初の21%から14%に低下、新規採用に占めるジュニア比率も27%から9%に縮小。4月の社内調査では27%が「Claudeで生産性が上がった」と回答した一方、20%は「コードを書く仕事からClaudeの管理へ役割が変化した」と回答し、従業員1人当たりの会議時間は前年比20%増（技術職は16%増）だったという（[daily](../daily/2026-10-18.md) / [threads/ai-productivity-employment](../threads/ai-productivity-employment.md) / [出典](https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/)）

@@ -3,7 +3,7 @@ type: topic
 title: "OpenCode（オープンコード）"
 slug: opencode
 created: 2026-10-20
-updated: 2026-10-20
+updated: 2026-10-21
 tags: [agent, safety, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -28,6 +28,7 @@ Claude CodeやCopilot CLIと同じ「ターミナル常駐型のコーディン�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-21: Symantecの脅威分析チームが、AIコーディングツールの認証情報を狙うインフォスティーラー「Aoki」を報告（10/15発表）。Claudeの`.claude.json`・デスクトップCookie、ChatGPTのCookie、Codexの`config.toml`・`.env`などを狙う。10/20既報のOpenCode Console侵害とは別事案で関連は未確認。@ITは利用上限設定・キー分離・未使用キー削除などを対策として提示（[daily](../daily/2026-10-21.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2610/21/news011.html)）
 - 2026-10-20: 利用者向けサービス「OpenCode Console」がハッキングされ、利用者の1.4%が影響を受けたと運営が公表。保存されていたOpenAI・Anthropic・Google宛のAPIキーが悪用され、1,000ドルを超える不正請求を受けた利用者もいた。運営は「大規模な蒸留攻撃」と説明するが、侵入経路やキーの保存方法は未解明（[daily](../daily/2026-10-20.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/)）
 
 ## 関連

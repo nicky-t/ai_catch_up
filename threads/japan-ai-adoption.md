@@ -3,7 +3,7 @@ type: thread
 title: "国内 AI 導入動向（japan-ai-adoption）"
 slug: japan-ai-adoption
 created: 2026-08-19
-updated: 2026-10-20
+updated: 2026-10-21
 tags: [adoption, japan-company, case-study]
 status: active
 related: [topics/openai.md]
@@ -24,6 +24,8 @@ related: [topics/openai.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-21: デジタル庁が、政府職員約18万人向けの生成AI環境「源内」で、AIエージェントを使える2種類の環境（エージェントチャット／源内工房）の提供開始を発表。政府共通基盤としては世界初の規模とされ、利用者・管理者・開発者別の安全基準「源内基準」も策定した。2027年2月ごろオープンソース公開予定（[daily](../daily/2026-10-21.md) / [topics/gennai](../topics/gennai.md) / [出典](https://www.itmedia.co.jp/news/article/2610/20/2000002428/)）
+- 2026-10-21: 江戸川区が、2021年の議事録作成支援から段階的に広げたAI活用の実績を公開。現在は職員1,271人が利用し、年間約3万5494時間・約4,351万円を削減しているという。10/20既報の世田谷区（3カ月の試行で約2900時間削減）と対照的な「複数年かけた定着」の事例（[daily](../daily/2026-10-21.md) / [出典](https://www.itmedia.co.jp/business/articles/2610/20/news011.html)）
 - 2026-10-20: 世田谷区が、生成AIエージェントツール「Genspark」を導入し、情報収集・資料作成・スライドや画像の作成など14業務で3カ月間試行した結果、作業時間が合計約2900時間減ったとする試算を公表。一方でAIの出力は業務知識の正確さ・数値や計算の正しさ・法令との整合性などを確認・修正する負担が新たな課題として浮上したと報告。10/16既報のMicrosoft調査（提出量は増えてもレビューが新ボトルネック）と同じ構図が自治体でも確認された（[daily](../daily/2026-10-20.md) / [threads/ai-productivity-employment](ai-productivity-employment.md) / [出典](https://www.itmedia.co.jp/business/articles/2610/19/news064.html)）
 - 2026-10-15: デジタルハリウッド大学が、国内の大学として初めてAnthropicの「Claude」を全学導入すると発表。11月から学生・教職員が利用回数の上限を気にせず使える体制にする。企業向け事例が中心だった導入動向に、教育機関側からの大規模導入事例が加わった（[daily](../daily/2026-10-15.md) / [topics/anthropic](../topics/anthropic.md) / [出典](https://www.itmedia.co.jp/news/article/2610/14/2000002278/)）
 - 2026-10-14: ソフトバンク子会社SB Intuitionsが、日本語に強い大規模言語モデル「Sarashina」シリーズを体験できる「Sarashinaサービス」の無償β版を公開。Googleアカウントでログインすれば事前申し込みなしで誰でも無料で使え、対話・翻訳を試せるWebチャットと、文章生成・埋め込み・検索精度向上・安全性判定・翻訳の6モデルを呼び出せるAPIを提供する。日本語向けトークナイザにより同じ文章を米国モデルの半分のトークン数で表せるという。10/6既報のNoetra（国産基盤モデル推進策）とは別に、通信系大手自身が国産モデルを無料で一般開放する事例が加わった（[daily](../daily/2026-10-14.md) / [topics/sb-intuitions](../topics/sb-intuitions.md) / [出典](https://www.itmedia.co.jp/news/article/2610/13/2000002224/)）

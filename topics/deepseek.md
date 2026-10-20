@@ -3,7 +3,7 @@ type: topic
 title: "DeepSeek（ディープシーク）"
 slug: deepseek
 created: 2026-09-11
-updated: 2026-10-20
+updated: 2026-10-21
 tags: [deepseek, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,7 @@ related: [topics/openrouter.md, topics/qwen.md, topics/glm.md, topics/moonshot-a
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-21: 米国土安全保障省（DHS）が連邦官報で、連邦民間機関の調達・既存ITシステムからDeepSeek（および同社の実装を使った第三者製品）を排除する命令を発表。2018年のFASCSAに基づき、FASCの勧告を受けて発令された。10/17のV4.1-Flash-1017公開の直後の措置だが、記事は両者を直接関連づけていない（[daily](../daily/2026-10-21.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://www.itmedia.co.jp/news/article/2610/20/2000002405/)）
 - 2026-10-20（続報）: 「DeepSeek-V4.1-Flash」の新版「V4.1-Flash-1017」を公開。商用利用可能なMITライセンスで重みを公開し、コーディングエージェント向けベンチマーク「DeepSWE v1.1」の「max」推論設定で成功率77%を達成、GPT-6 Astraを上回りつつ前バージョンより低コストと主張。価格は前バージョンから変更なし（[daily](../daily/2026-10-20.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/19/2000002357/)）
 - 2026-09-18: 米NSA・CISA・FBIが、中国のAI企業が米国製フロンティアAIモデルから「知識蒸留」の手法で機能を抽出し、低コストで効率的な自社モデルの開発に利用していると警告（9月8日発表）。対象としてDeepSeek・Moonshot AI・Alibaba Group・MiniMax・StepFun・Z.AIの6社を挙げ、APIプロキシの悪用やプロンプトインジェクションなどの抽出手法をMITRE ATLASフレームワークとともに列挙（[daily](../daily/2026-09-18.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-09-11: 552BパラメータのMoEモデル「DeepSeek-V4.1-Flash」を発表。KVキャッシュ要件を削減する改良アーキテクチャで、GPT-5.6 SolやClaude Opus 5を一部ベンチマークで上回ると主張。8月13日の値上げから一転し、オフピーク料金を入力0.003ドル（キャッシュヒット時）／出力0.6ドル（100万トークンあたり）に値下げ（[daily](../daily/2026-09-11.md)）

@@ -3,7 +3,7 @@ type: thread
 title: "AI安全規制の動き（ai-safety-regulation）"
 slug: ai-safety-regulation
 created: 2026-08-23
-updated: 2026-10-20
+updated: 2026-10-21
 tags: [regulation, safety]
 status: active
 related: [topics/openai.md, topics/anthropic.md]
@@ -25,6 +25,10 @@ related: [topics/openai.md, topics/anthropic.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-21: Microsoftが、AIエージェントを社内の「内部脅威」と同様に扱う新戦略を発表。セキュリティ事業責任者ガロット氏は「フロンティアモデルは信用できない」、ナデラCEOも「AIが行うことの責任は外注できない」と主張し、「Guardian Agents」・最大60種のエージェントを検出するDefender拡張・NVIDIAの「Open Agent Safety Platform」参加を発表。10/12〜17のナデラ氏・NVIDIAの論と同じ「モデルの外側に統制を置く」思想の、最新かつ具体的な実装例（[daily](../daily/2026-10-21.md) / [topics/microsoft](../topics/microsoft.md) / [出典](https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/)）
+- 2026-10-21: 米ワシントン大学の研究者らが、ChatGPT Atlas・Claude for Chrome等AIブラウザ7種を調査した結果、4種で「同一オリジンポリシー」を回避できる経路を発見。ChatGPT AtlasとClaudeはマスク表示されたパスワード欄の値も読み取れたという。Google・Microsoft・Braveは報告に対応したが、AnthropicとFirefoxは応答せず、Perplexity・OpenAIは報告の受け取りを拒否した。「モデルの外側の統制」論に対し、身近なブラウザ機能自体のリスクという具体例が加わった（[daily](../daily/2026-10-21.md) / [出典](https://www.itmedia.co.jp/news/article/2610/20/2000002377/)）
+- 2026-10-21: Symantecが、AIコーディングツールの認証情報を狙うインフォスティーラー「Aoki」を報告（10/15発表）。10/20既報のOpenCode Console侵害とは別の経路で、「サービス側の侵害」と「端末側の情報窃取」という2種類の認証情報リスクが並立することを示した（[daily](../daily/2026-10-21.md) / [topics/opencode](../topics/opencode.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2610/21/news011.html)）
+- 2026-10-21: 米国土安全保障省が、連邦民間機関の調達・既存システムからDeepSeekを排除する命令を発表。中国製オープンウェイトモデルの利用・調達判断における地政学的リスクが、政府方針として具体化した（[daily](../daily/2026-10-21.md) / [topics/deepseek](../topics/deepseek.md) / [出典](https://www.itmedia.co.jp/news/article/2610/20/2000002405/)）
 - 2026-10-20: オープンソースのAIコーディングエージェント「OpenCode」の利用者向けサービスがハッキングされ、利用者の1.4%が影響を受けた。保存されていたOpenAI・Anthropic・Google宛のAPIキーが悪用され、1,000ドルを超える不正請求を受けた利用者もいた。10/19既報の「認証情報の漏えい」類型の具体的な実例として、被害額を伴う事故が確認された（[daily](../daily/2026-10-20.md) / [topics/opencode](../topics/opencode.md) / [出典](https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/)）
 - 2026-10-19: ＠ITが、AIコーディングエージェントの事故を「ファイルへの無制限アクセス」「過剰な権限の継続」「認証情報の漏えい」「埋め込まれた悪意ある指示の実行」「汚染されたスキル・プラグイン」「人間の指示の無視」の6類型に整理。Claude Codeの実データでは確認画面の97%がそのまま承認されていた一方、危険なコマンドを自動判定する「自動モード」は人間が止めるような操作の89%を自ら阻止していたという（9/12既報の遮断率89%対13.6%と同じ基礎データの再整理）。10/17のNVIDIA「指示に頼らない統制」論に続き、「人間の承認疲れ」という具体的なメカニズムと「AIに判定させる」という代替策が示された（[daily](../daily/2026-10-19.md) / [topics/claude-code](../topics/claude-code.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2610/18/news004.html)）
 - 2026-10-16: Gartnerが、国内で2026年9月以降に重大な不正アクセスが相次いでいることを踏まえ、日本企業向けの緊急提言を発表。2026年7月の調査では約30%の企業しか必要な対策を実施できておらず、AIエージェントの悪用で攻撃の速度・規模が拡大していると指摘。公開資産への緊急パッチ適用・設定ミスの修正・ログの遡及調査・個人情報漏えいの有無確認・委託先の対応状況確認など7項目の具体的な行動を挙げた。「攻撃の速度に防御側が追いつけない」という論点に、企業が今すぐ着手できる実務的なチェックリストが加わった形（[daily](../daily/2026-10-18.md) / [出典](https://www.itmedia.co.jp/enterprise/articles/2610/16/news048.html)）
