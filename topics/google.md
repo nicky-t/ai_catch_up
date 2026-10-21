@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-10-18
+updated: 2026-10-22
 tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,7 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-22: Google Cloudが米政府機関向け「Gemini for Government」をプレビュー公開（10/20発表）。ミズーリ州政府・米保健福祉省（HHS）と共同開発。データは組織のプライベート環境内・米国内にとどまり、許可なく追加学習に使わない設計でFedRAMP最高位「High」基準を満たすとする。法令学習「Skills」・既存システム連携「Connectors」等5要素で構成（[daily](../daily/2026-10-22.md) / [学習053](../learn/intermediate/053-vendor-tool-selection.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/21/2000002470/)）
 - 2026-10-15: Google DeepMindが、シンガポール政府機関GovTechと共同で、個人間チャットでの会話型詐欺（恋愛詐欺・投資詐欺等）を検知する小型モデルを開発したと発表。軽量なオープンウェイトモデル「Gemma」をファインチューニングし、端末内（オンデバイス）で動作させることでプライベートなチャット内容をクラウドに送らずに判定できる設計にした（[daily](../daily/2026-10-15.md) / [出典](https://deepmind.google/blog/on-device-ai-scam-detection-mddi/)）
 - 2026-10-14（続報）: 10/1にサイバー防御向け限定プログラム「Fairwind」から先行提供していた新フロンティアモデル「Gemini 4 Argon」を、開発者・企業・科学者・一般利用者へ公開範囲を拡大。経済分野の実務タスクを測る「Vals Index」で首位、Embodied Reasoning（ERQA）87%。Antigravity導入チームでエージェントによるコード提出が35%超増加・ロールバックはほぼ3分の1減少したと自社事例を公表。価格は導入期間中100万トークンあたり入力2ドル・出力10ドル、11月30日以降は入力4ドル・出力20ドルに上がる（[daily](../daily/2026-10-14.md)）
 - 2026-10-10（続報）: 損保ジャパンが、2026年1月に約2万人へ導入したGemini Enterpriseの運用詳細を公開。6月時点で平日DAU50%超・WAU約80%。AIリテラシーテスト合格者だけに権限を付与する日次自動更新、Model Armorによるプロンプト・回答のリアルタイム検査、BigQueryへの監査ログ集約、従業員によるエージェント作成・共有のガバナンスという4点の仕組みを整理。9月29日既報の「標準機能の制約を自前のガードレールで補った」話に、具体的な利用率・運用体制が加わった（[daily](../daily/2026-10-10.md) / [threads/japan-ai-adoption](../threads/japan-ai-adoption.md)）

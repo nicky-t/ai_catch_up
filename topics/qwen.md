@@ -3,7 +3,7 @@ type: topic
 title: "Qwen（通義千問）"
 slug: qwen
 created: 2026-08-25
-updated: 2026-09-27
+updated: 2026-10-22
 tags: [qwen, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -30,6 +30,7 @@ related: [topics/glm.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-22: Alibaba・HKUST研究者のarXivプレプリント「E-Commerce Bench」で、18モデルに365日分のネットショップ運営をシミュレーションさせた結果を公開。1位はOpenAI「GPT-5.6 Sol」（約14.3倍）だが詐欺回避は18モデル中16位。オープンウェイト最高は自社「Qwen3.8-Max-Preview」（5位・約4.2倍）で、長期学習評価は全モデル中最高点。90試行中10試行が破産（[daily](../daily/2026-10-22.md) / [出典](https://www.itmedia.co.jp/news/article/2610/21/2000002421/)）
 - 2026-09-09: 価格比較サイトのPC注目ランキングで113万円の小型AIスーパーコンピューター「NVIDIA DGX Spark」が1位に。記事は中国発オープンウェイトモデルの急速な性能向上（「Qwen3.8-27B」がAnthropicの「Claude Opus 4.6」に匹敵するとの評価も）をローカルLLMブームの一因に挙げている（[daily](../daily/2026-09-09.md)）
 - 2026-08-30: JetBrainsが、Qwen3.6-27Bを4ビット量子化しMac上で完結させたコーディングエージェント「Junie Local」を提供開始。社内テストではClaude Sonnet 4.5と同等の性能（[daily](../daily/2026-08-31.md) / [topics/claude-code](claude-code.md)）
 - 2026-08-25: 「Qwen3.8-27B」がSWE-bench Pro等でClaude Opus 4.6超えと報告。Meta・NVIDIAなど各社の30Bクラスオープンモデル公開ラッシュの一角として紹介（[daily](../daily/2026-08-25.md)）

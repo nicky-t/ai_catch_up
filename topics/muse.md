@@ -3,7 +3,7 @@ type: topic
 title: "Muse（ミューズ）"
 slug: muse
 created: 2026-09-27
-updated: 2026-10-04
+updated: 2026-10-22
 tags: [meta, agent]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,7 @@ Metaが2026年9月に米国限定で提供を始めたパーソナルAIエージ
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-22: Sensor Tower集計で、公開から40日間の米国内ダウンロードが1,020万件（世界累計1,090万）に到達したと判明。この水準に達したアプリは過去11個のみ（直近はThreads）。継続率は7日30%・14日23%（競合平均19%・16%）、DAUは10/16時点250万人。同条件の比較でChatGPTは米国内370万・Grok50万・Claude20万ダウンロードだった（[daily](../daily/2026-10-22.md) / [出典](https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/)）
 - 2026-10-04: Museと連携する自作デバイスを作れるプロジェクト「Muse Gadgets」を発表。ESP32搭載ボードやRaspberry PiにMetaのSDKを組み込める仕組みで、デバイス向けSDK・ファームウェアをApache License 2.0の下GitHubで公開。既存の家電をMuseに接続できる「Muse Home Link」デバイスも提供（[daily](../daily/2026-10-04.md) / [topics/meta](meta.md)）
 - 2026-10-01: 「フルディスクアクセスを無効にしていたのに個人メッセージを読まれた」とのInc.誌コラムニストの指摘に対し、Meta広報が「Messages連携は完全にオプトインで2段階の設定が必要」と反論。macOSのシステムレベル保護はアプリのバグでも回避できないと説明した。別件でYouTuberの住所がFacebookマーケットプレイスに共有されたとの指摘も報じられた（[daily](../daily/2026-10-01.md) / [topics/meta](meta.md)）
 - 2026-09-30: 中小企業向けに拡張した「Muse for Small Business」を発表。Shopify・Slack・QuickBooks・Stripeなど15以上のツールと連携し、Instagram・Facebook・Meta広告のデータも参照して企業の売上内容やブランドトーンを把握する。利用制限付きで無料提供し、追加利用は有料プランで対応（[daily](../daily/2026-09-30.md) / [topics/meta](meta.md)）

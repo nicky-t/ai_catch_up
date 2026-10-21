@@ -3,7 +3,7 @@ type: thread
 title: "AIの生産性・雇用への影響（ai-productivity-employment）"
 slug: ai-productivity-employment
 created: 2026-10-18
-updated: 2026-10-20
+updated: 2026-10-22
 tags: [productivity, hr, survey]
 status: active
 related: [topics/anthropic.md, topics/microsoft.md]
@@ -23,6 +23,7 @@ related: [topics/anthropic.md, topics/microsoft.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-22: Gartnerの調査（CIO・技術責任者約2,002人、2026年5月実施）で、約40%が2027年にIT部門の人員増加を見込むと回答。「AI導入でIT人員は減る」という通念に反し、部門全体は増員される一方でサイバーセキュリティ・データ分析など一部職種が拡大、別の職種が縮小する「二重の変化」が起きていると説明。AIから「大きな・変革的な価値」を得たCIOは13%にとどまる（[daily](../daily/2026-10-22.md) / [出典](https://www.itmedia.co.jp/enterprise/articles/2610/21/news030.html)）
 - 2026-10-20: Anthropicが自社の雇用変化を分析した報告書を公開。対話型AIエージェントの稼働時間は8月時点で従業員の6倍に達し、エージェント稼働時間（自律＋対話型）は3月に初めて人間の稼働時間を上回った。技術部門の新卒採用比率は27%から9%に急減、管理業務（エージェント監督等）が対話セッションの10%（2025年秋）から22%（2026年春）に増加、セッション時間の約8割は人間の入力待ちという。8月の調査では従業員の75%・米国一般の28%が2030年までにAIが自分の業務を担えると予想。10/18既報の「ジュニア比率低下」をさらに詳しい内部データで裏付けた（[daily](../daily/2026-10-20.md) / [topics/anthropic](../topics/anthropic.md) / [出典](https://anthropic.com/research/employment-at-anthropic)）
 - 2026-10-18（続報）: Anthropicが、Claude Codeチームのコードレビュー手法を解説するブログを公開。Claude Codeへの変更の約90%をClaude自身が書く中、6〜9月でマージ件数は倍増する一方、巻き戻し（リバート）率は4割超減少。レビューを「最後の1回の関門」でなく、PR作成前のサブエージェント確認→並列AIレビュー→リスクに応じた人間承認（低・中・高の3段階）という多層構造に再設計し、「実質的なレビューコメントが付くPRの割合」が16%から54%に上昇、平均レビュー往復数も2.08回から1.32回に短縮したと報告（[daily](../daily/2026-10-18.md) / [topics/claude-code](../topics/claude-code.md) / [出典](https://claude.dev/blog/solving-code-review-at-anthropic/)）
 - 2026-10-18: Anthropicが自社の人事・カレンダーデータを分析した報告を公表。技術部門のジュニア人材比率は2025年初の21%から14%に低下、新規採用に占めるジュニア比率も27%から9%に縮小。4月の社内調査では27%が「Claudeで生産性が上がった」と回答した一方、20%は「コードを書く仕事からClaudeの管理へ役割が変化した」と回答し、従業員1人当たりの会議時間は前年比20%増（技術職は16%増）だったという（[daily](../daily/2026-10-18.md) / [topics/anthropic](../topics/anthropic.md) / [出典](https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/)）

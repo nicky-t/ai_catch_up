@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-10-21
+updated: 2026-10-22
 tags: [anthropic, claude, safety, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,8 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-22: Politico・TechCrunch報道により、連邦AI安全法案の起草が判明。「生物兵器」「モデルが開発者の制御を逃れる」「サイバー攻撃」のいずれかに起因し50人超の死亡または10億ドル超の損害が予見される場合、商務省登録の独立評価者の72時間以内通知を経て連邦判事がモデル提供を差し止められる仕組みを提案。6月以降提唱してきた「Advanced AI Framework」の法制化版で、カリフォルニア州SB 53に似た閾値を採用（[daily](../daily/2026-10-22.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/)）
+- 2026-10-22: リーク済み目論見書案（WSJ報道）で、AWS・Google・Microsoftなどクラウド事業者から十分な計算資源を確保できず「顧客」より「競合」として扱われる度合いが強まっていると判明。クラウド契約総額は7,500億ドル超に達しうるとし、上半期（1〜6月）の純損失807億ドル（売上163億ドル）、第3四半期売上は前四半期比45%増の168億ドルと説明。11月IPO目標とされる（[daily](../daily/2026-10-22.md) / [出典](https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/)）
 - 2026-10-21: Bloomberg報道によると、NscaleとAnthropicが8月26日発表分とは別に、新たに450億ドル規模の計算契約について協議中。交渉は継続中で条件は変わる可能性がある。両社ともIPOを目指す一方、Nscale自身は300億ドルの企業価値評価に投資家の抵抗を受けているとの報道もある（[daily](../daily/2026-10-21.md) / [出典](https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/)）
 - 2026-10-20: 自社の雇用変化を分析した報告書を公開。対話型AIエージェントの稼働時間は8月時点で従業員の6倍に達し、エージェント稼働時間（自律＋対話型）は3月に初めて人間の稼働時間を上回った。技術部門の新卒採用比率は27%から9%に急減、管理業務（エージェント監督等）が対話セッションの10%（2025年秋）から22%（2026年春）に増加、セッション時間の約8割は人間の入力待ちという（[daily](../daily/2026-10-20.md) / [threads/ai-productivity-employment](../threads/ai-productivity-employment.md) / [出典](https://anthropic.com/research/employment-at-anthropic)）
 - 2026-10-18: 株主承認を前提に、株式の5%を新設の「Anthropic Public Benefit Fund」に拠出する方針を発表。企業価値が基準額から50%上昇するごとに取締役会の裁量で追加2%を積み増せる仕組みも用意し、共同創業者の80%寄付計画・従業員の株式寄付マッチング制度と合わせ約20%の株式が公益に充てられる見込み。ファンドの構造・ガバナンスの詳細は今後数か月以内に公表予定（[daily](../daily/2026-10-19.md) / [出典](https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/)）

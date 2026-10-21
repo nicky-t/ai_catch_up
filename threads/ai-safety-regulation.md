@@ -3,7 +3,7 @@ type: thread
 title: "AI安全規制の動き（ai-safety-regulation）"
 slug: ai-safety-regulation
 created: 2026-08-23
-updated: 2026-10-21
+updated: 2026-10-22
 tags: [regulation, safety]
 status: active
 related: [topics/openai.md, topics/anthropic.md]
@@ -25,6 +25,9 @@ related: [topics/openai.md, topics/anthropic.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-22: Anthropicが、「50人以上の死者」か「10億ドル超の損害」を基準に政府がAIモデルの提供を差し止められる連邦AI安全法案を起草していたとPolitico・TechCrunchが報道。独立評価者への72時間以内通知・連邦判事への差し止め申し立てという仕組みを提案し、6月以降提唱の「Advanced AI Framework」の法制化版という。自主規制（組み込み評価者）より踏み込んだ内容を業界トップ企業自身が提案した形（[daily](../daily/2026-10-22.md) / [topics/anthropic](../topics/anthropic.md) / [出典](https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/)）
+- 2026-10-22: GMOサイバーセキュリティ by Ieraeが、AI駆動の自律型ペネトレーションツール「ARTEX」による攻撃が国内企業約20社を標的にしていたと確認。「CVEの死角」「ASMの非対称性」「WAFの閾値回避」という3つの手口を報告。9月下旬の韓国金融機関攻撃（DeepSeek＋ARTEX悪用、10/15既報）との関連も指摘され、攻撃側のAI活用が国内で具体的な被害数を伴って確認された（[daily](../daily/2026-10-22.md) / [topics/artex](../topics/artex.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/21/2000002452/)）
+- 2026-10-22: OpenAIが「Patch the Planet」プログラムで、自社AI「GPT-5.6 Sol」がPHPの脆弱性を攻撃者より先に発見・修正したと発表。同社は「防御に使われるAI」の事例としつつ、同様の発見は今後数カ月で急増すると予測。同日判明したARTEX記事（攻撃側のAI活用）と並び、脆弱性発見の高速化が攻防両面で進んでいることを示した（[daily](../daily/2026-10-22.md) / [topics/openai](../topics/openai.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/22/2000002482/)）
 - 2026-10-21: Microsoftが、AIエージェントを社内の「内部脅威」と同様に扱う新戦略を発表。セキュリティ事業責任者ガロット氏は「フロンティアモデルは信用できない」、ナデラCEOも「AIが行うことの責任は外注できない」と主張し、「Guardian Agents」・最大60種のエージェントを検出するDefender拡張・NVIDIAの「Open Agent Safety Platform」参加を発表。10/12〜17のナデラ氏・NVIDIAの論と同じ「モデルの外側に統制を置く」思想の、最新かつ具体的な実装例（[daily](../daily/2026-10-21.md) / [topics/microsoft](../topics/microsoft.md) / [出典](https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/)）
 - 2026-10-21: 米ワシントン大学の研究者らが、ChatGPT Atlas・Claude for Chrome等AIブラウザ7種を調査した結果、4種で「同一オリジンポリシー」を回避できる経路を発見。ChatGPT AtlasとClaudeはマスク表示されたパスワード欄の値も読み取れたという。Google・Microsoft・Braveは報告に対応したが、AnthropicとFirefoxは応答せず、Perplexity・OpenAIは報告の受け取りを拒否した。「モデルの外側の統制」論に対し、身近なブラウザ機能自体のリスクという具体例が加わった（[daily](../daily/2026-10-21.md) / [出典](https://www.itmedia.co.jp/news/article/2610/20/2000002377/)）
 - 2026-10-21: Symantecが、AIコーディングツールの認証情報を狙うインフォスティーラー「Aoki」を報告（10/15発表）。10/20既報のOpenCode Console侵害とは別の経路で、「サービス側の侵害」と「端末側の情報窃取」という2種類の認証情報リスクが並立することを示した（[daily](../daily/2026-10-21.md) / [topics/opencode](../topics/opencode.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2610/21/news011.html)）
