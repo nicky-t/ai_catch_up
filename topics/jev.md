@@ -3,7 +3,7 @@ type: topic
 title: "Jev（TypeSafe AI）"
 slug: jev
 created: 2026-09-19
-updated: 2026-10-13
+updated: 2026-10-23
 tags: [agent, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [topics/openai.md, topics/google.md, topics/amazon.md, topics/cloudflar
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-23: OpenAIが「Decisions API」を全顧客に一般提供開始。応答時間を約100〜180ミリ秒に短縮したが、ベンチマークでは先行するJevにまだ後れ（AIM System One Indexで8位対Jev7位、Artificial Analysis Decision Indexで14位対Jev3位）。「Jev」「Clef」（Cloudflare）「Strands Decider」（AWS）「Microsoft-Decision-1」に続き判定特化モデル競争が一段と具体化した（[daily](../daily/2026-10-23.md) / [topics/openai](openai.md) / [出典](https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/)）
 - 2026-10-13: Microsoftが、判断特化モデル「Microsoft-Decision-1」をMicrosoft FoundryとOpenRouterで公開。Alibaba「Qwen3.5-9B」ベースで、価格はJevと同じ入力100万トークン0.042ドル・出力無料。36ベンチマークで最高正答率・応答速度GPT-6 Solの35倍と主張するが、公開後に追記されたJevとの比較ではキャリブレーション（確率の正確さ）は3位にとどまった。「Jev」「Clef」（Cloudflare）「Strands Decider」（AWS）「Decisions API」（OpenAI）に続き5社目の参入（[daily](../daily/2026-10-13.md) / [topics/microsoft](microsoft.md)）
 - 2026-10-11: 開発元TypeSafe AIが、Andreessen Horowitz主導・Sequoia・DCVC参加で8億7,000万ドルを評価額75億ドルで調達。9月15日の公開から1カ月足らずでの急成長で、Fortune 500企業の3分の1が既に利用していると同社は主張している（[daily](../daily/2026-10-11.md)）
 - 2026-10-04: Cloudflareが判定専用モデル「Clef」「Clef-flash」を公開。中央値レイテンシ209.3ミリ秒（Clef-flashは38.8ミリ秒）、BFCL精度98.47%。汎用LLM比2倍以上速いと報告され、「Jev」「Decisions API」「Strands Decider」に続き判定特化型モデルへの参入は4社目となった（[daily](../daily/2026-10-04.md) / [topics/cloudflare](cloudflare.md)）

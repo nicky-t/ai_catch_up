@@ -3,7 +3,7 @@ type: topic
 title: "ARTEX"
 slug: artex
 created: 2026-10-22
-updated: 2026-10-22
+updated: 2026-10-23
 tags: [safety, agent]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,7 @@ AIを使って脆弱性の発見から侵入までを自律的に進める、攻
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-23: Microsoftが、中国と関連があるとみられる攻撃者「Storm-0940」がARTEXを使いIT管理・リモートアクセス大手ConnectWiseのクラウドバックアップサービスを侵害し、約2,250の組織が影響を受けたと公表。侵入速度は1分間に約3,000回のログイン試行に達した。同じ攻撃基盤は直近の韓国金融機関への攻撃でも使われたとみられる（[daily](../daily/2026-10-23.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/)）
 - 2026-10-22: GMOサイバーセキュリティ by Ieraeが、国内企業約20社（うち9社は同一業種）への攻撃基盤としてARTEXの使用を確認したと発表（10/19発表）。他に同種の攻撃基盤6件も発見、9月以降8社が情報漏えいを公表済み。9月下旬の韓国金融機関への攻撃（CrowdStrike報告）との関連も指摘される（[daily](../daily/2026-10-22.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/21/2000002452/)）
 
 ## 関連

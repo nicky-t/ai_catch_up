@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-10-22
+updated: 2026-10-23
 tags: [anthropic, claude, safety, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,9 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-23: 常時稼働エージェント「Claude Duet」の研究プレビューを公開。Claude Opus 5.5ベースで、朝のダイジェスト・日中の選択的通知・仮想マシンでの継続実行を備え、専用分類器で機密情報の漏えいを防ぐ設計。Pro・Maxプランのウェイトリスト登録者がアクセス可能（[daily](../daily/2026-10-23.md) / [topics/claude-duet](claude-duet.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/22/2000002490/)）
+- 2026-10-23: エージェント拡張の標準規格「Agent Skills」をLinux Foundation傘下の中立団体Agentic AI Foundation（AAIF）に寄贈。2025年12月の公開から70超のプラットフォームが採用済みという。AAIFはGoogleの「A2A」・MCPのガバナンスも担い、エージェント関連の主要オープン標準が同じ団体に集約された（[daily](../daily/2026-10-23.md) / [topics/a2a-protocol](a2a-protocol.md) / [出典](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation)）
+- 2026-10-23: Claudeを使いOSS 25件（計500万行超）の攻撃対象領域を調査し493件の問題を発見したと公表。OpenSSHでは耐量子計算機暗号の実験的コード約4,500行に認証前のクライアントが到達できる状態を発見・報告し、バージョン10.6で認証前到達コードを約5分の1削減。手法は再利用可能な「スキル」としてOSS Scannerへの組み込みを進める（[daily](../daily/2026-10-23.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://www.itmedia.co.jp/news/article/2610/22/2000002498/)）
 - 2026-10-22: Politico・TechCrunch報道により、連邦AI安全法案の起草が判明。「生物兵器」「モデルが開発者の制御を逃れる」「サイバー攻撃」のいずれかに起因し50人超の死亡または10億ドル超の損害が予見される場合、商務省登録の独立評価者の72時間以内通知を経て連邦判事がモデル提供を差し止められる仕組みを提案。6月以降提唱してきた「Advanced AI Framework」の法制化版で、カリフォルニア州SB 53に似た閾値を採用（[daily](../daily/2026-10-22.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/)）
 - 2026-10-22: リーク済み目論見書案（WSJ報道）で、AWS・Google・Microsoftなどクラウド事業者から十分な計算資源を確保できず「顧客」より「競合」として扱われる度合いが強まっていると判明。クラウド契約総額は7,500億ドル超に達しうるとし、上半期（1〜6月）の純損失807億ドル（売上163億ドル）、第3四半期売上は前四半期比45%増の168億ドルと説明。11月IPO目標とされる（[daily](../daily/2026-10-22.md) / [出典](https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/)）
 - 2026-10-21: Bloomberg報道によると、NscaleとAnthropicが8月26日発表分とは別に、新たに450億ドル規模の計算契約について協議中。交渉は継続中で条件は変わる可能性がある。両社ともIPOを目指す一方、Nscale自身は300億ドルの企業価値評価に投資家の抵抗を受けているとの報道もある（[daily](../daily/2026-10-21.md) / [出典](https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/)）

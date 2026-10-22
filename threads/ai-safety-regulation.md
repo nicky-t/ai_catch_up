@@ -3,7 +3,7 @@ type: thread
 title: "AI安全規制の動き（ai-safety-regulation）"
 slug: ai-safety-regulation
 created: 2026-08-23
-updated: 2026-10-22
+updated: 2026-10-23
 tags: [regulation, safety]
 status: active
 related: [topics/openai.md, topics/anthropic.md]
@@ -16,6 +16,7 @@ related: [topics/openai.md, topics/anthropic.md]
 
 ## 現在地（最新の要約）
 <!-- 週次で更新される 3〜5 行 -->
+- 「AIの脆弱性発見能力は攻撃にも防御にも使える」という両義性が、同じ日に両方の実例として重なった：中国系ハッカーがAI駆動の攻撃基盤ARTEXでIT管理大手ConnectWiseを侵害し約2,250社に被害（10/23）、PHPの20年来の脆弱性が「Patch the Planet」経由でAIにより発見され全世界規模の緊急パッチに発展（10/23・続報）、一方でAnthropicはClaudeでOSS 25件の攻撃対象領域を調査しOpenSSHの事前認証コードを約5分の1削減（10/23）
 - 「承認を増やす」では防げないという論点が具体化：＠ITが、AIコーディングエージェントの事故を6類型に整理し、Claude Codeの確認画面は97%がそのまま承認される一方、自動判定モードは危険コマンドの89%を自ら阻止していたと報告（10/19）。「モデルの外側に統制を置く」（NVIDIA・Microsoft等、10/12〜17）という論点に、「人間でなくAIに判定させる」という具体策が加わった
 - 「モデルの指示・自己申告には頼らない」という統制思想が、提供企業・技術側・規制当局の3方向から同じ週に具体化した：Microsoft（ナデラCEOの7原則、10/12〜13）・NVIDIA（「何をさせないか」の設計原則、10/17）・Anthropic（METR研究者への社員同等アクセス許可、10/16）がそれぞれ「モデルの外側に統制を置く」実装例を示し、国内ではGartnerが日本企業向けに緊急7項目を提言（10/18）した
 - 攻撃・脅威観測が各国・各規模で具体化：インドのCERT-Inが複数AI企業からの自発的開示を受け制御不能エージェント事例を公表（10/17）、国内ではビットフォレストが実際のAIエージェント攻撃8時間弱の推移を観測・公開（10/16）。Anthropicは30B以下の小型AIが安価なIoT機器上で自己複製できる「兆し」を実験で確認（55ドルTVボックス15台、10/14）し、共同創業者クラーク氏は国内サイバー攻撃への「オープンウェイトモデル悪用の可能性」にも言及（10/15）
@@ -25,6 +26,10 @@ related: [topics/openai.md, topics/anthropic.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-23: Microsoftが、中国と関連があるとみられる攻撃者「Storm-0940」がAI駆動の攻撃基盤「ARTEX」を使いIT管理・リモートアクセス大手ConnectWiseのクラウドバックアップサービスを侵害し、約2,250の組織に被害が及んだと公表。侵入速度は1分間に約3,000回のログイン試行に達した。10/22既報の国内企業20社超への攻撃と同じ攻撃基盤が、海外では主要ITベンダー経由の大規模侵害に使われた（[daily](../daily/2026-10-23.md) / [topics/artex](../topics/artex.md) / [出典](https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/)）
+- 2026-10-23: 10/22既報のPHP脆弱性発見について、NSAが報告した2件の重大な脆弱性が実は2004年のPHP 5から存在していたことが判明し、PHP Foundationが緊急パッチを公開。全世界のサイトの約7割（3,300万件超）が対象で、GoogleのWizもAIエージェントで複数の脆弱性を発見していたことも判明。情報公開後は攻撃者側も悪用しやすくなるとして、NSAはパッチ未適用サイトの一時停止を勧告した（[daily](../daily/2026-10-23.md) / [topics/openai](../topics/openai.md) / [出典](https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/)）
+- 2026-10-23: Anthropicが、Claudeを使いOSS 25件（計500万行超）の攻撃対象領域を調査し493件の問題を発見したと公表。OpenSSHでは認証前到達コードを約5分の1削減する修正に貢献し、手法を再利用可能な「スキル」としてOSS Scannerに組み込む予定。同日のConnectWise侵害・PHP脆弱性（いずれも攻撃側の文脈）と対になる「防御に使うAI」の具体例（[daily](../daily/2026-10-23.md) / [topics/anthropic](../topics/anthropic.md) / [出典](https://www.itmedia.co.jp/news/article/2610/22/2000002498/)）
+- 2026-10-23: Bloomberg報道によるとDeepSeekが約150億ドル規模の資金調達を実施したとみられ、CATL・Tencent等が出資先候補に挙がる。10/21既報の米国土安全保障省によるDeepSeek排除命令からわずか数日後の報道で、「政府調達からの排除」と「民間での大型資金調達」が同じ企業に同時に起きている対比を示す（[daily](../daily/2026-10-23.md) / [topics/deepseek](../topics/deepseek.md) / [出典](https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/)）
 - 2026-10-22: Anthropicが、「50人以上の死者」か「10億ドル超の損害」を基準に政府がAIモデルの提供を差し止められる連邦AI安全法案を起草していたとPolitico・TechCrunchが報道。独立評価者への72時間以内通知・連邦判事への差し止め申し立てという仕組みを提案し、6月以降提唱の「Advanced AI Framework」の法制化版という。自主規制（組み込み評価者）より踏み込んだ内容を業界トップ企業自身が提案した形（[daily](../daily/2026-10-22.md) / [topics/anthropic](../topics/anthropic.md) / [出典](https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/)）
 - 2026-10-22: GMOサイバーセキュリティ by Ieraeが、AI駆動の自律型ペネトレーションツール「ARTEX」による攻撃が国内企業約20社を標的にしていたと確認。「CVEの死角」「ASMの非対称性」「WAFの閾値回避」という3つの手口を報告。9月下旬の韓国金融機関攻撃（DeepSeek＋ARTEX悪用、10/15既報）との関連も指摘され、攻撃側のAI活用が国内で具体的な被害数を伴って確認された（[daily](../daily/2026-10-22.md) / [topics/artex](../topics/artex.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/21/2000002452/)）
 - 2026-10-22: OpenAIが「Patch the Planet」プログラムで、自社AI「GPT-5.6 Sol」がPHPの脆弱性を攻撃者より先に発見・修正したと発表。同社は「防御に使われるAI」の事例としつつ、同様の発見は今後数カ月で急増すると予測。同日判明したARTEX記事（攻撃側のAI活用）と並び、脆弱性発見の高速化が攻防両面で進んでいることを示した（[daily](../daily/2026-10-22.md) / [topics/openai](../topics/openai.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/22/2000002482/)）

@@ -3,7 +3,7 @@ type: topic
 title: "A2A（Agent2Agent Protocol）"
 slug: a2a-protocol
 created: 2026-08-19
-updated: 2026-08-23
+updated: 2026-10-23
 tags: [a2a, agent, mcp, google]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,7 @@ AI エージェント同士が「自分は何ができるか」を名刺（Agent
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-23: Anthropicが、エージェント拡張の標準規格「Agent Skills」を同じAgentic AI Foundation（AAIF）に寄贈。2025年12月の公開から70超のプラットフォームが採用済みで、A2A・MCPに続きエージェント関連の主要オープン標準がAAIFに集約された（[daily](../daily/2026-10-23.md) / [topics/anthropic](anthropic.md) / [出典](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation)）
 - 2026-08-19: Google が A2A を Agentic AI Foundation に移管 — MCP と同じ中立団体に「エージェント標準」が集約（[daily](../daily/2026-08-19.md)）
 - 2026-08-19: Google / Kaggle のエージェント実践ガイド（無料）が MCP・A2A による相互運用を章立てで扱う（[daily](../daily/2026-08-19.md)）
 

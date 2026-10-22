@@ -582,3 +582,13 @@ https://www.itmedia.co.jp/news/article/2610/21/2000002447/
 https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/
 https://www.itmedia.co.jp/news/article/2610/21/2000002421/
 https://github.com/Avinash-jetwani/jevmem
+https://www.itmedia.co.jp/aiplus/article/2610/22/2000002490/
+https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/
+https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/
+https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/
+https://www.itmedia.co.jp/aiplus/article/2610/22/2000002487/
+https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation
+https://www.itmedia.co.jp/news/article/2610/22/2000002498/
+https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/
+https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/
+https://github.com/luongnv89/claude-howto

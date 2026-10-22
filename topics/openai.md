@@ -3,7 +3,7 @@ type: topic
 title: "OpenAI"
 slug: openai
 created: 2026-08-19
-updated: 2026-10-22
+updated: 2026-10-23
 tags: [openai, chatgpt, gpt, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,9 @@ ChatGPT と GPT 系モデルを開発する米国の AI 企業。一般利用者
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-23: NSAが報告したPHPの重大な脆弱性2件（2004年のPHP 5から存在）について、セキュリティ企業Califが「Patch the Planet」でGPT-5.6 Solを使い発見した分を含む続報が判明。GoogleのWizもAIエージェントで複数の脆弱性を発見し、両社とも責任ある開示を経て公開。全世界のサイトの約7割が対象の緊急パッチ対応に発展した（[daily](../daily/2026-10-23.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/)）
+- 2026-10-23: 判定特化モデル「Decisions API」を全顧客に一般提供開始。既存の小型モデル「Luna」を再構成し応答時間を1〜3秒から約100〜180ミリ秒に短縮。先行する「Jev」とのベンチマーク比較では、性能面でまだ後れを取っている（AIM System One Indexで8位対7位、Artificial Analysis Decision Indexで14位対3位）（[daily](../daily/2026-10-23.md) / [topics/jev](jev.md) / [出典](https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/)）
+- 2026-10-23: Google CloudのModel Gardenに「GPT-6 Astra」「GPT-6.1 Sol」「GPT-6 Luna」が追加され、Google Cloudの基盤上での利用・請求の一本化が可能になった（[daily](../daily/2026-10-23.md) / [topics/google](google.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/22/2000002487/)）
 - 2026-10-22: 「Patch the Planet」プログラムを通じ、自社AIモデル「GPT-5.6 Sol」でPHPの脆弱性を攻撃者より先に発見・修正版を同日リリースしたとITmediaが報道。発見元はセキュリティ企業Calif、開示準備に約2カ月を要した。別のWizも独自にGPT-5.6 SolとGoogle「Gemini 4 Argon」で同じ脆弱性を発見。OpenAIは同様の発見が今後数カ月で急増すると予測（[daily](../daily/2026-10-22.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/22/2000002482/)）
 - 2026-10-22: COBOL・Fortran・Visual Basic等レガシー言語のコーディング・移行能力を大幅改善と発表。独自ベンチマークMultiLangBenchでGPT-6 Astraが平均87.4%（旧GPT-5.6 Solは26.8%）、COBOL移行タスクでは低コストのGPT-6.1 Solが高推論設定で97.9%成功（旧モデル同条件は5.4%）。本番投入には専門家レビューが依然必要と注意喚起（[daily](../daily/2026-10-22.md) / [出典](https://www.itmedia.co.jp/news/article/2610/21/2000002447/)）
 - 2026-10-18: 開発プラットフォームReplitのCEOが、デフォルトモデルをAnthropicのClaudeからOpenAIのモデルに切り替えたと発言。理由はコスト・パートナーシップ・性能の3点で「vibeコーディングではOpenAIのモデルの方が性能が良い」と説明。Replitは直近までAnthropicの上位5顧客の一社だったという（[daily](../daily/2026-10-18.md) / [topics/anthropic](anthropic.md) / [topics/replit](replit.md) / [出典](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/)）
