@@ -3,7 +3,7 @@ type: thread
 title: "AI安全規制の動き（ai-safety-regulation）"
 slug: ai-safety-regulation
 created: 2026-08-23
-updated: 2026-10-23
+updated: 2026-10-24
 tags: [regulation, safety]
 status: active
 related: [topics/openai.md, topics/anthropic.md]
@@ -26,6 +26,8 @@ related: [topics/openai.md, topics/anthropic.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-24: チームみらいの安野貴博党首らが、AI悪用サイバー攻撃への緊急提言をデジタル庁に提出。「現在の被害は氷山の一角で、電力・水道・医療などの停止を伴う大規模被害を想定すべき」と警鐘。政治レベルでの緊急提言という段階に進み、事業者への安全責任の制度化が論点に加わった（[daily](../daily/2026-10-24.md) / [topics/artex](../topics/artex.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/23/2000002563/)）
+- 2026-10-24: 10/23既報のPHP脆弱性について、Amazonの脅威インテリジェンスチームが公表（10月21日）より4日前の10月17日から悪用の兆候をハニーポット「MadPot」で検知していたと公表。AmazonのCISOは「侵害調査は公表日でなく最も早い悪用確認時点から始めるべき」と提言し、「公表日＝対応開始日」という前提が崩れている実例となった（[daily](../daily/2026-10-24.md) / [topics/openai](../topics/openai.md) / [出典](https://www.itmedia.co.jp/news/article/2610/23/2000002530/)）
 - 2026-10-23: Microsoftが、中国と関連があるとみられる攻撃者「Storm-0940」がAI駆動の攻撃基盤「ARTEX」を使いIT管理・リモートアクセス大手ConnectWiseのクラウドバックアップサービスを侵害し、約2,250の組織に被害が及んだと公表。侵入速度は1分間に約3,000回のログイン試行に達した。10/22既報の国内企業20社超への攻撃と同じ攻撃基盤が、海外では主要ITベンダー経由の大規模侵害に使われた（[daily](../daily/2026-10-23.md) / [topics/artex](../topics/artex.md) / [出典](https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/)）
 - 2026-10-23: 10/22既報のPHP脆弱性発見について、NSAが報告した2件の重大な脆弱性が実は2004年のPHP 5から存在していたことが判明し、PHP Foundationが緊急パッチを公開。全世界のサイトの約7割（3,300万件超）が対象で、GoogleのWizもAIエージェントで複数の脆弱性を発見していたことも判明。情報公開後は攻撃者側も悪用しやすくなるとして、NSAはパッチ未適用サイトの一時停止を勧告した（[daily](../daily/2026-10-23.md) / [topics/openai](../topics/openai.md) / [出典](https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/)）
 - 2026-10-23: Anthropicが、Claudeを使いOSS 25件（計500万行超）の攻撃対象領域を調査し493件の問題を発見したと公表。OpenSSHでは認証前到達コードを約5分の1削減する修正に貢献し、手法を再利用可能な「スキル」としてOSS Scannerに組み込む予定。同日のConnectWise侵害・PHP脆弱性（いずれも攻撃側の文脈）と対になる「防御に使うAI」の具体例（[daily](../daily/2026-10-23.md) / [topics/anthropic](../topics/anthropic.md) / [出典](https://www.itmedia.co.jp/news/article/2610/22/2000002498/)）

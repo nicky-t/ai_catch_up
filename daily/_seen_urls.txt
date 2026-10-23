@@ -592,3 +592,15 @@ https://www.itmedia.co.jp/news/article/2610/22/2000002498/
 https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/
 https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/
 https://github.com/luongnv89/claude-howto
+https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/
+https://www.itmedia.co.jp/news/article/2610/23/2000002530/
+https://www.itmedia.co.jp/aiplus/article/2610/23/2000002563/
+https://www.itmedia.co.jp/aiplus/article/2610/23/2000002552/
+https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/
+https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/
+https://simonwillison.net/2026/Oct/23/kimi-k31-pro/
+https://www.itmedia.co.jp/aiplus/article/2610/23/2000002368/
+https://www.itmedia.co.jp/news/article/2610/23/2000002513/
+https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/
+https://github.com/cloudflare/security-audit-skill
+https://github.com/anthropics/knowledge-work-plugins

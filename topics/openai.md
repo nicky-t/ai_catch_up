@@ -3,7 +3,7 @@ type: topic
 title: "OpenAI"
 slug: openai
 created: 2026-08-19
-updated: 2026-10-23
+updated: 2026-10-24
 tags: [openai, chatgpt, gpt, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,8 @@ ChatGPT と GPT 系モデルを開発する米国の AI 企業。一般利用者
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-24: 全従業員約3万人への展開が決まったUberの事例で、「ChatGPT Work」の非エンジニア利用（試験導入参加者の約8割）が改めて確認された。データ分析・研修資料の多言語化・ダッシュボード作成に使われている（[daily](../daily/2026-10-24.md) / [topics/chatgpt-work](chatgpt-work.md) / [出典](https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/)）
+- 2026-10-24（続報）: CoatueとUAEの投資家主導で最大300億ドルの追加資金調達を交渉中と報道。プレマネー評価額は1.25兆ドルとされ、9月末報道の1.4兆ドルから下方修正された可能性がある。6月にIPOの機密書類を提出済みで、2026年3月の調達時はポストマネー8,520億ドルだった（[daily](../daily/2026-10-24.md) / [topics/anthropic](anthropic.md) / [出典](https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/)）
 - 2026-10-23: NSAが報告したPHPの重大な脆弱性2件（2004年のPHP 5から存在）について、セキュリティ企業Califが「Patch the Planet」でGPT-5.6 Solを使い発見した分を含む続報が判明。GoogleのWizもAIエージェントで複数の脆弱性を発見し、両社とも責任ある開示を経て公開。全世界のサイトの約7割が対象の緊急パッチ対応に発展した（[daily](../daily/2026-10-23.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/)）
 - 2026-10-23: 判定特化モデル「Decisions API」を全顧客に一般提供開始。既存の小型モデル「Luna」を再構成し応答時間を1〜3秒から約100〜180ミリ秒に短縮。先行する「Jev」とのベンチマーク比較では、性能面でまだ後れを取っている（AIM System One Indexで8位対7位、Artificial Analysis Decision Indexで14位対3位）（[daily](../daily/2026-10-23.md) / [topics/jev](jev.md) / [出典](https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/)）
 - 2026-10-23: Google CloudのModel Gardenに「GPT-6 Astra」「GPT-6.1 Sol」「GPT-6 Luna」が追加され、Google Cloudの基盤上での利用・請求の一本化が可能になった（[daily](../daily/2026-10-23.md) / [topics/google](google.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/22/2000002487/)）

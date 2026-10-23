@@ -3,7 +3,7 @@ type: topic
 title: "Cloudflare（クラウドフレア）"
 slug: cloudflare
 created: 2026-10-04
-updated: 2026-10-06
+updated: 2026-10-24
 tags: [cloudflare, agent, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,7 @@ Webサイトの高速化・保護（CDN・セキュリティ）を主力とす�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-24（今日の現場ネタ）: 公式Skill「security-audit-skill」がGitHub Trendingで急上昇（本日+2,706スター）。偵察→脆弱性探索→検証→構造化出力→レポート作成の6段階でコーディングエージェントをセキュリティ監査役に変える設計（[daily](../daily/2026-10-24.md)）
 - 2026-10-06: AIエージェント向けにCloudflare Containersを刷新。起動時間の中央値を4.049秒から648ミリ秒に短縮し、ファイルシステムのスナップショット機能を新たに追加。Debian Trixie SlimやNode.js 24 LTSなどのベースイメージを提供し、実行時にコンテナイメージとインスタンスサイズを指定できるようになった（[daily](../daily/2026-10-06.md)）
 - 2026-10-04: 判定専用AIモデル「Clef」「Clef-flash」を公開。9月のTypeSafe AI「Jev」、OpenAI「Decisions API」、AWS系「Strands Decider」に続き、判定特化型モデルへの参入は4社目（[daily](../daily/2026-10-04.md) / [topics/jev](jev.md)）
 

@@ -3,7 +3,7 @@ type: topic
 title: "Moonshot AI（ムーンショットAI／Kimi）"
 slug: moonshot-ai
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-10-24
 tags: [open-weights, benchmark]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,7 @@ related: [topics/deepseek.md, topics/openrouter.md, threads/ai-safety-regulation
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-24: 新モデル「Kimi K3.1 Pro」をKimi API経由で公開。現時点ではオープンウェイトではないが11月4日までに重みを公開すると約束。第三者評価のArtificial Analysisのスコアは55でClaude Opus 5.5（58）に次ぐ2位、価格は入力100万トークンあたり2ドル・出力10ドル（[daily](../daily/2026-10-24.md) / [出典](https://simonwillison.net/2026/Oct/23/kimi-k31-pro/)）
 - 2026-10-10: 調査会社RedMonkの分析で、仲介サービスOpenRouterのトークン使用量に占める中国系モデルの割合が2025年末の約4.5%から2026年7月の1週間で約63%に急上昇したと判明。「Kimi K3」はコーディング評価SWE-bench VerifiedでOpenAI・Anthropicの上位モデルと1.2ポイント差に迫り、コストはClaude Opus 4.8の約半分・Claude Fable 5の約3分の1とされる（[daily](../daily/2026-10-10.md) / [topics/openrouter](openrouter.md)）
 - 2026-10-09: 解釈可能性スタートアップGoodfireが、モデル内部の活性化信号を直接読む「inside-out」モニターをオープンモデル「Kimi K3」で検証。約1,500セッションの監視コストがprobe方式で約51ドルと、低コストAI監視（233ドル）・最上位AIモデル監視（約1万ドル）より大幅に安く、悪意あるセッションの94%を検知した（[daily](../daily/2026-10-09.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-10-02: OpenAIが、自社モデルの推論過程を狙った組織的な「蒸留」キャンペーンを阻止したと公表。7月1日ごろ開始、7月24〜25日には4,000超のユーザーから約1.6万件のリクエストが急増し関連クラスタは1.5万人超に及んだが、7月28日までに全面阻止。活動の中核を中国Moonshot AI（「Kimi」開発元）関連人物によるものと結論づけた（[daily](../daily/2026-10-02.md) / [topics/openai](openai.md)）
