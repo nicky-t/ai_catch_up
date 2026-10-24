@@ -7,7 +7,7 @@ updated: 2026-10-25
 tags: [safety, evaluation]
 level: beginner
 audience: [engineer, business, instructor]
-related: [threads/ai-safety-regulation.md, topics/anthropic.md, topics/openai.md, topics/aiuc.md]
+related: [threads/ai-safety-regulation.md, topics/anthropic.md, topics/openai.md, topics/aiuc.md, topics/aisi.md]
 ---
 
 # METR（Model Evaluation and Threat Research）
