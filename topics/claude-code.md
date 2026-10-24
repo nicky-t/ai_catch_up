@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-10-24
+updated: 2026-10-25
 tags: [claude-code, anthropic, agent, productivity]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,8 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-25（今日の現場ネタ）: 「AIっぽいUI」を脱するデザインSkill「Hallmark」（Together AI製、Claude Code・Cursor・Codex対応）がGitHub Trendingで急上昇（本日+570スター、累計3.2万）。48種類のテーマから選び、ブラウザ上でAI生成特有のパターンを自動チェックする（[daily](../daily/2026-10-25.md) / [出典](https://github.com/Nutlope/hallmark)）
+- 2026-10-25: バージョン2.1.303〜310を公開。Bedrock・Vertex・Foundry等で使えるMonitorツール、プロジェクトを読んで自動チューニングする`/auto-mode-setup`、Pro/Maxプランで5時間枠を大量消費する操作への警告、Linuxサンドボックスでシェル起動ファイルを隔離外で実行しない変更などを追加（[daily](../daily/2026-10-25.md) / [出典](https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md)）
 - 2026-10-24（今日の現場ネタ・続報）: Anthropic公式の職種別プラグイン集「knowledge-work-plugins」がGitHub Trendingで再上昇（本日+643スター）。9/20既報時点は本日+280だったのに対し伸びが加速。`claude plugin install sales@knowledge-work-plugins`のように個別プラグインを導入できる（[daily](../daily/2026-10-24.md)）
 - 2026-10-23: Claude Codeでも使われるエージェント拡張の標準規格「Agent Skills」が、Anthropicの手を離れLinux Foundation傘下の中立団体Agentic AI Foundationに寄贈された。公開から70超のプラットフォームが採用済みで、他のエージェント基盤（Cursor・Codex等）への移植もしやすくなる（[daily](../daily/2026-10-23.md) / [topics/anthropic](anthropic.md) / [出典](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation)）
 - 2026-10-19: ＠ITが、AIコーディングエージェントの事故を「ファイルへの無制限アクセス」「過剰な権限の継続」「認証情報の漏えい」「埋め込まれた悪意ある指示の実行」「汚染されたスキル・プラグイン」「人間の指示の無視」の6類型に整理。Claude Codeの実データでは確認画面の97%がそのまま承認されていた一方、危険なコマンドを自動判定する「自動モード」は人間が止めるような操作の89%を自ら阻止していたという（9/12既報の遮断率89%対13.6%と同じ基礎データの再整理）。人間の承認を増やすだけでは「承認疲れ」で防げず、AIによる判定と多層防御が必要と論じた（[daily](../daily/2026-10-19.md) / [topics/anthropic](anthropic.md) / [学習037](../learn/intermediate/037-agent-safety-design.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2610/18/news004.html)）

@@ -3,7 +3,7 @@ type: topic
 title: "xAI（エックスエーアイ）"
 slug: xai
 created: 2026-09-23
-updated: 2026-09-27
+updated: 2026-10-25
 tags: [xai, grok]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [topics/openai.md, topics/anthropic.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-25: 米中間選挙約500選挙区でAPI経由の候補者推薦を迫る調査（Convovo、Cornell大Tapan Parikh氏ら）で、「Grok 4.7」は92%で共和党候補を推薦し、OpenAIの「GPT-6.1 Sol」（97%が民主党）との一致率は10%未満だった。Grokはキリスト教保守系の投票ガイドやX、Turning Point Actionのサイトを多く引用。消費者向けアプリ（Grok本体）は推薦を拒否した（[daily](../daily/2026-10-25.md) / [topics/openai](openai.md) / [出典](https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/)）
 - 2026-09-23: 「Grok 4.7」を発表（9月21日）。より大規模なベースモデルを採用し、検証能力・長文コンテキスト処理能力を強化。価格は前モデルから据え置き（[daily](../daily/2026-09-23.md)）
 
 ## 関連
