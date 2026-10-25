@@ -611,3 +611,8 @@ https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republic
 https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/
 https://github.com/Nutlope/hallmark
 https://github.com/NVIDIA/OpenShell
+https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/
+https://www.itmedia.co.jp/news/article/2610/23/2000002562/
+https://xtech.nikkei.com/atcl/nxt/column/18/03801/101900001/
+https://qiita.com/songchong/items/235bed0f8c72f268477e
+https://github.com/pbakaus/impeccable
