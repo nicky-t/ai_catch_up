@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-10-23
+updated: 2026-10-27
 tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,7 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-27: プライバシーポリシーを10月16日付で改定。従来の「ドライブ・Gmail・フォトのコンテンツに基づくカスタマイズ広告は表示しない」という記述に、ユーザーが検索・Geminiアプリ等に利用を許可した場合は例外になるとのただし書きを追加。検索が接続アプリから得た要約・推測（例：予約メールからのおすすめ提案「パーソナルインテリジェンス」、オプトイン方式）を広告表示やAIモデル学習に使う場合があるとした。オプトアウトはアカウント設定から接続解除する手順だが、解除済み履歴データは削除されない（[daily](../daily/2026-10-27.md) / [出典](https://www.itmedia.co.jp/news/article/2610/26/2000002570/)）
 - 2026-10-23: Google CloudのモデルカタログModel Gardenに、OpenAIの「GPT-6 Astra」「GPT-6.1 Sol」「GPT-6 Luna」を追加。従来のAPI経由アクセスと異なりGoogle Cloud基盤上での動作・請求一本化が可能になり、「主要3社のクローズドモデルを扱う唯一のハイパースケーラー」になったとする。まず一部企業向けプライベートプレビュー（[daily](../daily/2026-10-23.md) / [topics/openai](openai.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/22/2000002487/)）
 - 2026-10-22: Google Cloudが米政府機関向け「Gemini for Government」をプレビュー公開（10/20発表）。ミズーリ州政府・米保健福祉省（HHS）と共同開発。データは組織のプライベート環境内・米国内にとどまり、許可なく追加学習に使わない設計でFedRAMP最高位「High」基準を満たすとする。法令学習「Skills」・既存システム連携「Connectors」等5要素で構成（[daily](../daily/2026-10-22.md) / [学習053](../learn/intermediate/053-vendor-tool-selection.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/21/2000002470/)）
 - 2026-10-15: Google DeepMindが、シンガポール政府機関GovTechと共同で、個人間チャットでの会話型詐欺（恋愛詐欺・投資詐欺等）を検知する小型モデルを開発したと発表。軽量なオープンウェイトモデル「Gemma」をファインチューニングし、端末内（オンデバイス）で動作させることでプライベートなチャット内容をクラウドに送らずに判定できる設計にした（[daily](../daily/2026-10-15.md) / [出典](https://deepmind.google/blog/on-device-ai-scam-detection-mddi/)）

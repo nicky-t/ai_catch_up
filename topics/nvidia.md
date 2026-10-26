@@ -3,7 +3,7 @@ type: topic
 title: "NVIDIA（エヌビディア）"
 slug: nvidia
 created: 2026-08-28
-updated: 2026-10-20
+updated: 2026-10-27
 tags: [nvidia, agent, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -30,6 +30,8 @@ AIモデルの学習・推論に使われるGPU（画像処理用半導体）を
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-27: AIエージェント向けSkillをインストール前に検査するOSSセキュリティスキャナー「SkillSpector」を公開。プロンプトインジェクション・データ持ち出し・権限昇格など17カテゴリ・71パターンを検査し、静的解析とLLMによる意味的評価の二段階方式でリスクスコアを返す（[daily](../daily/2026-10-27.md) / [出典](https://github.com/NVIDIA/SkillSpector)）
+- 2026-10-27: AWSがTrainium向け「TorchNeuron」、Google CloudがTPU向け「TorchTPU」をそれぞれOSS公開し、既存PyTorchコードを書き換えずに自社チップへ移行できるようにした。CUDA一強のソフトウェア層に対する対抗策で、NVIDIA依存低減の動きが大手クラウド事業者側から進んだ例（[daily](../daily/2026-10-27.md) / [出典](https://www.publickey1.jp/blog/26/awsgoogle_cloudpytorchaws_trainiumgoogle_cloud_tpunvidia.html)）
 - 2026-10-20: 企業向けエージェント用途・PC向けローカル実行向けのオープンウェイトモデル「Nemotron 3.5」シリーズを発表。企業向け主力「Super VL」は1,200億パラメータで、文書理解・会計処理・医療保険請求処理などでAnthropic・OpenAIのモデルより高速に完了できると主張。PC向けには「Bolt 74B-A9B」（740億パラメータ）と小型版「Bolt E4B」を用意し、Skydance・EY・Ramp・CrowdStrike・Perplexity・Salesforceなどが採用（[daily](../daily/2026-10-20.md) / [出典](https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/)）
 - 2026-10-17: 技術ブログで、AIエージェントの安全性は「何を指示するか」ではなく「何をさせないか」を前提に設計すべきという原則を提示。エージェントごとの権限分離・自己承認の禁止・改ざん防止の監査ログ・ネットワーク層での遮断など、モデルの外側に置く制御を推奨し、9/29発表のサンドボックス実行環境「OpenShell」を実装例として挙げた（[daily](../daily/2026-10-17.md) / [学習037](../learn/intermediate/037-agent-safety-design.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
 - 2026-09-29: ジェンスン・フアンCEOが、AIエージェントをテスト環境内に封じ込める新プラットフォーム「Open Agent Safety Platform」を発表。オープンソースのアクセス制御ソフト「OpenShell」と、専用データ処理ユニット「BlueField-4」上でエージェントの挙動を常時監視し境界を越えようとした際にミリ秒単位で隔離する「Sentry」の2本柱。OpenAIのエージェントがHugging Faceに侵入した事例など複数社での逸脱事例を踏まえた対応で、Anthropic・Microsoft・Oracle・SpaceXが支持を表明した一方、OpenAIは参加していない（[daily](../daily/2026-09-29.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md)）
