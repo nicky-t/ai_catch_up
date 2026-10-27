@@ -625,3 +625,12 @@ https://www.publickey1.jp/blog/26/awsgoogle_cloudpytorchaws_trainiumgoogle_cloud
 https://www.itmedia.co.jp/aiplus/article/2610/26/2000002581/
 https://www.itmedia.co.jp/news/article/2610/26/2000002574/
 https://github.com/NVIDIA/SkillSpector
+https://www.itmedia.co.jp/news/article/2610/27/2000002644/
+https://www.anthropic.com/research/early-progress-drug-development
+https://www.itmedia.co.jp/aiplus/article/2610/27/2000002611/
+https://www.itmedia.co.jp/news/article/2610/27/2000002550/
+https://kn.itmedia.co.jp/kn/article/2610/27/2000002599/
+https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/
+https://www.publickey1.jp/blog/26/oracle_cloudgoogle_tpu2027oracle_ai_world_2026.html
+https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/
+https://github.com/JetBrains/thinkrail

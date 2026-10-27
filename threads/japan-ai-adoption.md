@@ -3,7 +3,7 @@ type: thread
 title: "国内 AI 導入動向（japan-ai-adoption）"
 slug: japan-ai-adoption
 created: 2026-08-19
-updated: 2026-10-27
+updated: 2026-10-28
 tags: [adoption, japan-company, case-study]
 status: active
 related: [topics/openai.md]
@@ -23,6 +23,7 @@ related: [topics/openai.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-28: 京都府が、職員約7,000〜8,000人の事務効率化で2025年1月導入の「Copilot Chat」だけに頼らず、2025年4月にRAG機能を備えた「ユーザーローカル ChatAI」を全庁導入し使い分けていると判明。当時のCopilot ChatはRAG機能が不十分で分厚い業務手引きを読み込ませにくかったのが理由で、マニュアル検索はChatAI・文章作成やアイデア出しはCopilot Chatという役割分担にした。利用率はCopilot Chat71%・ChatAI45%、満足度は95%・93%。週1日以上利用する職員1人あたりの年間削減時間はCopilot Chat109時間・ChatAI74.4時間、ChatAI利用者の84%が制度所管課への問い合わせ減少を実感（[daily](../daily/2026-10-28.md) / [出典](https://kn.itmedia.co.jp/kn/article/2610/27/2000002599/)）
 - 2026-10-27: チームみらいの安野貴博党首らが、AIの普及に伴う失業への対策を求める提言を木原稔官房長官に手渡した。AIの社会実装に伴う仕事の変化への適応状況を調査し支援が行き渡る仕組みを整えるよう求め、労働政策に加え規制・制度改革も含む内容という。10/23に続き2件目の政府への提言（[daily](../daily/2026-10-27.md) / [threads/ai-productivity-employment](ai-productivity-employment.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/26/2000002581/)）
 - 2026-10-26: 「ガリバー」運営IDOMが、AIを前提に事業・システムを作り直す「AX」に総額約135億円を投じると判明。顧客接点から基幹システムまでを対象にAIエージェントを積極活用し「AIネイティブな企業」への転換を目指すとされ、同日午後に「Gulliver AX宣言」として正式発表する予定（記事は有料限定のため投資の内訳・具体策は未確認）（[daily](../daily/2026-10-26.md) / [出典](https://xtech.nikkei.com/atcl/nxt/column/18/03801/101900001/)）
 - 2026-10-23: パナソニックホールディングス傘下のパナソニック オペレーショナルエクセレンスが、社内で利用を禁止している外部の生成AIサービスに、グループの従業員・元従業員・家族ら約33万4000人分の個人情報を含むデータをアップロードしていたと発表。人事情報システム導入プロジェクトに携わる社員が社内ルールに違反して行ったもので、外部からの不正操作ではないという。チャット履歴とPC内データは発覚後に削除済みだが、運営事業者側の削除データ保持期間（30日）はこの時点でまだ残っていた。09-05のRIZAPグループの事例に続き、「学習機能オフ」だけでは完全にゼロリスクにならないシャドーAI事案が加わった（[daily](../daily/2026-10-26.md) / [出典](https://www.itmedia.co.jp/news/article/2610/23/2000002562/)）

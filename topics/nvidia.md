@@ -3,7 +3,7 @@ type: topic
 title: "NVIDIA（エヌビディア）"
 slug: nvidia
 created: 2026-08-28
-updated: 2026-10-27
+updated: 2026-10-28
 tags: [nvidia, agent, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -30,6 +30,7 @@ AIモデルの学習・推論に使われるGPU（画像処理用半導体）を
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-28: Oracleが「Oracle AI World 2026」で、Google TPUをOracle Cloud Infrastructureに導入し2027年からサービス提供開始すると発表。電力・冷却・データセンター内ネットワークを提供し大規模展開を支える。AWS・Microsoft Azure・Google Cloudを追う立場のOracleが、NVIDIA以外のAIプロセッサの選択肢を顧客に広げる狙い。10/27既報のAWS・Google CloudによるPyTorchの自社チップ対応版OSS公開に続く、NVIDIA依存低減の動き（[daily](../daily/2026-10-28.md) / [出典](https://www.publickey1.jp/blog/26/oracle_cloudgoogle_tpu2027oracle_ai_world_2026.html)）
 - 2026-10-27: AIエージェント向けSkillをインストール前に検査するOSSセキュリティスキャナー「SkillSpector」を公開。プロンプトインジェクション・データ持ち出し・権限昇格など17カテゴリ・71パターンを検査し、静的解析とLLMによる意味的評価の二段階方式でリスクスコアを返す（[daily](../daily/2026-10-27.md) / [出典](https://github.com/NVIDIA/SkillSpector)）
 - 2026-10-27: AWSがTrainium向け「TorchNeuron」、Google CloudがTPU向け「TorchTPU」をそれぞれOSS公開し、既存PyTorchコードを書き換えずに自社チップへ移行できるようにした。CUDA一強のソフトウェア層に対する対抗策で、NVIDIA依存低減の動きが大手クラウド事業者側から進んだ例（[daily](../daily/2026-10-27.md) / [出典](https://www.publickey1.jp/blog/26/awsgoogle_cloudpytorchaws_trainiumgoogle_cloud_tpunvidia.html)）
 - 2026-10-20: 企業向けエージェント用途・PC向けローカル実行向けのオープンウェイトモデル「Nemotron 3.5」シリーズを発表。企業向け主力「Super VL」は1,200億パラメータで、文書理解・会計処理・医療保険請求処理などでAnthropic・OpenAIのモデルより高速に完了できると主張。PC向けには「Bolt 74B-A9B」（740億パラメータ）と小型版「Bolt E4B」を用意し、Skydance・EY・Ramp・CrowdStrike・Perplexity・Salesforceなどが採用（[daily](../daily/2026-10-20.md) / [出典](https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/)）
