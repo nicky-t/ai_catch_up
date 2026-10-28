@@ -3,7 +3,7 @@ type: topic
 title: "PLaMo（プラモ）"
 slug: plamo
 created: 2026-10-24
-updated: 2026-10-24
+updated: 2026-10-29
 tags: [japan-company, adoption]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ Preferred Networks（PFN）が海外モデルを基にせず一から開発し�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-29: フラグシップモデル「PLaMo 3.1 Prime」を発表。「PLaMo Chat」・API・オンプレミスで提供開始。ハルシネーション関連8ベンチマークで前モデルから平均約15%改善、35種のベンチマークの安全性スコアはQwen 3.8 27B・gpt-oss-120B・Gemma 4 31B等を上回り最高だったが、STEM・コーディング・Web検索を伴う回答は競合モデルを下回る。API「Standardプラン」は100万トークンあたり入力60円・出力250円（[daily](../daily/2026-10-29.md) / [threads/japan-ai-adoption](../threads/japan-ai-adoption.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/28/2000002652/)）
 - 2026-10-24: PFNがCEATEC 2026で活用事例を展示。デジタル庁「源内」・約800自治体の「QommonsAI」（行政）、小論文添削AI「ろんじろう」（教育）、AI面接「タレスカAI面接」（採用）での採用例を紹介し、モデルに任せる部分とアプリケーション側の作り込みを分ける設計の重要性を指摘（[daily](../daily/2026-10-24.md) / [threads/japan-ai-adoption](../threads/japan-ai-adoption.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/23/2000002368/)）
 
 ## 関連

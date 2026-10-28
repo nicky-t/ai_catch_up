@@ -3,7 +3,7 @@ type: topic
 title: "AMD（エーエムディー）"
 slug: amd
 created: 2026-09-30
-updated: 2026-10-25
+updated: 2026-10-29
 tags: [amd, nvidia]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,7 @@ GPU・CPUを手掛ける米半導体メーカー。AI向けチップ市場でNvi
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-29: Metaとの戦略的提携拡大を発表（10月27日、現地時間）。ラックスケール基盤「Helios」の初期導入分がMetaに設置されテスト中で、Museを稼働させる専用環境にEPYCプロセッサ、学習・ランキング・レコメンドにInstinct GPUを提供。Metaが10月26日発表した最大950億ドル規模の株式発行計画に10億ドルを出資（[daily](../daily/2026-10-29.md) / [topics/nvidia](nvidia.md) / [topics/meta](meta.md) / [出典](https://www.itmedia.co.jp/news/article/2610/28/2000002651/)）
 - 2026-10-25（週次整理・要追記対応）: AIチップ「Instinct」の新型「MI400」（FP4演算で最大40 petaflops、2026年投入予定）・ラックスケール基盤「Helios」（1ラック最大72GPU）の性能主張を2025年8月のDIGITIMES記事で確認。大口顧客からMI400導入への関心表明はあるが、具体的な採用企業名は同記事に記載なし（[出典](https://www.digitimes.com/news/a20250806VL202.html)、取得日2026-10-25）
 - 2026-09-30: Fei-Fei Li氏が創業した「World Labs」を82億ドルで買収すると発表。Li氏はAMDの最高経営責任者補佐・最高科学者として参画する。テキスト・映像ベースのモデル提供が中心だった自社製品群に、世界モデル技術を加える狙い。買収は年内完了予定（[daily](../daily/2026-09-30.md) / [topics/nvidia](nvidia.md)）
 

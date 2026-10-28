@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-10-26
+updated: 2026-10-29
 tags: [claude-code, anthropic, agent, productivity]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,8 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-29（今日の現場ネタ）: ランディングページの構成・コピー・配色・スペーシングのルールを定義するデザインSkill「AI Design Skills」（Claude Code・Cursor・Codex対応）がGitHub Trendingで急上昇（本日+1,938スター・累計約1.1万）。`SKILL.md`1ファイルに完結し、`.claude/skills/`へコピーするだけで使える（[daily](../daily/2026-10-29.md) / [出典](https://github.com/elayadesign/ai-design-skills)）
+- 2026-10-29: バージョン2.1.311〜312を公開。MCPサーバーの接続前エラー・大きな編集での固まりを修正（2.1.311）、大きなCLAUDE.md・@参照ファイルの部分読み込み後の上書き不具合を修正・フック同時実行数を1セッションあたり24に制限（2.1.312）（[daily](../daily/2026-10-29.md) / [出典](https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md)）
 - 2026-10-26（今日の現場ネタ）: 「AI製っぽいUI」を62個の決定的ルールで検出・改善するデザインSkill「impeccable」がGitHub Trendingで急上昇（本日+1,113スター、累計8.75万）。10/25既報の「Hallmark」と同じ「AIっぽさ脱却」が狙いだが、検出ルールの数で差別化している（[daily](../daily/2026-10-26.md) / [出典](https://github.com/pbakaus/impeccable)）
 - 2026-10-26（今日の現場ネタ）: Qiitaの実測比較記事で、資料を毎ターン貼り直す代わりにAGENTS.md（CLAUDE.md）・SKILL・ファイル参照に置き換えると、入力トークン費用がClaude Codeの短文会話で58%・Gemini長文会話で63%減ったと報告。キャッシュの保持時間（TTL）を超えて再開すると1ターンの費用が6〜11倍に跳ね上がる点も指摘された（[daily](../daily/2026-10-26.md) / [出典](https://qiita.com/songchong/items/235bed0f8c72f268477e)）
 - 2026-10-25（今日の現場ネタ）: 「AIっぽいUI」を脱するデザインSkill「Hallmark」（Together AI製、Claude Code・Cursor・Codex対応）がGitHub Trendingで急上昇（本日+570スター、累計3.2万）。48種類のテーマから選び、ブラウザ上でAI生成特有のパターンを自動チェックする（[daily](../daily/2026-10-25.md) / [出典](https://github.com/Nutlope/hallmark)）

@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-10-28
+updated: 2026-10-29
 tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,8 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-29: 新フロンティアモデル「Gemini 4 Carbon」を発表。サイバー防御特化で、脆弱性発見ベンチマークSEC-bench Pro 88.2%・安全なコード生成はGemini 4 Argon比2倍超。プロンプトインジェクション攻撃成功率0.0%。一般提供はまだで、まず一部のサイバー防御担当者へ限定提供し「Fairwindプログラム」経由で拡大する方針（[daily](../daily/2026-10-29.md) / [出典](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/)）
+- 2026-10-29: 企業・開発者が自社アプリをGemini・Search経由で届けられる「Connected Apps Platform」を発表。クラウドMCPサーバーまたはAndroid MCPとAppFunctions APIで連携。Geminiには既にAdobe・Experian・Peloton等50以上が接続済み、Searchへの展開も数週間以内に開始。米国の開発者向けウェイトリスト制プレビュー（[daily](../daily/2026-10-29.md) / [topics/mcp](mcp.md) / [出典](https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/)）
 - 2026-10-28: Google DeepMindがリアルタイム世界モデル「Genie 4」を発表。リアルタイムの世界モデルとして初めて音声をネイティブ生成するとし、テキストで天候・カメラ移動・人物追加を操作できる。Gemini 3.8 Flashがシーン進行を監視し計画を調整する設計。現在は信頼されたテスター向けの研究プレビューで、今後Google AI Ultra加入者・API早期アクセスパートナーへ提供予定（[daily](../daily/2026-10-28.md) / [出典](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/)）
 - 2026-10-27: プライバシーポリシーを10月16日付で改定。従来の「ドライブ・Gmail・フォトのコンテンツに基づくカスタマイズ広告は表示しない」という記述に、ユーザーが検索・Geminiアプリ等に利用を許可した場合は例外になるとのただし書きを追加。検索が接続アプリから得た要約・推測（例：予約メールからのおすすめ提案「パーソナルインテリジェンス」、オプトイン方式）を広告表示やAIモデル学習に使う場合があるとした。オプトアウトはアカウント設定から接続解除する手順だが、解除済み履歴データは削除されない（[daily](../daily/2026-10-27.md) / [出典](https://www.itmedia.co.jp/news/article/2610/26/2000002570/)）
 - 2026-10-23: Google CloudのモデルカタログModel Gardenに、OpenAIの「GPT-6 Astra」「GPT-6.1 Sol」「GPT-6 Luna」を追加。従来のAPI経由アクセスと異なりGoogle Cloud基盤上での動作・請求一本化が可能になり、「主要3社のクローズドモデルを扱う唯一のハイパースケーラー」になったとする。まず一部企業向けプライベートプレビュー（[daily](../daily/2026-10-23.md) / [topics/openai](openai.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/22/2000002487/)）

@@ -3,7 +3,7 @@ type: topic
 title: "NVIDIA（エヌビディア）"
 slug: nvidia
 created: 2026-08-28
-updated: 2026-10-28
+updated: 2026-10-29
 tags: [nvidia, agent, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -30,6 +30,7 @@ AIモデルの学習・推論に使われるGPU（画像処理用半導体）を
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-29: Metaとの戦略的提携拡大を発表（10月26日）。AIエージェント「Muse」の学習・推論基盤強化が対象で、「OpenShell」「Sentry」を活用した安全な展開、次世代インフラ「Vera Rubin」の拡大導入を進める。Metaが同日発表した最大950億ドル規模の株式発行計画に30億ドルを出資（[daily](../daily/2026-10-29.md) / [topics/amd](amd.md) / [topics/meta](meta.md) / [出典](https://www.itmedia.co.jp/news/article/2610/28/2000002651/)）
 - 2026-10-28: Oracleが「Oracle AI World 2026」で、Google TPUをOracle Cloud Infrastructureに導入し2027年からサービス提供開始すると発表。電力・冷却・データセンター内ネットワークを提供し大規模展開を支える。AWS・Microsoft Azure・Google Cloudを追う立場のOracleが、NVIDIA以外のAIプロセッサの選択肢を顧客に広げる狙い。10/27既報のAWS・Google CloudによるPyTorchの自社チップ対応版OSS公開に続く、NVIDIA依存低減の動き（[daily](../daily/2026-10-28.md) / [出典](https://www.publickey1.jp/blog/26/oracle_cloudgoogle_tpu2027oracle_ai_world_2026.html)）
 - 2026-10-27: AIエージェント向けSkillをインストール前に検査するOSSセキュリティスキャナー「SkillSpector」を公開。プロンプトインジェクション・データ持ち出し・権限昇格など17カテゴリ・71パターンを検査し、静的解析とLLMによる意味的評価の二段階方式でリスクスコアを返す（[daily](../daily/2026-10-27.md) / [出典](https://github.com/NVIDIA/SkillSpector)）
 - 2026-10-27: AWSがTrainium向け「TorchNeuron」、Google CloudがTPU向け「TorchTPU」をそれぞれOSS公開し、既存PyTorchコードを書き換えずに自社チップへ移行できるようにした。CUDA一強のソフトウェア層に対する対抗策で、NVIDIA依存低減の動きが大手クラウド事業者側から進んだ例（[daily](../daily/2026-10-27.md) / [出典](https://www.publickey1.jp/blog/26/awsgoogle_cloudpytorchaws_trainiumgoogle_cloud_tpunvidia.html)）
