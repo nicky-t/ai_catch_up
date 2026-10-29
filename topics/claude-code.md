@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-10-29
+updated: 2026-10-30
 tags: [claude-code, anthropic, agent, productivity]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,8 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-30: バックグラウンドエージェントごとの全トランスクリプトを約30秒ごとに同じモデルに送り3〜5語で要約しステータス表示を更新する挙動について、ある利用者がOpenTelemetryデータを集計し要約リクエストがAPIリクエスト全体の約20%を占めると報告（Hacker News 553pt）。設定でオフにする方法はなく2.1.232（2026年8月）以降デフォルト有効（[daily](../daily/2026-10-30.md) / [出典](https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce)）
+- 2026-10-30（今日の現場ネタ・続報）: 10/26既報のデザインSkill「impeccable」がGitHub Trendingで再急上昇（本日+2,881スター、累計約9.51万。10/26時点は本日+1,113・累計8.75万）（[daily](../daily/2026-10-30.md) / [出典](https://github.com/pbakaus/impeccable)）
 - 2026-10-29（今日の現場ネタ）: ランディングページの構成・コピー・配色・スペーシングのルールを定義するデザインSkill「AI Design Skills」（Claude Code・Cursor・Codex対応）がGitHub Trendingで急上昇（本日+1,938スター・累計約1.1万）。`SKILL.md`1ファイルに完結し、`.claude/skills/`へコピーするだけで使える（[daily](../daily/2026-10-29.md) / [出典](https://github.com/elayadesign/ai-design-skills)）
 - 2026-10-29: バージョン2.1.311〜312を公開。MCPサーバーの接続前エラー・大きな編集での固まりを修正（2.1.311）、大きなCLAUDE.md・@参照ファイルの部分読み込み後の上書き不具合を修正・フック同時実行数を1セッションあたり24に制限（2.1.312）（[daily](../daily/2026-10-29.md) / [出典](https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md)）
 - 2026-10-26（今日の現場ネタ）: 「AI製っぽいUI」を62個の決定的ルールで検出・改善するデザインSkill「impeccable」がGitHub Trendingで急上昇（本日+1,113スター、累計8.75万）。10/25既報の「Hallmark」と同じ「AIっぽさ脱却」が狙いだが、検出ルールの数で差別化している（[daily](../daily/2026-10-26.md) / [出典](https://github.com/pbakaus/impeccable)）

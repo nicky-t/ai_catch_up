@@ -3,7 +3,7 @@ type: topic
 title: "Mistral AI（ミストラルAI）"
 slug: mistral-ai
 created: 2026-09-09
-updated: 2026-10-07
+updated: 2026-10-30
 tags: [mistral-ai]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [topics/openai.md, topics/anthropic.md, topics/google.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-30: 10/7発表の「Mistral Large 4」（Le Chonk）の重みをHugging Face・API経由で公開。「ML4 brings state-of-the-art sovereign cyber defense capabilities to enterprises and governments globally」と説明し、中国のオープンウェイトモデル「GLM-5.3」と同等の性能をタスクあたり47%少ないトークン消費で達成すると主張（[daily](../daily/2026-10-30.md) / [出典](https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/)）
 - 2026-10-07: 新フラッグシップ「Mistral Large 4」（愛称Le Chonk、総パラメータ1兆・アクティブ490億）を発表。学習に使ったNVIDIA GPUは4,000基のみで、担当VPは「中国の競合他社の2〜3倍少なく、クローズドソース競合よりさらに少ない」と説明。Artificial Analysisスコアは38点（前モデルLarge 3は9点）。現時点はガードレール付き公開エンドポイントのみ、オープンウェイト版は数週間以内に公開予定（[daily](../daily/2026-10-07.md)）
 - 2026-09-09: Samsung Electronics主導のシリーズDで30億ユーロ（約3,580億円）を調達、評価額210億ユーロ超に。欧州テック企業として過去最大の株式調達ラウンド（[daily](../daily/2026-09-09.md)）
 

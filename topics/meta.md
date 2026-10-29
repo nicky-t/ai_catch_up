@@ -3,7 +3,7 @@ type: topic
 title: "Meta（メタ）"
 slug: meta
 created: 2026-09-03
-updated: 2026-10-29
+updated: 2026-10-30
 tags: [meta, speech, agent]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,7 @@ Facebook・Instagram・WhatsAppなどを運営する米国のテクノロジー�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-30: Meta FARとハーバード大学などの研究者による論文「Scaling Multi-Agent Intelligence with Substrate-Centric Coordination」が報道。複数エージェントの性能が数に比例して伸びない原因を整理し対処法「ScaleMAS」を提案。ソフトウェア修正課題では4体のScaleMASが8体の独立エージェントと同成績を約半分のトークン数で達成する一方、数学の定理証明課題では16体程度で改善が頭打ちになったという（[daily](../daily/2026-10-30.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/29/2000002632/)）
 - 2026-10-29: NVIDIA（10/26）・AMD（10/27）がそれぞれMetaとのAI分野での戦略的提携拡大を発表。AIエージェント「Muse」の学習・推論基盤強化が対象で、両社は10月26日発表の最大950億ドル規模の株式発行計画にNVIDIAが30億ドル・AMDが10億ドルを出資する（[daily](../daily/2026-10-29.md) / [topics/nvidia](nvidia.md) / [topics/amd](amd.md) / [出典](https://www.itmedia.co.jp/news/article/2610/28/2000002651/)）
 - 2026-10-16: オープンウェイトの新モデル「Muse Spark Open」を公開。816Bパラメータ・コンテキスト100万トークンで、Apple siliconのMac上でローカル実行できるよう設計（報道では最低1TB RAM、M5 Ultra搭載Mac Studioが目安）。コーディング端末「Muse Code」と組み合わせたMastodonクライアントのバグ修正や、DaVinci Resolveでの映像レビュー補助に使われた例が紹介されている。10/13既報のフロンティアモデル「Muse Wonder」とは別に、オープンウェイト版をMetaが追加した形（[daily](../daily/2026-10-16.md) / [出典](https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/)）
 - 2026-10-13: Superintelligence Labが、Meta初の「フロンティアモデル」Muse WonderとMuse Wonder Fullを公開。自社ベンチマークではFable 5.1・GPT-6 Astraと同等のスコア、長期記憶を測るMemoryBenchではFable・Opus・Astraを上回ると主張している（第三者検証はなし）。利用者の情報を数日〜数カ月保持する「active memory」が特徴で、Muse Wonderは入力$4／出力$20（100万トークン）でMeta Model API提供、より大きいMuse Wonder FullはMuse Codeの有料会員限定。2025年8月のAI体制再編後、初のフロンティアモデル公開（[daily](../daily/2026-10-13.md)）

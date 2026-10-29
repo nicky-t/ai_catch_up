@@ -643,3 +643,12 @@ https://www.itmedia.co.jp/news/article/2610/28/2000002612/
 https://simonwillison.net/2026/Oct/28/github-octoverse-2026/
 https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md
 https://github.com/elayadesign/ai-design-skills
+https://www.itmedia.co.jp/news/article/2610/29/2000002679/
+https://www.itmedia.co.jp/news/article/2610/29/2000002680/
+https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/
+https://www.itmedia.co.jp/aiplus/article/2610/29/2000002632/
+https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce
+https://openai.com/index/updated-model-spec
+https://www.itmedia.co.jp/aiplus/article/2610/29/2000002728/
+https://www.itmedia.co.jp/aiplus/article/2610/29/2000002685/
+https://github.com/pbakaus/impeccable
