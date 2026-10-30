@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-10-30
+updated: 2026-10-31
 tags: [claude-code, anthropic, agent, productivity]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,8 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-31: Anthropic公式「Claude Code」拡張機能になりすました改ざん版が、CursorのVS Code拡張マーケットプレイスで10月29日の約11時間（太平洋時間2:27〜13:35）配布された。拡張機能読み込み時に自動実行されるコードが、ホスト名・ユーザー名・Gitメール・公開IPを収集しSSH公開鍵の設置・逆トンネル接続を試行。管理者権限不足で多くの環境ではSSH有効化自体は失敗したとみられるが、最大5,000人に影響した恐れがあり拡張機能の削除だけでは不十分という。Anthropicは「自社システムの侵害ではなく、何者かがCursorのマーケットプレイスへのアクセスを悪用した」と説明、Cursorは侵入経路を明らかにしていない（[daily](../daily/2026-10-31.md) / [topics/cursor](cursor.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://cursor.com/blog/claude-code-extension-security-notice)）
+- 2026-10-31（今日の現場ネタ・続報）: 仕様策定→TDD→サブエージェント並列レビューを強制する開発フレームワーク「superpowers」がGitHub Trendingで再上昇（本日+1,255スター、累計30.94万）。9/12既報時点は本日+731スターで、1カ月以上の間隔を空けて再び急上昇した（[daily](../daily/2026-10-31.md) / [出典](https://github.com/obra/superpowers)）
 - 2026-10-30: バックグラウンドエージェントごとの全トランスクリプトを約30秒ごとに同じモデルに送り3〜5語で要約しステータス表示を更新する挙動について、ある利用者がOpenTelemetryデータを集計し要約リクエストがAPIリクエスト全体の約20%を占めると報告（Hacker News 553pt）。設定でオフにする方法はなく2.1.232（2026年8月）以降デフォルト有効（[daily](../daily/2026-10-30.md) / [出典](https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce)）
 - 2026-10-30（今日の現場ネタ・続報）: 10/26既報のデザインSkill「impeccable」がGitHub Trendingで再急上昇（本日+2,881スター、累計約9.51万。10/26時点は本日+1,113・累計8.75万）（[daily](../daily/2026-10-30.md) / [出典](https://github.com/pbakaus/impeccable)）
 - 2026-10-29（今日の現場ネタ）: ランディングページの構成・コピー・配色・スペーシングのルールを定義するデザインSkill「AI Design Skills」（Claude Code・Cursor・Codex対応）がGitHub Trendingで急上昇（本日+1,938スター・累計約1.1万）。`SKILL.md`1ファイルに完結し、`.claude/skills/`へコピーするだけで使える（[daily](../daily/2026-10-29.md) / [出典](https://github.com/elayadesign/ai-design-skills)）

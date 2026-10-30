@@ -3,7 +3,7 @@ type: thread
 title: "国内 AI 導入動向（japan-ai-adoption）"
 slug: japan-ai-adoption
 created: 2026-08-19
-updated: 2026-10-30
+updated: 2026-10-31
 tags: [adoption, japan-company, case-study]
 status: active
 related: [topics/openai.md]
@@ -23,6 +23,7 @@ related: [topics/openai.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-31: ソフトバンク子会社SB Intuitionsが、無償β版「Sarashinaサービス」で提供するAPIモデルに、シリーズ初の思考モデル「Sarashina3.2 mini thinking」を追加。既存の非思考モデルよりコーディング・ツール呼び出し・Web検索の性能が向上したという。10/14既報の無償β開始からわずか2週間での追加で、国産LLMの開発速度を示す事例（[daily](../daily/2026-10-31.md) / [topics/sb-intuitions](../topics/sb-intuitions.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/30/2000002743/)）
 - 2026-10-30: KDDIグループのKDDIアイレットが、社内で集めたAI活用事例113件（エンジニア職63件・非エンジニア職以外50件）をまとめた特設サイトを無料公開。各事例はスライド1枚の概要と詳細・ポイント・削減時間をセットで掲載し、ツールや分野から検索できる（[daily](../daily/2026-10-30.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/29/2000002685/)）
 - 2026-10-28: 京都府が、職員約7,000〜8,000人の事務効率化で2025年1月導入の「Copilot Chat」だけに頼らず、2025年4月にRAG機能を備えた「ユーザーローカル ChatAI」を全庁導入し使い分けていると判明。当時のCopilot ChatはRAG機能が不十分で分厚い業務手引きを読み込ませにくかったのが理由で、マニュアル検索はChatAI・文章作成やアイデア出しはCopilot Chatという役割分担にした。利用率はCopilot Chat71%・ChatAI45%、満足度は95%・93%。週1日以上利用する職員1人あたりの年間削減時間はCopilot Chat109時間・ChatAI74.4時間、ChatAI利用者の84%が制度所管課への問い合わせ減少を実感（[daily](../daily/2026-10-28.md) / [出典](https://kn.itmedia.co.jp/kn/article/2610/27/2000002599/)）
 - 2026-10-27: チームみらいの安野貴博党首らが、AIの普及に伴う失業への対策を求める提言を木原稔官房長官に手渡した。AIの社会実装に伴う仕事の変化への適応状況を調査し支援が行き渡る仕組みを整えるよう求め、労働政策に加え規制・制度改革も含む内容という。10/23に続き2件目の政府への提言（[daily](../daily/2026-10-27.md) / [threads/ai-productivity-employment](ai-productivity-employment.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/26/2000002581/)）

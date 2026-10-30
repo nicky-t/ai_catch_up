@@ -652,3 +652,13 @@ https://openai.com/index/updated-model-spec
 https://www.itmedia.co.jp/aiplus/article/2610/29/2000002728/
 https://www.itmedia.co.jp/aiplus/article/2610/29/2000002685/
 https://github.com/pbakaus/impeccable
+https://cursor.com/blog/claude-code-extension-security-notice
+https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/
+https://www.theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682
+https://phorion.io/blog/offical-claude-code-vsx-compromise/
+https://www.itmedia.co.jp/news/article/2610/30/2000002735/
+https://www.itmedia.co.jp/aiplus/article/2610/30/2000002743/
+https://www.itmedia.co.jp/aiplus/article/2610/30/2000002738/
+https://www.itmedia.co.jp/aiplus/article/2610/30/2000002757/
+https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/
+https://github.com/obra/superpowers

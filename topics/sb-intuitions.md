@@ -3,7 +3,7 @@ type: topic
 title: "SB Intuitions（Sarashina）"
 slug: sb-intuitions
 created: 2026-10-14
-updated: 2026-10-18
+updated: 2026-10-31
 tags: [japan-company]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [threads/japan-ai-adoption.md, topics/elyza.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-31: 「Sarashinaサービス」で提供するAPIモデルに、シリーズ初の思考モデル「Sarashina3.2 mini thinking」を追加。回答の時間と精度のバランスを「low」「medium」「high」の3段階で調整でき、既存の非思考モデル「Sarashina3 mini」よりコーディング・ツール呼び出し・Web検索の性能が向上。国立情報学研究所「llm-jp-4.1-33b-thinking」・Alibaba「Qwen3-235B-A22B-Thinking-2507」・OpenAI「gpt-oss-120b」に匹敵するスコアとするが具体的な数値は非公開（[daily](../daily/2026-10-31.md) / [threads/japan-ai-adoption](../threads/japan-ai-adoption.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/30/2000002743/)）
 - 2026-10-14: 「Sarashinaサービス」の無償β版を公開。チャットと6モデルのAPIを一般開放し、日本語向けトークナイザで米国モデルの半分のトークン数を実現すると説明（[daily](../daily/2026-10-14.md) / [threads/japan-ai-adoption](../threads/japan-ai-adoption.md)）
 
 ## 関連

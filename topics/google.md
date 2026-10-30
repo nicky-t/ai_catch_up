@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-10-29
+updated: 2026-10-31
 tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,7 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-10-31: Geminiのチャット画面上でPDF・Googleドキュメント・スプレッドシート・スライド・マークダウン・コードを生成・プレビュー・編集できる機能を発表。文字を選択してプロンプトで色・フォント変更やレイアウト変更（表への変換など）を指示できるほか、スライドは画像出力ではなく要素ごとに編集可能な.pptxファイルとして書き出せる。個人向けGoogle AI Pro・Google Workspaceの両方で確認でき、前世代モデル「Gemini 3.8」でも同様の機能が使えたという（[daily](../daily/2026-10-31.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/30/2000002757/)）
 - 2026-10-29: 新フロンティアモデル「Gemini 4 Carbon」を発表。サイバー防御特化で、脆弱性発見ベンチマークSEC-bench Pro 88.2%・安全なコード生成はGemini 4 Argon比2倍超。プロンプトインジェクション攻撃成功率0.0%。一般提供はまだで、まず一部のサイバー防御担当者へ限定提供し「Fairwindプログラム」経由で拡大する方針（[daily](../daily/2026-10-29.md) / [出典](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/)）
 - 2026-10-29: 企業・開発者が自社アプリをGemini・Search経由で届けられる「Connected Apps Platform」を発表。クラウドMCPサーバーまたはAndroid MCPとAppFunctions APIで連携。Geminiには既にAdobe・Experian・Peloton等50以上が接続済み、Searchへの展開も数週間以内に開始。米国の開発者向けウェイトリスト制プレビュー（[daily](../daily/2026-10-29.md) / [topics/mcp](mcp.md) / [出典](https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/)）
 - 2026-10-28: Google DeepMindがリアルタイム世界モデル「Genie 4」を発表。リアルタイムの世界モデルとして初めて音声をネイティブ生成するとし、テキストで天候・カメラ移動・人物追加を操作できる。Gemini 3.8 Flashがシーン進行を監視し計画を調整する設計。現在は信頼されたテスター向けの研究プレビューで、今後Google AI Ultra加入者・API早期アクセスパートナーへ提供予定（[daily](../daily/2026-10-28.md) / [出典](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/)）
