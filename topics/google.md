@@ -34,6 +34,7 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-01: 宇宙データセンター試作機「Suncatcher」が稼働を開始し地上との通信を確認。4基のTPUを搭載し最大1kWを発電、電力制約のため一度に起動できるのは20分程度という。Google DeepMindの「Gemma 4」で宇宙についての俳句を生成させる試験などを実施。放射線によるビット反転への耐性を今後数週間の試験で検証し、2027年には追加2基の打ち上げを目指す（[daily](../daily/2026-11-01.md) / [出典](https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/)）
 - 2026-10-31: Geminiのチャット画面上でPDF・Googleドキュメント・スプレッドシート・スライド・マークダウン・コードを生成・プレビュー・編集できる機能を発表。文字を選択してプロンプトで色・フォント変更やレイアウト変更（表への変換など）を指示できるほか、スライドは画像出力ではなく要素ごとに編集可能な.pptxファイルとして書き出せる。個人向けGoogle AI Pro・Google Workspaceの両方で確認でき、前世代モデル「Gemini 3.8」でも同様の機能が使えたという（[daily](../daily/2026-10-31.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/30/2000002757/)）
 - 2026-10-29: 新フロンティアモデル「Gemini 4 Carbon」を発表。サイバー防御特化で、脆弱性発見ベンチマークSEC-bench Pro 88.2%・安全なコード生成はGemini 4 Argon比2倍超。プロンプトインジェクション攻撃成功率0.0%。一般提供はまだで、まず一部のサイバー防御担当者へ限定提供し「Fairwindプログラム」経由で拡大する方針（[daily](../daily/2026-10-29.md) / [出典](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/)）
 - 2026-10-29: 企業・開発者が自社アプリをGemini・Search経由で届けられる「Connected Apps Platform」を発表。クラウドMCPサーバーまたはAndroid MCPとAppFunctions APIで連携。Geminiには既にAdobe・Experian・Peloton等50以上が接続済み、Searchへの展開も数週間以内に開始。米国の開発者向けウェイトリスト制プレビュー（[daily](../daily/2026-10-29.md) / [topics/mcp](mcp.md) / [出典](https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/)）

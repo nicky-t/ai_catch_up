@@ -662,3 +662,9 @@ https://www.itmedia.co.jp/aiplus/article/2610/30/2000002738/
 https://www.itmedia.co.jp/aiplus/article/2610/30/2000002757/
 https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/
 https://github.com/obra/superpowers
+https://www.itmedia.co.jp/enterprise/articles/2610/31/news008.html
+https://www.itmedia.co.jp/enterprise/articles/2610/31/news009.html
+https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/
+https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/
+https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/
+https://github.com/thedotmack/claude-mem
