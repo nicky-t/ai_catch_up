@@ -3,7 +3,7 @@ type: topic
 title: "Microsoft（マイクロソフト）"
 slug: microsoft
 created: 2026-09-06
-updated: 2026-10-23
+updated: 2026-11-02
 tags: [microsoft, guardrails, prompt-engineering, safety, cost, productivity]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,8 @@ Windows・Office・Azure・GitHubなどを展開する米国のテクノロジ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-02: GitHub Universe 2026でマルチモデル機能「GitHub Copilot Fusion」の正式リリースを発表。タスク特性に応じてSingle・Cascade・Critiqueの3パターンでモデルを使い分け、負荷レベルはFusion Standard・High・Maxから選択（Fusion Fastは選択不可）。パブリックプレビューでは、ローカル導入したMAI Code 1.1 FlashやQwen3.8 Flash NextもFusion Standardで利用可能（[daily](../daily/2026-11-02.md) / [topics/copilot](copilot.md) / [出典](https://www.publickey1.jp/blog/26/githubcopilot_fusionaigithub_universe_2026.html)）
+- 2026-11-02: robots.txtの共通記述でAI学習への利用可否を一括表明できる仕組みについて、2027年2月1日からの適用開始を表明（従来の「NoArchive」「NoCache」設定からの移行は2027年3月1日まで）（[daily](../daily/2026-11-02.md) / [topics/openai](openai.md) / [出典](https://www.itmedia.co.jp/news/article/2611/01/2000002776/)）
 - 2026-10-23: 学術誌Scienceに発表した研究で、複数のAIエージェントが医師団のように議論する診断システム「MAI-DxO」が、難解な医学系症例で正答率83%を記録（参考資料を使った一般医の単独対応は36%）と公表。ただし研究データ自体は改善の大部分がMicrosoftの仕組みよりモデル自体の性能向上によると示唆（GPT-5.5単体で72%→MAI-DxO併用で87%近くに上昇）。Beth Israel Deaconess Medical Centerでの実診療比較を今後計画（[daily](../daily/2026-10-23.md) / [出典](https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/)）
 - 2026-10-21: AIエージェントを社内の「内部脅威」と同様に扱う新戦略を発表。セキュリティ事業責任者ヘイエテ・ガロット氏は「出自を問わずフロンティアモデルは信用できない」と述べ、ナデラCEOも「AIが行うことの責任は外注できない」とブログで主張。新機能「Guardian Agents」や、Claude Code・Codex等最大60種のエージェントを検出するMicrosoft Defenderの拡張を発表し、NVIDIAの「Open Agent Safety Platform」（100社超参加）にも創設メンバーとして参加（[daily](../daily/2026-10-21.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/)）
 - 2026-10-17: 自社研究者らが、社内のソフトウェアエンジニア数万人を対象に2026年1月5日〜4月29日の4カ月間、コマンドライン型AIコーディングツール（Claude Code・Copilot CLI）の利用状況とプルリクエスト数の関係を分析した論文を発表。導入初週にツールを使ったエンジニアはマージされたPR数が平均24%増加し効果は4カ月持続、ツール別ではCopilot CLIが約24.9%・Claude Codeが約11.4%の増加だった。同僚・上司の利用率が高いほど自分も試すオッズが上がる「周囲の影響」も確認（[daily](../daily/2026-10-17.md) / [topics/claude-code](claude-code.md) / [学習048](../learn/intermediate/048-roi-measurement.md)）

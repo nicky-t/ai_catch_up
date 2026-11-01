@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-11-01
+updated: 2026-11-02
 tags: [anthropic, claude, safety, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-02: 標準化担当のケビン・ケリー氏が、robots.txtでAI学習への利用可否を一括表明できる仕組み「Machine-Readable Training Preference Signal」をIETFにInternet-Draftとして提出（10月30日）。OpenAI・Google・Microsoftも対応を表明（個人提出のため現時点でIETF標準化プロセス上の正式な地位はない）（[daily](../daily/2026-11-02.md) / [topics/openai](openai.md) / [出典](https://www.itmedia.co.jp/news/article/2611/01/2000002776/)）
 - 2026-11-01: 半導体調達向け630億ドル規模の資金調達案件で錨投資家のBlackstoneが、上場後の信用格付けについて従来の「2027年までに投資適格級」との見通しから一転、投機的格付け（ジャンク級）の中でも上位の「ダブルB」程度になるとFTに伝えたと報道。高いジャンク格付けは資金調達コスト上昇につながり、大型コンピュート契約を背景とした「支出先行」経営に影響しうる。Anthropic・Blackstone両社ともコメント拒否（[daily](../daily/2026-11-01.md) / [出典](https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/)）
 - 2026-11-01: 企業向け「Claude Enterprise」に10月28日（米国時間）、コスト可視化の3機能を追加。会話を「ワークストリーム」別に分類し利用状況・成果物・業務影響を可視化する「Smart reports」（個人評価には使わない方針）、利用者アンケート「In-app surveys」、グループ単位で予算を共有しつつ個人上限も設定できる「Pooled group budgets」（50/75/95/100%到達でメール通知）。HIPAA対象組織は利用できる機能が一部異なる（[daily](../daily/2026-11-01.md) / [出典](https://www.itmedia.co.jp/enterprise/articles/2610/31/news009.html)）
 - 2026-10-28（続報）: 提出済みのForm S-1の内容が判明。9月の同社ソースコードへの追加・変更の90％超はClaudeが書いたと記載され、エンジニアの役割はコードを書くことから監督役に変化。仕様が曖昧な難しい開発課題の解決率は9カ月で約50ポイント上昇し約90%（社内ベンチマーク）、7〜9月のエンジニア1人あたりコード量は2024年平均の45倍超。社内Claude利用額（一般向け料金換算）は1〜9月で250倍超に増加し4月には株式報酬除く人件費を初めて上回った。従業員数は9月末約5,300人（1年で2.7倍）、売上高は1年で約13倍、NRR約900%。リスク説明は90ページ超に及び人類の存亡リスクにも言及（[daily](../daily/2026-10-28.md) / [出典](https://www.itmedia.co.jp/news/article/2610/27/2000002644/)）

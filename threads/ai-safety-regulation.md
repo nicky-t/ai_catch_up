@@ -3,7 +3,7 @@ type: thread
 title: "AI安全規制の動き（ai-safety-regulation）"
 slug: ai-safety-regulation
 created: 2026-08-23
-updated: 2026-10-31
+updated: 2026-11-02
 tags: [regulation, safety]
 status: active
 related: [topics/openai.md, topics/anthropic.md]
@@ -24,6 +24,7 @@ related: [topics/openai.md, topics/anthropic.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-02: ChatGPTのHTMLプレビュー（旧Canvas）機能で、サンドボックス化されたiframeを突破しユーザーの非公開データを外部送信できる攻撃連鎖が報告された。数式ライブラリMathLiveの仮想キーボードがpostMessage()経由でinnerHTMLを使っていた実装の不備が起点で、CSPで許可されていたYouTubeのoEmbedエンドポイントでJavaScriptを実行し画像参照経由でデータを持ち出す手口。OpenAIは修正し5,000ドルの報奨金を支払った。10/30既報のClaude Code拡張機能なりすましに続き、AI製品のサンドボックス・拡張機能を狙う攻撃が相次いで報告されている（[daily](../daily/2026-11-02.md) / [topics/openai](../topics/openai.md) / [出典](https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/)）
 - 2026-10-31: Anthropic公式「Claude Code」拡張機能になりすました改ざん版が、CursorのVS Code拡張マーケットプレイスで10月29日の約11時間（太平洋時間2:27〜13:35）配布された。読み込み時に自動実行されるコードがホスト名・ユーザー名・Gitメール・公開IPを収集しSSH公開鍵の設置・逆トンネル接続を試行、最大5,000人に影響した恐れがある。管理者権限不足で多くの環境ではSSH有効化自体は失敗したとみられるが、鍵の設置・永続化は実行済みで拡張機能の削除だけでは不十分。Anthropicは「自社システムの侵害ではなく、Cursorのマーケットプレイスへのアクセスが悪用された」と説明、Cursorは侵入経路を明らかにしていない（[daily](../daily/2026-10-31.md) / [topics/claude-code](../topics/claude-code.md) / [topics/cursor](../topics/cursor.md) / [出典](https://cursor.com/blog/claude-code-extension-security-notice)）
 - 2026-10-30: AIチャットにスポンサー商品を裏で説得させると選択率が検索上位表示の約3倍（61.2%）に跳ね上がるという米プリンストン大学の実証研究が報道。「Sponsored」ラベルを表示しても選択率は55.5%に留まり、宣伝商品を正しく見抜けた参加者は35.1%のみだった。広告であることを明示しても消費者が気づきにくい形で選択を誘導できる実例（[daily](../daily/2026-10-30.md) / [出典](https://www.itmedia.co.jp/news/article/2610/29/2000002680/)）
 - 2026-10-30: AIエージェントが人間に現実世界の作業を発注できるマーケット「RentAHuman」（2026年2月開設）が開設2週間で53万9000人の登録労働者を集めたと判明。同時期の学術調査では公開求人303件の32.7%がAPIキー・MCPサーバー経由で投稿され、不正アカウント作成・なりすまし面接・GPS付き写真での偵察など6種類の悪用パターンが確認された。労働者側は相手がAIであることも目的も知らされないまま犯罪に加担しうる（[daily](../daily/2026-10-30.md) / [出典](https://www.itmedia.co.jp/news/article/2610/29/2000002679/)）
