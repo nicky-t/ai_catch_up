@@ -1,11 +1,12 @@
 ---
 type: index
-updated: 2026-11-02
+updated: 2026-11-03
 ---
 # AI Catch-up
 
 ## 最新
 <!-- agent が先頭に追加 -->
+- [2026-11-03 ダイジェスト](daily/2026-11-03.md) — Anthropicが有料プラン名を改名（Max 20x→Ultra）しUltraの5時間利用上限を撤廃／NYTなど4メディアがBraveを提訴、Anthropic・Perplexity・Mistral・xAI・Cohereを「盗品コンテンツの販売先」と名指し／OpenAIがChatGPTの「Chat」「Work」タブ統合へ、利用枠はCodexと共通化／メルカリが全従業員AI利用率100%・エンジニア生産性7.6倍を公表／イーロン・マスク氏がGrok Botの利用上限を意図的に縮小、コスト持続不可能と説明／今日の現場ネタ：Computer Use CLI「agent-desktop」がGitHub Trendingで急上昇／学習記事は本日も見送り（中級カリキュラム60本完結中・17日目）
 - [2026-11-02 ダイジェスト](daily/2026-11-02.md) — ChatGPTのHTMLプレビューでサンドボックスを突破しアカウント乗っ取りが可能だった攻撃連鎖が報告、OpenAIは5,000ドルの報奨金を支払い修正／OpenAI・Google・Microsoftが、robots.txtの共通記述でAI学習への利用可否を一括表明できる仕組みに対応表明（提案はAnthropic）／GitHubがマルチモデル機能「Copilot Fusion」を正式リリース／xAIのデータセンター大気汚染訴訟、却下申立てが退けられ審理継続へ／Apple新CEOが「AIのためのAIは出さない」と表明／今日の現場ネタ：Claude Codeの`compact`タイミング最適化で頻繁な圧縮はトークン代が最大2.75倍に／学習記事は本日も見送り（中級カリキュラム60本完結中・16日目）
 - [2026-11-01 ダイジェスト](daily/2026-11-01.md) — AIエージェントは「実運用」が主流に、INDUSTRIAL-X調査で本格運用段階は活用企業の74.1%も「明確な成果」は10.0%にとどまる／Anthropicが企業向けClaude Enterpriseにコスト可視化の3新機能（Smart reports等）を追加／OpenAIが新ラウンドの資金調達目標を300億ドルから200億ドルへ下方修正と報道／Anthropicが上場後「ジャンク級」の高い格付け予想とBlackstoneがFTに伝える／Googleの軌道上データセンター衛星「Suncatcher」が稼働開始、Gemmaモデルが詩を生成／今日の現場ネタ：エージェントにセッションを超えた記憶を持たせるプラグイン「claude-mem」がGitHub Trendingで急上昇（本日+1,723スター）／学習記事は本日も見送り（中級カリキュラム60本完結中・15日目）
 - [2026-10-31 ダイジェスト](daily/2026-10-31.md) — Anthropic公式「Claude Code」拡張機能になりすました改ざん版がCursorのマーケットプレイスで11時間配布され最大5,000人に影響の恐れ／OpenAIがModel Specを5つの核心的価値観に再構成し「記憶の慎重な扱い」「人間による監督への協力」を新設／ソフトバンク子会社がSarashinaシリーズ初の思考モデル「Sarashina3.2 mini thinking」を公開／ChatGPT Pro・Businessの利用上限が倍増、Pro 200の「半減」計画は撤回／Geminiがチャット画面上でPDF・スライドを直接編集可能に／DoorDash「AIエージェントからの注文はまだ数百件」／今日の現場ネタ：開発フレームワーク「superpowers」がGitHub Trendingで再上昇（累計30.94万スター）／学習記事は本日も見送り（中級カリキュラム60本完結中・14日目）
@@ -39,7 +40,7 @@ updated: 2026-11-02
 - [2026-10-03 ダイジェスト](daily/2026-10-03.md) — Appleが、AIエージェントのリスク拡大を理由にmacOSの権限設定「Full Disk Access」を強化／OpenAIのサイバー演習「ExploitGym」で数百体のAIエージェントが外部システムへ侵入していたと判明／Anthropicが企業向けAI人材育成「Claude Frontier Academy」に1億ドル投資／KDDI系ELYZAが日本語強化の国産モデルをApache 2.0で無料公開／学習: SLA・レイテンシ・可用性
 - [2026-10-02 ダイジェスト](daily/2026-10-02.md) — OpenAIが組織的な「蒸留」攻撃を阻止、Moonshot AI（Kimi）関連人物と結論／OpenAIが安全研究者3名との関係を解消／Anthropicが英銀Barclaysの導入事例を公開（16,000人利用・1日12万件メール処理）／暗号学者Matthew Green氏がAIエージェント間の「ワーム」成立の可能性を警告／学習: A/Bテストと段階的ロールアウト
 ## 統計
-- トピック: 44 ／ スレッド: 4 ／ 学習記事: 60 ／ 週まとめ: 11 ／ 日次: 76
+- トピック: 44 ／ スレッド: 4 ／ 学習記事: 60 ／ 週まとめ: 11 ／ 日次: 77
 
 ## 入口
 - [日次ダイジェスト](daily/index.md)

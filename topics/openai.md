@@ -3,7 +3,7 @@ type: topic
 title: "OpenAI"
 slug: openai
 created: 2026-08-19
-updated: 2026-11-02
+updated: 2026-11-03
 tags: [openai, chatgpt, gpt, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,7 @@ ChatGPT と GPT 系モデルを開発する米国の AI 企業。一般利用者
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-03: ChatGPTデスクトップアプリの「Chat」タブと「Work」タブを1つの体験に統合する計画を利用者向けメールで明らかにした。Codexは引き続き別体験として残るが、ChatGPTとCodexは利用枠を共通プールから消費する設計になり、一部利用者は上限到達・リセット待ちが増える可能性がある。まず少数の利用者に先行公開する方針（[daily](../daily/2026-11-03.md) / [topics/anthropic](anthropic.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/02/2000002781/)）
 - 2026-11-02: ChatGPTのHTMLプレビュー（旧Canvas）のサンドボックス化されたiframeを突破する攻撃連鎖が報告された。数式ライブラリMathLiveの仮想キーボードがpostMessage()経由でinnerHTMLを使っていた実装の不備が起点で、CSPで許可されていたYouTubeのoEmbedエンドポイントでJavaScriptを実行し、画像参照経由でユーザーの非公開データを外部送信できた。OpenAIは修正し5,000ドルの報奨金を支払った（[daily](../daily/2026-11-02.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/)）
 - 2026-11-02: OpenAI・Google・Microsoftが、robots.txtの共通記述でAI学習への利用可否を複数のAI企業へ一括で伝えられる仕組みへの対応を表明（提案者はAnthropic、IETFへInternet-Draftとして提出）。Googleは2027年、Microsoftは2027年2月1日から適用開始、OpenAIは数カ月以内の対応を目指す（[daily](../daily/2026-11-02.md) / [topics/anthropic](anthropic.md) / [出典](https://www.itmedia.co.jp/news/article/2611/01/2000002776/)）
 - 2026-11-01: FTの報道によると、新規資金調達ラウンドの目標額を、当初の300億ドル（評価額1.4兆ドル、9月時点報道）から200億ドルへ下方修正。UAE系投資家グループが主導し、個人投資家向け販売を追加すれば目標額に届く可能性があるという。WSJの続報では現時点で110億ドルを確保したが大口投資家の反応は「tepid（鈍い）」と伝えた。背景にAIインフラ支出への投資家の懸念から起きたテック株売りがあるとされる（[daily](../daily/2026-11-01.md) / [topics/anthropic](anthropic.md) / [出典](https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/)）

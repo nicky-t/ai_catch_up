@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-11-02
+updated: 2026-11-03
 tags: [anthropic, claude, safety, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,8 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-03: Claudeの有料プラン名を変更（「Max 5x」→「Max」、「Max 20x」→「Ultra」）。価格は変わらず既存契約者は自動移行。認証済みアカウント限定でUltraの5時間ごとの利用上限を撤廃（週次上限は維持）。Maxは5時間・週次とも「Proの5倍」、Ultraは週次で「Proの10倍」（[daily](../daily/2026-11-03.md) / [出典](https://www.itmedia.co.jp/news/article/2611/02/2000002777/)）
+- 2026-11-03: NYTなど4メディアがBraveを提訴した訴状で、Braveが無断収集したコンテンツの配信先としてAnthropic・Perplexity・Mistral・xAI・Cohereを名指し。Braveは独自クローラーで300億ページ超を索引化しサイト側がブロックできないと主張されている（[daily](../daily/2026-11-03.md) / [threads/ai-copyright](../threads/ai-copyright.md) / [出典](https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/)）
 - 2026-11-02: 標準化担当のケビン・ケリー氏が、robots.txtでAI学習への利用可否を一括表明できる仕組み「Machine-Readable Training Preference Signal」をIETFにInternet-Draftとして提出（10月30日）。OpenAI・Google・Microsoftも対応を表明（個人提出のため現時点でIETF標準化プロセス上の正式な地位はない）（[daily](../daily/2026-11-02.md) / [topics/openai](openai.md) / [出典](https://www.itmedia.co.jp/news/article/2611/01/2000002776/)）
 - 2026-11-01: 半導体調達向け630億ドル規模の資金調達案件で錨投資家のBlackstoneが、上場後の信用格付けについて従来の「2027年までに投資適格級」との見通しから一転、投機的格付け（ジャンク級）の中でも上位の「ダブルB」程度になるとFTに伝えたと報道。高いジャンク格付けは資金調達コスト上昇につながり、大型コンピュート契約を背景とした「支出先行」経営に影響しうる。Anthropic・Blackstone両社ともコメント拒否（[daily](../daily/2026-11-01.md) / [出典](https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/)）
 - 2026-11-01: 企業向け「Claude Enterprise」に10月28日（米国時間）、コスト可視化の3機能を追加。会話を「ワークストリーム」別に分類し利用状況・成果物・業務影響を可視化する「Smart reports」（個人評価には使わない方針）、利用者アンケート「In-app surveys」、グループ単位で予算を共有しつつ個人上限も設定できる「Pooled group budgets」（50/75/95/100%到達でメール通知）。HIPAA対象組織は利用できる機能が一部異なる（[daily](../daily/2026-11-01.md) / [出典](https://www.itmedia.co.jp/enterprise/articles/2610/31/news009.html)）

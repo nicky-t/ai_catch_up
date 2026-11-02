@@ -675,3 +675,9 @@ https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-cente
 https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/
 https://monoist.itmedia.co.jp/mn/articles/2610/31/news013.html
 https://qiita.com/songchong/items/ac9779bb8e8838b546b9
+https://www.itmedia.co.jp/news/article/2611/02/2000002777/
+https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/
+https://www.itmedia.co.jp/aiplus/article/2611/02/2000002781/
+https://www.itmedia.co.jp/business/articles/2611/02/news032.html
+https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/
+https://github.com/vercel-labs/agent-desktop

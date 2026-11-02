@@ -3,9 +3,9 @@ type: thread
 title: "AI学習と著作権をめぐる訴訟・議論（ai-copyright）"
 slug: ai-copyright
 created: 2026-08-24
-updated: 2026-10-18
+updated: 2026-11-03
 tags: [copyright, regulation]
-status: dormant
+status: active
 related: [topics/anthropic.md]
 ---
 
@@ -27,6 +27,7 @@ related: [topics/anthropic.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-03: New York Timesが、プライバシー重視ブラウザ「Brave」をニューヨーク連邦地裁に提訴。NYTの著作権コンテンツを無断収集し、Anthropic・Perplexity・Mistral・xAI・Cohereという名指しした顧客企業へ不正配信したと主張。同日Daily News・Chicago Tribune・Orlando Sentinelも同様の訴訟を起こした。Braveは独自クローラーで300億ページ超を索引化しサイト側がブロックできない点、有料記事の壁を回避する機能も問題視されている。4週間動きがなく`dormant`としていたが本件で`active`に戻す（[daily](../daily/2026-11-03.md) / [topics/anthropic](../topics/anthropic.md) / [出典](https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/)）
 - 2026-09-18: Cloudflareが、Webサイト運営者が検索エンジンのクロールを許可したまま同じクローラーによるAI学習だけを拒否できる新機能を発表。従来はGoogle・Apple・Microsoftなど「検索とAI学習を兼ねるクローラー」を拒否すると検索クロールごとブロックされていたが、robots.txtの記載でこの両立が可能に。GoogleとAppleは対応済み、Microsoftは2027年初頭までに対応予定。OpenAI・Anthropic・Meta・Amazonは元々検索用と学習用のクローラーを分けており、この機能を使わずとも学習用のみ拒否できる。訴訟・行政府の介入とは別の、サイト運営者側の技術的な対抗手段が一つ増えた形（[daily](../daily/2026-09-18.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2609/17/2000001584/)）
 - 2026-09-07: Anthropicの著作権和解金（15億ドル・約50万タイトル・1作品3,000ドル）の配分方法をめぐり著者らが出版社に異議。現役契約作品は50-50分配だが、自費出版・版権失効済み作品は著者全額のはずが、出版社の過大請求（例：版権失効から17年以上経過した作品へのHarperCollinsの請求）が複数報告された。Writers BewareのVictoria Strauss氏は「単純なシステムエラーを超えた体系的な問題の可能性」を指摘（[daily](../daily/2026-09-07.md) / [出典](https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/)）
 - 2026-09-03: トランプ政権が、NYT対OpenAIの著作権訴訟（米ニューヨーク州南部地区連邦地裁）にOpenAI寄りの立場を示す20ページの意見書を提出。「AI産業の競争力維持」を理由にフェアユースの狭い解釈を批判。法的拘束力はないが行政府の立場表明として注目される（[daily](../daily/2026-09-03.md) / [出典](https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/)）

@@ -3,7 +3,7 @@ type: topic
 title: "xAI（エックスエーアイ）"
 slug: xai
 created: 2026-09-23
-updated: 2026-11-02
+updated: 2026-11-03
 tags: [xai, grok]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [topics/openai.md, topics/anthropic.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-03: ハロウィーン週末、一部のGrok Bot利用者が夜間未使用にもかかわらず週次利用上限に達する事象が発生。イーロン・マスク氏はXで不具合ではなく意図的な変更と認め「Grok Botを提供するコストは収益に対して持続不可能なほど高かった」と説明した。新しい上限の数値やコストの金額は非公表（[daily](../daily/2026-11-03.md) / [出典](https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/)）
 - 2026-11-02: メンフィス郊外Colossusデータセンターの大気汚染許可取得を怠ったとして南部環境法センター（SELC、NAACP代理）が起こした訴訟で、デブラ・M・ブラウン判事がxAIの却下申立てを退け訴訟継続を認めた。原告は少なくとも35基の燃焼タービン等を無許可で設置・運用したと主張（「タービンは移動式で規制対象外」というxAIの主張は退けられた）（[daily](../daily/2026-11-02.md) / [出典](https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/)）
 - 2026-10-25: 米中間選挙約500選挙区でAPI経由の候補者推薦を迫る調査（Convovo、Cornell大Tapan Parikh氏ら）で、「Grok 4.7」は92%で共和党候補を推薦し、OpenAIの「GPT-6.1 Sol」（97%が民主党）との一致率は10%未満だった。Grokはキリスト教保守系の投票ガイドやX、Turning Point Actionのサイトを多く引用。消費者向けアプリ（Grok本体）は推薦を拒否した（[daily](../daily/2026-10-25.md) / [topics/openai](openai.md) / [出典](https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/)）
 - 2026-09-23: 「Grok 4.7」を発表（9月21日）。より大規模なベースモデルを採用し、検証能力・長文コンテキスト処理能力を強化。価格は前モデルから据え置き（[daily](../daily/2026-09-23.md)）
