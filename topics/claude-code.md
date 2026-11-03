@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-11-01
+updated: 2026-11-04
 tags: [claude-code, anthropic, agent, productivity]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,8 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-04: バージョン2.1.314〜317を公開。2.1.314で作業フォルダ外への書き込みを止める`permissions.blockWritesOutsideWorkingDirectories`を追加、2.1.316でOpus 4.8のFast modeを2026年11月30日以降に廃止する方針を発表、2.1.317で`/schedule`の未承諾コネクタ警告・Web/シェルツールがアカウントメールを送信する前の事前確認・Agent SDKフックのコールバック失敗時ブロックを追加（[daily](../daily/2026-11-04.md) / [出典](https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md)）
+- 2026-11-04（今日の現場ネタ）: Claude Codeを49体のエージェント・74スキルでゲーム開発スタジオ化するMITライセンスのテンプレート「Claude-Code-Game-Studios」がGitHub Trendingで急上昇（約34.5万スター）。個人の実践レポートでは`/start`〜`/dev-story`の流れでUnityの小規模ゲームを実装し専用レビューエージェントが2件のバグを検出したが、プレイヤー操作やカメラなどの「つなぎ込み」は手動対応が必要だったという（[daily](../daily/2026-11-04.md) / [出典](https://github.com/Donchitos/Claude-Code-Game-Studios)）
 - 2026-11-01（今日の現場ネタ）: セッションを超えてエージェントに記憶を持たせるプラグイン「claude-mem」がGitHub Trendingで急上昇（本日+1,723スター、累計107,683）。ツール利用・作業内容を自動で要約・保存し次回セッション開始時に注入する設計で、Claude Code・Codex・Gemini等に対応。サインインで30日間の無料トライアルが有効になり、期限後は自分のAnthropicプランかOpenRouter/Geminiキーへの切り替えが必要（[daily](../daily/2026-11-01.md) / [出典](https://github.com/thedotmack/claude-mem)）
 - 2026-10-31: Anthropic公式「Claude Code」拡張機能になりすました改ざん版が、CursorのVS Code拡張マーケットプレイスで10月29日の約11時間（太平洋時間2:27〜13:35）配布された。拡張機能読み込み時に自動実行されるコードが、ホスト名・ユーザー名・Gitメール・公開IPを収集しSSH公開鍵の設置・逆トンネル接続を試行。管理者権限不足で多くの環境ではSSH有効化自体は失敗したとみられるが、最大5,000人に影響した恐れがあり拡張機能の削除だけでは不十分という。Anthropicは「自社システムの侵害ではなく、何者かがCursorのマーケットプレイスへのアクセスを悪用した」と説明、Cursorは侵入経路を明らかにしていない（[daily](../daily/2026-10-31.md) / [topics/cursor](cursor.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://cursor.com/blog/claude-code-extension-security-notice)）
 - 2026-10-31（今日の現場ネタ・続報）: 仕様策定→TDD→サブエージェント並列レビューを強制する開発フレームワーク「superpowers」がGitHub Trendingで再上昇（本日+1,255スター、累計30.94万）。9/12既報時点は本日+731スターで、1カ月以上の間隔を空けて再び急上昇した（[daily](../daily/2026-10-31.md) / [出典](https://github.com/obra/superpowers)）

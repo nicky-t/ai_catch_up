@@ -681,3 +681,12 @@ https://www.itmedia.co.jp/aiplus/article/2611/02/2000002781/
 https://www.itmedia.co.jp/business/articles/2611/02/news032.html
 https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/
 https://github.com/vercel-labs/agent-desktop
+https://www.itmedia.co.jp/news/article/2611/03/2000002831/
+https://www.itmedia.co.jp/news/article/2611/03/2000002830/
+https://www.publickey1.jp/blog/26/githubcopilot_code_review_maxgithub_universe_2026.html
+https://www.publickey1.jp/blog/26/github180aigithub_universe_2026.html
+https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/
+https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/
+https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md
+https://github.com/Donchitos/Claude-Code-Game-Studios
+https://zenn.dev/matsushima_a/articles/day-035-claude-code-game-studios

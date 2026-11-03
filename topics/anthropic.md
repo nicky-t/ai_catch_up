@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-11-03
+updated: 2026-11-04
 tags: [anthropic, claude, safety, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-04: 修正版S-1を米SECに提出。2026年7〜9月期の売上高は169億5600万ドル（前四半期比約47%増）、1〜9月累計は332億4200万ドル。1〜9月の純損失は1040億3900万ドルに拡大（主因はSAFE等の公正価値変動という非現金損失）。インフラ関連の将来支出約束総額は約8954億ドルで、うち4475億ドルは2030年末までに発生見込み（[daily](../daily/2026-11-04.md) / [出典](https://www.itmedia.co.jp/news/article/2611/03/2000002831/)）
 - 2026-11-03: Claudeの有料プラン名を変更（「Max 5x」→「Max」、「Max 20x」→「Ultra」）。価格は変わらず既存契約者は自動移行。認証済みアカウント限定でUltraの5時間ごとの利用上限を撤廃（週次上限は維持）。Maxは5時間・週次とも「Proの5倍」、Ultraは週次で「Proの10倍」（[daily](../daily/2026-11-03.md) / [出典](https://www.itmedia.co.jp/news/article/2611/02/2000002777/)）
 - 2026-11-03: NYTなど4メディアがBraveを提訴した訴状で、Braveが無断収集したコンテンツの配信先としてAnthropic・Perplexity・Mistral・xAI・Cohereを名指し。Braveは独自クローラーで300億ページ超を索引化しサイト側がブロックできないと主張されている（[daily](../daily/2026-11-03.md) / [threads/ai-copyright](../threads/ai-copyright.md) / [出典](https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/)）
 - 2026-11-02: 標準化担当のケビン・ケリー氏が、robots.txtでAI学習への利用可否を一括表明できる仕組み「Machine-Readable Training Preference Signal」をIETFにInternet-Draftとして提出（10月30日）。OpenAI・Google・Microsoftも対応を表明（個人提出のため現時点でIETF標準化プロセス上の正式な地位はない）（[daily](../daily/2026-11-02.md) / [topics/openai](openai.md) / [出典](https://www.itmedia.co.jp/news/article/2611/01/2000002776/)）
