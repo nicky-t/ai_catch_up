@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-11-04
+updated: 2026-11-05
 tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,7 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-05: 11/3発表の学校向けAI機能オフ方針に政治的batklashが拡大。サンダース上院議員が「恐喝」、ブルメンソール上院議員は「生徒の成功よりGemini普及を優先」と批判、元FTC委員長リナ・カーン氏は独禁法違反企業による反競争的行為と非難、マムダニNYC市長も同調した。Googleは批判を受けAI製品をデフォルトでオフにしたと説明し、学校は個別にオンにできると反論。理解を段階的に促す「Guided Learning」の開発も明らかにした（[daily](../daily/2026-11-05.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/)）
 - 2026-11-04: 学校管理者が明示的に有効化しない限り、来年からK-12向けにGemini・NotebookLM・Gemini in ClassroomなどのAI機能を無効化できる方針を発表。ただしSearchのAI機能は検索エンジン自体に統合されているため分離できず、AIを全面無効化する学校はSearchそのものも使えなくなる。直接答えを教えず理解を促す学習支援ツール「Guided Learning」も同時発表（[daily](../daily/2026-11-04.md) / [出典](https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/)）
 - 2026-11-02: OpenAI・Microsoftとともに、robots.txtの共通記述でAI学習への利用可否を一括表明できる仕組みに2027年から対応する方針（提案はAnthropic、IETFへInternet-Draftとして提出）（[daily](../daily/2026-11-02.md) / [topics/openai](openai.md) / [出典](https://www.itmedia.co.jp/news/article/2611/01/2000002776/)）
 - 2026-11-01: 宇宙データセンター試作機「Suncatcher」が稼働を開始し地上との通信を確認。4基のTPUを搭載し最大1kWを発電、電力制約のため一度に起動できるのは20分程度という。Google DeepMindの「Gemma 4」で宇宙についての俳句を生成させる試験などを実施。放射線によるビット反転への耐性を今後数週間の試験で検証し、2027年には追加2基の打ち上げを目指す（[daily](../daily/2026-11-01.md) / [出典](https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/)）

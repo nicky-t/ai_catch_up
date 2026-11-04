@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-11-04
+updated: 2026-11-05
 tags: [anthropic, claude, safety, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,8 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-05: Frontier Red TeamがEPFL・MITと共同で、AIの応答が指定したモデルの重みから生成されたことをzkSNARK（暗号技術）で証明する研究プロトタイプ「FlashProve」を公開。モデル提供者が重みの“指紋”を事前公開し応答ごとに証明ファイルを作成、受け取り側はGPUなしでも検証できる。4000億パラメータのMoEモデルでの検証では証明生成毎秒約110トークン・証明サイズ約19MB・検証は24コアCPUで約17秒だが、計算コストは通常推論の約70〜95倍。コード・技術文書はApache 2.0でGitHub公開（[daily](../daily/2026-11-05.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/04/2000002863/)）
+- 2026-11-05: 10/30のプラン名変更（「Max 20x」→「Ultra」）後、Ultraの料金ページに「Proの10倍」と記載されたことで「20倍から10倍に減った」との声が拡散。プロダクト責任者は、旧称「Max 20x」は5時間制限のみの時期の名称で週次制限導入後は元々Proの10倍だったと説明し、5時間制限撤廃で表記がそれに合わせた形で実質容量は変わっていないと反論。10/23時点の料金ページで倍率表記が不十分だったとして謝罪した（[daily](../daily/2026-11-05.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/04/2000002862/)）
 - 2026-11-04: 修正版S-1を米SECに提出。2026年7〜9月期の売上高は169億5600万ドル（前四半期比約47%増）、1〜9月累計は332億4200万ドル。1〜9月の純損失は1040億3900万ドルに拡大（主因はSAFE等の公正価値変動という非現金損失）。インフラ関連の将来支出約束総額は約8954億ドルで、うち4475億ドルは2030年末までに発生見込み（[daily](../daily/2026-11-04.md) / [出典](https://www.itmedia.co.jp/news/article/2611/03/2000002831/)）
 - 2026-11-03: Claudeの有料プラン名を変更（「Max 5x」→「Max」、「Max 20x」→「Ultra」）。価格は変わらず既存契約者は自動移行。認証済みアカウント限定でUltraの5時間ごとの利用上限を撤廃（週次上限は維持）。Maxは5時間・週次とも「Proの5倍」、Ultraは週次で「Proの10倍」（[daily](../daily/2026-11-03.md) / [出典](https://www.itmedia.co.jp/news/article/2611/02/2000002777/)）
 - 2026-11-03: NYTなど4メディアがBraveを提訴した訴状で、Braveが無断収集したコンテンツの配信先としてAnthropic・Perplexity・Mistral・xAI・Cohereを名指し。Braveは独自クローラーで300億ページ超を索引化しサイト側がブロックできないと主張されている（[daily](../daily/2026-11-03.md) / [threads/ai-copyright](../threads/ai-copyright.md) / [出典](https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/)）

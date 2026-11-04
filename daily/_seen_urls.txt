@@ -690,3 +690,12 @@ https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-b
 https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md
 https://github.com/Donchitos/Claude-Code-Game-Studios
 https://zenn.dev/matsushima_a/articles/day-035-claude-code-game-studios
+https://www.itmedia.co.jp/aiplus/article/2611/04/2000002863/
+https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/
+https://atmarkit.itmedia.co.jp/ait/articles/2611/05/news004.html
+https://www.publickey1.jp/blog/26/github_copilot_dreaminggithub_universe_2026.html
+https://www.itmedia.co.jp/aiplus/article/2611/04/2000002853/
+https://www.itmedia.co.jp/aiplus/article/2611/04/2000002862/
+https://openai.com/index/openai-to-acquire-pierre
+https://github.com/mattpocock/skills
+https://github.com/NVIDIA/auto-ontology
