@@ -3,7 +3,7 @@ type: thread
 title: "国内 AI 導入動向（japan-ai-adoption）"
 slug: japan-ai-adoption
 created: 2026-08-19
-updated: 2026-11-05
+updated: 2026-11-06
 tags: [adoption, japan-company, case-study]
 status: active
 related: [topics/openai.md]
@@ -23,6 +23,7 @@ related: [topics/openai.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-06: Preferred Networks（PFN）が、翻訳特化LLM「PLaMo 3 Translate」をオープンウェイトで公開。0.8B・2B・8B・31Bの4サイズで、スマートフォン・ノートPCでのオンデバイス実行に対応し、最小の0.8BモデルでもGoogleの「TranslateGemma」・Tencentの「Hy-MT2」を上回る翻訳性能と主張。「PLaMoコミュニティライセンス」下で直近事業年度の売上10億円以下の企業・個人は商用利用も可能。10/24既報の汎用「PLaMo」の行政・教育分野での採用に続き、翻訳特化という別ラインでの国産オープンモデル展開が加わった（[daily](../daily/2026-11-06.md) / [topics/pfn](../topics/pfn.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/05/2000002900/)）
 - 2026-11-05: チームみらいの安野貴博党首が、10/23のデジタル庁への緊急提言（オープンウェイトモデルの検証環境整備・国産サイバーセキュリティAIモデルの開発支援）を踏まえ、11/3のYouTube配信で「海外モデルを自前サーバで動かしても100%安全ではない」と発言。データ主権を確保してもモデル自体が不適切な振る舞いをするリスクは残るとし、「海外クローズドモデルへのアクセス確保」「安全対策済みの海外オープンウェイトモデル利用」「国産モデルの開発」の3施策すべてが必要と述べた（[daily](../daily/2026-11-05.md) / [threads/ai-safety-regulation](ai-safety-regulation.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/04/2000002853/)）
 - 2026-11-03: メルカリでCHRO兼CAIOを務める木村俊也氏が、10月15日開催「TOKIUM AX VISION」で全従業員のAIツール利用率が100%に達し、エンジニア1人あたりの開発量はAI導入前（2024年6月）比で7.6倍になったと明らかにした。約2,000人の全社員に一律導入を迫らず活用できる人を中心に進め、一部業務を止めてエージェント構築の時間を確保したという。「時間がない」という声は消えていないとも述べた（[daily](../daily/2026-11-03.md) / [出典](https://www.itmedia.co.jp/business/articles/2611/02/news032.html)）
 - 2026-10-31: ソフトバンク子会社SB Intuitionsが、無償β版「Sarashinaサービス」で提供するAPIモデルに、シリーズ初の思考モデル「Sarashina3.2 mini thinking」を追加。既存の非思考モデルよりコーディング・ツール呼び出し・Web検索の性能が向上したという。10/14既報の無償β開始からわずか2週間での追加で、国産LLMの開発速度を示す事例（[daily](../daily/2026-10-31.md) / [topics/sb-intuitions](../topics/sb-intuitions.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/30/2000002743/)）

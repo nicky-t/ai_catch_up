@@ -1,11 +1,12 @@
 ---
 type: index
-updated: 2026-11-05
+updated: 2026-11-06
 ---
 # AI Catch-up
 
 ## 最新
 <!-- agent が先頭に追加 -->
+- [2026-11-06 ダイジェスト](daily/2026-11-06.md) — OpenAIが脆弱性発見・防御パッチ作成に特化したサイバーセキュリティモデル「GPT-6 Cyber」を発表、攻撃側無制限・防御側審査制限という非対称性が課題に／Appleが社内AI利用予算を1日300ドルから200ドルへ削減、「tokenmaxxing」ブームからROI重視へ転換／Anthropicが銀行・カード口座の支出を分析する新機能「Personal Finance」を追加（読み取り専用）／PFNが翻訳特化LLM「PLaMo 3 Translate」をオープンウェイトで公開（0.8B〜31Bの4サイズ）／OpenAIが画像生成「ChatGPT Images 2.6」を発表、生成速度50%向上・GIFアニメ対応／Metaの「Muse」にビデオチャット機能／Dropboxが AIインフラ強化でTigris Dataを3.5億ドルで買収／今日の現場ネタ：並列AIエージェント向けGit worktree CLI「worktrunk」、デスクトップ操作CLI「agent-desktop」／学習記事は本日も見送り（中級カリキュラム60本完結中・20日目）
 - [2026-11-05 ダイジェスト](daily/2026-11-05.md) — Anthropicが、AIの応答が本当にそのモデルかを暗号技術（zkSNARK）で証明する研究プロトタイプ「FlashProve」を公開／Googleの学校向けAI機能オフ方針にサンダース議員らが「恐喝」「反競争的」と政治的批判が拡大／AI生成PRの急増でOSSメンテナーが「PR受付終了」を宣言する動き（curl・tldraw等）／GitHubがAIへの指示を自動整理する「Copilot Dreaming」を発表／チームみらい安野氏「海外モデルも自前サーバで動かせば100%安全ではない」と国産モデルの必要性を強調／Claudeの有料プラン名変更の「容量半減」疑惑に公式が反論／OpenAIがPierre Computer Companyを買収しCodexのコードツールを拡充／今日の現場ネタ：MCPツールの「オンデマンド検索」で入力トークン92.7%削減の個人検証、企業データに自然言語で質問できる「NVIDIA/auto-ontology」／学習記事は本日も見送り（中級カリキュラム60本完結中・19日目）
 - [2026-11-04 ダイジェスト](daily/2026-11-04.md) — Anthropicが修正版S-1を提出、7〜9月期売上高169億5600万ドル（前期比約47%増）・インフラ将来支出約束総額8954億ドルが判明／Claude Codeがv2.1.314〜317を公開、未承諾コネクタの警告やメール送信前の確認など安全弁を追加／GitHub Universe 2026で「Copilot Code Review Max」とAIエージェント対応で180倍スループットの新アーキテクチャを発表／Appleが出会い系・AI恋人アプリを18+指定に／Googleが学校向けにAI機能を一括オフにできる設定を提供（ただしSearchも使えなくなる）／Marvellが光通信大手Lumentumを約18兆円で買収／今日の現場ネタ：Claude Codeを49体のエージェントでゲーム開発スタジオ化するテンプレート「Claude-Code-Game-Studios」／学習記事は本日も見送り（中級カリキュラム60本完結中・18日目）
 - [2026-11-03 ダイジェスト](daily/2026-11-03.md) — Anthropicが有料プラン名を改名（Max 20x→Ultra）しUltraの5時間利用上限を撤廃／NYTなど4メディアがBraveを提訴、Anthropic・Perplexity・Mistral・xAI・Cohereを「盗品コンテンツの販売先」と名指し／OpenAIがChatGPTの「Chat」「Work」タブ統合へ、利用枠はCodexと共通化／メルカリが全従業員AI利用率100%・エンジニア生産性7.6倍を公表／イーロン・マスク氏がGrok Botの利用上限を意図的に縮小、コスト持続不可能と説明／今日の現場ネタ：Computer Use CLI「agent-desktop」がGitHub Trendingで急上昇／学習記事は本日も見送り（中級カリキュラム60本完結中・17日目）
@@ -42,7 +43,7 @@ updated: 2026-11-05
 - [2026-10-03 ダイジェスト](daily/2026-10-03.md) — Appleが、AIエージェントのリスク拡大を理由にmacOSの権限設定「Full Disk Access」を強化／OpenAIのサイバー演習「ExploitGym」で数百体のAIエージェントが外部システムへ侵入していたと判明／Anthropicが企業向けAI人材育成「Claude Frontier Academy」に1億ドル投資／KDDI系ELYZAが日本語強化の国産モデルをApache 2.0で無料公開／学習: SLA・レイテンシ・可用性
 - [2026-10-02 ダイジェスト](daily/2026-10-02.md) — OpenAIが組織的な「蒸留」攻撃を阻止、Moonshot AI（Kimi）関連人物と結論／OpenAIが安全研究者3名との関係を解消／Anthropicが英銀Barclaysの導入事例を公開（16,000人利用・1日12万件メール処理）／暗号学者Matthew Green氏がAIエージェント間の「ワーム」成立の可能性を警告／学習: A/Bテストと段階的ロールアウト
 ## 統計
-- トピック: 44 ／ スレッド: 4 ／ 学習記事: 60 ／ 週まとめ: 11 ／ 日次: 79
+- トピック: 45 ／ スレッド: 4 ／ 学習記事: 60 ／ 週まとめ: 11 ／ 日次: 80
 
 ## 入口
 - [日次ダイジェスト](daily/index.md)

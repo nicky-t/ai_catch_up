@@ -3,10 +3,10 @@ type: thread
 title: "AIの生産性・雇用への影響（ai-productivity-employment）"
 slug: ai-productivity-employment
 created: 2026-10-18
-updated: 2026-11-01
+updated: 2026-11-06
 tags: [productivity, hr, survey]
 status: active
-related: [topics/anthropic.md, topics/microsoft.md]
+related: [topics/anthropic.md, topics/microsoft.md, topics/apple.md]
 ---
 
 # AIの生産性・雇用への影響（ai-productivity-employment）
@@ -23,6 +23,7 @@ related: [topics/anthropic.md, topics/microsoft.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-06: Bloomberg報道によると、Appleが社内エンジニアリング部門のAI利用予算の上限を10月に1日300ドルから200ドルへ引き下げ、今後一部では100ドルまで下げる見通し。エンジニア以外の部門では1日25ドルという低い上限も検討中という。2026年前半に広がった「企業が社員にできるだけAIを使わせる」風潮（tokenmaxxing）が、トークン利用料の請求が現実になるにつれ急速に下火になり、利用制限の方が財務的に賢明だという見方が広がっている（[daily](../daily/2026-11-06.md) / [topics/apple](../topics/apple.md) / [出典](https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/)）
 - 2026-11-01: INDUSTRIAL-Xの調査（2026年7月実施、有効回答1,031人）で、AI活用企業（PoC含む）は60.9%、「全社的に活用」は26.7%（前年比7.7ポイント増）。AI活用企業のうちAIエージェントが「本番業務で自律実行」14.5%・「限定的運用」26.0%・「補助利用」33.6%で合計74.1%が本格運用段階にあるという。一方「明確な成果」が出ている企業は10.0%にとどまり、経営層が積極的に関与する企業では明確な成果が出ている割合が24.3%（関与なし企業6.6%、約3.7倍）など組織要因による差が大きい。10/26既報のApollo分析（財務効果は実質ゼロ）と対照的に、普及率そのものは高いという数字が示された（[daily](../daily/2026-11-01.md) / [出典](https://www.itmedia.co.jp/enterprise/articles/2610/31/news008.html)）
 - 2026-10-29: GitHubの年次報告書「Octoverse 2026」について、開発者Simon Willison氏がマージされたプルリクエストが月間2.2億件（1年足らずで3倍）、コミットは月間73.8億件（3倍超、増加の大半は下半期）、新規リポジトリ作成は月間3,030万件（今年倍増）になったと紹介。「エージェント型開発がGitHubに与えた影響の生々しい表れ」と評した（[daily](../daily/2026-10-29.md) / [出典](https://simonwillison.net/2026/Oct/28/github-octoverse-2026/)）
 - 2026-10-26: Apolloのチーフエコノミスト、Torsten Slok氏が、S&P500からAlphabet・Amazon・Apple・Meta・Microsoft・Nvidia・Teslaの7社を除いた「S&P493社」を分析したノートを公表。この493社では利益率・従業員1人当たり売上がほぼ横ばいで、AIによる生産性向上を示す証拠は見当たらないと指摘し「財務的な成果はゼロ」と述べた。これまでの経緯が自社データによる「自己申告」中心だったのに対し、外部エコノミストによる懐疑的な分析が加わった（[daily](../daily/2026-10-26.md) / [出典](https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/)）

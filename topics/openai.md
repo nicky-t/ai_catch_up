@@ -3,7 +3,7 @@ type: topic
 title: "OpenAI"
 slug: openai
 created: 2026-08-19
-updated: 2026-11-05
+updated: 2026-11-06
 tags: [openai, chatgpt, gpt, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,8 @@ ChatGPT と GPT 系モデルを開発する米国の AI 企業。一般利用者
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-06: サイバーセキュリティ特化モデル「GPT-6 Cyber」を発表。脆弱性の発見・検証や修正パッチ作成を行う機能で、提供対象はサイバーセキュリティプログラム「Daybreak」の最上位ティア「Daybreak Red」の審査済み利用者（運転免許証等でのID確認が必要）に限定。関連する脆弱性調査ではLinuxカーネルで948件・Firefoxで81件の新規脆弱性発見に取り組み、Linuxのバグ探索には約120万ドルを投じたという（[daily](../daily/2026-11-06.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/)）
+- 2026-11-06: 画像生成モデル「ChatGPT Images 2.6」を発表。生成速度を従来比50%向上させ、ループアニメ化・スケッチのアニメーション変換ができるGIFアニメ生成機能を追加。発表当日からChatGPT・Codexの全プラン（無料含む）で利用可能。生成画像にはGoogle DeepMindの電子透かし「SynthID」をC2PAに加えて導入。週約40億枚の画像生成規模という（[daily](../daily/2026-11-06.md) / [出典](https://www.itmedia.co.jp/news/article/2611/05/2000002894/)）
 - 2026-11-05: Pierre Computer Companyの買収を発表。公式RSS配信の説明によれば、コードを構築・理解・レビューするためのCodexのツールを拡充する狙いという。買収金額やPierre社の事業内容の詳細は記事執筆時点で確認できていない（個別記事ページは403のためRSS配信の説明文に基づく）（[daily](../daily/2026-11-05.md) / [出典（RSS）](https://openai.com/news/rss.xml)）
 - 2026-11-03: ChatGPTデスクトップアプリの「Chat」タブと「Work」タブを1つの体験に統合する計画を利用者向けメールで明らかにした。Codexは引き続き別体験として残るが、ChatGPTとCodexは利用枠を共通プールから消費する設計になり、一部利用者は上限到達・リセット待ちが増える可能性がある。まず少数の利用者に先行公開する方針（[daily](../daily/2026-11-03.md) / [topics/anthropic](anthropic.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/02/2000002781/)）
 - 2026-11-02: ChatGPTのHTMLプレビュー（旧Canvas）のサンドボックス化されたiframeを突破する攻撃連鎖が報告された。数式ライブラリMathLiveの仮想キーボードがpostMessage()経由でinnerHTMLを使っていた実装の不備が起点で、CSPで許可されていたYouTubeのoEmbedエンドポイントでJavaScriptを実行し、画像参照経由でユーザーの非公開データを外部送信できた。OpenAIは修正し5,000ドルの報奨金を支払った（[daily](../daily/2026-11-02.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/)）

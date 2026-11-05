@@ -699,3 +699,13 @@ https://www.itmedia.co.jp/aiplus/article/2611/04/2000002862/
 https://openai.com/index/openai-to-acquire-pierre
 https://github.com/mattpocock/skills
 https://github.com/NVIDIA/auto-ontology
+https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/
+https://openai.com/index/introducing-gpt-6-cyber
+https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/
+https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/
+https://www.itmedia.co.jp/aiplus/article/2611/05/2000002900/
+https://www.itmedia.co.jp/news/article/2611/05/2000002894/
+https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/
+https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/
+https://github.com/vercel-labs/agent-desktop
+https://github.com/max-sixty/worktrunk

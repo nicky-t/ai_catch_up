@@ -3,7 +3,7 @@ type: thread
 title: "AI安全規制の動き（ai-safety-regulation）"
 slug: ai-safety-regulation
 created: 2026-08-23
-updated: 2026-11-05
+updated: 2026-11-06
 tags: [regulation, safety]
 status: active
 related: [topics/openai.md, topics/anthropic.md]
@@ -24,6 +24,7 @@ related: [topics/openai.md, topics/anthropic.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-06: 「防御に使えるAIモデルほど利用が制限される」という非対称性が具体化した。OpenAIが脆弱性の発見・検証や修正パッチ作成を行うサイバーセキュリティ特化モデル「GPT-6 Cyber」を発表したが、提供対象はプログラム「Daybreak」の最上位ティア「Daybreak Red」の審査済み利用者（運転免許証等でのID確認が必要）に限定される。一方で攻撃側は「ガードレールを除去したオープンウェイトモデル」を無制限に使えるとされ、Linuxカーネルのバグ探索には約120万ドルを投じているという（[daily](../daily/2026-11-06.md) / [topics/openai](../topics/openai.md) / [出典](https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/)）
 - 2026-11-05: 「AIの出力を暗号的に検証する」という技術的対策が登場した一方、「AI機能オフの是非」を巡る政治的対立も表面化した1日。Anthropicが、AIの応答が指定モデルの重みから生成されたことをzkSNARKで証明する研究プロトタイプ「FlashProve」（EPFL・MITと共同、Apache 2.0公開）を発表。同日、Googleの学校向けAI機能オフ方針（11/3既報）に対し、サンダース上院議員が「恐喝」、元FTC委員長リナ・カーン氏が「反競争的行為」と批判するなど政治レベルの対立に拡大した（[daily](../daily/2026-11-05.md) / [topics/anthropic](../topics/anthropic.md) / [topics/google](../topics/google.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/04/2000002863/)）
 - 2026-11-04: Appleが、法律ではなくApp Store審査方針としてAI安全規制に動いた一例。出会い系・恋愛関係機能を持つアプリを18+指定にし、AI恋人（コンパニオン）アプリも対象になりうるとした。11月16日からは機能に即した年齢指定のためのコンテンツ記述子の追加が必須化（[daily](../daily/2026-11-04.md) / [topics/apple](../topics/apple.md) / [出典](https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/)）
 - 2026-11-02: ChatGPTのHTMLプレビュー（旧Canvas）機能で、サンドボックス化されたiframeを突破しユーザーの非公開データを外部送信できる攻撃連鎖が報告された。数式ライブラリMathLiveの仮想キーボードがpostMessage()経由でinnerHTMLを使っていた実装の不備が起点で、CSPで許可されていたYouTubeのoEmbedエンドポイントでJavaScriptを実行し画像参照経由でデータを持ち出す手口。OpenAIは修正し5,000ドルの報奨金を支払った。10/30既報のClaude Code拡張機能なりすましに続き、AI製品のサンドボックス・拡張機能を狙う攻撃が相次いで報告されている（[daily](../daily/2026-11-02.md) / [topics/openai](../topics/openai.md) / [出典](https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/)）
