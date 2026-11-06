@@ -3,7 +3,7 @@ type: topic
 title: "OpenAI"
 slug: openai
 created: 2026-08-19
-updated: 2026-11-06
+updated: 2026-11-07
 tags: [openai, chatgpt, gpt, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,7 @@ ChatGPT と GPT 系モデルを開発する米国の AI 企業。一般利用者
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-07: 11月3日の米中間選挙でデータセンター建設への規制・制限を訴えた候補者が各地で当選したことを受け、地域協約「National Community Compact」（電力・インフラ費用の全額自社負担、公職者とのNDA原則禁止、水・騒音データの公開）と政策提言「Compute Campus Policy Blueprint」を発表。エフィンガム郡（ジョージア州）では電力会社がピーク時にOpenAIへの供給を最大1000MW削減できる契約を結んでいるという（[daily](../daily/2026-11-07.md) / [topics/meta](meta.md) / [threads/ai-datacenter-energy](../threads/ai-datacenter-energy.md) / [出典](https://www.itmedia.co.jp/news/article/2611/06/2000002928/)）
 - 2026-11-06: サイバーセキュリティ特化モデル「GPT-6 Cyber」を発表。脆弱性の発見・検証や修正パッチ作成を行う機能で、提供対象はサイバーセキュリティプログラム「Daybreak」の最上位ティア「Daybreak Red」の審査済み利用者（運転免許証等でのID確認が必要）に限定。関連する脆弱性調査ではLinuxカーネルで948件・Firefoxで81件の新規脆弱性発見に取り組み、Linuxのバグ探索には約120万ドルを投じたという（[daily](../daily/2026-11-06.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/)）
 - 2026-11-06: 画像生成モデル「ChatGPT Images 2.6」を発表。生成速度を従来比50%向上させ、ループアニメ化・スケッチのアニメーション変換ができるGIFアニメ生成機能を追加。発表当日からChatGPT・Codexの全プラン（無料含む）で利用可能。生成画像にはGoogle DeepMindの電子透かし「SynthID」をC2PAに加えて導入。週約40億枚の画像生成規模という（[daily](../daily/2026-11-06.md) / [出典](https://www.itmedia.co.jp/news/article/2611/05/2000002894/)）
 - 2026-11-05: Pierre Computer Companyの買収を発表。公式RSS配信の説明によれば、コードを構築・理解・レビューするためのCodexのツールを拡充する狙いという。買収金額やPierre社の事業内容の詳細は記事執筆時点で確認できていない（個別記事ページは403のためRSS配信の説明文に基づく）（[daily](../daily/2026-11-05.md) / [出典（RSS）](https://openai.com/news/rss.xml)）

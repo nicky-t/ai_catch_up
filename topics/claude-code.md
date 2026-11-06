@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-11-04
+updated: 2026-11-07
 tags: [claude-code, anthropic, agent, productivity]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,8 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-07: Web検索・シェル経由のリクエストで送るUser-Agentヘッダーに利用者のメールアドレスが無断で載る問題が発覚し、Hacker Newsで1,531pt・GitHub Issue #107757に約680件の支持反応が集まった。シェル実行でのcurl呼び出しや、モデルが文脈から自動生成するUser-Agent文字列（プロジェクト名入り）など複数の経路が確認された。Anthropicは該当パターンを遮断する組み込みmod「cc-plugin-privacy」（v2.1.317で追加）を説明したが、任意のヘッダー名やファイル経由での漏えいはv2.1.319でも防げないとの報告が続いている（[daily](../daily/2026-11-07.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://github.com/anthropics/claude-code/issues/107757)）
+- 2026-11-06（今日の現場ネタ）: スクリーンショット無しでOSアクセシビリティツリーを読み取りAIエージェントにデスクトップ操作を許可するCLI「vercel-labs/agent-desktop」がGitHub Trendingで急上昇（本日+1,661スター・累計約16.7k）。`agent-desktop snapshot`で要素を取得し`agent-desktop click @<id>:<ref>`で操作、`agent-desktop mcp`でMCPサーバーとしても起動できる。並列AIエージェント向けのGit worktree管理CLI「max-sixty/worktrunk」も急上昇（本日+546スター・累計約11.5k）し、`wt switch -x claude -c <branch> -- '指示'`でworktree作成とエージェント起動を1コマンドで行える（[daily](../daily/2026-11-06.md) / [出典](https://github.com/vercel-labs/agent-desktop)）
 - 2026-11-04: バージョン2.1.314〜317を公開。2.1.314で作業フォルダ外への書き込みを止める`permissions.blockWritesOutsideWorkingDirectories`を追加、2.1.316でOpus 4.8のFast modeを2026年11月30日以降に廃止する方針を発表、2.1.317で`/schedule`の未承諾コネクタ警告・Web/シェルツールがアカウントメールを送信する前の事前確認・Agent SDKフックのコールバック失敗時ブロックを追加（[daily](../daily/2026-11-04.md) / [出典](https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md)）
 - 2026-11-04（今日の現場ネタ）: Claude Codeを49体のエージェント・74スキルでゲーム開発スタジオ化するMITライセンスのテンプレート「Claude-Code-Game-Studios」がGitHub Trendingで急上昇（約34.5万スター）。個人の実践レポートでは`/start`〜`/dev-story`の流れでUnityの小規模ゲームを実装し専用レビューエージェントが2件のバグを検出したが、プレイヤー操作やカメラなどの「つなぎ込み」は手動対応が必要だったという（[daily](../daily/2026-11-04.md) / [出典](https://github.com/Donchitos/Claude-Code-Game-Studios)）
 - 2026-11-01（今日の現場ネタ）: セッションを超えてエージェントに記憶を持たせるプラグイン「claude-mem」がGitHub Trendingで急上昇（本日+1,723スター、累計107,683）。ツール利用・作業内容を自動で要約・保存し次回セッション開始時に注入する設計で、Claude Code・Codex・Gemini等に対応。サインインで30日間の無料トライアルが有効になり、期限後は自分のAnthropicプランかOpenRouter/Geminiキーへの切り替えが必要（[daily](../daily/2026-11-01.md) / [出典](https://github.com/thedotmack/claude-mem)）

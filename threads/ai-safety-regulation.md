@@ -3,7 +3,7 @@ type: thread
 title: "AI安全規制の動き（ai-safety-regulation）"
 slug: ai-safety-regulation
 created: 2026-08-23
-updated: 2026-11-06
+updated: 2026-11-07
 tags: [regulation, safety]
 status: active
 related: [topics/openai.md, topics/anthropic.md]
@@ -24,6 +24,10 @@ related: [topics/openai.md, topics/anthropic.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-07: 「便利な自動化ツールほど、見えない情報漏えいの経路が増える」という論点が、AIコーディングエージェント自身の挙動として具体化した。Claude CodeがWeb検索・シェル経由のリクエストで送るUser-Agentヘッダーに利用者のメールアドレスを無断で載せていた問題がHacker Newsで1,531pt・GitHub Issueで約680件の支持を集めた。Anthropicは遮断用の組み込みmod「cc-plugin-privacy」（v2.1.317で追加）を説明したが、任意のヘッダー名や別経路での漏えいはv2.1.319でも防げないとの報告が続く（[daily](../daily/2026-11-07.md) / [topics/claude-code](../topics/claude-code.md) / [出典](https://github.com/anthropics/claude-code/issues/107757)）
+- 2026-11-07: 第三者機関METRが、Anthropicの協力を得て「AIがAI開発を加速させているか」を検証したレポートを公開。能力向上ペースは2024年3月〜2025年10月に比べ約2倍に加速した可能性が高いと分析した一方、結論に最も影響した証拠の大部分がAnthropicの判断で公開版から削除されており、「組み込み評価者にアクセス権を与えた」ことと「結論を外部が検証できる」ことは別問題だという論点を提示した（[daily](../daily/2026-11-07.md) / [topics/anthropic](../topics/anthropic.md) / [topics/metr](../topics/metr.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/06/2000002938/)）
+- 2026-11-07: AIエージェントの本番運用事故の具体例として、顧客対応AIエージェントが返金データの「4800セント」（＝48ドル）の「セント」を見落とし4800ドルとして処理する事故がAGNTCon Japan 2026で報告された。AAIFのAngie Jones氏は、事後検証できるログ・行動を制御できる仕組み・ワークフローを変更できる体制という3点を挙げ、「Human in the loop」より一歩進んだ「own the loop」（ループを自ら持つ）という考え方を紹介した（[daily](../daily/2026-11-07.md) / [topics/agent-harness](../topics/agent-harness.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2611/06/news012.html)）
+- 2026-11-07: AIエージェントのセキュリティが商用の買収市場として成立し始めた実例として、Palo Alto Networksが企業システムへのAIエージェントアクセスを保護するスタートアップ「Clutch Security」を約5億ドル（ARRの約50倍）で買収協議中と判明。同分野では競合Oasis SecurityをCyeraが10億ドルで、AstrixをCiscoが約4億ドルで買収したと報じられており、セキュリティ大手が自社開発ではなく買収でAIエージェント対応を急いでいる（[daily](../daily/2026-11-07.md) / [出典](https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/)）
 - 2026-11-06: 「防御に使えるAIモデルほど利用が制限される」という非対称性が具体化した。OpenAIが脆弱性の発見・検証や修正パッチ作成を行うサイバーセキュリティ特化モデル「GPT-6 Cyber」を発表したが、提供対象はプログラム「Daybreak」の最上位ティア「Daybreak Red」の審査済み利用者（運転免許証等でのID確認が必要）に限定される。一方で攻撃側は「ガードレールを除去したオープンウェイトモデル」を無制限に使えるとされ、Linuxカーネルのバグ探索には約120万ドルを投じているという（[daily](../daily/2026-11-06.md) / [topics/openai](../topics/openai.md) / [出典](https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/)）
 - 2026-11-05: 「AIの出力を暗号的に検証する」という技術的対策が登場した一方、「AI機能オフの是非」を巡る政治的対立も表面化した1日。Anthropicが、AIの応答が指定モデルの重みから生成されたことをzkSNARKで証明する研究プロトタイプ「FlashProve」（EPFL・MITと共同、Apache 2.0公開）を発表。同日、Googleの学校向けAI機能オフ方針（11/3既報）に対し、サンダース上院議員が「恐喝」、元FTC委員長リナ・カーン氏が「反競争的行為」と批判するなど政治レベルの対立に拡大した（[daily](../daily/2026-11-05.md) / [topics/anthropic](../topics/anthropic.md) / [topics/google](../topics/google.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/04/2000002863/)）
 - 2026-11-04: Appleが、法律ではなくApp Store審査方針としてAI安全規制に動いた一例。出会い系・恋愛関係機能を持つアプリを18+指定にし、AI恋人（コンパニオン）アプリも対象になりうるとした。11月16日からは機能に即した年齢指定のためのコンテンツ記述子の追加が必須化（[daily](../daily/2026-11-04.md) / [topics/apple](../topics/apple.md) / [出典](https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/)）

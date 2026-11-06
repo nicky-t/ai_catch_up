@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-11-06
+updated: 2026-11-07
 tags: [anthropic, claude, safety, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,8 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-07: 法人カード大手Rampの経済データで、企業のAIトークン支出が6〜7月に42%増えた一方8〜9月は1.5%増にとどまったと判明。Anthropicの大幅値下げは売上成長を約6億ドル押し下げたとされ、Bloomberg報道では想定評価額が10月初旬の約2兆ドルから1.2〜1.3兆ドルへ下落、信用格付け機関からジャンク級の見通しも出ているという（[daily](../daily/2026-11-07.md) / [topics/openai](openai.md) / [threads/ai-productivity-employment](../threads/ai-productivity-employment.md) / [出典](https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/)）
+- 2026-11-07: 非営利研究機関METRが、Anthropicの協力を得て「AIがAI開発を加速させているか」を検証したレポートを公開。能力向上ペースは2024年3月〜2025年10月に比べ約2倍に加速した可能性が高いと分析した一方、結論に最も影響した証拠の大部分がAnthropicの判断で公開版から削除されており、公開版の結論にはMETR独自の判断が大きく含まれるという（[daily](../daily/2026-11-07.md) / [topics/metr](metr.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/06/2000002938/)）
 - 2026-11-06: 銀行口座・クレジットカードを連携して支出を分析する新機能「Personal Finance」をベータ公開。Plaid経由で接続し、使途別集計・重複請求の指摘・金融用語の解説に対応。読み取り専用で資金移動・投資は不可、アクセス範囲は銀行名・口座名・口座種別・口座番号下4桁・残高・直近2年分の取引履歴に限定され、チャット内容はモデル学習に使われないという。まずは米国のPro・Max・Ultraプラン利用者に提供（[daily](../daily/2026-11-06.md) / [出典](https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/)）
 - 2026-11-05: Frontier Red TeamがEPFL・MITと共同で、AIの応答が指定したモデルの重みから生成されたことをzkSNARK（暗号技術）で証明する研究プロトタイプ「FlashProve」を公開。モデル提供者が重みの“指紋”を事前公開し応答ごとに証明ファイルを作成、受け取り側はGPUなしでも検証できる。4000億パラメータのMoEモデルでの検証では証明生成毎秒約110トークン・証明サイズ約19MB・検証は24コアCPUで約17秒だが、計算コストは通常推論の約70〜95倍。コード・技術文書はApache 2.0でGitHub公開（[daily](../daily/2026-11-05.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/04/2000002863/)）
 - 2026-11-05: 10/30のプラン名変更（「Max 20x」→「Ultra」）後、Ultraの料金ページに「Proの10倍」と記載されたことで「20倍から10倍に減った」との声が拡散。プロダクト責任者は、旧称「Max 20x」は5時間制限のみの時期の名称で週次制限導入後は元々Proの10倍だったと説明し、5時間制限撤廃で表記がそれに合わせた形で実質容量は変わっていないと反論。10/23時点の料金ページで倍率表記が不十分だったとして謝罪した（[daily](../daily/2026-11-05.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/04/2000002862/)）

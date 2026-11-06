@@ -3,7 +3,7 @@ type: thread
 title: "国内 AI 導入動向（japan-ai-adoption）"
 slug: japan-ai-adoption
 created: 2026-08-19
-updated: 2026-11-06
+updated: 2026-11-07
 tags: [adoption, japan-company, case-study]
 status: active
 related: [topics/openai.md]
@@ -23,6 +23,8 @@ related: [topics/openai.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-07: ソフトウェア開発企業フィックスターズが、国内GPUサーバ上でオープンウェイトモデルを使えるサービスを発表。入出力データは国内GPUサーバのみで処理・保存しないとし、最初に提供するのは中国DeepSeekの「DeepSeek-V4.1-Flash-1017」。価格は100万トークンあたり入力48円・出力192円・キャッシュ読み取り0.96円で、今後は提供モデルを拡充する予定（[daily](../daily/2026-11-07.md) / [topics/deepseek](../topics/deepseek.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/06/2000002955/)）
+- 2026-11-07: 生成AI企業SpiralAI（東京都）が給与を変えずに週休2日制から週休3日制へ移行した事例が判明。AI活用を促す「劇薬」として導入したが、発表時に歓迎した社員は誰もおらず、納期・品質を落とせないという不安が若手・ディレクター職から相次いだ。詳細は[threads/ai-productivity-employment](ai-productivity-employment.md)（[daily](../daily/2026-11-07.md) / [出典](https://www.itmedia.co.jp/news/article/2611/06/2000002867/)）
 - 2026-11-06: Preferred Networks（PFN）が、翻訳特化LLM「PLaMo 3 Translate」をオープンウェイトで公開。0.8B・2B・8B・31Bの4サイズで、スマートフォン・ノートPCでのオンデバイス実行に対応し、最小の0.8BモデルでもGoogleの「TranslateGemma」・Tencentの「Hy-MT2」を上回る翻訳性能と主張。「PLaMoコミュニティライセンス」下で直近事業年度の売上10億円以下の企業・個人は商用利用も可能。10/24既報の汎用「PLaMo」の行政・教育分野での採用に続き、翻訳特化という別ラインでの国産オープンモデル展開が加わった（[daily](../daily/2026-11-06.md) / [topics/pfn](../topics/pfn.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/05/2000002900/)）
 - 2026-11-05: チームみらいの安野貴博党首が、10/23のデジタル庁への緊急提言（オープンウェイトモデルの検証環境整備・国産サイバーセキュリティAIモデルの開発支援）を踏まえ、11/3のYouTube配信で「海外モデルを自前サーバで動かしても100%安全ではない」と発言。データ主権を確保してもモデル自体が不適切な振る舞いをするリスクは残るとし、「海外クローズドモデルへのアクセス確保」「安全対策済みの海外オープンウェイトモデル利用」「国産モデルの開発」の3施策すべてが必要と述べた（[daily](../daily/2026-11-05.md) / [threads/ai-safety-regulation](ai-safety-regulation.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/04/2000002853/)）
 - 2026-11-03: メルカリでCHRO兼CAIOを務める木村俊也氏が、10月15日開催「TOKIUM AX VISION」で全従業員のAIツール利用率が100%に達し、エンジニア1人あたりの開発量はAI導入前（2024年6月）比で7.6倍になったと明らかにした。約2,000人の全社員に一律導入を迫らず活用できる人を中心に進め、一部業務を止めてエージェント構築の時間を確保したという。「時間がない」という声は消えていないとも述べた（[daily](../daily/2026-11-03.md) / [出典](https://www.itmedia.co.jp/business/articles/2611/02/news032.html)）

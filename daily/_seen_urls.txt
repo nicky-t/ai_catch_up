@@ -709,3 +709,14 @@ https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-the
 https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/
 https://github.com/vercel-labs/agent-desktop
 https://github.com/max-sixty/worktrunk
+https://github.com/anthropics/claude-code/issues/107757
+https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/
+https://atmarkit.itmedia.co.jp/ait/articles/2611/06/news012.html
+https://www.itmedia.co.jp/aiplus/article/2611/06/2000002938/
+https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/
+https://www.itmedia.co.jp/news/article/2611/06/2000002928/
+https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/
+https://www.itmedia.co.jp/aiplus/article/2611/06/2000002937/
+https://www.itmedia.co.jp/news/article/2611/06/2000002867/
+https://www.itmedia.co.jp/aiplus/article/2611/06/2000002955/
+https://github.com/google/skills
