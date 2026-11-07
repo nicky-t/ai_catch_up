@@ -3,7 +3,7 @@ type: thread
 title: "データセンター・電力と地域社会の摩擦（ai-datacenter-energy）"
 slug: ai-datacenter-energy
 created: 2026-11-07
-updated: 2026-11-07
+updated: 2026-11-08
 tags: [regulation, cost]
 status: active
 related: [topics/openai.md, topics/meta.md]
@@ -23,6 +23,7 @@ AI向けデータセンターの急増が引き起こす電力コスト・水資
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-08: データセンター開発企業Crusoe（企業価値309億ドル）が、Blackstone系Tallgrassと計画していた南東ワイオミング州の未完成データセンター群をGoogleへ売却。Googleはコスト・工期への懸念からCrusoeの開発体制に疑問を持っていたとされ、自ら開発を引き継ぎ170億ドルを投資する計画を発表した。「AIの拡大は資金さえあれば続く」という前提に対し、「誰が建てるか」という実務上の制約も具体化した事例（[daily](../daily/2026-11-08.md) / [topics/google](../topics/google.md) / [出典](https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/)）
 - 2026-11-07（今日）: 11月3日の米中間選挙でデータセンター建設への規制・制限を訴えた候補者が各地で当選し、少なくとも38地域で建設禁止・制限が支持される結果に。OpenAIは11月5日、地域ごとの協定で計画初期段階から住民意見を反映し電力・インフラ費用を全額自社負担する「National Community Compact」と、送電網への負担分散・税優遇の回収などを政府に求める「Compute Campus Policy Blueprint」を発表（選挙結果には直接言及せず）。エフィンガム郡（ジョージア州）では電力会社がピーク時にOpenAIへの供給を最大1000MW削減できる契約を結んでいるという。同日、Metaのプレジデント、ダイナ・パウエル・マコーミック氏はWSJ主催のカンファレンスで「民主党の勝利でデータセンター建設は格段に難しくなる」「業界はメリットを十分説明できていなかった」と述べ、逆風を率直に認めた。Metaは消費者向けAIエージェント「Muse」（1000万ユーザー）がデータセンター投資を正当化する事業に成長することに期待をかけつつ、それが実現しなくてもコンピュートをリースする需要が日々あるとした（[daily](../daily/2026-11-07.md) / [topics/openai](../topics/openai.md) / [topics/meta](../topics/meta.md) / [出典](https://www.itmedia.co.jp/news/article/2611/06/2000002928/)）
 
 ## 論点・見立て

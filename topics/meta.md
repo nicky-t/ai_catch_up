@@ -3,7 +3,7 @@ type: topic
 title: "Meta（メタ）"
 slug: meta
 created: 2026-09-03
-updated: 2026-11-07
+updated: 2026-11-08
 tags: [meta, speech, agent]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,7 @@ Facebook・Instagram・WhatsAppなどを運営する米国のテクノロジー�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-08: パーソナルAIエージェント「Muse」に、旅行計画・レシピ収集・ギフト管理などテーマ別の会話を整理できる新機能「Spaces」を追加。外部アプリと連携させれば、日程や価格変動などの情報をバックグラウンドで自動更新できる（[daily](../daily/2026-11-08.md) / [topics/muse](muse.md) / [出典](https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/)）
 - 2026-11-07: プレジデントのダイナ・パウエル・マコーミック氏が、11月3日の米中間選挙でデータセンター建設への規制派候補が各地で当選したことについて「民主党の勝利でデータセンター建設は格段に難しくなる」「業界はメリットを十分説明できていなかった」とWSJ主催のカンファレンスで発言。消費者向けAIエージェント「Muse」（1000万ユーザー）が投資を正当化する事業に成長することに期待をかけつつ、それが実現しなくてもコンピュートをリースする需要が日々あるとした（[daily](../daily/2026-11-07.md) / [topics/openai](openai.md) / [threads/ai-datacenter-energy](../threads/ai-datacenter-energy.md) / [出典](https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/)）
 - 2026-10-30: Meta FARとハーバード大学などの研究者による論文「Scaling Multi-Agent Intelligence with Substrate-Centric Coordination」が報道。複数エージェントの性能が数に比例して伸びない原因を整理し対処法「ScaleMAS」を提案。ソフトウェア修正課題では4体のScaleMASが8体の独立エージェントと同成績を約半分のトークン数で達成する一方、数学の定理証明課題では16体程度で改善が頭打ちになったという（[daily](../daily/2026-10-30.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/29/2000002632/)）
 - 2026-10-29: NVIDIA（10/26）・AMD（10/27）がそれぞれMetaとのAI分野での戦略的提携拡大を発表。AIエージェント「Muse」の学習・推論基盤強化が対象で、両社は10月26日発表の最大950億ドル規模の株式発行計画にNVIDIAが30億ドル・AMDが10億ドルを出資する（[daily](../daily/2026-10-29.md) / [topics/nvidia](nvidia.md) / [topics/amd](amd.md) / [出典](https://www.itmedia.co.jp/news/article/2610/28/2000002651/)）

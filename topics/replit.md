@@ -3,7 +3,7 @@ type: topic
 title: "Replit（レプリット）"
 slug: replit
 created: 2026-10-18
-updated: 2026-10-18
+updated: 2026-11-08
 tags: [replit]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [topics/anthropic.md, topics/openai.md, topics/agent-harness.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-08: 三井住友系SMFL（三井住友ファイナンス&リース）が、資産管理クラウド「assetforce」にReplitの技術を使った顧客カスタマイズ機能「エンタープライズvibeコーディング」を追加。コンテキスト分割によるトークン節約、決定論的テストでのコード検証、人間の最終承認という3点で統制し、あるカスタマイズ案件は当初6人・半年の見積もりから1人・1週間で完了したという（[daily](../daily/2026-11-08.md) / [threads/japan-ai-adoption](../threads/japan-ai-adoption.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/06/2000002933/)）
 - 2026-10-18: CEOのAmjad Masad氏が、デフォルトモデルをAnthropicのClaudeからOpenAIのモデルに切り替えたと発言。理由はコスト・パートナーシップ・性能の3点。Replitは直近までAnthropicの上位5顧客の一社だったという（[daily](../daily/2026-10-18.md) / [topics/anthropic](anthropic.md) / [topics/openai](openai.md) / [出典](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/)）
 - 2026-10-11: a16zの消費者向けAIアプリ調査で、AI収益が集中する「コーディング・製品構築」カテゴリーの代表例として言及（[daily](../daily/2026-10-11.md)）
 - 2026-10-08: MicrosoftのAIエージェント隔離環境「Microsoft Execution Containers（MXC）」の対応エージェントの一つとして言及（[daily](../daily/2026-10-08.md) / [topics/microsoft](microsoft.md)）

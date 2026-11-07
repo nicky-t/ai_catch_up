@@ -3,7 +3,7 @@ type: thread
 title: "AIの生産性・雇用への影響（ai-productivity-employment）"
 slug: ai-productivity-employment
 created: 2026-10-18
-updated: 2026-11-07
+updated: 2026-11-08
 tags: [productivity, hr, survey]
 status: active
 related: [topics/anthropic.md, topics/microsoft.md, topics/apple.md]
@@ -23,6 +23,8 @@ related: [topics/anthropic.md, topics/microsoft.md, topics/apple.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-08: Thoughtworks欧州CTOのジャイルズ・アレクサンダー氏が、経験豊富なエンジニアがコードを書かずAIエージェントに実装を任せる1週間の実験を実施。作業時間の約3分の2がホワイトボードでの議論、3分の1がエージェント出力の検証に割かれたが、チーム統合後のビルドが頻繁に赤くなる問題は解消しきれなかった。マーティン・ファウラー氏はエージェント開発を「バックカントリー」に例え、経験者の慎重さは本番運用を知っているからこその懸念だと説明した（[daily](../daily/2026-11-08.md) / [topics/agent-harness](../topics/agent-harness.md) / [出典](https://kn.itmedia.co.jp/kn/article/2611/06/2000002925/)）
+- 2026-11-08: OpenAIが新たな資金調達ラウンドでこれまでに110億ドルを確保、評価額1.25兆ドルとBloombergが報道。ラウンド全体は数週間以内に総額約200億ドル規模で完了する見通しだが、9月時点の目標（300億ドル・評価額1.4兆ドル）からは下方修正された形。前日既報のRamp調査（AIトークン支出の伸び鈍化）・Anthropicの想定評価額下落に続き、AI企業の評価額・資金調達計画が市場の慎重姿勢を反映して軒並み下方修正されている構図が加わった（[daily](../daily/2026-11-08.md) / [topics/openai](../topics/openai.md) / [出典](https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/)）
 - 2026-11-07: 法人カード大手Rampの経済データで、企業のAIトークン支出は6〜7月に42%増えたが8〜9月は1.5%増にとどまったと判明。利用量自体は伸び続ける一方で支出額の伸びが止まった背景には、OpenAI・Anthropicの大幅値下げ（Anthropicは売上成長を約6億ドル押し下げたという）や、企業側の既定利用上限・安価モデルへのルーティングといったコスト管理の広がりがある。11/6既報のApple予算削減に続き、「利用は増えるが支出成長は止まる」という構図が業界データでも裏付けられた形（[daily](../daily/2026-11-07.md) / [topics/anthropic](../topics/anthropic.md) / [出典](https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/)）
 - 2026-11-07: 生成AI企業SpiralAI（東京都）が2026年6月、給与を変えずに週休2日制から週休3日制へ移行した事例が判明。佐々木雄一CEOはAI活用を促す「劇薬」として導入したが、発表時に歓迎した社員は誰もおらず、労働時間が減っても納期・品質を落とせないという不安が若手・ディレクター職から相次いだ。「AI効率化→休暇拡大」という経営判断が現場では「同じ成果を今までより少ない時間で」という圧力として受け取られた例（[daily](../daily/2026-11-07.md) / [threads/japan-ai-adoption](japan-ai-adoption.md) / [出典](https://www.itmedia.co.jp/news/article/2611/06/2000002867/)）
 - 2026-11-06: Bloomberg報道によると、Appleが社内エンジニアリング部門のAI利用予算の上限を10月に1日300ドルから200ドルへ引き下げ、今後一部では100ドルまで下げる見通し。エンジニア以外の部門では1日25ドルという低い上限も検討中という。2026年前半に広がった「企業が社員にできるだけAIを使わせる」風潮（tokenmaxxing）が、トークン利用料の請求が現実になるにつれ急速に下火になり、利用制限の方が財務的に賢明だという見方が広がっている（[daily](../daily/2026-11-06.md) / [topics/apple](../topics/apple.md) / [出典](https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/)）
