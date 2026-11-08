@@ -3,7 +3,7 @@ type: thread
 title: "国内 AI 導入動向（japan-ai-adoption）"
 slug: japan-ai-adoption
 created: 2026-08-19
-updated: 2026-11-08
+updated: 2026-11-09
 tags: [adoption, japan-company, case-study]
 status: active
 related: [topics/openai.md]
@@ -24,6 +24,7 @@ related: [topics/openai.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-09: タレントアンドアセスメントの対話型AI面接「SHaiN」（2026年7月時点で1100社以上が導入）と、ヒューマネージの採用管理システム「i-web」がAPI連携し、受検者情報の送信と受検結果の自動反映ができるようになった。AI面接サービスと採用管理システムが別々に導入されていると応募者情報の再登録・選考結果の転記が手作業で残る課題があったという（[daily](../daily/2026-11-09.md) / [出典](https://kn.itmedia.co.jp/kn/article/2611/07/2000002951/)）
 - 2026-11-08: 三井住友系SMFL（三井住友ファイナンス&リース）が、資産管理クラウド「assetforce」（有料導入200社超）にReplitの技術を使った顧客カスタマイズ機能「エンタープライズvibeコーディング」を追加。コンテキスト分割によるトークン節約、決定論的テストでのコード検証、人間の最終承認という3点で統制し、あるカスタマイズ案件は当初6人・半年の見積もりから1人・1週間で完了したという（[daily](../daily/2026-11-08.md) / [topics/replit](../topics/replit.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/06/2000002933/)）
 - 2026-11-07: ソフトウェア開発企業フィックスターズが、国内GPUサーバ上でオープンウェイトモデルを使えるサービスを発表。入出力データは国内GPUサーバのみで処理・保存しないとし、最初に提供するのは中国DeepSeekの「DeepSeek-V4.1-Flash-1017」。価格は100万トークンあたり入力48円・出力192円・キャッシュ読み取り0.96円で、今後は提供モデルを拡充する予定（[daily](../daily/2026-11-07.md) / [topics/deepseek](../topics/deepseek.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/06/2000002955/)）
 - 2026-11-07: 生成AI企業SpiralAI（東京都）が給与を変えずに週休2日制から週休3日制へ移行した事例が判明。AI活用を促す「劇薬」として導入したが、発表時に歓迎した社員は誰もおらず、納期・品質を落とせないという不安が若手・ディレクター職から相次いだ。詳細は[threads/ai-productivity-employment](ai-productivity-employment.md)（[daily](../daily/2026-11-07.md) / [出典](https://www.itmedia.co.jp/news/article/2611/06/2000002867/)）

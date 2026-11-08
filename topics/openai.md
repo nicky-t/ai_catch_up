@@ -3,7 +3,7 @@ type: topic
 title: "OpenAI"
 slug: openai
 created: 2026-08-19
-updated: 2026-11-08
+updated: 2026-11-09
 tags: [openai, chatgpt, gpt, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,8 @@ ChatGPT と GPT 系モデルを開発する米国の AI 企業。一般利用者
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-09: 10月26日発表の「GPT-6.1 Terra」の価格（入力100万トークン1ドル・出力5ドル、前世代比で入力50%減・出力約58%減）を巡り、Anthropicの大幅値下げ（Haiku 5.5）とも相まって値下げ競争が激化する一方、企業はモデルごとの適性を見極めにくいとの指摘が出ている（[daily](../daily/2026-11-09.md) / [topics/anthropic](anthropic.md) / [threads/ai-productivity-employment](../threads/ai-productivity-employment.md) / [出典](https://techtarget.itmedia.co.jp/tt/article/2611/09/2000002954/)）
+- 2026-11-09（続報）: 米中間選挙後、データセンターへの逆風が一段と強まった。テキサス州知事選では規制を公約した民主党のヒノホサ氏が当選。OpenAIは秘密保持契約を求めない「Compute Campus」方針で対応を続けている（[daily](../daily/2026-11-09.md) / [threads/ai-datacenter-energy](../threads/ai-datacenter-energy.md) / [出典](https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/)）
 - 2026-11-08: 新たな資金調達ラウンドでこれまでに110億ドルを確保、評価額1.25兆ドルとBloombergが報道。ラウンド全体は数週間以内に総額約200億ドル規模で完了する見通しだが、9月時点の目標（300億ドル・評価額1.4兆ドル）からは下方修正された形。年内上場は見送り来年のIPOを見込む（[daily](../daily/2026-11-08.md) / [threads/ai-productivity-employment](../threads/ai-productivity-employment.md) / [出典](https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/)）
 - 2026-11-07: 11月3日の米中間選挙でデータセンター建設への規制・制限を訴えた候補者が各地で当選したことを受け、地域協約「National Community Compact」（電力・インフラ費用の全額自社負担、公職者とのNDA原則禁止、水・騒音データの公開）と政策提言「Compute Campus Policy Blueprint」を発表。エフィンガム郡（ジョージア州）では電力会社がピーク時にOpenAIへの供給を最大1000MW削減できる契約を結んでいるという（[daily](../daily/2026-11-07.md) / [topics/meta](meta.md) / [threads/ai-datacenter-energy](../threads/ai-datacenter-energy.md) / [出典](https://www.itmedia.co.jp/news/article/2611/06/2000002928/)）
 - 2026-11-06: サイバーセキュリティ特化モデル「GPT-6 Cyber」を発表。脆弱性の発見・検証や修正パッチ作成を行う機能で、提供対象はサイバーセキュリティプログラム「Daybreak」の最上位ティア「Daybreak Red」の審査済み利用者（運転免許証等でのID確認が必要）に限定。関連する脆弱性調査ではLinuxカーネルで948件・Firefoxで81件の新規脆弱性発見に取り組み、Linuxのバグ探索には約120万ドルを投じたという（[daily](../daily/2026-11-06.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/)）

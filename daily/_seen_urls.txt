@@ -730,3 +730,13 @@ https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborat
 https://kn.itmedia.co.jp/kn/article/2611/07/2000002948/
 https://github.com/cloudflare/security-audit-skill
 https://github.com/vercel-labs/agent-browser
+https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers
+https://techtarget.itmedia.co.jp/tt/article/2611/09/2000002954/
+https://atmarkit.itmedia.co.jp/ait/articles/2611/08/news001.html
+https://kn.itmedia.co.jp/kn/article/2611/07/2000002951/
+https://kn.itmedia.co.jp/kn/article/2611/07/2000002945/
+https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/
+https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/
+https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/
+https://www.publickey1.jp/blog/26/mcpmcpruby_sdkmcp_sdk_tier_1.html
+https://github.com/ranxianglei/billion-context

@@ -3,7 +3,7 @@ type: thread
 title: "AIの生産性・雇用への影響（ai-productivity-employment）"
 slug: ai-productivity-employment
 created: 2026-10-18
-updated: 2026-11-08
+updated: 2026-11-09
 tags: [productivity, hr, survey]
 status: active
 related: [topics/anthropic.md, topics/microsoft.md, topics/apple.md]
@@ -24,6 +24,9 @@ related: [topics/anthropic.md, topics/microsoft.md, topics/apple.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-09: ゴールドマン・サックスが2026年10月の社内ガイダンス改定で、Claude CodeとGitHubの利用をエンジニアに限定したとBloombergが報道。約4万7,000人の従業員のうち約1万2,000人がエンジニアで、トレーダー・バンカーは使えなくなった。生産性とリスクの見直しが理由で、取引情報の隔離（情報バリア）管理の難しさやトークン課金のコストも一因とみられる（[daily](../daily/2026-11-09.md) / [topics/claude-code](../topics/claude-code.md) / [出典](https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers)）
+- 2026-11-09: 10月26日発表の「GPT-6.1 Terra」の価格（前世代比で入力50%減・出力約58%減）とAnthropic Haiku 5.5の大幅値下げで競争が激化する一方、企業はモデルごとの適性を見極めにくいとの指摘。Gartnerは自律性の高まりに伴う運用・セキュリティリスク管理の必要性も指摘した（[daily](../daily/2026-11-09.md) / [topics/openai](../topics/openai.md) / [出典](https://techtarget.itmedia.co.jp/tt/article/2611/09/2000002954/)）
+- 2026-11-09: AI導入で資料・提案書の作成時間が短縮した営業担当者は50.9％に達したが、受注率の向上を実感したのは5.2％にとどまったという調査結果。AI活用力と対人営業力を兼ね備えた「AI協働型」の層では成果向上を実感した割合が48.8％と、両方が低い層（17.8％）の約2.7倍。この層は空いた時間を顧客課題のリサーチや提案の深掘りに充てる割合が41.4％と高い（[daily](../daily/2026-11-09.md) / [出典](https://kn.itmedia.co.jp/kn/article/2611/07/2000002945/)）
 - 2026-11-08: Thoughtworks欧州CTOのジャイルズ・アレクサンダー氏が、経験豊富なエンジニアがコードを書かずAIエージェントに実装を任せる1週間の実験を実施。作業時間の約3分の2がホワイトボードでの議論、3分の1がエージェント出力の検証に割かれたが、チーム統合後のビルドが頻繁に赤くなる問題は解消しきれなかった。マーティン・ファウラー氏はエージェント開発を「バックカントリー」に例え、経験者の慎重さは本番運用を知っているからこその懸念だと説明した（[daily](../daily/2026-11-08.md) / [topics/agent-harness](../topics/agent-harness.md) / [出典](https://kn.itmedia.co.jp/kn/article/2611/06/2000002925/)）
 - 2026-11-08: OpenAIが新たな資金調達ラウンドでこれまでに110億ドルを確保、評価額1.25兆ドルとBloombergが報道。ラウンド全体は数週間以内に総額約200億ドル規模で完了する見通しだが、9月時点の目標（300億ドル・評価額1.4兆ドル）からは下方修正された形。前日既報のRamp調査（AIトークン支出の伸び鈍化）・Anthropicの想定評価額下落に続き、AI企業の評価額・資金調達計画が市場の慎重姿勢を反映して軒並み下方修正されている構図が加わった（[daily](../daily/2026-11-08.md) / [topics/openai](../topics/openai.md) / [出典](https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/)）
 - 2026-11-07: 法人カード大手Rampの経済データで、企業のAIトークン支出は6〜7月に42%増えたが8〜9月は1.5%増にとどまったと判明。利用量自体は伸び続ける一方で支出額の伸びが止まった背景には、OpenAI・Anthropicの大幅値下げ（Anthropicは売上成長を約6億ドル押し下げたという）や、企業側の既定利用上限・安価モデルへのルーティングといったコスト管理の広がりがある。11/6既報のApple予算削減に続き、「利用は増えるが支出成長は止まる」という構図が業界データでも裏付けられた形（[daily](../daily/2026-11-07.md) / [topics/anthropic](../topics/anthropic.md) / [出典](https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/)）

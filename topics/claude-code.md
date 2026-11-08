@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-11-07
+updated: 2026-11-09
 tags: [claude-code, anthropic, agent, productivity]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,9 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-09: ゴールドマン・サックスが2026年10月の社内ガイダンス改定で、Claude CodeとGitHubの利用をエンジニアに限定したとBloombergが報道。約4万7,000人の従業員のうち約1万2,000人がエンジニアで、トレーダー・バンカーは使えなくなった。生産性とリスクの見直しが理由で、取引情報の隔離（情報バリア）管理の難しさやトークン課金のコストも一因とみられる。4月の香港バンカー向け撤去に続く2度目の制限（[daily](../daily/2026-11-09.md) / [threads/ai-productivity-employment](../threads/ai-productivity-employment.md) / [出典](https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers)）
+- 2026-11-09（未検証）: セキュリティ企業Apiiroが、「Don't Ask Again（次回から確認しない）」設定が関係する認証情報の露出を公開GitHubリポジトリ1,122件で確認したと報告したもようで、Hacker Newsで545ptの話題に。記事本体はWebFetchで403のため内容未確認（[daily](../daily/2026-11-09.md) / [出典（HN RSS）](https://hnrss.org/newest?q=Claude+Code&points=50)）
+- 2026-11-09（今日の現場ネタ）: 長時間コーディングセッションのトークンを約5分の1に圧縮するプロキシ型プラグイン「billion-context」がGitHub Trendingで急上昇（本日+460スター）。`bili claude`でClaude Codeをプロキシ越しに起動し、モデル自身に会話を圧縮・展開・検索させる設計。カスタム`ANTHROPIC_BASE_URL`経由のためRemote Controlなどアカウント紐付け機能は使えなくなる（[daily](../daily/2026-11-09.md) / [topics/agent-harness](agent-harness.md) / [出典](https://github.com/ranxianglei/billion-context)）
 - 2026-11-07: Web検索・シェル経由のリクエストで送るUser-Agentヘッダーに利用者のメールアドレスが無断で載る問題が発覚し、Hacker Newsで1,531pt・GitHub Issue #107757に約680件の支持反応が集まった。シェル実行でのcurl呼び出しや、モデルが文脈から自動生成するUser-Agent文字列（プロジェクト名入り）など複数の経路が確認された。Anthropicは該当パターンを遮断する組み込みmod「cc-plugin-privacy」（v2.1.317で追加）を説明したが、任意のヘッダー名やファイル経由での漏えいはv2.1.319でも防げないとの報告が続いている（[daily](../daily/2026-11-07.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://github.com/anthropics/claude-code/issues/107757)）
 - 2026-11-06（今日の現場ネタ）: スクリーンショット無しでOSアクセシビリティツリーを読み取りAIエージェントにデスクトップ操作を許可するCLI「vercel-labs/agent-desktop」がGitHub Trendingで急上昇（本日+1,661スター・累計約16.7k）。`agent-desktop snapshot`で要素を取得し`agent-desktop click @<id>:<ref>`で操作、`agent-desktop mcp`でMCPサーバーとしても起動できる。並列AIエージェント向けのGit worktree管理CLI「max-sixty/worktrunk」も急上昇（本日+546スター・累計約11.5k）し、`wt switch -x claude -c <branch> -- '指示'`でworktree作成とエージェント起動を1コマンドで行える（[daily](../daily/2026-11-06.md) / [出典](https://github.com/vercel-labs/agent-desktop)）
 - 2026-11-04: バージョン2.1.314〜317を公開。2.1.314で作業フォルダ外への書き込みを止める`permissions.blockWritesOutsideWorkingDirectories`を追加、2.1.316でOpus 4.8のFast modeを2026年11月30日以降に廃止する方針を発表、2.1.317で`/schedule`の未承諾コネクタ警告・Web/シェルツールがアカウントメールを送信する前の事前確認・Agent SDKフックのコールバック失敗時ブロックを追加（[daily](../daily/2026-11-04.md) / [出典](https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md)）
