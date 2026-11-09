@@ -740,3 +740,15 @@ https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huang
 https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/
 https://www.publickey1.jp/blog/26/mcpmcpruby_sdkmcp_sdk_tier_1.html
 https://github.com/ranxianglei/billion-context
+https://www.anthropic.com/claude-fable-and-mythos-5-2
+https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/
+https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/
+https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/
+https://atmarkit.itmedia.co.jp/ait/articles/2611/10/news003.html
+https://www.itmedia.co.jp/news/article/2611/09/2000002982/
+https://www.itmedia.co.jp/enterprise/articles/2611/06/news023.html
+https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/
+https://www.publickey1.jp/blog/26/googlekubernetes10aiagent_sustrategvisorcncf.html
+https://openai.com/index/chatgpt-enterprise-aws-marketplace
+https://github.com/milind-soni/OpenMausBot
+https://zenn.dev/matsushima_a/articles/day-041-openmausbot-claude-cli

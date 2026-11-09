@@ -3,7 +3,7 @@ type: topic
 title: "NVIDIA（エヌビディア）"
 slug: nvidia
 created: 2026-08-28
-updated: 2026-11-09
+updated: 2026-11-10
 tags: [nvidia, agent, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -30,6 +30,7 @@ AIモデルの学習・推論に使われるGPU（画像処理用半導体）を
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-10: ジェンスン・フアンCEOが、11日開催予定のElevenLabsサミットへの登壇を取りやめた（ElevenLabsが発表）。Anthropic CEOフォーラムを含む他の登壇予定も取りやめている。関連報道ではYale大学の専門家が、フアン氏が今後もCEOにとどまれるかを「50-50」と見積もっていると伝えた（[daily](../daily/2026-11-10.md) / [出典](https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/)）
 - 2026-11-09: 取締役会が、CEOジェンスン・フアン氏とシンガポールの半導体企業Megaspeedの元幹部アリス・フアン氏との不適切な関係を巡り独立調査を開始すると発表。米情報機関の覚書は同氏が中国国家安全部からフアンCEOを探るよう勧誘されたと主張。フアンCEOは社内メッセージで不倫関係を認め謝罪し、取締役会は機密漏えいの可能性を「no reason to believe」としつつ同氏への信頼を示した（[daily](../daily/2026-11-09.md) / [出典](https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/)）
 - 2026-10-29: Metaとの戦略的提携拡大を発表（10月26日）。AIエージェント「Muse」の学習・推論基盤強化が対象で、「OpenShell」「Sentry」を活用した安全な展開、次世代インフラ「Vera Rubin」の拡大導入を進める。Metaが同日発表した最大950億ドル規模の株式発行計画に30億ドルを出資（[daily](../daily/2026-10-29.md) / [topics/amd](amd.md) / [topics/meta](meta.md) / [出典](https://www.itmedia.co.jp/news/article/2610/28/2000002651/)）
 - 2026-10-28: Oracleが「Oracle AI World 2026」で、Google TPUをOracle Cloud Infrastructureに導入し2027年からサービス提供開始すると発表。電力・冷却・データセンター内ネットワークを提供し大規模展開を支える。AWS・Microsoft Azure・Google Cloudを追う立場のOracleが、NVIDIA以外のAIプロセッサの選択肢を顧客に広げる狙い。10/27既報のAWS・Google CloudによるPyTorchの自社チップ対応版OSS公開に続く、NVIDIA依存低減の動き（[daily](../daily/2026-10-28.md) / [出典](https://www.publickey1.jp/blog/26/oracle_cloudgoogle_tpu2027oracle_ai_world_2026.html)）

@@ -3,7 +3,7 @@ type: thread
 title: "AI学習と著作権をめぐる訴訟・議論（ai-copyright）"
 slug: ai-copyright
 created: 2026-08-24
-updated: 2026-11-08
+updated: 2026-11-10
 tags: [copyright, regulation]
 status: active
 related: [topics/anthropic.md]
@@ -29,6 +29,7 @@ related: [topics/anthropic.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-10: ソニーAIなどの研究者が、画像生成AI14モデル（オープンウェイト3種・商用11種）を対象に既存の知的財産（有名人・アニメキャラ・企業ロゴなど201件）の再現度を調査。オープンウェイト3種は拒否率0%、商用モデルも拒否率にかかわらず全14モデルが10%以上の確率で認識可能なIPを生成し、半数近くは40%を超えた。名前を伏せた間接的な指示でも平均27〜28%の確率でIPが生成されたという。「ガードレールがある」ことと「実際にIPを生成しない」ことが別問題であることを数字で示した研究（[daily](../daily/2026-11-10.md) / [出典](https://www.itmedia.co.jp/news/article/2611/09/2000002982/)）
 - 2026-11-07: 宅配ピザチェーン「ピザーラ」を運営するフォーシーズが、アニメ「Dr.STONE」とのコラボCMに関し謝罪。TikTok広告プラットフォームのAI自動生成・配信機能が有効になっていたことが原因で、製作委員会の事前監修・許諾を得ていない動画が配信されていたという。米国での訴訟ラッシュとは異なる「広告プラットフォームの既定機能が無断でAI生成物を配信した」という、ライセンス作品を扱う事業者側のリスクの実例（[daily](../daily/2026-11-07.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/06/2000002937/)）
 - 2026-11-03: New York Timesが、プライバシー重視ブラウザ「Brave」をニューヨーク連邦地裁に提訴。NYTの著作権コンテンツを無断収集し、Anthropic・Perplexity・Mistral・xAI・Cohereという名指しした顧客企業へ不正配信したと主張。同日Daily News・Chicago Tribune・Orlando Sentinelも同様の訴訟を起こした。Braveは独自クローラーで300億ページ超を索引化しサイト側がブロックできない点、有料記事の壁を回避する機能も問題視されている。4週間動きがなく`dormant`としていたが本件で`active`に戻す（[daily](../daily/2026-11-03.md) / [topics/anthropic](../topics/anthropic.md) / [出典](https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/)）
 - 2026-09-18: Cloudflareが、Webサイト運営者が検索エンジンのクロールを許可したまま同じクローラーによるAI学習だけを拒否できる新機能を発表。従来はGoogle・Apple・Microsoftなど「検索とAI学習を兼ねるクローラー」を拒否すると検索クロールごとブロックされていたが、robots.txtの記載でこの両立が可能に。GoogleとAppleは対応済み、Microsoftは2027年初頭までに対応予定。OpenAI・Anthropic・Meta・Amazonは元々検索用と学習用のクローラーを分けており、この機能を使わずとも学習用のみ拒否できる。訴訟・行政府の介入とは別の、サイト運営者側の技術的な対抗手段が一つ増えた形（[daily](../daily/2026-09-18.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2609/17/2000001584/)）

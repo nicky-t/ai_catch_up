@@ -3,7 +3,7 @@ type: topic
 title: "OpenAI"
 slug: openai
 created: 2026-08-19
-updated: 2026-11-09
+updated: 2026-11-10
 tags: [openai, chatgpt, gpt, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,7 @@ ChatGPT と GPT 系モデルを開発する米国の AI 企業。一般利用者
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-10: ChatGPT EnterpriseをAWS Marketplaceで利用可能にしたと発表。企業は既存のAWSの購買・請求の仕組みを使って調達を簡素化できるという（記事ページは403のためRSS配信の要約に基づく）（[daily](../daily/2026-11-10.md) / [出典（RSS）](https://openai.com/index/chatgpt-enterprise-aws-marketplace)）
 - 2026-11-09: 10月26日発表の「GPT-6.1 Terra」の価格（入力100万トークン1ドル・出力5ドル、前世代比で入力50%減・出力約58%減）を巡り、Anthropicの大幅値下げ（Haiku 5.5）とも相まって値下げ競争が激化する一方、企業はモデルごとの適性を見極めにくいとの指摘が出ている（[daily](../daily/2026-11-09.md) / [topics/anthropic](anthropic.md) / [threads/ai-productivity-employment](../threads/ai-productivity-employment.md) / [出典](https://techtarget.itmedia.co.jp/tt/article/2611/09/2000002954/)）
 - 2026-11-09（続報）: 米中間選挙後、データセンターへの逆風が一段と強まった。テキサス州知事選では規制を公約した民主党のヒノホサ氏が当選。OpenAIは秘密保持契約を求めない「Compute Campus」方針で対応を続けている（[daily](../daily/2026-11-09.md) / [threads/ai-datacenter-energy](../threads/ai-datacenter-energy.md) / [出典](https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/)）
 - 2026-11-08: 新たな資金調達ラウンドでこれまでに110億ドルを確保、評価額1.25兆ドルとBloombergが報道。ラウンド全体は数週間以内に総額約200億ドル規模で完了する見通しだが、9月時点の目標（300億ドル・評価額1.4兆ドル）からは下方修正された形。年内上場は見送り来年のIPOを見込む（[daily](../daily/2026-11-08.md) / [threads/ai-productivity-employment](../threads/ai-productivity-employment.md) / [出典](https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/)）

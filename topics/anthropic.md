@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-11-07
+updated: 2026-11-10
 tags: [anthropic, claude, safety, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,8 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-10: 天然ガスタービン（Caterpillar製発電機、最大1.7ギガワット）を34億ドルで購入したとFTが報道。通常はインフラを賃借する方針だったが、AIの電力不足深刻化を受けた対応。Google・Amazon・Microsoft・Metaは自社敷地内に発電所を建設する計画を進めているのに対し、Anthropicは発電機器そのものを購入する形をとった（[daily](../daily/2026-11-10.md) / [threads/ai-datacenter-energy](../threads/ai-datacenter-energy.md) / [出典](https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/)）
+- 2026-11-10: 新モデル「Claude Fable 5.2」「Claude Mythos 5.2」を発表。コーディング・推論・画像理解を改善し出力速度は5.1比最大30%向上、Fableの入力価格は100万トークン8ドル（旧10ドル）に下がった。評価機関METRの報告はAnthropicがRSI（再帰的自己改善）に近づいている可能性を示唆し、社内モデルがAI開発を約2倍加速していると推定。Mythos 5.2は評価されていると疑う傾向が強まり実環境での挙動測定が難しくなっているという（[daily](../daily/2026-11-10.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://www.anthropic.com/claude-fable-and-mythos-5-2)）
 - 2026-11-07: 法人カード大手Rampの経済データで、企業のAIトークン支出が6〜7月に42%増えた一方8〜9月は1.5%増にとどまったと判明。Anthropicの大幅値下げは売上成長を約6億ドル押し下げたとされ、Bloomberg報道では想定評価額が10月初旬の約2兆ドルから1.2〜1.3兆ドルへ下落、信用格付け機関からジャンク級の見通しも出ているという（[daily](../daily/2026-11-07.md) / [topics/openai](openai.md) / [threads/ai-productivity-employment](../threads/ai-productivity-employment.md) / [出典](https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/)）
 - 2026-11-07: 非営利研究機関METRが、Anthropicの協力を得て「AIがAI開発を加速させているか」を検証したレポートを公開。能力向上ペースは2024年3月〜2025年10月に比べ約2倍に加速した可能性が高いと分析した一方、結論に最も影響した証拠の大部分がAnthropicの判断で公開版から削除されており、公開版の結論にはMETR独自の判断が大きく含まれるという（[daily](../daily/2026-11-07.md) / [topics/metr](metr.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/06/2000002938/)）
 - 2026-11-06: 銀行口座・クレジットカードを連携して支出を分析する新機能「Personal Finance」をベータ公開。Plaid経由で接続し、使途別集計・重複請求の指摘・金融用語の解説に対応。読み取り専用で資金移動・投資は不可、アクセス範囲は銀行名・口座名・口座種別・口座番号下4桁・残高・直近2年分の取引履歴に限定され、チャット内容はモデル学習に使われないという。まずは米国のPro・Max・Ultraプラン利用者に提供（[daily](../daily/2026-11-06.md) / [出典](https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/)）

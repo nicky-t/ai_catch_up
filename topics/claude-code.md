@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-11-09
+updated: 2026-11-10
 tags: [claude-code, anthropic, agent, productivity]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-10（今日の現場ネタ）: Grok Botの代替OSS「OpenMausBot」がGitHub Trendingで急上昇（本日+1,589スター）。ログイン済みのClaude Code CLIをそのままチャットのバックエンドとして流用でき、新規のAPIキーが不要な点が紹介された。承認設定の既定が「確認なし」になっている点に注意が必要（[daily](../daily/2026-11-10.md) / [topics/agent-harness](agent-harness.md) / [出典](https://github.com/milind-soni/OpenMausBot)）
 - 2026-11-09: ゴールドマン・サックスが2026年10月の社内ガイダンス改定で、Claude CodeとGitHubの利用をエンジニアに限定したとBloombergが報道。約4万7,000人の従業員のうち約1万2,000人がエンジニアで、トレーダー・バンカーは使えなくなった。生産性とリスクの見直しが理由で、取引情報の隔離（情報バリア）管理の難しさやトークン課金のコストも一因とみられる。4月の香港バンカー向け撤去に続く2度目の制限（[daily](../daily/2026-11-09.md) / [threads/ai-productivity-employment](../threads/ai-productivity-employment.md) / [出典](https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers)）
 - 2026-11-09（未検証）: セキュリティ企業Apiiroが、「Don't Ask Again（次回から確認しない）」設定が関係する認証情報の露出を公開GitHubリポジトリ1,122件で確認したと報告したもようで、Hacker Newsで545ptの話題に。記事本体はWebFetchで403のため内容未確認（[daily](../daily/2026-11-09.md) / [出典（HN RSS）](https://hnrss.org/newest?q=Claude+Code&points=50)）
 - 2026-11-09（今日の現場ネタ）: 長時間コーディングセッションのトークンを約5分の1に圧縮するプロキシ型プラグイン「billion-context」がGitHub Trendingで急上昇（本日+460スター）。`bili claude`でClaude Codeをプロキシ越しに起動し、モデル自身に会話を圧縮・展開・検索させる設計。カスタム`ANTHROPIC_BASE_URL`経由のためRemote Controlなどアカウント紐付け機能は使えなくなる（[daily](../daily/2026-11-09.md) / [topics/agent-harness](agent-harness.md) / [出典](https://github.com/ranxianglei/billion-context)）

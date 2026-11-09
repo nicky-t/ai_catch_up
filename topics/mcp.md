@@ -3,7 +3,7 @@ type: topic
 title: "MCP（Model Context Protocol）"
 slug: mcp
 created: 2026-08-23
-updated: 2026-11-09
+updated: 2026-11-10
 tags: [mcp, agent, tool-use, guardrails]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,7 @@ AI アシスタントが外部のデータ源・ツール・業務システム�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-10: ＠ITが、2026年7月の仕様改訂でMCPが「ステートレス化」したと整理する記事を公開。従来はサーバーがセッション状態を保持する前提だったが、初期化のやり取りやセッションIDヘッダーを廃止し、クライアントが毎回のリクエストに必要な情報を含める方式に変更。負荷分散・スケーリングが容易になる一方、状態管理の責任はアプリ側に移ったと指摘（[daily](../daily/2026-11-10.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2611/10/news003.html)）
 - 2026-11-09: MCP公式のRuby SDKが、仕様を完全にサポートする「MCP SDK Tier 1」の水準に到達したと発表。これまでPython・TypeScriptなどが対応していたTier 1水準にRubyも加わった（[daily](../daily/2026-11-09.md) / [出典](https://www.publickey1.jp/blog/26/mcpmcpruby_sdkmcp_sdk_tier_1.html)）
 - 2026-10-21: Figma共同創業者兼CEOのディラン・フィールド氏が、自社カンファレンス「Config」で20社の新規MCP連携を発表する一方、「MCPは完璧なプロトコルではない」と指摘。大手AIラボに有利な設計である点、コンテキスト共有の非対称性、Anthropic自身が自社資産をMCP経由で公開していない点を問題視した（[daily](../daily/2026-10-21.md) / [出典](https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/)）
 - 2026-09-28: セキュリティ企業Hush Securityが、GitHub上で公開されているMCP設定ファイル約8万2000件を分析した結果、8件に1件の割合で認証情報（APIキー・パスワード・アクセストークン）が露出していたと報告。露出した認証情報の24%は有効期限がなく広範なアクセス権を持ち、認証情報スロットの約12%がハードコード化されていた。攻撃者がコピー＆ペーストするだけで悪用できる状態で、AnthropicやOpenAIのAPIキー悪用による費用被害にもつながりうると指摘。対策として環境変数・シークレット管理ツールの利用、MCPゲートウェイ導入、認証情報の即時ローテーション、2026年7月28日版の最新MCP仕様への移行が挙げられている。9/15の調査（MCPサーバーの53%に認証情報関連の脆弱性）に続き、MCP導入時の認証情報管理の甘さが数字で改めて裏付けられた（[daily](../daily/2026-09-28.md)）

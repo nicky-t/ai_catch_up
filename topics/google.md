@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-11-08
+updated: 2026-11-10
 tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,7 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-10: Kubernetes上でAIエージェントを従来の10倍の密度で実行できる基盤「Agent Substrate」と、安全な実行環境「gVisor」をCNCFに寄贈。エージェントは実行時間の90〜95%を推論結果待ちなどのアイドル時間に費やすため、アイドル時にアクターの状態をスナップショット保存し再開を高速化する設計で密度を上げるという（[daily](../daily/2026-11-10.md) / [topics/agent-harness](agent-harness.md) / [出典](https://www.publickey1.jp/blog/26/googlekubernetes10aiagent_sustrategvisorcncf.html)）
 - 2026-11-08: データセンター開発企業Crusoeが、Blackstone系Tallgrassと計画した南東ワイオミング州の未完成データセンター群をGoogleへ売却。Googleはコスト・工期への懸念からCrusoeの開発体制に疑問を持っていたとされ、自ら開発を引き継ぎ170億ドルを投資する計画（[daily](../daily/2026-11-08.md) / [threads/ai-datacenter-energy](../threads/ai-datacenter-energy.md) / [出典](https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/)）
 - 2026-11-05: 11/3発表の学校向けAI機能オフ方針に政治的batklashが拡大。サンダース上院議員が「恐喝」、ブルメンソール上院議員は「生徒の成功よりGemini普及を優先」と批判、元FTC委員長リナ・カーン氏は独禁法違反企業による反競争的行為と非難、マムダニNYC市長も同調した。Googleは批判を受けAI製品をデフォルトでオフにしたと説明し、学校は個別にオンにできると反論。理解を段階的に促す「Guided Learning」の開発も明らかにした（[daily](../daily/2026-11-05.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/)）
 - 2026-11-04: 学校管理者が明示的に有効化しない限り、来年からK-12向けにGemini・NotebookLM・Gemini in ClassroomなどのAI機能を無効化できる方針を発表。ただしSearchのAI機能は検索エンジン自体に統合されているため分離できず、AIを全面無効化する学校はSearchそのものも使えなくなる。直接答えを教えず理解を促す学習支援ツール「Guided Learning」も同時発表（[daily](../daily/2026-11-04.md) / [出典](https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/)）
