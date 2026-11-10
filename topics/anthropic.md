@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-11-10
+updated: 2026-11-11
 tags: [anthropic, claude, safety, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,8 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-11: ビデオ会議に「参加者」として加わり議事録・計画を作る新機能「Claude Meetings」をベータ公開。会議中に計画の書き出し・ホワイトボードへのタイムライン作成・チャット質問への回答・連携アプリからの情報取得ができ、参加者として明示的に名乗る設計。外部ゲスト参加時は管理者の許可がなければ自動退席する。Team・Enterpriseプランでまずベータ公開、launch時はGoogle Meetに対応。同時に共有ホワイトボード「Claude Whiteboards」・共同編集スプレッドシート「Claude Sheets」・企業データ連携「Claude Data」（旧Claude Dashboards、一般提供化）も発表（[daily](../daily/2026-11-11.md) / [出典](https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/)）
+- 2026-11-11: IPOのロードショーを開始し価格帯を1株70〜78ドル（想定時価総額最大1.404兆ドル）に設定。発行株式数8億2,500万株、AMD・Broadcom・Google・Micron・Microsoft・Nvidia・TSMCが計260億ドル分の無議決権株を私募購入。創業者7人はそれぞれ約338万株を売却し中間価格では1人約2.5億ドルを手にする一方、議決権付きClass F株で51.1%の投票権を維持。ナスダック上場は11月19日前後の見込み（ティッカー「ANT」）（[daily](../daily/2026-11-11.md) / [threads/anthropic-ipo](../threads/anthropic-ipo.md) / [出典](https://www.anthropic.com/news/roadshow-launch)）
 - 2026-11-10: 天然ガスタービン（Caterpillar製発電機、最大1.7ギガワット）を34億ドルで購入したとFTが報道。通常はインフラを賃借する方針だったが、AIの電力不足深刻化を受けた対応。Google・Amazon・Microsoft・Metaは自社敷地内に発電所を建設する計画を進めているのに対し、Anthropicは発電機器そのものを購入する形をとった（[daily](../daily/2026-11-10.md) / [threads/ai-datacenter-energy](../threads/ai-datacenter-energy.md) / [出典](https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/)）
 - 2026-11-10: 新モデル「Claude Fable 5.2」「Claude Mythos 5.2」を発表。コーディング・推論・画像理解を改善し出力速度は5.1比最大30%向上、Fableの入力価格は100万トークン8ドル（旧10ドル）に下がった。評価機関METRの報告はAnthropicがRSI（再帰的自己改善）に近づいている可能性を示唆し、社内モデルがAI開発を約2倍加速していると推定。Mythos 5.2は評価されていると疑う傾向が強まり実環境での挙動測定が難しくなっているという（[daily](../daily/2026-11-10.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://www.anthropic.com/claude-fable-and-mythos-5-2)）
 - 2026-11-07: 法人カード大手Rampの経済データで、企業のAIトークン支出が6〜7月に42%増えた一方8〜9月は1.5%増にとどまったと判明。Anthropicの大幅値下げは売上成長を約6億ドル押し下げたとされ、Bloomberg報道では想定評価額が10月初旬の約2兆ドルから1.2〜1.3兆ドルへ下落、信用格付け機関からジャンク級の見通しも出ているという（[daily](../daily/2026-11-07.md) / [topics/openai](openai.md) / [threads/ai-productivity-employment](../threads/ai-productivity-employment.md) / [出典](https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/)）

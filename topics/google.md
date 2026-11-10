@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-11-10
+updated: 2026-11-11
 tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,11 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-11: 最上位フロンティアモデル「Gemini 4 Carbon」を一般提供開始。中位モデル「Gemini 4 Argon」の上位に位置づけ、エージェント型コーディングのベンチマーク3種で首位（外部最有力モデル比2倍超低コスト）、模擬サイバー攻撃の99%をブロック（1回あたり突破率0.8%）する一方プロンプトインジェクション対策は「改善が必要な領域」と自己評価。価格は当初100万トークンあたり入力2ドル・出力10ドル、11月30日以降は入力4ドル・出力20ドル（[daily](../daily/2026-11-11.md) / [出典](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/)）
+- 2026-11-11: DeepMindが、AIエージェントによる形式検証の枠組み「AlphaProof Code」を発表。Gemini Carbonを使うエージェントがSignalプロトコルの中核暗号コードについて証明言語Leanで600万行超の証明を生成し、人間レビューが必要な部分は全体の約1%にとどまった。検証は4週間で完了（従来手法は数年規模）。既知バグ2件を再現したテストでも脆弱性を正しく検出できたことを確認、検証用資材はオープンソース化予定（[daily](../daily/2026-11-11.md) / [出典](https://deepmind.google/blog/introducing-alphaproof-code/)）
+- 2026-11-11: 第8世代TPUの新バリアント2種を発表。AMDと共同設計の「TPU 8tx」は機密コンピューティング特化で推論・学習を並行実行できる専用ネットワークを備え、「TPU 8i Max」は推論特化チップを2基束ねメモリ容量・処理性能・帯域幅を単体の2倍に高めた（[daily](../daily/2026-11-11.md) / [出典](https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/)）
+- 2026-11-11: Adobeとの提携を発表。Google DriveでのPDF編集、Gemini内でのAdobe AI機能利用が可能になる。同日Adobe自身もPhotoshop・Premiere・FireflyのAIエージェント機能拡充とMCPサーバー公開を発表（[daily](../daily/2026-11-11.md) / [topics/adobe](adobe.md) / [出典](https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/)）
+- 2026-11-11: NotebookLM（2026年にGemini Notebookへ改称）の公式REST APIとMCPサーバーをプレビュー公開。ノートブック作成・ソース追加（Webページ・YouTube動画・テキスト）に対応し、MCPサーバーは7ツールをStreamable HTTP・JSON-RPC 2.0で公開。個人のGoogleアカウント限定でPDFアップロード・質問応答には未対応（[daily](../daily/2026-11-11.md) / [topics/mcp](mcp.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2611/11/news011.html)）
 - 2026-11-10: Kubernetes上でAIエージェントを従来の10倍の密度で実行できる基盤「Agent Substrate」と、安全な実行環境「gVisor」をCNCFに寄贈。エージェントは実行時間の90〜95%を推論結果待ちなどのアイドル時間に費やすため、アイドル時にアクターの状態をスナップショット保存し再開を高速化する設計で密度を上げるという（[daily](../daily/2026-11-10.md) / [topics/agent-harness](agent-harness.md) / [出典](https://www.publickey1.jp/blog/26/googlekubernetes10aiagent_sustrategvisorcncf.html)）
 - 2026-11-08: データセンター開発企業Crusoeが、Blackstone系Tallgrassと計画した南東ワイオミング州の未完成データセンター群をGoogleへ売却。Googleはコスト・工期への懸念からCrusoeの開発体制に疑問を持っていたとされ、自ら開発を引き継ぎ170億ドルを投資する計画（[daily](../daily/2026-11-08.md) / [threads/ai-datacenter-energy](../threads/ai-datacenter-energy.md) / [出典](https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/)）
 - 2026-11-05: 11/3発表の学校向けAI機能オフ方針に政治的batklashが拡大。サンダース上院議員が「恐喝」、ブルメンソール上院議員は「生徒の成功よりGemini普及を優先」と批判、元FTC委員長リナ・カーン氏は独禁法違反企業による反競争的行為と非難、マムダニNYC市長も同調した。Googleは批判を受けAI製品をデフォルトでオフにしたと説明し、学校は個別にオンにできると反論。理解を段階的に促す「Guided Learning」の開発も明らかにした（[daily](../daily/2026-11-05.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/)）
