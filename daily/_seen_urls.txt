@@ -765,3 +765,12 @@ https://deepmind.google/blog/introducing-alphaproof-code/
 https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/
 https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/
 https://github.com/homeassistant-ai/ha-mcp
+https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/
+https://www.itmedia.co.jp/aiplus/article/2611/11/2000003098/
+https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/
+https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/
+https://www.publickey1.jp/blog/26/awsaiec2vmaws_nitro_sandboxes.html
+https://www.itmedia.co.jp/aiplus/article/2611/11/2000003104/
+https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/
+https://atmarkit.itmedia.co.jp/ait/articles/2611/11/news029.html
+https://github.com/shadcn/improve

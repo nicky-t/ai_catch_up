@@ -3,7 +3,7 @@ type: thread
 title: "AIの生産性・雇用への影響（ai-productivity-employment）"
 slug: ai-productivity-employment
 created: 2026-10-18
-updated: 2026-11-10
+updated: 2026-11-12
 tags: [productivity, hr, survey]
 status: active
 related: [topics/anthropic.md, topics/microsoft.md, topics/apple.md]
@@ -24,6 +24,7 @@ related: [topics/anthropic.md, topics/microsoft.md, topics/apple.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-12: Databricksが、自社データのオントロジーで文脈を理解し自律的に多段階作業をこなすAIエージェント「Genie」の更新版を発表。CEOアリ・ゴドシ氏は従業員満足度調査の分析・失敗した大型商談の要約・ポッドキャスト出演準備などに活用していると紹介し、従業員1万2,000人超の規模では経営層に悪い情報が上がりにくいとして「忖度しない情報源」として位置づけた。AI利用料の増大には利用上限設定や低コストのオープンウェイトモデルへの切替で対応するという（[daily](../daily/2026-11-12.md) / [出典](https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/)）
 - 2026-11-10: IDCが「FutureScape 2027」（10月27日発表）で、2029年までに世界売上上位2000社（G2000）の約60%が業務プロセスの大半を「AIファースト」で運営すると予測（2026年時点は13%）。2027年までに人材・AI投資を先送りした企業は2029年までに先行企業より生産性が約50%低くなるとし、AIガバナンスを担う「Center of Excellence」がある企業は複雑な業務をAIに任せる割合が63%（無い企業は15%、約4倍）という（[daily](../daily/2026-11-10.md) / [出典](https://www.itmedia.co.jp/enterprise/articles/2611/06/news023.html)）
 - 2026-11-09: ゴールドマン・サックスが2026年10月の社内ガイダンス改定で、Claude CodeとGitHubの利用をエンジニアに限定したとBloombergが報道。約4万7,000人の従業員のうち約1万2,000人がエンジニアで、トレーダー・バンカーは使えなくなった。生産性とリスクの見直しが理由で、取引情報の隔離（情報バリア）管理の難しさやトークン課金のコストも一因とみられる（[daily](../daily/2026-11-09.md) / [topics/claude-code](../topics/claude-code.md) / [出典](https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers)）
 - 2026-11-09: 10月26日発表の「GPT-6.1 Terra」の価格（前世代比で入力50%減・出力約58%減）とAnthropic Haiku 5.5の大幅値下げで競争が激化する一方、企業はモデルごとの適性を見極めにくいとの指摘。Gartnerは自律性の高まりに伴う運用・セキュリティリスク管理の必要性も指摘した（[daily](../daily/2026-11-09.md) / [topics/openai](../topics/openai.md) / [出典](https://techtarget.itmedia.co.jp/tt/article/2611/09/2000002954/)）

@@ -3,7 +3,7 @@ type: thread
 title: "国内 AI 導入動向（japan-ai-adoption）"
 slug: japan-ai-adoption
 created: 2026-08-19
-updated: 2026-11-09
+updated: 2026-11-12
 tags: [adoption, japan-company, case-study]
 status: active
 related: [topics/openai.md]
@@ -24,6 +24,7 @@ related: [topics/openai.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-12: 紀陽銀行が、部署ごとに散らばっていたマニュアル・通達など約2,000件の情報をAI検索機能付きの社内ナレッジシステム「Helpfeel」に集約。生成AIではなく登録済み回答を検索するタイプを採用し誤回答生成のリスクを避けた。導入後、本部への問い合わせが約10カ月で11%減少、年間換算で約4,400時間の対応時間削減、利用者の自己解決率は58%に達した（[daily](../daily/2026-11-12.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2611/11/news029.html)）
 - 2026-11-09: タレントアンドアセスメントの対話型AI面接「SHaiN」（2026年7月時点で1100社以上が導入）と、ヒューマネージの採用管理システム「i-web」がAPI連携し、受検者情報の送信と受検結果の自動反映ができるようになった。AI面接サービスと採用管理システムが別々に導入されていると応募者情報の再登録・選考結果の転記が手作業で残る課題があったという（[daily](../daily/2026-11-09.md) / [出典](https://kn.itmedia.co.jp/kn/article/2611/07/2000002951/)）
 - 2026-11-08: 三井住友系SMFL（三井住友ファイナンス&リース）が、資産管理クラウド「assetforce」（有料導入200社超）にReplitの技術を使った顧客カスタマイズ機能「エンタープライズvibeコーディング」を追加。コンテキスト分割によるトークン節約、決定論的テストでのコード検証、人間の最終承認という3点で統制し、あるカスタマイズ案件は当初6人・半年の見積もりから1人・1週間で完了したという（[daily](../daily/2026-11-08.md) / [topics/replit](../topics/replit.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/06/2000002933/)）
 - 2026-11-07: ソフトウェア開発企業フィックスターズが、国内GPUサーバ上でオープンウェイトモデルを使えるサービスを発表。入出力データは国内GPUサーバのみで処理・保存しないとし、最初に提供するのは中国DeepSeekの「DeepSeek-V4.1-Flash-1017」。価格は100万トークンあたり入力48円・出力192円・キャッシュ読み取り0.96円で、今後は提供モデルを拡充する予定（[daily](../daily/2026-11-07.md) / [topics/deepseek](../topics/deepseek.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/06/2000002955/)）
