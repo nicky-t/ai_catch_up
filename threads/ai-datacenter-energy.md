@@ -3,7 +3,7 @@ type: thread
 title: "データセンター・電力と地域社会の摩擦（ai-datacenter-energy）"
 slug: ai-datacenter-energy
 created: 2026-11-07
-updated: 2026-11-10
+updated: 2026-11-13
 tags: [regulation, cost]
 status: active
 related: [topics/openai.md, topics/meta.md]
@@ -23,6 +23,7 @@ AI向けデータセンターの急増が引き起こす電力コスト・水資
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-12: ソフトバンクグループが直近四半期に71億ドルの損失を発表、半分超が発電設備関連。約2年前からガスタービンの手付金を13ギガワット超分（必要量より約5割多い）支払っており、返金されない手付金の大部分がほぼ無価値になったとみられる。タービンの受注残自体は2030年代初頭まで埋まっているが、記事はこれを「価格発見が起きた結果」と評し、ソフトバンクは調達の限界に達したと指摘。11/10既報のAnthropicのタービン購入とは対照的な結果になった（[daily](../daily/2026-11-13.md) / [topics/anthropic](../topics/anthropic.md) / [出典](https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/)）
 - 2026-11-10: Anthropicが、OnePWRが当初発注していたCaterpillar製の天然ガスタービン（発電機、最大1.7ギガワット）を34億ドルで直接購入したとFTが報道。Google・Amazon・Microsoft・Metaが自社敷地内に発電所を建設する計画を進めているのに対し、Anthropicは発電機器そのものを購入する形で対応した。タービンの受注残は2030年代初頭まで埋まっており、ガス価格上昇リスクも指摘されている（[daily](../daily/2026-11-10.md) / [topics/anthropic](../topics/anthropic.md) / [出典](https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/)）
 - 2026-11-09: 11月3日の米中間選挙後、データセンターへの逆風が一段と強まった。複数の住民投票で建設への反対・制限が可決されたとされ、テキサス州知事選では規制を公約した民主党のヒノホサ氏が共和党のアボット知事を破った。イーロン・マスク氏は共和党へ約5億ドルを寄付したとされるが「ほぼ成果がなかった」と評され、OpenAIは秘密保持契約を求めず計画を公開する「Compute Campus」方針で対応を続けている（[daily](../daily/2026-11-09.md) / [topics/openai](../topics/openai.md) / [出典](https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/)）
 - 2026-11-08: データセンター開発企業Crusoe（企業価値309億ドル）が、Blackstone系Tallgrassと計画していた南東ワイオミング州の未完成データセンター群をGoogleへ売却。Googleはコスト・工期への懸念からCrusoeの開発体制に疑問を持っていたとされ、自ら開発を引き継ぎ170億ドルを投資する計画を発表した。「AIの拡大は資金さえあれば続く」という前提に対し、「誰が建てるか」という実務上の制約も具体化した事例（[daily](../daily/2026-11-08.md) / [topics/google](../topics/google.md) / [出典](https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/)）

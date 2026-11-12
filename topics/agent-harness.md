@@ -3,7 +3,7 @@ type: topic
 title: "エージェントハーネス（agent harness）"
 slug: agent-harness
 created: 2026-09-01
-updated: 2026-11-10
+updated: 2026-11-13
 tags: [agent, tool-use, prompt-engineering]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,8 @@ AIエージェントに仕事を任せる際の「周りの仕組み」——ツ
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-13（今日の現場ネタ）: シニアエンジニアの開発ワークフローをAIコーディングエージェントに守らせるSkill集「agent-skills」がGitHub Trendingで急上昇（本日+812スター・累計11.7万）。定義・計画・実装・検証・レビュー・リリースの25スキルと9スラッシュコマンドで構成し、70以上のエージェントに対応（[daily](../daily/2026-11-13.md) / [topics/claude-code](claude-code.md) / [出典](https://github.com/addyosmani/agent-skills)）
+- 2026-11-13: AWSが「AWS Emulator」を正式公開。AWS APIをローカル再現する無料ツールで、人間が一切コードを書かず複数のAIエージェントチームが並行して開発・保守している点が注目された（[daily](../daily/2026-11-13.md) / [topics/amazon](amazon.md) / [出典](https://www.itmedia.co.jp/news/article/2611/12/2000003126/)）
 - 2026-11-10（今日の現場ネタ）: Grok Botの代替OSS「OpenMausBot」がGitHub Trendingで急上昇（本日+1,589スター・累計1.96万）。ローカルで動くClaude・Codex・GrokのCLIエージェントをそれぞれボットとして呼び出せる設計で、既にログイン済みのCLIをそのまま使えるため新規のAPIキーが不要。承認設定の既定が「確認なし」になっている点に注意が必要（[daily](../daily/2026-11-10.md) / [topics/claude-code](claude-code.md) / [出典](https://github.com/milind-soni/OpenMausBot)）
 - 2026-11-09: ＠ITが、複数のAIエージェントを連携させる際の設計パターンを15種類に整理する記事を公開。GitHubの2つの基本設計、Googleの8パターン・4パターン、Siemensの「象を切り分ける」手法を元にまとめ、シーケンシャルパイプライン・コーディネーター・ファンアウト・ファンイン・階層的タスク分解などを紹介した（[daily](../daily/2026-11-09.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2611/08/news001.html)）
 - 2026-11-09（今日の現場ネタ）: 長時間コーディングセッションのトークンを約5分の1に圧縮するプロキシ型プラグイン「billion-context」がGitHub Trendingで急上昇（本日+460スター）。会話を単純に切り捨てず、モデル自身に圧縮・展開・検索させる設計でClaude Code・Codex・Gemini CLI等に対応（[daily](../daily/2026-11-09.md) / [topics/claude-code](claude-code.md) / [出典](https://github.com/ranxianglei/billion-context)）

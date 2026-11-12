@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-11-11
+updated: 2026-11-13
 tags: [anthropic, claude, safety, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-12: Claude Enterpriseにセキュリティ・管理機能を拡充。chat・Cowork・Claude Codeの設定状況を一覧化し推奨設定と比較できる「Security Center」、既存のDLPツールと連携してプロンプト・ツール呼び出しを検査する「Inference hooks」（一般提供開始）、Cowork内の仮想マシンにEDRセンサーを導入できる機能（Mac・Windows対応、検知のみ）、複数組織を一括管理する「中央管理コンソール」などを追加。管理者APIでの強制サインアウトやIPアローリストの自己管理も可能に（多くはベータ）（[daily](../daily/2026-11-13.md) / [topics/claude-code](claude-code.md) / [出典](https://kn.itmedia.co.jp/kn/article/2611/12/2000003082/)）
 - 2026-11-11: ビデオ会議に「参加者」として加わり議事録・計画を作る新機能「Claude Meetings」をベータ公開。会議中に計画の書き出し・ホワイトボードへのタイムライン作成・チャット質問への回答・連携アプリからの情報取得ができ、参加者として明示的に名乗る設計。外部ゲスト参加時は管理者の許可がなければ自動退席する。Team・Enterpriseプランでまずベータ公開、launch時はGoogle Meetに対応。同時に共有ホワイトボード「Claude Whiteboards」・共同編集スプレッドシート「Claude Sheets」・企業データ連携「Claude Data」（旧Claude Dashboards、一般提供化）も発表（[daily](../daily/2026-11-11.md) / [出典](https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/)）
 - 2026-11-11: IPOのロードショーを開始し価格帯を1株70〜78ドル（想定時価総額最大1.404兆ドル）に設定。発行株式数8億2,500万株、AMD・Broadcom・Google・Micron・Microsoft・Nvidia・TSMCが計260億ドル分の無議決権株を私募購入。創業者7人はそれぞれ約338万株を売却し中間価格では1人約2.5億ドルを手にする一方、議決権付きClass F株で51.1%の投票権を維持。ナスダック上場は11月19日前後の見込み（ティッカー「ANT」）（[daily](../daily/2026-11-11.md) / [threads/anthropic-ipo](../threads/anthropic-ipo.md) / [出典](https://www.anthropic.com/news/roadshow-launch)）
 - 2026-11-10: 天然ガスタービン（Caterpillar製発電機、最大1.7ギガワット）を34億ドルで購入したとFTが報道。通常はインフラを賃借する方針だったが、AIの電力不足深刻化を受けた対応。Google・Amazon・Microsoft・Metaは自社敷地内に発電所を建設する計画を進めているのに対し、Anthropicは発電機器そのものを購入する形をとった（[daily](../daily/2026-11-10.md) / [threads/ai-datacenter-energy](../threads/ai-datacenter-energy.md) / [出典](https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/)）

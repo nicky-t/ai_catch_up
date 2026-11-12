@@ -3,7 +3,7 @@ type: topic
 title: "NVIDIA（エヌビディア）"
 slug: nvidia
 created: 2026-08-28
-updated: 2026-11-12
+updated: 2026-11-13
 tags: [nvidia, agent, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -30,6 +30,7 @@ AIモデルの学習・推論に使われるGPU（画像処理用半導体）を
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-12: 取締役会が、ジェンスン・フアンCEOの社長・CEO・取締役からの即時辞任を発表。中国のスパイとされる人物と社内の部下の双方と関係を持っていたとの報道を受けたもので、同社に後継者計画はなかった。CFOのコレット・クレス氏（2013年9月入社、前職Microsoft 13年・Cisco 3年）が暫定CEOに就任。フアン氏が主導してきたオープンウェイトモデル擁護・業界自主規制（Open Agent Safety Platform）・「AIは道具」論の最大の発信者が消えることで、AI業界の方向性に広範な影響が及ぶ可能性がある（[daily](../daily/2026-11-13.md) / [出典](https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/)）
 - 2026-11-11: 米下院が、ジェンスン・フアンCEOとシンガポール企業Megaspeedの元幹部アリス・フアン氏との関係を巡り、同CEOへの召喚状発行を準備中とBloombergが報道。下院共和党のMast・Moolenaar・Crawford議員が非公開の合同説明会出席を求める書簡を送付済みで、応じるか否かの回答期限は11月11日中。応じなければ下院外交委員会が召喚状を発行する可能性が高いという（[daily](../daily/2026-11-12.md) / [出典](https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/)）
 - 2026-11-10: ジェンスン・フアンCEOが、11日開催予定のElevenLabsサミットへの登壇を取りやめた（ElevenLabsが発表）。Anthropic CEOフォーラムを含む他の登壇予定も取りやめている。関連報道ではYale大学の専門家が、フアン氏が今後もCEOにとどまれるかを「50-50」と見積もっていると伝えた（[daily](../daily/2026-11-10.md) / [出典](https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/)）
 - 2026-11-09: 取締役会が、CEOジェンスン・フアン氏とシンガポールの半導体企業Megaspeedの元幹部アリス・フアン氏との不適切な関係を巡り独立調査を開始すると発表。米情報機関の覚書は同氏が中国国家安全部からフアンCEOを探るよう勧誘されたと主張。フアンCEOは社内メッセージで不倫関係を認め謝罪し、取締役会は機密漏えいの可能性を「no reason to believe」としつつ同氏への信頼を示した（[daily](../daily/2026-11-09.md) / [出典](https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/)）

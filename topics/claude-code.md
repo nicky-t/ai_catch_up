@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-11-12
+updated: 2026-11-13
 tags: [claude-code, anthropic, agent, productivity]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-12: Claude Enterpriseのセキュリティ機能拡充で、chat・Cowork・Claude Codeの設定状況を一覧化し推奨設定と比較できる「Security Center」などの対象にClaude Codeも含まれた（[daily](../daily/2026-11-13.md) / [topics/anthropic](anthropic.md) / [出典](https://kn.itmedia.co.jp/kn/article/2611/12/2000003082/)）
 - 2026-11-12: バージョン2.1.321で新モデル「Claude Fable 5.2」（`claude-fable-5-2`）を追加し新しいデフォルトのFableモデルに設定、MCP OAuthのセキュリティ修正も実施。2.1.322ではVertex AI経由でFast modeが利用可能に（global・us・euリージョン。Vertexが拒否した場合は標準速度にフォールバック）（[daily](../daily/2026-11-12.md) / [出典](https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md)）
 - 2026-11-12（今日の現場ネタ）: 高性能モデルでコードベースを監査し安価なモデルに実装させるSkill「improve」がGitHub Trendingで急上昇（本日+333スター・累計10.8k）。`npx skills add shadcn/improve`で導入、`/improve`で監査・計画作成、`/improve execute <plan>`で安価なモデルに実装を任せる（[daily](../daily/2026-11-12.md) / [出典](https://github.com/shadcn/improve)）
 - 2026-11-10（今日の現場ネタ）: Grok Botの代替OSS「OpenMausBot」がGitHub Trendingで急上昇（本日+1,589スター）。ログイン済みのClaude Code CLIをそのままチャットのバックエンドとして流用でき、新規のAPIキーが不要な点が紹介された。承認設定の既定が「確認なし」になっている点に注意が必要（[daily](../daily/2026-11-10.md) / [topics/agent-harness](agent-harness.md) / [出典](https://github.com/milind-soni/OpenMausBot)）

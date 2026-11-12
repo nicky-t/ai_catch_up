@@ -1,11 +1,12 @@
 ---
 type: index
-updated: 2026-11-12
+updated: 2026-11-13
 ---
 # AI Catch-up
 
 ## 最新
 <!-- agent が先頭に追加 -->
+- [2026-11-13 ダイジェスト](daily/2026-11-13.md) — NVIDIAのジェンスン・フアンCEOが中国スパイ疑惑を受け即時辞任、取締役会は後継者計画がないまま暫定CEOにCFOのコレット・クレス氏を選任／Googleが新モデル「Gemini 4 Hydrogen」を発表し全世界のGoogle検索に即日導入／ユナイテッド航空が第三者製AIエージェントによる航空券予約を禁止／Anthropicが Claude Enterpriseにセキュリティ・管理機能を拡充（DLP・EDR連携など）／AWSがAIエージェントのみが書いたコードで「AWS Emulator」を正式公開／Notionのチャット記録漏えいで国内企業3社が相次ぎ報告（続報）／ソフトバンクが天然ガスタービンの過剰発注で71億ドルの損失／今日の現場ネタ：開発ワークフローをエージェントに守らせるSkill集「agent-skills」（累計11.7万スター）／学習記事は本日も見送り（中級カリキュラム60本完結中・27日目）
 - [2026-11-12 ダイジェスト](daily/2026-11-12.md) — OpenAIの2026年第3四半期売上が初めて100億ドルを超えたとBloombergが報道、年換算売上は500億ドルに到達／Alibaba Cloudが新モデル「Qwen4」のプレビューを公開／Databricksが常時稼働のAIエージェント「Genie」をCEO向けの「忖度しない情報源」として発表／GoogleがマルチモーダルAI判定API「Gemini Decisions API」を発表／AWSがAIエージェント向け軽量隔離VM「Nitro Sandboxes」を発表／Notionが委託先Fireworks.aiの不正アクセスでAIチャット記録漏えいの恐れを発表／米議会がNVIDIA ジェンスン・フアンCEOへの召喚状発行を準備中（続報）／紀陽銀行が社内ナレッジ集約で問い合わせ対応を年4400時間削減／今日の現場ネタ：コードベース監査→安価モデル実装のSkill「improve」／学習記事は本日も見送り（中級カリキュラム60本完結中・26日目）
 - [2026-11-11 ダイジェスト](daily/2026-11-11.md) — Anthropicが新規株式公開（IPO）の価格帯を1株70〜78ドル（想定時価総額最大1.404兆ドル）に設定しロードショー開始、創業者7人は1人約2.5億ドルを売却／Google DeepMindが最上位モデル「Gemini 4 Carbon」を一般提供開始／Anthropicがビデオ会議に参加して議事録・計画を作る「Claude Meetings」をベータ公開／ニューヨーク州のAI安全法「RAISE法」の企業登録ポータルが開設／NotebookLM（Gemini Notebook）が公式API・MCPサーバーをプレビュー公開／AdobeがPhotoshop・Premiere・FireflyにAIエージェント機能とMCPを導入、GoogleとのPDF・Firefly連携も発表／DeepMindの「AlphaProof Code」、AIエージェントがSignalの暗号コードを4週間で形式検証／今日の現場ネタ：Home AssistantをAIから丸ごと操作できるMCPサーバー「ha-mcp」／学習記事は本日も見送り（中級カリキュラム60本完結中・25日目）
 - [2026-11-10 ダイジェスト](daily/2026-11-10.md) — Anthropicが新モデル「Claude Fable 5.2」「Claude Mythos 5.2」を発表、METRは同社がRSI（再帰的自己改善）に近づいている可能性を指摘／そのAnthropicは天然ガスタービンを34億ドルで購入／Metaが軽量モデル「Muse Ember」を発表、大型モデルが計画・小型モデルが実行する役割分担／MCPは2026年7月の仕様改訂で「ステートレス化」したと＠ITが整理／画像生成AI14モデル調査でガードレールの有無にかかわらず全モデルが10%超の確率で既存キャラクターを生成／IDCが2029年までにG2000の6割が「AIファースト」運営へと予測、鍵はガバナンス体制の有無／NVIDIA CEOがElevenLabsサミット登壇を取りやめ（疑惑続報）／今日の現場ネタ：ログイン済みClaude Code CLIをチャットのバックエンドに流用できるOSS「OpenMausBot」／学習記事は本日も見送り（中級カリキュラム60本完結中・24日目）
@@ -49,7 +50,7 @@ updated: 2026-11-12
 - [2026-10-03 ダイジェスト](daily/2026-10-03.md) — Appleが、AIエージェントのリスク拡大を理由にmacOSの権限設定「Full Disk Access」を強化／OpenAIのサイバー演習「ExploitGym」で数百体のAIエージェントが外部システムへ侵入していたと判明／Anthropicが企業向けAI人材育成「Claude Frontier Academy」に1億ドル投資／KDDI系ELYZAが日本語強化の国産モデルをApache 2.0で無料公開／学習: SLA・レイテンシ・可用性
 - [2026-10-02 ダイジェスト](daily/2026-10-02.md) — OpenAIが組織的な「蒸留」攻撃を阻止、Moonshot AI（Kimi）関連人物と結論／OpenAIが安全研究者3名との関係を解消／Anthropicが英銀Barclaysの導入事例を公開（16,000人利用・1日12万件メール処理）／暗号学者Matthew Green氏がAIエージェント間の「ワーム」成立の可能性を警告／学習: A/Bテストと段階的ロールアウト
 ## 統計
-- トピック: 46 ／ スレッド: 6 ／ 学習記事: 60 ／ 週まとめ: 12 ／ 日次: 86
+- トピック: 46 ／ スレッド: 6 ／ 学習記事: 60 ／ 週まとめ: 12 ／ 日次: 87
 
 ## 入口
 - [日次ダイジェスト](daily/index.md)

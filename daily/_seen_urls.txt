@@ -774,3 +774,15 @@ https://www.itmedia.co.jp/aiplus/article/2611/11/2000003104/
 https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/
 https://atmarkit.itmedia.co.jp/ait/articles/2611/11/news029.html
 https://github.com/shadcn/improve
+https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/
+https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/
+https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/
+https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/
+https://kn.itmedia.co.jp/kn/article/2611/12/2000003082/
+https://www.itmedia.co.jp/news/article/2611/12/2000003126/
+https://www.itmedia.co.jp/aiplus/article/2611/12/2000003140/
+https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/
+https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/
+https://www.itmedia.co.jp/aiplus/article/2611/12/2000003129/
+https://www.itmedia.co.jp/enterprise/articles/2611/11/news089.html
+https://github.com/addyosmani/agent-skills
