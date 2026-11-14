@@ -3,7 +3,7 @@ type: topic
 title: "OpenAI"
 slug: openai
 created: 2026-08-19
-updated: 2026-11-12
+updated: 2026-11-15
 tags: [openai, chatgpt, gpt, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,7 @@ ChatGPT と GPT 系モデルを開発する米国の AI 企業。一般利用者
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-13: ChatGPTのAIエージェント「dots」に決済まで代行させる「ChatGPT Wallet」を発表。決済トークン化でカード情報はdots・販売店に渡さず、購入前の確認とFace ID・指紋認証での承認を必須にした。まず米国の18歳以上のChatGPT Pro利用者（米発行Visa/Mastercard/Amex）に限定展開（[daily](../daily/2026-11-15.md) / [topics/nvidia](nvidia.md) / [出典](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/)）
 - 2026-11-12: 2026年第3四半期（7〜9月）の売上高が初めて100億ドルを超えたとBloombergが報道（TechCrunch経由、未確認情報として扱われている）。第2四半期の67億ドルからほぼ50%増、年換算売上（ランレート）は500億ドルに到達。調整後営業利益率も第2四半期の-150%から第3四半期は-109%へ改善した。同じ報道でAnthropicの第3四半期売上170億ドル・10月末ランレート810億ドルにも言及しているが、両社の算出方法は異なる（[daily](../daily/2026-11-12.md) / [topics/anthropic](anthropic.md) / [threads/anthropic-ipo](../threads/anthropic-ipo.md) / [出典](https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/)）
 - 2026-11-11: ニューヨーク州のAI安全法「RAISE法」の企業登録ポータルが11月10日に開設され、新たな監督対象になった。年間売上高5億ドル超のフロンティアAI開発企業（OpenAI・Anthropic等）が対象で、2027年1月1日までの州登録・安全フレームワーク公開・重大インシデントの72時間以内報告・透明性レポート公表が義務化される。違反は1件最大100万ドル（2回目以降300万ドル）。法律自体の施行は2027年始まり（[daily](../daily/2026-11-11.md) / [topics/anthropic](anthropic.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/)）
 - 2026-11-10: ChatGPT EnterpriseをAWS Marketplaceで利用可能にしたと発表。企業は既存のAWSの購買・請求の仕組みを使って調達を簡素化できるという（記事ページは403のためRSS配信の要約に基づく）（[daily](../daily/2026-11-10.md) / [出典（RSS）](https://openai.com/index/chatgpt-enterprise-aws-marketplace)）

@@ -3,7 +3,7 @@ type: topic
 title: "Microsoft（マイクロソフト）"
 slug: microsoft
 created: 2026-09-06
-updated: 2026-11-02
+updated: 2026-11-15
 tags: [microsoft, guardrails, prompt-engineering, safety, cost, productivity]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ Windows・Office・Azure・GitHubなどを展開する米国のテクノロジ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-13: Microsoft 365（Outlook・Teams等）で障害が発生し、ChatGPTとClaudeのMicrosoft 365コネクタも正常動作しなくなった。Microsoftはサイバー攻撃やAIとは無関係のネットワーク容量増強時の問題と説明し、14日未明までに両社とも復旧を報告（[daily](../daily/2026-11-15.md) / [topics/anthropic](anthropic.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/13/2000003164/)）
 - 2026-11-02: GitHub Universe 2026でマルチモデル機能「GitHub Copilot Fusion」の正式リリースを発表。タスク特性に応じてSingle・Cascade・Critiqueの3パターンでモデルを使い分け、負荷レベルはFusion Standard・High・Maxから選択（Fusion Fastは選択不可）。パブリックプレビューでは、ローカル導入したMAI Code 1.1 FlashやQwen3.8 Flash NextもFusion Standardで利用可能（[daily](../daily/2026-11-02.md) / [topics/copilot](copilot.md) / [出典](https://www.publickey1.jp/blog/26/githubcopilot_fusionaigithub_universe_2026.html)）
 - 2026-11-02: robots.txtの共通記述でAI学習への利用可否を一括表明できる仕組みについて、2027年2月1日からの適用開始を表明（従来の「NoArchive」「NoCache」設定からの移行は2027年3月1日まで）（[daily](../daily/2026-11-02.md) / [topics/openai](openai.md) / [出典](https://www.itmedia.co.jp/news/article/2611/01/2000002776/)）
 - 2026-10-23: 学術誌Scienceに発表した研究で、複数のAIエージェントが医師団のように議論する診断システム「MAI-DxO」が、難解な医学系症例で正答率83%を記録（参考資料を使った一般医の単独対応は36%）と公表。ただし研究データ自体は改善の大部分がMicrosoftの仕組みよりモデル自体の性能向上によると示唆（GPT-5.5単体で72%→MAI-DxO併用で87%近くに上昇）。Beth Israel Deaconess Medical Centerでの実診療比較を今後計画（[daily](../daily/2026-10-23.md) / [出典](https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/)）
