@@ -3,7 +3,7 @@ type: thread
 title: "AIの生産性・雇用への影響（ai-productivity-employment）"
 slug: ai-productivity-employment
 created: 2026-10-18
-updated: 2026-11-12
+updated: 2026-11-15
 tags: [productivity, hr, survey]
 status: active
 related: [topics/anthropic.md, topics/microsoft.md, topics/apple.md]
@@ -16,14 +16,15 @@ related: [topics/anthropic.md, topics/microsoft.md, topics/apple.md]
 
 ## 現在地（最新の要約）
 <!-- 週次で更新される 3〜5 行 -->
-- AIコスト管理が「使わせる」段階から「絞る」段階へ転換：Appleが社内AI利用予算を1日300ドルから200ドルへ削減（「tokenmaxxing」からROI重視へ、11/6）、Ramp調査では企業のAIトークン支出の伸びが8〜9月は1.5%増に急減速した（6〜7月は42%増、11/7）
-- 評価額の下方修正が相次いだ：Anthropicの想定評価額が10月初旬の2兆ドルから1.2〜1.3兆ドルへ、OpenAIも新ラウンドで110億ドルを確保したが評価額1.25兆ドルは9月時点の目標（300億ドル・1.4兆ドル）から下方修正された（11/7〜8）
-- 現場の「慎重さ」の意味が問い直された：Thoughtworksの1週間実験で、経験豊富なエンジニアほどAIエージェント任せに慎重で、作業時間の3分の2が議論・検証に割かれた一方、チーム統合後のビルド不安定は解消しきれなかった（11/8）
-- 国内では「AI効率化→休暇拡大」への現場の反応が一様でないことも判明：SpiralAIが給与維持の週休3日制を導入したが、発表時に歓迎した社員は誰もいなかった（11/7、詳細は[threads/japan-ai-adoption](japan-ai-adoption.md)）
-- 10月末までに積み上がった「普及率は高いが財務的な成果は限定的」という基本構図（Apollo分析・INDUSTRIAL-X調査・GitHub Octoverse等）は変わらず背景として有効
+- 「AIツールを広げる」から「絞る・選ぶ」段階への転換が具体化：ゴールドマン・サックスがClaude Code・GitHubの利用をエンジニア限定に変更（トレーダー・バンカーは利用不可。情報バリア・コストの見直しが理由、11/9）。GPT-6.1 Terra・Claude Haiku 5.5の値下げ競争が激化する一方、企業はモデルごとの適性を見極めにくいとの指摘も出ている（11/9）
+- ガバナンス体制の有無が成果を左右するという調査結果：IDCが2029年までに世界売上上位2000社の60%が「AIファースト」運営に移行すると予測。ガバナンス専任組織（Center of Excellence）がある企業は複雑業務をAIに任せる割合が63%（無い企業は15%、約4倍の差）（11/10）
+- 「エージェントに率直な情報源としての役割を持たせる」という使い方の実例：Databricksが常時稼働型AIエージェント「Genie」の更新版を発表し、CEOが組織内で経営層に悪い情報が上がりにくい問題を補う情報源として活用（11/12）
+- エージェント管理基盤自体が独立事業として成長：LangChainが3億ドルを調達し評価額30億ドルに（1年で2倍超、顧客7,000社超）。モデル性能の内製化が進む中での業界の分業構造の変化を示す（11/15）
+- 前週までの「使わせる」から「絞る」への転換（Apple予算削減・Ramp調査の支出鈍化）、AI企業の評価額下方修正の流れは背景として継続（詳細はAnthropicの新規株式公開（[threads/anthropic-ipo](anthropic-ipo.md)）とも接続）
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-15（週次整理・追記）: AIエージェント開発・管理ソフト「LangSmith」を手がけるLangChainが、CapitalG主導のシリーズCで3億ドルを調達し評価額30億ドルに達したと発表（約1年前の評価額12.5億ドルから2倍超）。LangSmithの顧客は7,000社超で、Harvey・Rippling・Clay等のスタートアップやNVIDIA・トヨタ・Salesforceなどの大企業が利用しているという（[daily](../daily/2026-11-15.md) / [出典](https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/)）
 - 2026-11-12: Databricksが、自社データのオントロジーで文脈を理解し自律的に多段階作業をこなすAIエージェント「Genie」の更新版を発表。CEOアリ・ゴドシ氏は従業員満足度調査の分析・失敗した大型商談の要約・ポッドキャスト出演準備などに活用していると紹介し、従業員1万2,000人超の規模では経営層に悪い情報が上がりにくいとして「忖度しない情報源」として位置づけた。AI利用料の増大には利用上限設定や低コストのオープンウェイトモデルへの切替で対応するという（[daily](../daily/2026-11-12.md) / [出典](https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/)）
 - 2026-11-10: IDCが「FutureScape 2027」（10月27日発表）で、2029年までに世界売上上位2000社（G2000）の約60%が業務プロセスの大半を「AIファースト」で運営すると予測（2026年時点は13%）。2027年までに人材・AI投資を先送りした企業は2029年までに先行企業より生産性が約50%低くなるとし、AIガバナンスを担う「Center of Excellence」がある企業は複雑な業務をAIに任せる割合が63%（無い企業は15%、約4倍）という（[daily](../daily/2026-11-10.md) / [出典](https://www.itmedia.co.jp/enterprise/articles/2611/06/news023.html)）
 - 2026-11-09: ゴールドマン・サックスが2026年10月の社内ガイダンス改定で、Claude CodeとGitHubの利用をエンジニアに限定したとBloombergが報道。約4万7,000人の従業員のうち約1万2,000人がエンジニアで、トレーダー・バンカーは使えなくなった。生産性とリスクの見直しが理由で、取引情報の隔離（情報バリア）管理の難しさやトークン課金のコストも一因とみられる（[daily](../daily/2026-11-09.md) / [topics/claude-code](../topics/claude-code.md) / [出典](https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers)）

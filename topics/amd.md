@@ -3,11 +3,11 @@ type: topic
 title: "AMD（エーエムディー）"
 slug: amd
 created: 2026-09-30
-updated: 2026-10-29
+updated: 2026-11-15
 tags: [amd, nvidia]
 level: beginner
 audience: [engineer, business, instructor]
-related: [topics/nvidia.md]
+related: [topics/nvidia.md, topics/anthropic.md]
 ---
 
 # AMD（エーエムディー）
@@ -22,7 +22,7 @@ GPU・CPUを手掛ける米半導体メーカー。AI向けチップ市場でNvi
 ## 実務での使い方
 - 自社のAI基盤をどのハードウェアベンダーに依存させるかを検討する際、チップメーカー自身がどのようなモデル技術を保有しているかも選定材料になりうる
 - 性能面では、AIチップ「Instinct」シリーズの新型「MI400」（2026年投入予定）がFP4演算で最大40 petaflops、メモリ・帯域幅・拡張性は現行の競合製品比で50%向上するとAMDは説明（AMD自身の主張で第三者検証ではない点に留意）。1ラックに最大72GPUを搭載するプラットフォーム「Helios」との組み合わせで世代間10倍の性能向上を見込むという。前世代「MI355」は2025年6月に量産開始済みで、NvidiaのB200・GB200と競合する位置づけ
-- 採用事例については、大口顧客からMI400の大規模導入への強い関心が寄せられているとの記述はあるが、本記事執筆時点（2026-10-25確認）で具体的な採用企業名は確認できていない（要追記：具体的な採用企業名が判明した場合に追記。World Labsチーム統合後の組織体制の詳細も出典に記載なし）
+- 採用事例としては、AnthropicがAMDとの戦略的提携でMI450シリーズGPUを最大2GW導入する契約を結んでおり（2026年7月22日発表）、最初の1GW分は2027年上半期に稼働開始予定。AMDはAnthropicへ将来最大50億ドルの戦略的出資を約束している（出典: [AMD公式プレスリリース — AMD and Anthropic Announce Strategic Partnership to Deploy Up to 2 Gigawatts of AMD Instinct MI450 Series GPUs](https://ir.amd.com/news-events/press-releases/detail/1292)、取得日2026-11-15）。World Labsチーム統合後の組織体制の詳細は依然出典に記載なし（要追記）
 
 ## 講座で使うなら
 - 30 秒説明: 「PCやサーバー向けのチップを作っている会社で、Nvidiaのライバルにあたります。最近はAIモデルを作る会社を買収して、チップとモデルの両方を持とうとしています」
@@ -31,6 +31,7 @@ GPU・CPUを手掛ける米半導体メーカー。AI向けチップ市場でNvi
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-15（週次整理・要追記対応）: AMDとAnthropicが2026年7月22日に戦略的提携を発表していたことを一次情報で確認。AMD Instinct MI450シリーズGPU（Heliosラックスケール搭載）を最大2GW導入する契約で、最初の1GWは2027年上半期稼働開始予定。AMDはAnthropicへ将来最大50億ドルの戦略的出資を約束（[出典](https://ir.amd.com/news-events/press-releases/detail/1292)、取得日2026-11-15）
 - 2026-10-29: Metaとの戦略的提携拡大を発表（10月27日、現地時間）。ラックスケール基盤「Helios」の初期導入分がMetaに設置されテスト中で、Museを稼働させる専用環境にEPYCプロセッサ、学習・ランキング・レコメンドにInstinct GPUを提供。Metaが10月26日発表した最大950億ドル規模の株式発行計画に10億ドルを出資（[daily](../daily/2026-10-29.md) / [topics/nvidia](nvidia.md) / [topics/meta](meta.md) / [出典](https://www.itmedia.co.jp/news/article/2610/28/2000002651/)）
 - 2026-10-25（週次整理・要追記対応）: AIチップ「Instinct」の新型「MI400」（FP4演算で最大40 petaflops、2026年投入予定）・ラックスケール基盤「Helios」（1ラック最大72GPU）の性能主張を2025年8月のDIGITIMES記事で確認。大口顧客からMI400導入への関心表明はあるが、具体的な採用企業名は同記事に記載なし（[出典](https://www.digitimes.com/news/a20250806VL202.html)、取得日2026-10-25）
 - 2026-09-30: Fei-Fei Li氏が創業した「World Labs」を82億ドルで買収すると発表。Li氏はAMDの最高経営責任者補佐・最高科学者として参画する。テキスト・映像ベースのモデル提供が中心だった自社製品群に、世界モデル技術を加える狙い。買収は年内完了予定（[daily](../daily/2026-09-30.md) / [topics/nvidia](nvidia.md)）
