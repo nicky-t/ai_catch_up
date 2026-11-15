@@ -3,11 +3,11 @@ type: topic
 title: "NVIDIA（エヌビディア）"
 slug: nvidia
 created: 2026-08-28
-updated: 2026-11-15
+updated: 2026-11-16
 tags: [nvidia, agent, safety]
 level: beginner
 audience: [engineer, business, instructor]
-related: [topics/hugging-face.md, topics/anthropic.md, topics/jalapeno.md]
+related: [topics/hugging-face.md, topics/anthropic.md, topics/jalapeno.md, threads/nvidia-leadership-crisis.md]
 ---
 
 # NVIDIA（エヌビディア）
@@ -30,6 +30,7 @@ AIモデルの学習・推論に使われるGPU（画像処理用半導体）を
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-14（2件）: フアン前CEOの復帰を求める署名活動が土曜時点で11万5千人超（現従業員5,965人・元従業員1,108人・株主63,063人含む、イーロン・マスク氏ら著名経営者も賛同）。一方でセキュリティ関連の人事を巡り「セキュリティ部門はフアン氏の交際関係や調査をどこまで把握していたか」が問われている。最高セキュリティ責任者David Reber氏は8月に退任（本人は若年性パーキンソン病と説明）、その約2.5カ月後にフアンCEOが退任した（[daily](../daily/2026-11-16.md) / [threads/nvidia-leadership-crisis](../threads/nvidia-leadership-crisis.md) / [出典1](https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/) / [出典2](https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/)）
 - 2026-11-14: フアンCEO退任を受け、アジア各国政府が反応。中国外務省は「スパイ」報道を否定し輸出規制への反対を改めて表明（Reuters推定で中国のAI計算案件約30億ドル超が規制対象チップに依存）。韓国はGPU26万個の供給継続を確認、台湾は海外本部計画への影響は限定的と説明、日本の経産省は「影響を注視する」とコメント（[daily](../daily/2026-11-15.md) / [出典](https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/)）
 - 2026-11-13: フアンCEO退任を受け、VC・AIスタートアップへの資金供給縮小の懸念が拡大。NVIDIAは今年105件の資金調達ラウンドに参加（PitchBook調べ、Reflection AIへ8億ドル等）しており、主要な投資判断はフアン氏自身が下していたと投資家が証言。暫定CEOのコレット・クレス氏は「より慎重」との見方から、出資先の選別強化・小口化が懸念されている（[daily](../daily/2026-11-15.md) / [出典](https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/)）
 - 2026-11-12: 取締役会が、ジェンスン・フアンCEOの社長・CEO・取締役からの即時辞任を発表。中国のスパイとされる人物と社内の部下の双方と関係を持っていたとの報道を受けたもので、同社に後継者計画はなかった。CFOのコレット・クレス氏（2013年9月入社、前職Microsoft 13年・Cisco 3年）が暫定CEOに就任。フアン氏が主導してきたオープンウェイトモデル擁護・業界自主規制（Open Agent Safety Platform）・「AIは道具」論の最大の発信者が消えることで、AI業界の方向性に広範な影響が及ぶ可能性がある（[daily](../daily/2026-11-13.md) / [出典](https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/)）

@@ -3,7 +3,7 @@ type: topic
 title: "MCP（Model Context Protocol）"
 slug: mcp
 created: 2026-08-23
-updated: 2026-11-11
+updated: 2026-11-16
 tags: [mcp, agent, tool-use, guardrails]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,7 @@ AI アシスタントが外部のデータ源・ツール・業務システム�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-16（今日の現場ネタ）: 実際に起動したChromeをMCP経由でエージェントに操作・検査させる「chrome-devtools-mcp」がGitHub Trendingで急上昇（本日+718スター、累計約5.68万）。パフォーマンス計測・ネットワーク/コンソールデバッグ・スクリーンショット取得などに対応し、デバッグ用途別のSkillも同梱（[daily](../daily/2026-11-16.md) / [出典](https://github.com/ChromeDevTools/chrome-devtools-mcp)）
 - 2026-11-11: Adobeが、Photoshop・Premiere・Illustrator・After Effects横断でエンドポイントを公開するローカルMCPサーバーを公開。ChatGPT・Claude・GeminiなどのチャットボットからAdobe機能を呼び出せる。同日GoogleがNotebookLM（Gemini Notebook）の公式MCPサーバーもプレビュー公開し、ノートブック・ソース操作の7ツールをStreamable HTTP・JSON-RPC 2.0で提供した（[daily](../daily/2026-11-11.md) / [topics/adobe](../topics/adobe.md) / [topics/google](../topics/google.md) / [出典](https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/)）
 - 2026-11-10: ＠ITが、2026年7月の仕様改訂でMCPが「ステートレス化」したと整理する記事を公開。従来はサーバーがセッション状態を保持する前提だったが、初期化のやり取りやセッションIDヘッダーを廃止し、クライアントが毎回のリクエストに必要な情報を含める方式に変更。負荷分散・スケーリングが容易になる一方、状態管理の責任はアプリ側に移ったと指摘（[daily](../daily/2026-11-10.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2611/10/news003.html)）
 - 2026-11-09: MCP公式のRuby SDKが、仕様を完全にサポートする「MCP SDK Tier 1」の水準に到達したと発表。これまでPython・TypeScriptなどが対応していたTier 1水準にRubyも加わった（[daily](../daily/2026-11-09.md) / [出典](https://www.publickey1.jp/blog/26/mcpmcpruby_sdkmcp_sdk_tier_1.html)）

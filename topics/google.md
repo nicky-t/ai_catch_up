@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-11-13
+updated: 2026-11-16
 tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,7 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-16: クラウドセキュリティ企業Wizが2026年9月に始めた無償AI脆弱性診断「Scan for Good」（Google DeepMindと共同開発、米CISAが助言）が、累計32.6万件超の公開エンドポイント・1万7,700ドメインを監視し475件の高リスク・重大な露出を検出。専任のセキュリティ担当を持たない非営利団体・OSSメンテナー・教育機関・公衆衛生機関を優先的に支援している（[daily](../daily/2026-11-16.md) / [出典](https://techtarget.itmedia.co.jp/tt/article/2611/16/2000003179/)）
 - 2026-11-12: 新モデル「Gemini 4 Hydrogen」を発表し、全世界のGoogle検索・AI Modeに即日導入。複数パートからなる質問や入力ミスを含む文章への理解力、指示追従性・ツール呼び出し能力を強化し、関連する複数のサブトピックへ同時に検索を広げる「クエリのファンアウト」で以前より幅広いリンクを提示できるという。画像・構造化回答・比較表・カスタムツールを使った視覚的な回答も増やす。具体的なベンチマーク数値は未確認（[daily](../daily/2026-11-13.md) / [出典](https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/)）
 - 2026-11-11: マルチモーダル入力を対象に最大1,000件の判定を一括で行う「Gemini Decisions API」を発表（新モデル「Gemini Decision 1」を使用）。各回答に確率と0〜1の信頼度スコアが付き、応答時間はエンドツーエンド150〜250ミリ秒。料金は入力100万トークンあたり0.10ドルで出力トークンは無料。ツール選択・ポリシーチェック・モデルルーティング・コンテンツ評価などの用途を想定（[daily](../daily/2026-11-12.md) / [topics/jev](jev.md) / [出典](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/)）
 - 2026-11-11: 最上位フロンティアモデル「Gemini 4 Carbon」を一般提供開始。中位モデル「Gemini 4 Argon」の上位に位置づけ、エージェント型コーディングのベンチマーク3種で首位（外部最有力モデル比2倍超低コスト）、模擬サイバー攻撃の99%をブロック（1回あたり突破率0.8%）する一方プロンプトインジェクション対策は「改善が必要な領域」と自己評価。価格は当初100万トークンあたり入力2ドル・出力10ドル、11月30日以降は入力4ドル・出力20ドル（[daily](../daily/2026-11-11.md) / [出典](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/)）

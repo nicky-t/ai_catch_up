@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-11-15
+updated: 2026-11-16
 tags: [claude-code, anthropic, agent, productivity]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-16（今日の現場ネタ）: AIエージェントの計画・コード差分をブラウザでレビューしフィードバックを送り返せるツール「plannotator」がGitHub Trendingで急上昇（本日+860スター、累計約1.18万）。Claude Code・Codex・Gemini CLIなど複数のエージェントに対応し、planモードで自動的にレビュー画面が開く（[daily](../daily/2026-11-16.md) / [出典](https://github.com/backnotprop/plannotator)）
 - 2026-11-15: バージョン2.1.323〜325を公開。2.1.323でClaudeがツール呼び出しをJavaScriptコードとして書く実験的なオプトイン機能「Code Mode」を追加、未知のモデルIDの既定コンテキストウィンドウを20万→100万トークンに変更。2.1.325ではサンドボックス化されたBashが既定で通常の権限確認フローに従うよう変更し、信頼していないリポジトリでの読み取り専用git操作も確認を求めるようにした。zstd圧縮応答の復号処理のセキュリティ修正も実施（[daily](../daily/2026-11-15.md) / [出典](https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md)）
 - 2026-11-15（今日の現場ネタ）: コーディングエージェントの応答・ログ読み込みを圧縮してトークン代を減らすツール「caveman」がGitHub Trendingで急上昇（本日+227スター）。個人投資家向けの投資ワークフローをSkillsで整理した「claude-trading-skills」も急上昇（本日+556スター）（[daily](../daily/2026-11-15.md) / [出典](https://github.com/JuliusBrussee/caveman)）
 - 2026-11-12: Claude Enterpriseのセキュリティ機能拡充で、chat・Cowork・Claude Codeの設定状況を一覧化し推奨設定と比較できる「Security Center」などの対象にClaude Codeも含まれた（[daily](../daily/2026-11-13.md) / [topics/anthropic](anthropic.md) / [出典](https://kn.itmedia.co.jp/kn/article/2611/12/2000003082/)）
