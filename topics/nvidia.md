@@ -3,7 +3,7 @@ type: topic
 title: "NVIDIA（エヌビディア）"
 slug: nvidia
 created: 2026-08-28
-updated: 2026-11-16
+updated: 2026-11-17
 tags: [nvidia, agent, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -30,6 +30,7 @@ AIモデルの学習・推論に使われるGPU（画像処理用半導体）を
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-16: 米商務省が、D:5グループ22カ国（中国・ロシア・イラン・北朝鮮等）の企業が海外データセンターを遠隔利用して輸出規制を回避することを防ぐ暫定規則を導入。1,200万TPP超（H100/H200約750基相当）のデータセンターへのAIチップ輸出・再輸出・移転にライセンスが必要になり、仲介業者経由の間接アクセスも対象。既存事業者は90日以内にライセンス取得が必要（[daily](../daily/2026-11-17.md) / [出典](https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/)）
 - 2026-11-14（2件）: フアン前CEOの復帰を求める署名活動が土曜時点で11万5千人超（現従業員5,965人・元従業員1,108人・株主63,063人含む、イーロン・マスク氏ら著名経営者も賛同）。一方でセキュリティ関連の人事を巡り「セキュリティ部門はフアン氏の交際関係や調査をどこまで把握していたか」が問われている。最高セキュリティ責任者David Reber氏は8月に退任（本人は若年性パーキンソン病と説明）、その約2.5カ月後にフアンCEOが退任した（[daily](../daily/2026-11-16.md) / [threads/nvidia-leadership-crisis](../threads/nvidia-leadership-crisis.md) / [出典1](https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/) / [出典2](https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/)）
 - 2026-11-14: フアンCEO退任を受け、アジア各国政府が反応。中国外務省は「スパイ」報道を否定し輸出規制への反対を改めて表明（Reuters推定で中国のAI計算案件約30億ドル超が規制対象チップに依存）。韓国はGPU26万個の供給継続を確認、台湾は海外本部計画への影響は限定的と説明、日本の経産省は「影響を注視する」とコメント（[daily](../daily/2026-11-15.md) / [出典](https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/)）
 - 2026-11-13: フアンCEO退任を受け、VC・AIスタートアップへの資金供給縮小の懸念が拡大。NVIDIAは今年105件の資金調達ラウンドに参加（PitchBook調べ、Reflection AIへ8億ドル等）しており、主要な投資判断はフアン氏自身が下していたと投資家が証言。暫定CEOのコレット・クレス氏は「より慎重」との見方から、出資先の選別強化・小口化が懸念されている（[daily](../daily/2026-11-15.md) / [出典](https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/)）

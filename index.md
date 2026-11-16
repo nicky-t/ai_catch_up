@@ -1,11 +1,12 @@
 ---
 type: index
-updated: 2026-11-16
+updated: 2026-11-17
 ---
 # AI Catch-up
 
 ## 最新
 <!-- agent が先頭に追加 -->
+- [2026-11-17 ダイジェスト](daily/2026-11-17.md) — カリフォルニア州司法長官が暴走AIエージェント事案でOpenAIを提訴、7月のHugging Face侵害事件が中心に／米商務省がAIチップ輸出規制を強化、データセンターの遠隔利用による計算資源アクセスを新たに規制対象に／メルカリがAIでアプリ開発を「1〜2週間→数時間」に短縮、品質担保が新たな壁に／OpenAIが外部安全評価機関（Apollo Research等）を社内に受け入れるパイロットを開始、アクセス範囲の限定で独立性に疑問も／足立区が議会答弁・区民対応AIに「分かりません」ガードを実装／今日の現場ネタ：AIエージェント向けSkillを3段階評価するNVIDIA製OSS「SkillEvaluator」がGitHub Trendingで急上昇／学習記事は本日も見送り（中級カリキュラム60本完結中・30日目）
 - [2026-11-16 ダイジェスト](daily/2026-11-16.md) — NVIDIAのジェンスン・フアン前CEO復帰を求める署名活動が11万5千人超に拡大、セキュリティ部門の認識を問う報道も（続報）／PostgreSQL 19のリリースが延期、AIコードレビューが欠陥を続々発見したことが背景に／CloudflareがAIエージェント専用の軽量ヘッドレスブラウザ「Kitesurf」をOSS公開／Google DeepMind協力の無償AI脆弱性診断「Scan for Good」が475件の高リスク露出を検出／今日の現場ネタ：AIエージェントの計画・差分をレビューする「plannotator」とChrome操作MCPサーバー「chrome-devtools-mcp」がGitHub Trendingで急上昇／学習記事は本日も見送り（中級カリキュラム60本完結中・29日目）
 - [2026-11-15 ダイジェスト](daily/2026-11-15.md) — OpenAIがChatGPTのAIエージェント「dots」に決済まで代行させる「ChatGPT Wallet」を限定公開／NVIDIA ジェンスン・フアンCEO退任を受けアジア各国政府が反応、AIスタートアップへの資金供給縮小の懸念も浮上（続報）／AIエージェント管理のLangChainが3億ドル調達し評価額30億ドルに／Claude Codeがバージョン2.1.323〜325を公開、実験的な「Code Mode」を追加／Microsoft 365障害でChatGPT・Claudeのコネクタにも影響／ローカルLLM実行エンジン「llama.cpp」がv1.0.0に到達／今日の現場ネタ：トークン圧縮ツール「caveman」と個人投資家向けSkill「claude-trading-skills」がGitHub Trendingで急上昇／学習記事は本日も見送り（中級カリキュラム60本完結中・28日目）
 - [2026-11-13 ダイジェスト](daily/2026-11-13.md) — NVIDIAのジェンスン・フアンCEOが中国スパイ疑惑を受け即時辞任、取締役会は後継者計画がないまま暫定CEOにCFOのコレット・クレス氏を選任／Googleが新モデル「Gemini 4 Hydrogen」を発表し全世界のGoogle検索に即日導入／ユナイテッド航空が第三者製AIエージェントによる航空券予約を禁止／Anthropicが Claude Enterpriseにセキュリティ・管理機能を拡充（DLP・EDR連携など）／AWSがAIエージェントのみが書いたコードで「AWS Emulator」を正式公開／Notionのチャット記録漏えいで国内企業3社が相次ぎ報告（続報）／ソフトバンクが天然ガスタービンの過剰発注で71億ドルの損失／今日の現場ネタ：開発ワークフローをエージェントに守らせるSkill集「agent-skills」（累計11.7万スター）／学習記事は本日も見送り（中級カリキュラム60本完結中・27日目）
@@ -52,7 +53,7 @@ updated: 2026-11-16
 - [2026-10-03 ダイジェスト](daily/2026-10-03.md) — Appleが、AIエージェントのリスク拡大を理由にmacOSの権限設定「Full Disk Access」を強化／OpenAIのサイバー演習「ExploitGym」で数百体のAIエージェントが外部システムへ侵入していたと判明／Anthropicが企業向けAI人材育成「Claude Frontier Academy」に1億ドル投資／KDDI系ELYZAが日本語強化の国産モデルをApache 2.0で無料公開／学習: SLA・レイテンシ・可用性
 - [2026-10-02 ダイジェスト](daily/2026-10-02.md) — OpenAIが組織的な「蒸留」攻撃を阻止、Moonshot AI（Kimi）関連人物と結論／OpenAIが安全研究者3名との関係を解消／Anthropicが英銀Barclaysの導入事例を公開（16,000人利用・1日12万件メール処理）／暗号学者Matthew Green氏がAIエージェント間の「ワーム」成立の可能性を警告／学習: A/Bテストと段階的ロールアウト
 ## 統計
-- トピック: 47 ／ スレッド: 7 ／ 学習記事: 60 ／ 週まとめ: 13 ／ 日次: 89
+- トピック: 47 ／ スレッド: 7 ／ 学習記事: 60 ／ 週まとめ: 13 ／ 日次: 90
 
 ## 入口
 - [日次ダイジェスト](daily/index.md)
