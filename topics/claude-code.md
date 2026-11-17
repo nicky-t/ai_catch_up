@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-11-17
+updated: 2026-11-18
 tags: [claude-code, anthropic, agent, productivity]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,8 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-17: Anthropicが、Claude Codeチームの「検証（verification）」設計を解説するブログを公開（著者Addy Osmani氏、Hacker Newsで222pt）。E2Eテスト・プロパティテスト・差分テストの3種を軸に検証を自動化し、不安定なテストは削除して理由を記録、見逃しをルールに変えてREVIEW.mdに蓄積する運用を紹介。人間の役割は「全差分を読む」ことから「完了の定義を決め証拠をレビューする」ことへ移すという（[daily](../daily/2026-11-18.md) / [topics/anthropic](anthropic.md) / [出典](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)）
+- 2026-11-17（今日の現場ネタ）: 仕様策定→TDD→サブエージェント並列レビューを強制する開発フレームワーク「superpowers」がGitHub Trendingで再上昇（本日+598スター、累計約31.9万。9/12・10/31に続き3回目）。バグバウンティ・認可済みレッドチーム向けのClaude Codeスキル集「Claude-BugHunter」も急上昇（本日+1,007スター、累計約9.0k）（[daily](../daily/2026-11-18.md) / [出典](https://github.com/obra/superpowers)）
 - 2026-11-16（今日の現場ネタ）: AIエージェント向けSkill・プラグインを3段階（静的検証・重複検出・Live評価）で評価するNVIDIA製OSS「SkillEvaluator」がGitHub Trendingで急上昇（本日+953スター、累計約2.6万）。`pip install skillevaluator`でインストールし`skillevaluator validate ./my-skill --tiers 1`でAPIキー不要の静的チェックができる（[daily](../daily/2026-11-17.md) / [出典](https://github.com/NVIDIA/SkillEvaluator)）
 - 2026-11-16（今日の現場ネタ）: AIエージェントの計画・コード差分をブラウザでレビューしフィードバックを送り返せるツール「plannotator」がGitHub Trendingで急上昇（本日+860スター、累計約1.18万）。Claude Code・Codex・Gemini CLIなど複数のエージェントに対応し、planモードで自動的にレビュー画面が開く（[daily](../daily/2026-11-16.md) / [出典](https://github.com/backnotprop/plannotator)）
 - 2026-11-15: バージョン2.1.323〜325を公開。2.1.323でClaudeがツール呼び出しをJavaScriptコードとして書く実験的なオプトイン機能「Code Mode」を追加、未知のモデルIDの既定コンテキストウィンドウを20万→100万トークンに変更。2.1.325ではサンドボックス化されたBashが既定で通常の権限確認フローに従うよう変更し、信頼していないリポジトリでの読み取り専用git操作も確認を求めるようにした。zstd圧縮応答の復号処理のセキュリティ修正も実施（[daily](../daily/2026-11-15.md) / [出典](https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md)）

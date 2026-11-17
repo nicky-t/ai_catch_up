@@ -809,3 +809,13 @@ https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-invest
 https://www.itmedia.co.jp/aiplus/article/2611/16/2000003196/
 https://www.itmedia.co.jp/news/article/2611/16/2000003198/
 https://github.com/NVIDIA/SkillEvaluator
+https://openai.com/index/introducing-gpt-6-2-astra-sol
+https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/
+https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/
+https://www.itmedia.co.jp/news/article/2611/17/2000003241/
+https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/
+https://www.itmedia.co.jp/aiplus/article/2611/17/2000003260/
+https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/
+https://kn.itmedia.co.jp/kn/article/2611/17/2000003219/
+https://github.com/obra/superpowers
+https://github.com/elementalsouls/Claude-BugHunter
