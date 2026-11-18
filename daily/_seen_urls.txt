@@ -819,3 +819,13 @@ https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-
 https://kn.itmedia.co.jp/kn/article/2611/17/2000003219/
 https://github.com/obra/superpowers
 https://github.com/elementalsouls/Claude-BugHunter
+https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/
+https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/
+https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/
+https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/
+https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/
+https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/
+https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/
+https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/
+https://github.com/HKUDS/CLI-Anything
+https://github.com/google-research/paper-orchestra

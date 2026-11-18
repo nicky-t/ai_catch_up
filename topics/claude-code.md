@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-11-18
+updated: 2026-11-19
 tags: [claude-code, anthropic, agent, productivity]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,8 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-18: Snapchatが、LensクリエイターがClaude Code・Cursor・Codexなどのコーディングアシスタントで自然言語からARレンズを作れる「Easy Lens CLI」を発表。100以上のARビルディングブロックとAIアセット生成ツールを使え、アイデアから公開まで1日で到達できるという（[daily](../daily/2026-11-19.md) / [出典](https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/)）
+- 2026-11-19（今日の現場ネタ）: GUIソフトをエージェント操作用CLIに自動変換するOSS「CLI-Anything」がGitHub Trendingで急上昇（本日+384スター、累計約5.96万）。`/plugin marketplace add HKUDS/CLI-Anything`→`/plugin install cli-anything`→`/cli-anything ./gimp`でCLIを生成できる（[daily](../daily/2026-11-19.md) / [出典](https://github.com/HKUDS/CLI-Anything)）
 - 2026-11-17: Anthropicが、Claude Codeチームの「検証（verification）」設計を解説するブログを公開（著者Addy Osmani氏、Hacker Newsで222pt）。E2Eテスト・プロパティテスト・差分テストの3種を軸に検証を自動化し、不安定なテストは削除して理由を記録、見逃しをルールに変えてREVIEW.mdに蓄積する運用を紹介。人間の役割は「全差分を読む」ことから「完了の定義を決め証拠をレビューする」ことへ移すという（[daily](../daily/2026-11-18.md) / [topics/anthropic](anthropic.md) / [出典](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)）
 - 2026-11-17（今日の現場ネタ）: 仕様策定→TDD→サブエージェント並列レビューを強制する開発フレームワーク「superpowers」がGitHub Trendingで再上昇（本日+598スター、累計約31.9万。9/12・10/31に続き3回目）。バグバウンティ・認可済みレッドチーム向けのClaude Codeスキル集「Claude-BugHunter」も急上昇（本日+1,007スター、累計約9.0k）（[daily](../daily/2026-11-18.md) / [出典](https://github.com/obra/superpowers)）
 - 2026-11-16（今日の現場ネタ）: AIエージェント向けSkill・プラグインを3段階（静的検証・重複検出・Live評価）で評価するNVIDIA製OSS「SkillEvaluator」がGitHub Trendingで急上昇（本日+953スター、累計約2.6万）。`pip install skillevaluator`でインストールし`skillevaluator validate ./my-skill --tiers 1`でAPIキー不要の静的チェックができる（[daily](../daily/2026-11-17.md) / [出典](https://github.com/NVIDIA/SkillEvaluator)）

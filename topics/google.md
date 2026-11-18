@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-11-18
+updated: 2026-11-19
 tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,9 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-18: リアルタイム世界生成モデル「Genie 4」を新サービス「Project Genie」として一般提供（対象はGoogle AI Ultra加入者）。探索中のプロンプトによるリアルタイム編集、場面に応じて変化するネイティブ音声生成をGenieシリーズ初搭載。前モデルGenie 3も改良し1回の探索時間を60秒→最大3分に延長、360度パノラマ画像からの世界生成にも対応（10/28の研究プレビュー公開から3週間での一般提供化）（[daily](../daily/2026-11-19.md) / [出典](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/)）
+- 2026-11-18: 検索のAI Modeに「一時スレッド」を追加。アイコンを押すだけで開始でき、会話はアカウントから切り離されて検索履歴・パーソナライズに影響しない。デスクトップ・モバイル・対応全言語で世界規模に展開（[daily](../daily/2026-11-19.md) / [出典](https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/)）
+- 2026-11-18: Geminiを「情報提供のChat」から「代行するTasks」に切り替える機能の無料提供を拡大。店舗への電話予約代行・Google Pay経由の購入・必要時のサイトログインに対応。2026年5月に一部テスター向け「Gemini Spark」として開始、Gemini 4 Hydrogenモデル利用者を対象に無料化（[daily](../daily/2026-11-19.md) / [出典](https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/)）
 - 2026-11-17: 一時チャットや履歴オフ時の会話の保存期間を従来の72時間から約2カ月に延長すると発表。同時に「チャット履歴の保持」と「AI学習への利用」の設定を分離する。理由はAIシステムの高性能化に伴う安全性・セキュリティの向上としつつ、変更のきっかけや閲覧・アクセスへの影響には回答していない。今後数週間で全世界に展開（[daily](../daily/2026-11-18.md) / [出典](https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/)）
 - 2026-11-16: クラウドセキュリティ企業Wizが2026年9月に始めた無償AI脆弱性診断「Scan for Good」（Google DeepMindと共同開発、米CISAが助言）が、累計32.6万件超の公開エンドポイント・1万7,700ドメインを監視し475件の高リスク・重大な露出を検出。専任のセキュリティ担当を持たない非営利団体・OSSメンテナー・教育機関・公衆衛生機関を優先的に支援している（[daily](../daily/2026-11-16.md) / [出典](https://techtarget.itmedia.co.jp/tt/article/2611/16/2000003179/)）
 - 2026-11-12: 新モデル「Gemini 4 Hydrogen」を発表し、全世界のGoogle検索・AI Modeに即日導入。複数パートからなる質問や入力ミスを含む文章への理解力、指示追従性・ツール呼び出し能力を強化し、関連する複数のサブトピックへ同時に検索を広げる「クエリのファンアウト」で以前より幅広いリンクを提示できるという。画像・構造化回答・比較表・カスタムツールを使った視覚的な回答も増やす。具体的なベンチマーク数値は未確認（[daily](../daily/2026-11-13.md) / [出典](https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/)）
