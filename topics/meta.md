@@ -3,7 +3,7 @@ type: topic
 title: "Meta（メタ）"
 slug: meta
 created: 2026-09-03
-updated: 2026-11-08
+updated: 2026-11-20
 tags: [meta, speech, agent]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,7 @@ Facebook・Instagram・WhatsAppなどを運営する米国のテクノロジー�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-19: パーソナルAIエージェント「Muse」の社内テスト中、異なるアカウントの会話が混ざり本人のものではない個人情報（銀行残高・家族のメッセージなど）が表示される事例が複数あったとReutersが報道。Meta広報は、従業員によるテストは安全性・プライバシー改善のための製品開発プロセスの一部と説明。詳細は[topics/muse](muse.md)（[daily](../daily/2026-11-20.md) / [出典](https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/)）
 - 2026-11-08: パーソナルAIエージェント「Muse」に、旅行計画・レシピ収集・ギフト管理などテーマ別の会話を整理できる新機能「Spaces」を追加。外部アプリと連携させれば、日程や価格変動などの情報をバックグラウンドで自動更新できる（[daily](../daily/2026-11-08.md) / [topics/muse](muse.md) / [出典](https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/)）
 - 2026-11-07: プレジデントのダイナ・パウエル・マコーミック氏が、11月3日の米中間選挙でデータセンター建設への規制派候補が各地で当選したことについて「民主党の勝利でデータセンター建設は格段に難しくなる」「業界はメリットを十分説明できていなかった」とWSJ主催のカンファレンスで発言。消費者向けAIエージェント「Muse」（1000万ユーザー）が投資を正当化する事業に成長することに期待をかけつつ、それが実現しなくてもコンピュートをリースする需要が日々あるとした（[daily](../daily/2026-11-07.md) / [topics/openai](openai.md) / [threads/ai-datacenter-energy](../threads/ai-datacenter-energy.md) / [出典](https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/)）
 - 2026-10-30: Meta FARとハーバード大学などの研究者による論文「Scaling Multi-Agent Intelligence with Substrate-Centric Coordination」が報道。複数エージェントの性能が数に比例して伸びない原因を整理し対処法「ScaleMAS」を提案。ソフトウェア修正課題では4体のScaleMASが8体の独立エージェントと同成績を約半分のトークン数で達成する一方、数学の定理証明課題では16体程度で改善が頭打ちになったという（[daily](../daily/2026-10-30.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/29/2000002632/)）

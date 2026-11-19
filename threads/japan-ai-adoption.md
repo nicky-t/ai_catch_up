@@ -3,7 +3,7 @@ type: thread
 title: "国内 AI 導入動向（japan-ai-adoption）"
 slug: japan-ai-adoption
 created: 2026-08-19
-updated: 2026-11-18
+updated: 2026-11-20
 tags: [adoption, japan-company, case-study]
 status: active
 related: [topics/openai.md]
@@ -23,6 +23,7 @@ related: [topics/openai.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-19: ファミリーマートが、冷蔵庫内で24時間稼働し飲料の陳列を自動で行うロボット「TX GHOST」と、AIが補充本数を分析する在庫管理棚「スマートシェルフ」を、全国の店舗に2027年1月から順次導入すると発表。先行導入店舗では1店舗あたりの飲料補充作業時間が約7割減ったという。倒れた飲料を立て直すなど想定しきれない場面は人間が遠隔操作で補助する（[daily](../daily/2026-11-20.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/19/2000003329/)）
 - 2026-11-17: 三菱UFJフィナンシャル・グループと三菱UFJ銀行が、東京大学松尾豊教授ら設立のThird Intelligence・松尾研究所とパートナーシップ契約を締結。Transformerとは異なる独自アルゴリズムの「遍在型AGI」を金融サービスに実装する取り組みを進め、相続業務ではPoCを開始。長期記憶による顧客のパーソナライズを活用する考え（[daily](../daily/2026-11-18.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/17/2000003260/)）
 - 2026-11-17（続報）: クレディセゾンがChatGPT Enterpriseを全社導入。2025年6〜8月のパイロット（315人参加）でROI954%・1人あたり月14時間（年換算169時間）の業務時間削減を達成し、目標（ROI500%・月7.5時間）を大きく上回った。終礼音声から実績・議事録を自動整理する「ショップ実績報告GPT」などが全店舗で使われている（[daily](../daily/2026-11-18.md) / [出典](https://kn.itmedia.co.jp/kn/article/2611/17/2000003219/)）
 - 2026-11-16: 足立区が、Google Cloud Japan等と連携し議会答弁AI（質問の部署振り分け・答弁案作成）と区民の声対応AI（要約・振り分け・回答案作成）の実証実験を進めている。参照資料を最新要綱に限定し、自信がなければ「分かりません」と答えるガードを設定。AIの役割はたたき台作成までとし、担当職員が内容を確認してから回答する運用（[daily](../daily/2026-11-17.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/16/2000003196/)）

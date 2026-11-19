@@ -3,7 +3,7 @@ type: topic
 title: "Muse（ミューズ）"
 slug: muse
 created: 2026-09-27
-updated: 2026-11-10
+updated: 2026-11-20
 tags: [meta, agent, multimodal]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,7 @@ Metaが2026年9月に米国限定で提供を始めたパーソナルAIエージ
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-19: Reutersの報道によると、Metaの従業員が社内テスト中、異なるアカウントの会話が混ざり、頼んでいない銀行残高の通知や家族宛メッセージへの返信を促すリマインダーなど本人のものではない情報が表示される事例を複数報告した。Meta広報は、従業員によるテストは安全性・プライバシー改善のための製品開発プロセスの一部であり、一般公開版とは異なるバージョンを使っていると説明している（[daily](../daily/2026-11-20.md) / [出典](https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/)）
 - 2026-11-10: Museブランドで最も軽量・低コストなモデル「Muse Ember」を発表。ツール呼び出し・小規模コーディング・ルーティング・情報抽出など、エージェントが日常的に繰り返す作業向けに設計。入力100万トークンあたり10セントで、Anthropic「Haiku」やOpenAI「Luna」より安価・高性能だと主張。上位モデル「Muse Wonder」が計画を立て、Emberが大量処理を担う役割分担を想定している（[daily](../daily/2026-11-10.md) / [出典](https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/)）
 - 2026-11-06: 音声通話・ビデオチャット機能「Muse Voice」を米国の全ユーザー向けに展開。アニメ調のアバター（愛称「Jolly」）が会話のトーンに応じた表情・身振りを示すが、Museがユーザーの姿を「見る」わけではなく音声のみに反応する。対応はモバイル・ウェブ・Mac、年内発売予定のウェアラブル端末「Muse Charm」にも対応予定（[daily](../daily/2026-11-06.md) / [出典](https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/)）
 - 2026-10-22: Sensor Tower集計で、公開から40日間の米国内ダウンロードが1,020万件（世界累計1,090万）に到達したと判明。この水準に達したアプリは過去11個のみ（直近はThreads）。継続率は7日30%・14日23%（競合平均19%・16%）、DAUは10/16時点250万人。同条件の比較でChatGPTは米国内370万・Grok50万・Claude20万ダウンロードだった（[daily](../daily/2026-10-22.md) / [出典](https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/)）

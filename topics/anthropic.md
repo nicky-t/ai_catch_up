@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-11-19
+updated: 2026-11-20
 tags: [anthropic, claude, safety, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-19: Nasdaq Global Select Marketに上場（ティッカー「ANT」）。IPO価格83ドルから取引開始直後は111.50ドル前後まで上昇（約34%高）、時価総額は初値水準で2兆ドル超（Meta・Tesla・Walmartを上回りApple・Amazon・Alphabet・NVIDIA・Microsoftに次ぐ規模）。IPOによる調達額は810億ドル超、現金準備は約2,200億ドルに達する見込み。アモデイCEOは開始の鐘を鳴らす前のスピーチで、父親の闘病経験を創業の動機として語り「事業面・政治面の圧力に屈せず安全なペースで開発を進める」姿勢を改めて表明した（[daily](../daily/2026-11-20.md) / [threads/anthropic-ipo](../threads/anthropic-ipo.md) / [出典1](https://www.anthropic.com/news/anthropic-prices-initial-public-offering) / [出典2](https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/)）
 - 2026-11-18: Citibankが利用規約を改定し、第三者のAIツールで個人金融を管理する顧客に、認証情報漏えい・ハッキングを含むAI経由の出来事すべての責任を負わせる方針に（自社提供AIエージェントは対象外）。JPMorgan・Bank of Americaは10月に、PNCも11月18日に同様の規約変更。Anthropic自身はClaudeの個人金融機能を「読み取り専用」と位置づけている（[daily](../daily/2026-11-19.md) / [出典](https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/)）
 - 2026-11-17: AmazonとGoogleとの大型出資契約の詳細を開示。IPO後の保有比率はAmazon14.7%（転換可能な約束手形を全転換した場合23.8%）・Google13.7%で両社合計「ほぼ30%」（いずれも議決権なし株式）。IPOの私募ではAMD・Broadcom・Google・Micron・Microsoft・Nvidia・TSMC Partnersが計260億ドル分の無議決権株を購入（Google・Nvidiaは各100億ドル）。Anthropicは今後10年でAWSに1,000億ドル超を支出する約束も（[daily](../daily/2026-11-19.md) / [topics/amazon](amazon.md) / [threads/anthropic-ipo](../threads/anthropic-ipo.md) / [出典](https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/)）
 - 2026-11-17: Claude Codeチームの「検証（verification）」設計を解説するブログを公開（Hacker Newsで222pt）。コードの約90%をClaudeが書く体制で、E2Eテスト・プロパティテスト・差分テストの3種を軸に検証を自動化し、不安定なテストは削除、見逃しをルールに変えてREVIEW.mdに蓄積。人間の役割は「全差分を読む」から「完了の定義を決め証拠をレビューする」へ移すという（[daily](../daily/2026-11-18.md) / [topics/claude-code](claude-code.md) / [出典](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)）

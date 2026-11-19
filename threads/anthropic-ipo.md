@@ -3,7 +3,7 @@ type: thread
 title: "Anthropicの新規株式公開（anthropic-ipo）"
 slug: anthropic-ipo
 created: 2026-11-11
-updated: 2026-11-19
+updated: 2026-11-20
 tags: [anthropic, cost]
 status: active
 related: [topics/anthropic.md]
@@ -16,14 +16,15 @@ AnthropicがSECへのS-1提出（2026年10月27日）からIPO実現までの一
 
 ## 現在地（最新の要約）
 <!-- 新規作成時に 3〜5 行で埋める。以後は週次 agent が更新 -->
+- 2026年11月19日（米国時間）、Nasdaq Global Select Market（ティッカー「ANT」）に上場。IPO価格83ドルから初値111.50ドル前後まで上昇（約34%高）、時価総額は初値水準で2兆ドル超に達しApple・Amazon・Alphabet・NVIDIA・Microsoftに次ぐ規模になった
+- IPOによる調達額は810億ドル超、既存調達・私募も合わせた現金準備は約2,200億ドルに達する見込み。ダリオ・アモデイCEOは上場の鐘を鳴らす前のスピーチで「事業面・政治面の圧力に屈せず安全なペースで開発を進める」と改めて表明した
 - 2026年10月27日にSECへS-1を正式提出（上半期売上163億ドル・純損失807億ドル）、10月28日にその詳細（社内コードの9割超をClaudeが書いた等）が判明
 - 11月4日に修正版S-1提出（7〜9月期売上169億5,600万ドル）、11月10日にIPO価格帯（1株70〜78ドル・想定時価総額最大1.404兆ドル）が確定しロードショーが始まった
-- 創業者7人は1人あたり約2.5億ドルを売却する一方、議決権付きClass F株で51.1%の投票権を維持。ナスダック上場は11月19日前後を予定（ティッカー「ANT」）
-- 競合OpenAIも同時期に評価額1.25兆ドルでの資金調達を進めており、両社の規模・財務内容の比較が今後の講座ネタになる
-- OpenAIの2026年第3四半期売上が初めて100億ドル超（年換算ランレート500億ドル）とBloombergが報道、同報道はAnthropicの第3四半期売上170億ドル・ランレート810億ドルにも言及し両社の算出方法の違いに注記（11/12）。ナスダック上場（ティッカー「ANT」）は11月19日前後を予定しており、動きがあれば続報で追う
+- 創業者7人は1人あたり約2.5億ドルを売却する一方、議決権付きClass F株で51.1%の投票権を維持。競合OpenAIも同時期に評価額1.25兆ドルでの資金調達を進めており、両社の規模・財務内容の比較が今後の講座ネタになる
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-19: Nasdaq Global Select Marketに上場（ティッカー「ANT」）。IPO価格83ドルから取引開始直後は111.50ドル前後まで上昇（約34%高）、時価総額は初値水準で2兆ドル超（Meta・Tesla・Walmartを上回りApple・Amazon・Alphabet・NVIDIA・Microsoftに次ぐ規模）。IPOによる調達額は810億ドル超、既存調達・私募も合わせた現金準備は約2,200億ドルに達する見込み。アモデイCEOは開始の鐘を鳴らす前のスピーチで、父親の闘病経験を創業の動機として語り「事業面・政治面の圧力に屈せず安全なペースで開発を進める」姿勢を改めて表明した（[daily](../daily/2026-11-20.md) / [topics/anthropic](../topics/anthropic.md) / [出典1](https://www.anthropic.com/news/anthropic-prices-initial-public-offering) / [出典2](https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/) / [出典3](https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/)）
 - 2026-11-17: AmazonとGoogleとの大型出資契約の詳細を開示。IPO後の保有比率はAmazon14.7%（転換可能な約束手形を全転換した場合23.8%）・Google13.7%で両社合計「ほぼ30%」（いずれも議決権なし株式）。私募ではAMD・Broadcom・Google・Micron・Microsoft・Nvidia・TSMC Partnersが計260億ドル分の無議決権株を購入（Google・Nvidiaは各100億ドル）。Anthropicは今後10年でAWSに1,000億ドル超を支出する約束も（[daily](../daily/2026-11-19.md) / [topics/amazon](../topics/amazon.md) / [出典](https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/)）
 - 2026-11-12（週次整理・追記）: Bloomberg報道（TechCrunch経由）によると、OpenAIの2026年第3四半期売上高が初めて100億ドルを超え、年換算売上（ランレート）は500億ドルに到達。同報道はAnthropicの第3四半期売上170億ドル・10月末ランレート810億ドルにも言及（両社の算出方法は異なり単純比較には注意、既報の修正版S-1の169億5,600万ドルとほぼ一致）。IPO直前のAnthropicの事業規模を競合比較で確認できる材料（[daily](../daily/2026-11-12.md) / [topics/openai](../topics/openai.md) / [出典](https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/)）
 - 2026-11-11（記載日）: 11月10日、IPO価格帯を1株70〜78ドルに設定しロードショーを開始。想定時価総額は上限価格で1.404兆ドル、発行株式数8億2,500万株。AMD・Broadcom・Google・Micron・Microsoft・Nvidia・TSMCが計260億ドル分の無議決権株（Class N）を私募購入（Google・Nvidiaは各100億ドル）。創業者7人はそれぞれ約338万株を売却し中間価格では1人約2.5億ドルを手にする。3四半期累計売上332億ドル・純損失1,040億ドル、インフラ関連の将来支出約束総額約900.9億ドルも開示。ナスダック上場は11月19日前後の見込み（ティッカー「ANT」）（[daily](../daily/2026-11-11.md) / [topics/anthropic](../topics/anthropic.md) / [出典](https://www.anthropic.com/news/roadshow-launch)）

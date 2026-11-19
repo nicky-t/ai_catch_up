@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-11-19
+updated: 2026-11-20
 tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,9 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-19: macOS版GeminiアプリにAIがユーザーに代わってネイティブアプリを操作したりバックグラウンドでWebサイトを閲覧したりする「コンピュータ操作」機能を追加。チャット内のライブプレビューで作業過程を確認しながら一時停止・停止・事前承認ができる設計。現時点ではGoogle AI Plus/Pro/Ultraの有料プラン・英語・米国限定（[daily](../daily/2026-11-20.md) / [出典](https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/)）
+- 2026-11-19: Gemini APIに「Tool Retrieval」機能をプレビュー公開。エージェントに数十〜数百のツールを接続する際、各ツールの詳細なパラメータスキーマを必要になるまでコンテキストに載せない仕組みで、検索はGemini側のサーバーで実行される。対象はGemini 3.6以降のモデル（[daily](../daily/2026-11-20.md) / [出典](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/)）
+- 2026-11-18: 中間モデル「Gemini 4 Neon」の提供を開始。コーディングエージェント指数・法務・税務エージェント向けベンチマークで首位を獲得し、既定の「high」設定では最上位モデルCarbonよりタスクあたりコストが32%低い。価格は100万トークンあたり入力3ドル・出力15ドル、コンテキストウィンドウ100万トークン。2カ月で4つ目のGeminiモデル投入（[daily](../daily/2026-11-20.md) / [出典](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/)）
 - 2026-11-18: リアルタイム世界生成モデル「Genie 4」を新サービス「Project Genie」として一般提供（対象はGoogle AI Ultra加入者）。探索中のプロンプトによるリアルタイム編集、場面に応じて変化するネイティブ音声生成をGenieシリーズ初搭載。前モデルGenie 3も改良し1回の探索時間を60秒→最大3分に延長、360度パノラマ画像からの世界生成にも対応（10/28の研究プレビュー公開から3週間での一般提供化）（[daily](../daily/2026-11-19.md) / [出典](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/)）
 - 2026-11-18: 検索のAI Modeに「一時スレッド」を追加。アイコンを押すだけで開始でき、会話はアカウントから切り離されて検索履歴・パーソナライズに影響しない。デスクトップ・モバイル・対応全言語で世界規模に展開（[daily](../daily/2026-11-19.md) / [出典](https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/)）
 - 2026-11-18: Geminiを「情報提供のChat」から「代行するTasks」に切り替える機能の無料提供を拡大。店舗への電話予約代行・Google Pay経由の購入・必要時のサイトログインに対応。2026年5月に一部テスター向け「Gemini Spark」として開始、Gemini 4 Hydrogenモデル利用者を対象に無料化（[daily](../daily/2026-11-19.md) / [出典](https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/)）

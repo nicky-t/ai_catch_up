@@ -829,3 +829,14 @@ https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-n
 https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/
 https://github.com/HKUDS/CLI-Anything
 https://github.com/google-research/paper-orchestra
+https://www.anthropic.com/news/anthropic-prices-initial-public-offering
+https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/
+https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/
+https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/
+https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/
+https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/
+https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/
+https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/
+https://www.itmedia.co.jp/aiplus/article/2611/19/2000003329/
+https://github.com/mvanhorn/last30days-skill
+https://github.com/google-labs-code/stitch-skills
