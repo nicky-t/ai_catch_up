@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-11-19
+updated: 2026-11-21
 tags: [claude-code, anthropic, agent, productivity]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,9 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-20: あるエンジニアが、CLAUDE.md/AGENTS.mdの二重管理やVS Code連携の制約、機能追加に伴うトークン増加への懸念など小さな不満の積み重ねから、オープンソースの軽量ツール「Pi」に移行したブログを公開。ツール選びは機能の多さより日々の作業への合い方で決めるべきだという論旨（[daily](../daily/2026-11-21.md) / [出典](https://kn.itmedia.co.jp/kn/article/2611/20/2000003337/)）
+- 2026-11-20: バージョン2.1.326〜329を公開。`/tasks`でスケジュールタスク・`/loop`待機・会話フォークの一覧表示に対応（2.1.329）、信頼ダイアログでフックの定義元フォルダを表示、Auto modeをAmazon Bedrock・Google Cloud・Microsoft Foundry上のOpus 4.6・Sonnet 4.6にも拡大（2.1.328）するなど運用管理・可視性の機能追加が続いた（[daily](../daily/2026-11-21.md) / [出典](https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md)）
+- 2026-11-20（今日の現場ネタ）: App Store・Google Playのリジェクトをエージェント実行前に検知するガード「app-store-compliance」がGitHub Trendingで急上昇（本日+874スター、累計約2.7k）。リジェクトパターン117件をデータベース化し、リリース作業（fastlane等）前にプロジェクトをスキャンするフックを追加できる。CI/CDの失敗原因をAIエージェントが調査するOSS「OpenSRE」も急上昇（本日+465スター、累計約13.6k）（[daily](../daily/2026-11-21.md) / [出典](https://github.com/mjmirza/app-store-compliance)）
 - 2026-11-18: Snapchatが、LensクリエイターがClaude Code・Cursor・Codexなどのコーディングアシスタントで自然言語からARレンズを作れる「Easy Lens CLI」を発表。100以上のARビルディングブロックとAIアセット生成ツールを使え、アイデアから公開まで1日で到達できるという（[daily](../daily/2026-11-19.md) / [出典](https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/)）
 - 2026-11-19（今日の現場ネタ）: GUIソフトをエージェント操作用CLIに自動変換するOSS「CLI-Anything」がGitHub Trendingで急上昇（本日+384スター、累計約5.96万）。`/plugin marketplace add HKUDS/CLI-Anything`→`/plugin install cli-anything`→`/cli-anything ./gimp`でCLIを生成できる（[daily](../daily/2026-11-19.md) / [出典](https://github.com/HKUDS/CLI-Anything)）
 - 2026-11-17: Anthropicが、Claude Codeチームの「検証（verification）」設計を解説するブログを公開（著者Addy Osmani氏、Hacker Newsで222pt）。E2Eテスト・プロパティテスト・差分テストの3種を軸に検証を自動化し、不安定なテストは削除して理由を記録、見逃しをルールに変えてREVIEW.mdに蓄積する運用を紹介。人間の役割は「全差分を読む」ことから「完了の定義を決め証拠をレビューする」ことへ移すという（[daily](../daily/2026-11-18.md) / [topics/anthropic](anthropic.md) / [出典](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)）

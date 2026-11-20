@@ -3,7 +3,7 @@ type: topic
 title: "Apple（アップル）"
 slug: apple
 created: 2026-10-03
-updated: 2026-11-06
+updated: 2026-11-21
 tags: [apple, agent, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -30,6 +30,7 @@ iPhone・Mac などを作る米テック大手。自社チップ上で動くオ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-19（報道）: Bloombergが、社内の求人票からAppleが「コンピュータを操作できるAIエージェント」を開発中である可能性を報じた。Webブラウジング・複数アプリの操作・コマンド実行・コードの記述とデバッグなどを自律的にこなす設計とされ、早ければ来年末の提供開始も検討しているというが「まだ初期段階」。Apple自身は計画を確認していない。同社は同時期、第三者のAIエージェントがmacOSの「Full Disk Access」権限を得にくくする規制強化も進めている（[daily](../daily/2026-11-21.md) / [出典](https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/)）
 - 2026-11-06: Bloomberg報道によると、社内エンジニアリング部門が1日に使えるAI利用予算の上限を10月に300ドルから200ドルへ引き下げ、今後一部では100ドルまで下げる見通し。エンジニア以外の部門では1日25ドルという低い上限も検討中という。2026年前半の「tokenmaxxing」ブームからの転換を示す事例（[daily](../daily/2026-11-06.md) / [threads/ai-productivity-employment](../threads/ai-productivity-employment.md) / [出典](https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/)）
 - 2026-11-04: App Storeの審査方針を変更し、出会い系・恋愛関係機能を持つアプリを18+指定に。恋愛・性的コンテンツを提供するAI恋人（コンパニオン）アプリも対象になりうるとされ、11月16日からはアプリの機能に即した年齢指定のための新しいコンテンツ記述子の追加が必須化。位置情報を他者と共有する機能の開示も義務化（[daily](../daily/2026-11-04.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/)）
 - 2026-11-02: 2026年9月就任の新CEOジョン・ターナス氏がWiredのインタビューで「We don't want to ship AI for AI's sake.」と発言し、AI機能そのものを目的化しない方針を明言。新製品でAIを「間違いなく活用する」としつつ、AIエージェントによるアプリ代替の可能性には「ものづくりは深く人間的で個人的なこと」と述べ慎重な姿勢を示した（[daily](../daily/2026-11-02.md) / [出典](https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/)）

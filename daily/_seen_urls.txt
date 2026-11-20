@@ -840,3 +840,16 @@ https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-too
 https://www.itmedia.co.jp/aiplus/article/2611/19/2000003329/
 https://github.com/mvanhorn/last30days-skill
 https://github.com/google-labs-code/stitch-skills
+https://www.anthropic.com/news/ipo-close
+https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/
+https://www.itmedia.co.jp/news/article/2611/20/2000003368/
+https://simonwillison.net/2026/Nov/19/postgresql-19/
+https://www.itmedia.co.jp/aiplus/article/2611/20/2000003359/
+https://kn.itmedia.co.jp/kn/article/2611/20/2000003337/
+https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/
+https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/
+https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/
+https://simonwillison.net/2026/Nov/20/levent-alpoge/
+https://github.com/mjmirza/app-store-compliance
+https://github.com/Tracer-Cloud/opensre
+https://github.com/trending?since=daily

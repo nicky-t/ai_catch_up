@@ -3,7 +3,7 @@ type: topic
 title: "Microsoft（マイクロソフト）"
 slug: microsoft
 created: 2026-09-06
-updated: 2026-11-15
+updated: 2026-11-21
 tags: [microsoft, guardrails, prompt-engineering, safety, cost, productivity]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ Windows・Office・Azure・GitHubなどを展開する米国のテクノロジ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-18（Ignite 2026）: 「AIによるサイバー攻撃にAIで対抗」する新サービス「Microsoft Perception」を発表。攻撃側視点で脆弱性を探す「Red」・検知と調査を行う「Blue」・修正を行う「Green」の3種のAIエージェント群がプレイブックに沿って自律連携する設計で、Greenチームの修正対象はAWS・Google Cloudにも対応。重要な判断には人間が関わるという（[daily](../daily/2026-11-21.md) / [出典](https://www.itmedia.co.jp/news/article/2611/20/2000003368/)）
 - 2026-11-13: Microsoft 365（Outlook・Teams等）で障害が発生し、ChatGPTとClaudeのMicrosoft 365コネクタも正常動作しなくなった。Microsoftはサイバー攻撃やAIとは無関係のネットワーク容量増強時の問題と説明し、14日未明までに両社とも復旧を報告（[daily](../daily/2026-11-15.md) / [topics/anthropic](anthropic.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/13/2000003164/)）
 - 2026-11-02: GitHub Universe 2026でマルチモデル機能「GitHub Copilot Fusion」の正式リリースを発表。タスク特性に応じてSingle・Cascade・Critiqueの3パターンでモデルを使い分け、負荷レベルはFusion Standard・High・Maxから選択（Fusion Fastは選択不可）。パブリックプレビューでは、ローカル導入したMAI Code 1.1 FlashやQwen3.8 Flash NextもFusion Standardで利用可能（[daily](../daily/2026-11-02.md) / [topics/copilot](copilot.md) / [出典](https://www.publickey1.jp/blog/26/githubcopilot_fusionaigithub_universe_2026.html)）
 - 2026-11-02: robots.txtの共通記述でAI学習への利用可否を一括表明できる仕組みについて、2027年2月1日からの適用開始を表明（従来の「NoArchive」「NoCache」設定からの移行は2027年3月1日まで）（[daily](../daily/2026-11-02.md) / [topics/openai](openai.md) / [出典](https://www.itmedia.co.jp/news/article/2611/01/2000002776/)）
