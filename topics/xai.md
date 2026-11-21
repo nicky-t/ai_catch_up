@@ -3,7 +3,7 @@ type: topic
 title: "xAI（エックスエーアイ）"
 slug: xai
 created: 2026-09-23
-updated: 2026-11-03
+updated: 2026-11-22
 tags: [xai, grok]
 level: beginner
 audience: [engineer, business, instructor]
@@ -22,7 +22,7 @@ related: [topics/openai.md, topics/anthropic.md]
 - 資金調達面では、2026年1月に目標の150億ドルを上回る200億ドルのSeries E資金調達を完了（評価額約2,300億ドル）。Valor Equity Partners・Fidelity・カタール投資庁・MGXなどに加え、NVIDIA・Cisco Investmentsが戦略的投資家として参加。「世界最大規模のGPUクラスタ」構築とスーパーコンピュータ「Colossus I・II」の運営を進めている（出典: [x.ai/news/series-e](https://x.ai/news/series-e)、取得日 2026-09-27）
 
 ## 実務での使い方
-- Grokの「同等クラスのモデル比で2倍高速・価格半分」という位置づけは、コスト重視でモデルを選定する際の比較対象になる（要追記：実際の業務導入事例）
+- Grokの「同等クラスのモデル比で2倍高速・価格半分」という位置づけは、コスト重視でモデルを選定する際の比較対象になる。実際の導入事例としては、決済企業Shift4 Payments（CEOタイラー・ロウバー氏）が2025年末からxAIのオンサイト技術支援を受け、顧客の感情分析用途で日常的にGrokを利用する複数百万ドル規模の契約を結んだとBloombergが報道。ただしコーディング用途では同社はAnthropicのClaudeを継続利用しており、全面的な切り替えではない点に注意（出典: [Payments Dive — Shift4 taps xAI for customer service](https://www.paymentsdive.com/news/shift4-taps-xai-for-customer-service/813580/)、Bloomberg記事の要約報道、取得日2026-11-22）
 - X連携の強みを活かしたユースケース（SNS分析・リアルタイム情報反映など）は今後の動向を要確認（要追記）
 
 ## 講座で使うなら
@@ -32,6 +32,7 @@ related: [topics/openai.md, topics/anthropic.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-22（週次整理・要追記対応）: 決済企業Shift4 Paymentsが、xAIのオンサイト技術支援を経て顧客感情分析用途でGrokを日常利用する複数百万ドル規模の契約を結んだとBloombergが報道（2026年3月20日付、要約報道による確認）。コーディング用途ではAnthropicのClaudeを継続利用しており、部分的な切り替えにとどまる（[出典](https://www.paymentsdive.com/news/shift4-taps-xai-for-customer-service/813580/)、取得日2026-11-22）
 - 2026-11-03: ハロウィーン週末、一部のGrok Bot利用者が夜間未使用にもかかわらず週次利用上限に達する事象が発生。イーロン・マスク氏はXで不具合ではなく意図的な変更と認め「Grok Botを提供するコストは収益に対して持続不可能なほど高かった」と説明した。新しい上限の数値やコストの金額は非公表（[daily](../daily/2026-11-03.md) / [出典](https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/)）
 - 2026-11-02: メンフィス郊外Colossusデータセンターの大気汚染許可取得を怠ったとして南部環境法センター（SELC、NAACP代理）が起こした訴訟で、デブラ・M・ブラウン判事がxAIの却下申立てを退け訴訟継続を認めた。原告は少なくとも35基の燃焼タービン等を無許可で設置・運用したと主張（「タービンは移動式で規制対象外」というxAIの主張は退けられた）（[daily](../daily/2026-11-02.md) / [出典](https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/)）
 - 2026-10-25: 米中間選挙約500選挙区でAPI経由の候補者推薦を迫る調査（Convovo、Cornell大Tapan Parikh氏ら）で、「Grok 4.7」は92%で共和党候補を推薦し、OpenAIの「GPT-6.1 Sol」（97%が民主党）との一致率は10%未満だった。Grokはキリスト教保守系の投票ガイドやX、Turning Point Actionのサイトを多く引用。消費者向けアプリ（Grok本体）は推薦を拒否した（[daily](../daily/2026-10-25.md) / [topics/openai](openai.md) / [出典](https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/)）
