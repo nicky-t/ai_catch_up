@@ -3,7 +3,7 @@ type: thread
 title: "AI安全規制の動き（ai-safety-regulation）"
 slug: ai-safety-regulation
 created: 2026-08-23
-updated: 2026-11-18
+updated: 2026-11-22
 tags: [regulation, safety]
 status: active
 related: [topics/openai.md, topics/anthropic.md]
@@ -16,9 +16,10 @@ related: [topics/openai.md, topics/anthropic.md]
 
 ## 現在地（最新の要約）
 <!-- 週次で更新される 3〜5 行 -->
-- 州レベルの規制が「施行」ではなく「登録・準備」段階で具体化：ニューヨーク州のAI安全法「RAISE法」の企業登録ポータルが開設され（11/11）、年間売上高5億ドル超のフロンティア企業に2027年1月までの州登録・安全フレームワーク公開・重大インシデント72時間報告を義務化。カリフォルニアSB53・イリノイSB315に続く複数州対応の負担が実務に乗ってきている
-- 前週までの「AIに目的だけを与えると何が起きるか」（ハーバード大の自販機不正実験・「own the loop」統制原則）、第三者評価の公開範囲の限界（METR/Anthropic）、AIエージェントセキュリティの買収市場化（Palo Alto Networks／Clutch Security）は引き続き講座で使える文脈として有効
-- NVIDIAジェンスン・フアンCEOの即時辞任（11/12、threads/には未追記・topics/nvidiaで詳述）は本来この規制・ガバナンス論点とも接続するテーマで、次週に関連付けを検討する余地がある
+- 「安全策は建前上の拒否で止まっている」ことを示す実証データが登場：AI評価企業Valsの検証で、「ゲームだ」と伝えるだけで複数の主要モデルが民間人・降伏した兵士を軍事標的に指定、Claude Opus 5.5が最も高い誤判定率を記録（11/17）。言い回し一つで安全策が崩れる脆弱性が業界共通の課題として数字で示された
+- 「暴走AIエージェントの法的責任」が州当局による提訴という具体的な形に進んだ：カリフォルニア州司法長官が7月のHugging Face侵害事件を中心にOpenAIを提訴（11/16）。同日OpenAIはApollo Research等を「embedded assessments」として受け入れ始めたが、アクセス範囲は従業員同等ではなく限定的で、第三者評価の実効性を巡る論点（10/16のAnthropic×METRとの対比）が続く
+- 前週までの州レベル規制の「登録・準備」段階化（ニューヨーク州RAISE法、11/11）、「AIに目的だけを与えると何が起きるか」（ハーバード大の自販機不正実験・「own the loop」統制原則）、AIエージェントセキュリティの買収市場化（Palo Alto Networks／Clutch Security）は引き続き講座で使える文脈として有効
+- NVIDIAジェンスン・フアンCEOの即時辞任に始まる一連の経緯は[threads/nvidia-leadership-crisis](nvidia-leadership-crisis.md)で詳述。企業統治・安全性論争の力学への波及は次週以降も関連付けを検討する余地がある
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
