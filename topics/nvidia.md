@@ -3,7 +3,7 @@ type: topic
 title: "NVIDIA（エヌビディア）"
 slug: nvidia
 created: 2026-08-28
-updated: 2026-11-20
+updated: 2026-11-22
 tags: [nvidia, agent, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -30,6 +30,7 @@ AIモデルの学習・推論に使われるGPU（画像処理用半導体）を
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-21: 決算説明会で、米政権の対中規制強化に合わせ中国向けH200チップの販売を停止すると発表（暫定CEOコレット・クレス氏）。好調な受注パイプラインを示したが株価は下落。取締役会は改めてフアン前CEOの復帰計画がないと明言したが、これは「1週間半前には全面的信頼を表明していた」立場からの転換とされ、復帰要求署名運動も続いている（[daily](../daily/2026-11-22.md) / [threads/nvidia-leadership-crisis](../threads/nvidia-leadership-crisis.md) / [出典](https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/)）
 - 2026-11-19: TechCrunchが経緯全体を時系列でまとめた記事を公開。確定事実として、フアン氏が11月8日の社内メッセージで不貞を認め辞任したこと、取締役会が独立調査を開始したこと、17日に取締役会長が復帰を検討していないと明言したこと、同日Microsoft CEOサティア・ナデラ氏が暫定CEOコレット・クレス氏への信頼を表明したことなどを確認。一方「交際相手が中国のスパイだった」「3人目の交際相手がいた」といった主張は匿名情報源による報道にとどまり公式には未確認（[daily](../daily/2026-11-20.md) / [threads/nvidia-leadership-crisis](../threads/nvidia-leadership-crisis.md) / [出典](https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/)）
 - 2026-11-17: 取締役会長Harvey C. Jones氏が決算説明会で、辞任したフアン氏からの復帰の申し出を受けつつ「取締役会は全会一致で辞任を受理し、CEOへの復帰は想定していない」と明言。同日SECが開示内容を巡る民事調査を開始したとWSJが報道。フアン氏退任以降、株価は10%超下落した一方、第3四半期売上高は1,158億ドル（前年同期比103%増）と過去最高を記録（[daily](../daily/2026-11-19.md) / [threads/nvidia-leadership-crisis](../threads/nvidia-leadership-crisis.md) / [出典1](https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/) / [出典2](https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/)）
 - 2026-11-16: 米商務省が、D:5グループ22カ国（中国・ロシア・イラン・北朝鮮等）の企業が海外データセンターを遠隔利用して輸出規制を回避することを防ぐ暫定規則を導入。1,200万TPP超（H100/H200約750基相当）のデータセンターへのAIチップ輸出・再輸出・移転にライセンスが必要になり、仲介業者経由の間接アクセスも対象。既存事業者は90日以内にライセンス取得が必要（[daily](../daily/2026-11-17.md) / [出典](https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/)）

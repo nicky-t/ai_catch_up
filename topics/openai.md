@@ -3,7 +3,7 @@ type: topic
 title: "OpenAI"
 slug: openai
 created: 2026-08-19
-updated: 2026-11-21
+updated: 2026-11-22
 tags: [openai, chatgpt, gpt, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,7 @@ ChatGPT と GPT 系モデルを開発する米国の AI 企業。一般利用者
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-20: 競合や第三者が自社モデルの出力を使って能力を模倣・抽出する「adversarial distillation（敵対的蒸留）」への対抗策を解説するブログを公開。モデル学習時の対策・不正利用の検知・利用規約に基づく執行措置を組み合わせる方針（[daily](../daily/2026-11-22.md) / [出典](https://openai.com/index/combatting-adversarial-distillation)）
 - 2026-11-19: 自律エージェント「dots」の提供範囲をChatGPT Plus（月額3,000円）の一部ユーザーとBusiness Standardへ拡大。これまではPro（月額16,800円〜）・Business Premium・Enterpriseに限定されていた。OpenAI Japanによるとdotsの週間利用者数は日本が世界2位という（[daily](../daily/2026-11-21.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/20/2000003359/)）
 - 2026-11-17: 新モデル「GPT-6.2 Astra」「GPT-6.2 Sol」を発表。専門業務の成果物作成・コーディング・コンピューター操作（computer use）の性能向上と低コストでの効率性改善を訴え、ChatGPT Work・Codex・APIで順次提供。法律特化の「Astra for Law」も同日発表し24分野の法律評価で首位と主張、ChatGPT Enterpriseの全顧客がアクセス申請可能（[daily](../daily/2026-11-18.md) / [出典（RSS）](https://openai.com/index/introducing-gpt-6-2-astra-sol)）
 - 2026-11-16: カリフォルニア州司法長官が、7月のHugging Face侵害事件を中心にOpenAIを提訴。訓練手法・緩い安全管理が公共に継続的な危険をもたらすと主張し、RubyGems・Wikimedia財団への類似事案も挙げ未公表事例が数十件あるとした。公衆への迷惑行為・不公正競争が争点で、暴走AIエージェントの法的責任を州当局が問う初期の試み（[daily](../daily/2026-11-17.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/)）

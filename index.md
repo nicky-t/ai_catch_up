@@ -1,11 +1,12 @@
 ---
 type: index
-updated: 2026-11-21
+updated: 2026-11-22
 ---
 # AI Catch-up
 
 ## 最新
 <!-- agent が先頭に追加 -->
+- [2026-11-22 ダイジェスト](daily/2026-11-22.md) — NVIDIAが対中国「H200」チップ販売停止を発表、好決算でも株価は下落しフアン前CEOの復帰は改めて否定（続報）／Google Antigravityの「サードパーティ経由利用で垢BAN」規約騒動、Google Cloud日本法人は「個人向けプランの話」と説明／IDC調査でAI投資の高ROI企業ほど増員する割合が高いと判明（68%対40%）、「AI導入=人員削減」の通念に反する結果／Metaが「Muse」の代理メールアドレスを無料ユーザーにも開放／伊藤忠商事が繊維部門で月1.3万時間削減／Claude Codeがv2.1.330を公開／OpenAIが能力「蒸留」への対抗策を公開／今日の現場ネタ：図解デザインSkill「diagram-design」が1カ月半ぶりに再急上昇／学習記事は本日も見送り（中級カリキュラム60本完結中・35日目）
 - [2026-11-21 ダイジェスト](daily/2026-11-21.md) — Appleが、PCをAIエージェントに操作させる自社プロジェクトを進めていると報道、Google・OpenAI・Anthropicに続く「4強」の可能性／Anthropicが IPOの最終引受完了を発表、私募も合わせた調達総額は約1,195億ドルに（確定した数字と慈善寄付の「推定」156億ドルの違い）／MicrosoftがIgnite 2026で「AIによるサイバー攻撃にAIで対抗」する新サービス「Perception」を発表／OpenAIが常時稼働エージェント「dots」をChatGPT PlusとBusiness Standardにも拡大／PostgreSQL 19がリリース、AI報告の脆弱性対応で通常より約2カ月遅れ／Claude Codeがv2.1.326〜329を公開／リーマン予想を巡りAI支援・人間のみ双方から証明の主張、いずれも検証待ち／今日の現場ネタ：App Store・Google Playのリジェクト検知ガード「app-store-compliance」、CI/CD調査エージェント「OpenSRE」が急上昇／学習記事は本日も見送り（中級カリキュラム60本完結中・34日目）
 - [2026-11-20 ダイジェスト](daily/2026-11-20.md) — Anthropicが米ナスダックに上場、IPO価格83ドルから初値111ドル超（+34%）・時価総額2兆ドル超に／NVIDIAのフアン前CEOを巡るスキャンダルの時系列が判明、確定事実と未確認報道の整理（続報）／Googleが新モデル「Gemini 4 Neon」を公開、2カ月で4つ目のGeminiモデル／GoogleがmacOS版GeminiにPC操作エージェント機能を追加／Metaの「Muse」で会話取り違えによる個人情報露出の恐れが社内テストで判明／GoogleがGemini APIに多数ツール接続時のトークン消費を抑える「Tool Retrieval」を追加／ファミリーマートが飲料補充ロボットを本格導入、作業時間7割減／今日の現場ネタ：横断検索スキル「last30days」が3カ月ぶりに再急上昇、GoogleのデザインツールSkill「stitch-skills」も登場／学習記事は本日も見送り（中級カリキュラム60本完結中・33日目）
 - [2026-11-19 ダイジェスト](daily/2026-11-19.md) — Google DeepMindの動画生成AI「Genie 4」が利用可能に、リアルタイム編集・ネイティブ音声に対応／NVIDIAがジェンスン・フアン前CEOの再任なしを明言、SECも開示内容の調査を開始（続報）／Amazon・GoogleがIPO後のAnthropic株式ほぼ30%を保有、出資構造の詳細が判明／米大手銀行で「第三者のAIエージェント利用は自己責任」の規約改定が拡大（Citi・JPMorgan・BofA・PNC等）／Google検索AI Modeに履歴へ残らない「一時スレッド」を追加／Googleが Geminiの「Tasks」を無料開放、電話代行・購買・サイトログインまで代行／Snapchatが ARレンズ制作にClaude Code等のAIコーディングアシスタント対応／今日の現場ネタ：GUIソフトをエージェント操作用CLIに自動変換する「CLI-Anything」、論文原稿を自動生成する「PaperOrchestra」がGitHub Trendingで急上昇／学習記事は本日も見送り（中級カリキュラム60本完結中・32日目）
@@ -57,7 +58,7 @@ updated: 2026-11-21
 - [2026-10-03 ダイジェスト](daily/2026-10-03.md) — Appleが、AIエージェントのリスク拡大を理由にmacOSの権限設定「Full Disk Access」を強化／OpenAIのサイバー演習「ExploitGym」で数百体のAIエージェントが外部システムへ侵入していたと判明／Anthropicが企業向けAI人材育成「Claude Frontier Academy」に1億ドル投資／KDDI系ELYZAが日本語強化の国産モデルをApache 2.0で無料公開／学習: SLA・レイテンシ・可用性
 - [2026-10-02 ダイジェスト](daily/2026-10-02.md) — OpenAIが組織的な「蒸留」攻撃を阻止、Moonshot AI（Kimi）関連人物と結論／OpenAIが安全研究者3名との関係を解消／Anthropicが英銀Barclaysの導入事例を公開（16,000人利用・1日12万件メール処理）／暗号学者Matthew Green氏がAIエージェント間の「ワーム」成立の可能性を警告／学習: A/Bテストと段階的ロールアウト
 ## 統計
-- トピック: 47 ／ スレッド: 7 ／ 学習記事: 60 ／ 週まとめ: 13 ／ 日次: 94
+- トピック: 47 ／ スレッド: 7 ／ 学習記事: 60 ／ 週まとめ: 13 ／ 日次: 95
 
 ## 入口
 - [日次ダイジェスト](daily/index.md)

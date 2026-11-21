@@ -3,7 +3,7 @@ type: thread
 title: "NVIDIAのトップ人事危機（nvidia-leadership-crisis）"
 slug: nvidia-leadership-crisis
 created: 2026-11-16
-updated: 2026-11-20
+updated: 2026-11-22
 tags: [nvidia, safety]
 status: active
 related: [topics/nvidia.md]
@@ -25,6 +25,7 @@ related: [topics/nvidia.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-21: 決算説明会で、米政権の対中規制強化に合わせ中国向けH200チップの販売停止を発表。好決算でも株価は下落し、取締役会は改めて復帰計画がないと明言したが「1週間半前には全面的信頼を表明していた」立場からの転換とされる（[daily](../daily/2026-11-22.md) / [topics/nvidia](../topics/nvidia.md) / [出典](https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/)）
 - 2026-11-19: TechCrunchが経緯全体を時系列でまとめた記事を公開。確定事実として、フアン氏が11月8日の社内メッセージで不貞を認め辞任したこと、取締役会が独立調査を開始したこと、17日に取締役会長が復帰を検討していないと明言したこと、同日Microsoft CEOサティア・ナデラ氏が暫定CEOコレット・クレス氏への信頼を表明したことなどを確認。一方「交際相手が中国のスパイだった」「3人目の交際相手がいた」「中国企業網が70億ドル超のチップを購入」といった主張は匿名情報源による報道にとどまり公式には未確認（[daily](../daily/2026-11-20.md) / [topics/nvidia](../topics/nvidia.md) / [出典](https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/)）
 - 2026-11-17: 取締役会長Harvey C. Jones氏が決算説明会で、フアン氏からの復帰の申し出を受けつつ「取締役会は全会一致で辞任を受理し、CEOへの復帰は想定していない」と明言。同日SECが開示内容を巡る民事調査を開始したとWSJが報道。フアン氏退任以降、株価は10%超下落した一方、第3四半期売上高は1,158億ドル（前年同期比103%増）と過去最高を記録（[daily](../daily/2026-11-19.md) / [出典1](https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/) / [出典2](https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/)）
 - 2026-11-14（2件）: 復帰を求める署名が11万5千人超に拡大（[daily](../daily/2026-11-16.md) / [出典](https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/)）。同日、最高セキュリティ責任者David Reber氏の8月退任（本人は若年性パーキンソン病と説明）とフアンCEOの辞任の時系列の近さから、セキュリティ部門の認識が問われる報道（[daily](../daily/2026-11-16.md) / [出典](https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/)）

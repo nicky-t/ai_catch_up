@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-11-21
+updated: 2026-11-22
 tags: [claude-code, anthropic, agent, productivity]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,8 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-21: バージョン2.1.330を公開。Enterprise Admin Consoleで管理された組織へのサインインに対応、チャット内でグラフを描画する組み込みモッド「easel」（Pro/Max向け）を追加。定期スケジュールタスクと`/loop`の実行可能期間を7日から30日に延長（[daily](../daily/2026-11-22.md) / [出典](https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md)）
+- 2026-11-20（今日の現場ネタ）: 図解デザインSkill「diagram-design」がGitHub Trendingで1カ月半ぶりに再急上昇（本日+582スター、累計約69.7k。10/9既報の46.2kから約+23k）。draw.io・Mermaid・Excalidraw・PlantUMLの図を読み込み、ブランドカラーに合わせたHTML+SVGの図に描き直せる（[daily](../daily/2026-11-22.md) / [出典](https://github.com/cathrynlavery/diagram-design)）
 - 2026-11-20: あるエンジニアが、CLAUDE.md/AGENTS.mdの二重管理やVS Code連携の制約、機能追加に伴うトークン増加への懸念など小さな不満の積み重ねから、オープンソースの軽量ツール「Pi」に移行したブログを公開。ツール選びは機能の多さより日々の作業への合い方で決めるべきだという論旨（[daily](../daily/2026-11-21.md) / [出典](https://kn.itmedia.co.jp/kn/article/2611/20/2000003337/)）
 - 2026-11-20: バージョン2.1.326〜329を公開。`/tasks`でスケジュールタスク・`/loop`待機・会話フォークの一覧表示に対応（2.1.329）、信頼ダイアログでフックの定義元フォルダを表示、Auto modeをAmazon Bedrock・Google Cloud・Microsoft Foundry上のOpus 4.6・Sonnet 4.6にも拡大（2.1.328）するなど運用管理・可視性の機能追加が続いた（[daily](../daily/2026-11-21.md) / [出典](https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md)）
 - 2026-11-20（今日の現場ネタ）: App Store・Google Playのリジェクトをエージェント実行前に検知するガード「app-store-compliance」がGitHub Trendingで急上昇（本日+874スター、累計約2.7k）。リジェクトパターン117件をデータベース化し、リリース作業（fastlane等）前にプロジェクトをスキャンするフックを追加できる。CI/CDの失敗原因をAIエージェントが調査するOSS「OpenSRE」も急上昇（本日+465スター、累計約13.6k）（[daily](../daily/2026-11-21.md) / [出典](https://github.com/mjmirza/app-store-compliance)）

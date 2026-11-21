@@ -3,7 +3,7 @@ type: thread
 title: "AIの生産性・雇用への影響（ai-productivity-employment）"
 slug: ai-productivity-employment
 created: 2026-10-18
-updated: 2026-11-15
+updated: 2026-11-22
 tags: [productivity, hr, survey]
 status: active
 related: [topics/anthropic.md, topics/microsoft.md, topics/apple.md]
@@ -24,6 +24,7 @@ related: [topics/anthropic.md, topics/microsoft.md, topics/apple.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-21: IDC調査で、AI投資で高いROIを得ている「リーダー」企業はエントリーレベル人材を増やすと回答した割合が68%（ROIがまだ出ていない「ラガード」企業は40%）。中間管理職（63%対39%）・上級管理職（59%対36%）でも同様の傾向で、リーダー企業の人員削減回答は各階層で12%以下。IDCは「人員削減と増員は二項対立ではなく、新たに生まれた仕事の領域への配置し直しだ」と説明。AI活用推進組織（CoE）を全面運営していると答えた割合もリーダー63%・ラガード15%で、11/10既報の「CoEがある企業は複雑業務をAIに任せる割合が4倍」という結果と符合する（[daily](../daily/2026-11-22.md) / [出典](https://www.itmedia.co.jp/enterprise/articles/2611/21/news003.html)）
 - 2026-11-15（週次整理・追記）: AIエージェント開発・管理ソフト「LangSmith」を手がけるLangChainが、CapitalG主導のシリーズCで3億ドルを調達し評価額30億ドルに達したと発表（約1年前の評価額12.5億ドルから2倍超）。LangSmithの顧客は7,000社超で、Harvey・Rippling・Clay等のスタートアップやNVIDIA・トヨタ・Salesforceなどの大企業が利用しているという（[daily](../daily/2026-11-15.md) / [出典](https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/)）
 - 2026-11-12: Databricksが、自社データのオントロジーで文脈を理解し自律的に多段階作業をこなすAIエージェント「Genie」の更新版を発表。CEOアリ・ゴドシ氏は従業員満足度調査の分析・失敗した大型商談の要約・ポッドキャスト出演準備などに活用していると紹介し、従業員1万2,000人超の規模では経営層に悪い情報が上がりにくいとして「忖度しない情報源」として位置づけた。AI利用料の増大には利用上限設定や低コストのオープンウェイトモデルへの切替で対応するという（[daily](../daily/2026-11-12.md) / [出典](https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/)）
 - 2026-11-10: IDCが「FutureScape 2027」（10月27日発表）で、2029年までに世界売上上位2000社（G2000）の約60%が業務プロセスの大半を「AIファースト」で運営すると予測（2026年時点は13%）。2027年までに人材・AI投資を先送りした企業は2029年までに先行企業より生産性が約50%低くなるとし、AIガバナンスを担う「Center of Excellence」がある企業は複雑な業務をAIに任せる割合が63%（無い企業は15%、約4倍）という（[daily](../daily/2026-11-10.md) / [出典](https://www.itmedia.co.jp/enterprise/articles/2611/06/news023.html)）

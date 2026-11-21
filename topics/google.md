@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-11-20
+updated: 2026-11-22
 tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,7 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-20: Google Antigravityをサードパーティ経由（ヘッドレスコマンド等）で呼び出すと「Googleアカウント全体が停止される」との不安がSNSで広がった件で、Google Cloud日本法人が「問題の規約は個人向けプランのみが対象で、法人向けプランには別規約が適用され根拠にした停止は発生しない」と回答。個人向けでは過剰利用がシステム全体の処理能力を圧迫する懸念があるためサードパーティ経由の利用を控えるよう案内しているという（[daily](../daily/2026-11-22.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/20/2000003353/)）
 - 2026-11-19: macOS版GeminiアプリにAIがユーザーに代わってネイティブアプリを操作したりバックグラウンドでWebサイトを閲覧したりする「コンピュータ操作」機能を追加。チャット内のライブプレビューで作業過程を確認しながら一時停止・停止・事前承認ができる設計。現時点ではGoogle AI Plus/Pro/Ultraの有料プラン・英語・米国限定（[daily](../daily/2026-11-20.md) / [出典](https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/)）
 - 2026-11-19: Gemini APIに「Tool Retrieval」機能をプレビュー公開。エージェントに数十〜数百のツールを接続する際、各ツールの詳細なパラメータスキーマを必要になるまでコンテキストに載せない仕組みで、検索はGemini側のサーバーで実行される。対象はGemini 3.6以降のモデル（[daily](../daily/2026-11-20.md) / [出典](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/)）
 - 2026-11-18: 中間モデル「Gemini 4 Neon」の提供を開始。コーディングエージェント指数・法務・税務エージェント向けベンチマークで首位を獲得し、既定の「high」設定では最上位モデルCarbonよりタスクあたりコストが32%低い。価格は100万トークンあたり入力3ドル・出力15ドル、コンテキストウィンドウ100万トークン。2カ月で4つ目のGeminiモデル投入（[daily](../daily/2026-11-20.md) / [出典](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/)）

@@ -853,3 +853,11 @@ https://simonwillison.net/2026/Nov/20/levent-alpoge/
 https://github.com/mjmirza/app-store-compliance
 https://github.com/Tracer-Cloud/opensre
 https://github.com/trending?since=daily
+https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/
+https://www.itmedia.co.jp/aiplus/article/2611/20/2000003353/
+https://www.itmedia.co.jp/enterprise/articles/2611/21/news003.html
+https://www.itmedia.co.jp/aiplus/article/2611/20/2000003372/
+https://www.itmedia.co.jp/business/articles/2611/20/news042.html
+https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md
+https://openai.com/index/combatting-adversarial-distillation
+https://github.com/cathrynlavery/diagram-design
