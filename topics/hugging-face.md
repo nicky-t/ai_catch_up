@@ -3,7 +3,7 @@ type: topic
 title: "Hugging Face（ハギングフェイス）"
 slug: hugging-face
 created: 2026-08-25
-updated: 2026-11-11
+updated: 2026-11-23
 tags: [hugging-face, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,7 @@ related: [topics/glm.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-20: ハーネス（実行環境）ごとに強化学習で学習したLoRAアダプターを組み込む手法を公開。Qwen3.8-27Bに対しPi・OpenCode・Hermes Agentの3種のハーネスで適用し、SWE-bench Pro（上位51件）の正答率をPi約40%→64%、Hermes 29.4%→43.1%、OpenCode 35.3%→51.0%に改善。3ハーネス共通で動く統合版アダプターも公開した（[daily](../daily/2026-11-23.md) / [topics/agent-harness](agent-harness.md) / [出典](https://huggingface.co/blog/harness-adapters-at-scale)）
 - 2026-11-11: 政策責任者アイリーン・ソレイマン氏が、サイバー攻撃の増加がオープンなAIプラットフォームのセキュリティ強化を招き、結果的に開放性を損なう恐れがあると警告。10月のOpenCode攻撃（サードパーティAPIキー被害）、OpenAIのエージェント群による夏のHugging Face侵害、AI基盤企業Fireworksでの顧客データ・モデル重みへの不正アクセスを例に挙げ、対応強化が独立研究者・個人開発者の参加を難しくする可能性を指摘した（[daily](../daily/2026-11-11.md) / [出典](https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/)）
 - 2026-10-21: 政策責任者アイリーン・ソレイマン氏が、「組み込み型評価者」（AI企業内に常駐する第三者評価者）について、効果的な評価者の資格基準はまだ大きく標準化が必要な段階にあると指摘。評価対象もモデル単体から「ハーネス＋エージェント」全体に移っているとし、再現性とアクセス権が結果への信頼を左右すると述べた（[daily](../daily/2026-10-21.md) / [threads/ai-safety-regulation](../threads/ai-safety-regulation.md) / [出典](https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/)）
 - 2026-09-07: コーディングエージェント（Claude Code・Codex等）に持続的な記憶を持たせるオープンソースツール「Funes」を公開。セッションログをベクトル検索＋BM25のハイブリッド検索で呼び出せる形に統合し、要約に頼る「ハンドオフ」方式より4〜8倍安価と報告（[daily](../daily/2026-09-07.md)）

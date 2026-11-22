@@ -3,7 +3,7 @@ type: topic
 title: "エージェントハーネス（agent harness）"
 slug: agent-harness
 created: 2026-09-01
-updated: 2026-11-13
+updated: 2026-11-23
 tags: [agent, tool-use, prompt-engineering]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,7 @@ AIエージェントに仕事を任せる際の「周りの仕組み」——ツ
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-20: Hugging Faceが、ハーネス（実行環境）ごとに強化学習で学習したLoRAアダプターを組み込む手法を公開。Pi・OpenCode・Hermes Agentの3種のハーネスでQwen3.8-27Bに適用し、SWE-bench Pro（上位51件）の正答率を最大24ポイント改善。別種のタスク（AutomationBench）では明確な改善が見られず、効果は課題の種類に依存するという（[daily](../daily/2026-11-23.md) / [topics/hugging-face](hugging-face.md) / [出典](https://huggingface.co/blog/harness-adapters-at-scale)）
 - 2026-11-13（今日の現場ネタ）: シニアエンジニアの開発ワークフローをAIコーディングエージェントに守らせるSkill集「agent-skills」がGitHub Trendingで急上昇（本日+812スター・累計11.7万）。定義・計画・実装・検証・レビュー・リリースの25スキルと9スラッシュコマンドで構成し、70以上のエージェントに対応（[daily](../daily/2026-11-13.md) / [topics/claude-code](claude-code.md) / [出典](https://github.com/addyosmani/agent-skills)）
 - 2026-11-13: AWSが「AWS Emulator」を正式公開。AWS APIをローカル再現する無料ツールで、人間が一切コードを書かず複数のAIエージェントチームが並行して開発・保守している点が注目された（[daily](../daily/2026-11-13.md) / [topics/amazon](amazon.md) / [出典](https://www.itmedia.co.jp/news/article/2611/12/2000003126/)）
 - 2026-11-10（今日の現場ネタ）: Grok Botの代替OSS「OpenMausBot」がGitHub Trendingで急上昇（本日+1,589スター・累計1.96万）。ローカルで動くClaude・Codex・GrokのCLIエージェントをそれぞれボットとして呼び出せる設計で、既にログイン済みのCLIをそのまま使えるため新規のAPIキーが不要。承認設定の既定が「確認なし」になっている点に注意が必要（[daily](../daily/2026-11-10.md) / [topics/claude-code](claude-code.md) / [出典](https://github.com/milind-soni/OpenMausBot)）

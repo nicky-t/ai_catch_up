@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-11-21
+updated: 2026-11-23
 tags: [anthropic, claude, safety, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-22（続報）: 11/20に所属の数学者レベント・アルポーゲ氏が発表したリーマン予想のLean証明（約1700万行）について、11/21にLean開発者・Mathlibコミュニティが数十人による再コンパイルと2つの独立ツールでの照合を経て「形式的に正しい」とする共同声明を出した。MITの数学者も外部から再コンパイルし確認。人間が読める論文は未公開（解説文書が25万ページ超のため）で、数学者がアイデアを理解・検証する段階はこれから（[daily](../daily/2026-11-23.md) / [出典](https://www.itmedia.co.jp/news/article/2611/22/2000003388/)）
 - 2026-11-20: IPOの最終引受完了（オーバーアロットメント147,000,000株の全行使含む）を発表。発行済み株式は合計11億2,700万株・1株83ドルで、IPO単独の調達額は約935億ドル（同社取り分は約916億ドル）、私募増資（Class N株260億ドル）と合わせた総額は約1,195億ドル。創業者7人はそれぞれ約340万株を売却し1人あたり約2.8億ドル（合計約19.5億ドル）を手にしたとTechCrunchが分析。公益ファンド・従業員寄付・会社マッチングを合算すると最大1,560億ドルの慈善資金が生まれうるとの推計も（株価変動等に左右される見積り）（[daily](../daily/2026-11-21.md) / [threads/anthropic-ipo](../threads/anthropic-ipo.md) / [出典1](https://www.anthropic.com/news/ipo-close) / [出典2](https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/) / [出典3](https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/)）
 - 2026-11-20: 所属の数学者Levent Alpöge氏が、Claudeとの対話を通じてLean形式で検証可能なリーマン予想の解法を見つけたとブログで発表。数学者コミュニティはまだ検証中で、確定した結果ではない（同日、スタンフォード大のRavi Vakil教授もAIを使わない人間のみの「一般化リーマン予想」証明を別に公開）（[daily](../daily/2026-11-21.md) / [出典](https://simonwillison.net/2026/Nov/20/levent-alpoge/)）
 - 2026-11-19: Nasdaq Global Select Marketに上場（ティッカー「ANT」）。IPO価格83ドルから取引開始直後は111.50ドル前後まで上昇（約34%高）、時価総額は初値水準で2兆ドル超（Meta・Tesla・Walmartを上回りApple・Amazon・Alphabet・NVIDIA・Microsoftに次ぐ規模）。IPOによる調達額は810億ドル超、現金準備は約2,200億ドルに達する見込み。アモデイCEOは開始の鐘を鳴らす前のスピーチで、父親の闘病経験を創業の動機として語り「事業面・政治面の圧力に屈せず安全なペースで開発を進める」姿勢を改めて表明した（[daily](../daily/2026-11-20.md) / [threads/anthropic-ipo](../threads/anthropic-ipo.md) / [出典1](https://www.anthropic.com/news/anthropic-prices-initial-public-offering) / [出典2](https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/)）

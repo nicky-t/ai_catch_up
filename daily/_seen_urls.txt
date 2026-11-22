@@ -861,3 +861,10 @@ https://www.itmedia.co.jp/business/articles/2611/20/news042.html
 https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md
 https://openai.com/index/combatting-adversarial-distillation
 https://github.com/cathrynlavery/diagram-design
+https://www.itmedia.co.jp/news/article/2611/22/2000003388/
+https://openai.com/index/perplexity-and-intelligence
+https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/
+https://huggingface.co/blog/harness-adapters-at-scale
+https://kn.itmedia.co.jp/kn/article/2611/22/2000003384/
+https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/
+https://github.com/zhouxiaoka/autoclip
