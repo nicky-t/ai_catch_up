@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-11-22
+updated: 2026-11-24
 tags: [claude-code, anthropic, agent, productivity]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,9 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-24: 個人の検証で、`claude mcp add -e`で渡したAPIキーがバージョン2.1.330の設定ファイル（projectスコープの`.mcp.json`・ホームの`~/.claude.json`）に平文で保存され、`claude mcp remove`で削除した後もバックアップに残ることが報告された。対策として`'API_KEY=${API_KEY}'`のような環境変数参照にすることが挙げられている（[daily](../daily/2026-11-24.md) / [topics/mcp](mcp.md) / [出典](https://qiita.com/supportapp3/items/0b9ae8203efe03bf1805)）
+- 2026-11-23: Anthropicが、Claude Codeの`/ship`コマンドからPR対応を支援するベータ機能「Claude Ship」を発表（公式ページ取得不可のためQiita記事経由）。CIの失敗・マージコンフリクト・レビュー指摘への対応を行う「PR Steward」と、承認ポリシーに従ってClaude自身が変更を承認する「Claude Approvals」（いずれもベータ、承認は観察のみのモードを推奨）が中核（[daily](../daily/2026-11-24.md) / [topics/anthropic](anthropic.md) / [出典（経由: Qiita）](https://qiita.com/kinamocchi_tech/items/cde5399e1a83f8aedff5)）
+- 2026-11-24（今日の現場ネタ）: AIエージェント向けのWeb検索・スクレイピングAPI「firecrawl」がGitHub Trendingで急上昇（本日+920スター、累計約20.8万）。`firecrawl-local init`でClaude Code・CursorにMCPサーバーとして登録でき、APIキーなしでも使える「Firecrawl Keyless」がある（[daily](../daily/2026-11-24.md) / [topics/mcp](mcp.md) / [出典](https://github.com/firecrawl/firecrawl)）
 - 2026-11-21: バージョン2.1.330を公開。Enterprise Admin Consoleで管理された組織へのサインインに対応、チャット内でグラフを描画する組み込みモッド「easel」（Pro/Max向け）を追加。定期スケジュールタスクと`/loop`の実行可能期間を7日から30日に延長（[daily](../daily/2026-11-22.md) / [出典](https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md)）
 - 2026-11-20（今日の現場ネタ）: 図解デザインSkill「diagram-design」がGitHub Trendingで1カ月半ぶりに再急上昇（本日+582スター、累計約69.7k。10/9既報の46.2kから約+23k）。draw.io・Mermaid・Excalidraw・PlantUMLの図を読み込み、ブランドカラーに合わせたHTML+SVGの図に描き直せる（[daily](../daily/2026-11-22.md) / [出典](https://github.com/cathrynlavery/diagram-design)）
 - 2026-11-20: あるエンジニアが、CLAUDE.md/AGENTS.mdの二重管理やVS Code連携の制約、機能追加に伴うトークン増加への懸念など小さな不満の積み重ねから、オープンソースの軽量ツール「Pi」に移行したブログを公開。ツール選びは機能の多さより日々の作業への合い方で決めるべきだという論旨（[daily](../daily/2026-11-21.md) / [出典](https://kn.itmedia.co.jp/kn/article/2611/20/2000003337/)）

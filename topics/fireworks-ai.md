@@ -3,7 +3,7 @@ type: topic
 title: "Fireworks AI"
 slug: fireworks-ai
 created: 2026-11-15
-updated: 2026-11-15
+updated: 2026-11-24
 tags: [privacy]
 level: beginner
 audience: [engineer, business, instructor]
@@ -30,6 +30,7 @@ related: [topics/hugging-face.md, threads/ai-safety-regulation.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-23（続報）: メルカリが、業務で使う「Notion AI」のチャット記録の一部が外部に流出した可能性があると公表。委託先Fireworks AIでは10月・11月と2カ月連続でセキュリティ侵害が確認されており、記事では2種類の攻撃が確認されたと説明されている（[daily](../daily/2026-11-24.md) / [topics/notion-ai](notion-ai.md) / [出典](https://kn.itmedia.co.jp/kn/article/2611/23/2000003393/)）
 - 2026-11-12: 委託先Fireworks AIへの不正アクセスにより、Notionの「Insights」機能のAIチャット記録が漏えいした恐れがあると発表（全ワークスペースの1%未満が対象）（[daily](../daily/2026-11-12.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/11/2000003104/)）
 - 2026-11-12: 国内でもSecureNavi・LRM・フェイガーの3社がNotion経由の情報漏えいの恐れを発表。Fireworksにとっては10月に続き2カ月連続の侵害（[daily](../daily/2026-11-13.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/12/2000003140/)）
 - 2026-11-10: Hugging Face政策責任者が、AI基盤企業Fireworksでの顧客データ・モデル重みへの不正アクセスをオープンソースAIへの逆風の一例として挙げる（[daily](../daily/2026-11-10.md) / [出典](https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/)）
