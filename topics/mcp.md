@@ -3,7 +3,7 @@ type: topic
 title: "MCP（Model Context Protocol）"
 slug: mcp
 created: 2026-08-23
-updated: 2026-11-24
+updated: 2026-11-25
 tags: [mcp, agent, tool-use, guardrails]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,7 @@ AI アシスタントが外部のデータ源・ツール・業務システム�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-25（続報）: 個人の検証で、`claude mcp add --header "Authorization: Bearer ..."`で追加したMCPサーバーも、ターミナル表示は`[REDACTED]`でもキー自体は`.mcp.json`（projectスコープ）や`~/.claude.json`に平文保存されると確認された（Claude Code 2.1.330で検証）。値を表示せずファイル名・行番号だけ出すgrepコマンドも紹介されている（[daily](../daily/2026-11-25.md) / [topics/claude-code](claude-code.md) / [出典](https://qiita.com/supportapp3/items/b73c21efacc605616bf9)）
 - 2026-11-24: 個人の検証で、`claude mcp add -e`で渡したAPIキーがClaude Code 2.1.330の設定ファイル（projectスコープの`.mcp.json`・ホームの`~/.claude.json`）に平文で保存され、`claude mcp remove`で削除した後もバックアップに残ることが報告された（Codex CLIの`--env`にも同種の挙動あり）。対策として`'API_KEY=${API_KEY}'`のような環境変数参照にすることが挙げられている（[daily](../daily/2026-11-24.md) / [topics/claude-code](claude-code.md) / [出典](https://qiita.com/supportapp3/items/0b9ae8203efe03bf1805)）
 - 2026-11-24（今日の現場ネタ）: AIエージェント向けのWeb検索・スクレイピングAPI「firecrawl」がGitHub Trendingで急上昇（本日+920スター、累計約20.8万）。Web検索・スクレイピング・550以上のデータソースへのアクセスを1つのAPIで提供し、`firecrawl-local init`でClaude Code・CursorにMCPサーバーとして登録できる（[daily](../daily/2026-11-24.md) / [出典](https://github.com/firecrawl/firecrawl)）
 - 2026-11-16（今日の現場ネタ）: 実際に起動したChromeをMCP経由でエージェントに操作・検査させる「chrome-devtools-mcp」がGitHub Trendingで急上昇（本日+718スター、累計約5.68万）。パフォーマンス計測・ネットワーク/コンソールデバッグ・スクリーンショット取得などに対応し、デバッグ用途別のSkillも同梱（[daily](../daily/2026-11-16.md) / [出典](https://github.com/ChromeDevTools/chrome-devtools-mcp)）

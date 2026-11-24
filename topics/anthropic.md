@@ -3,7 +3,7 @@ type: topic
 title: "Anthropic（アンソロピック）"
 slug: anthropic
 created: 2026-08-22
-updated: 2026-11-24
+updated: 2026-11-25
 tags: [anthropic, claude, safety, cost]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ related: [topics/claude-code.md, topics/openai.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-24: 株価が2026年11月24日（現地時間）、一時76ドルまで下落しIPO価格83ドルを下回った（前日終値比ほぼ12%安）。上場1週間足らずで初値111.50ドルからの急落。引受会社は通常想定取引価格より低めにIPO価格を設定するため、下回る展開は市場評価の弱さを示すとされる。同日NVIDIAも前日の30%超高の反動で7%超下落した（[daily](../daily/2026-11-25.md) / [threads/anthropic-ipo](../threads/anthropic-ipo.md) / [出典](https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/)）
 - 2026-11-23: Claude Codeの`/ship`コマンドからPR対応を支援するベータ機能「Claude Ship」を発表（公式ページ取得不可のためQiita記事経由）。CIの失敗・マージコンフリクト・レビュー指摘への対応を行う「PR Steward」と、リポジトリの承認ポリシーに従ってClaude自身が変更を承認する「Claude Approvals」（いずれもベータ、承認は最初は観察のみのモードを推奨）が中核。Team・Enterpriseプラン対象（[daily](../daily/2026-11-24.md) / [topics/claude-code](claude-code.md) / [出典（経由: Qiita）](https://qiita.com/kinamocchi_tech/items/cde5399e1a83f8aedff5)）
 - 2026-11-22（続報）: 11/20に所属の数学者レベント・アルポーゲ氏が発表したリーマン予想のLean証明（約1700万行）について、11/21にLean開発者・Mathlibコミュニティが数十人による再コンパイルと2つの独立ツールでの照合を経て「形式的に正しい」とする共同声明を出した。MITの数学者も外部から再コンパイルし確認。人間が読める論文は未公開（解説文書が25万ページ超のため）で、数学者がアイデアを理解・検証する段階はこれから（[daily](../daily/2026-11-23.md) / [出典](https://www.itmedia.co.jp/news/article/2611/22/2000003388/)）
 - 2026-11-20: IPOの最終引受完了（オーバーアロットメント147,000,000株の全行使含む）を発表。発行済み株式は合計11億2,700万株・1株83ドルで、IPO単独の調達額は約935億ドル（同社取り分は約916億ドル）、私募増資（Class N株260億ドル）と合わせた総額は約1,195億ドル。創業者7人はそれぞれ約340万株を売却し1人あたり約2.8億ドル（合計約19.5億ドル）を手にしたとTechCrunchが分析。公益ファンド・従業員寄付・会社マッチングを合算すると最大1,560億ドルの慈善資金が生まれうるとの推計も（株価変動等に左右される見積り）（[daily](../daily/2026-11-21.md) / [threads/anthropic-ipo](../threads/anthropic-ipo.md) / [出典1](https://www.anthropic.com/news/ipo-close) / [出典2](https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/) / [出典3](https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/)）

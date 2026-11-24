@@ -881,3 +881,12 @@ https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-f
 https://kn.itmedia.co.jp/kn/article/2611/23/2000003393/
 https://qiita.com/supportapp3/items/0b9ae8203efe03bf1805
 https://github.com/firecrawl/firecrawl
+https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/
+https://www.itmedia.co.jp/news/article/2611/24/2000003398/
+https://kn.itmedia.co.jp/kn/article/2611/24/2000003335/
+https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/
+https://www.itmedia.co.jp/aiplus/article/2611/24/2000003406/
+https://openai.com/business/customer-stories/ifood
+https://atmarkit.itmedia.co.jp/ait/articles/2611/25/news002.html
+https://openai.com/index/searching-for-distant-planets-with-astra
+https://qiita.com/supportapp3/items/b73c21efacc605616bf9
