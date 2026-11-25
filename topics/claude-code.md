@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-11-25
+updated: 2026-11-26
 tags: [claude-code, anthropic, agent, productivity]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,8 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-26（続報）: `claude mcp get`も値を`[REDACTED]`にせず平文で表示すると確認（`claude mcp list`は値を表示しない）。Codex CLIも`get`単体では隠すが`--json`を付けると平文になる（Claude Code 2.1.330／Codex CLI 0.171.0で検証）（[daily](../daily/2026-11-26.md) / [topics/mcp](mcp.md) / [出典](https://qiita.com/supportapp3/items/d8d15ba02b2937aa293f)）
+- 2026-11-26（今日の現場ネタ）: 許可された対象限定のバグハンティング用Skillセット「Claude-BugHunter」がGitHub Trendingで急上昇（本日+1,644スター、累計約22,825）。HackerOneの公開報告書から作った58個の脆弱性クラス別Skillなど計84個を同梱し、対象を自然言語で伝えると該当Skillが自動で読み込まれる（[daily](../daily/2026-11-26.md) / [出典](https://raw.githubusercontent.com/elementalsouls/Claude-BugHunter/main/README.md)）
 - 2026-11-25（続報）: 個人の検証で、`claude mcp add --header "Authorization: Bearer ..."`で追加したMCPサーバーも、ターミナル表示は`[REDACTED]`でもキー自体は`.mcp.json`（projectスコープ）や`~/.claude.json`に平文保存されると確認された（Claude Code 2.1.330で検証）。値を表示せずファイル名・行番号だけ出すgrepコマンドも紹介されている（[daily](../daily/2026-11-25.md) / [topics/mcp](mcp.md) / [出典](https://qiita.com/supportapp3/items/b73c21efacc605616bf9)）
 - 2026-11-24: 個人の検証で、`claude mcp add -e`で渡したAPIキーがバージョン2.1.330の設定ファイル（projectスコープの`.mcp.json`・ホームの`~/.claude.json`）に平文で保存され、`claude mcp remove`で削除した後もバックアップに残ることが報告された。対策として`'API_KEY=${API_KEY}'`のような環境変数参照にすることが挙げられている（[daily](../daily/2026-11-24.md) / [topics/mcp](mcp.md) / [出典](https://qiita.com/supportapp3/items/0b9ae8203efe03bf1805)）
 - 2026-11-23: Anthropicが、Claude Codeの`/ship`コマンドからPR対応を支援するベータ機能「Claude Ship」を発表（公式ページ取得不可のためQiita記事経由）。CIの失敗・マージコンフリクト・レビュー指摘への対応を行う「PR Steward」と、承認ポリシーに従ってClaude自身が変更を承認する「Claude Approvals」（いずれもベータ、承認は観察のみのモードを推奨）が中核（[daily](../daily/2026-11-24.md) / [topics/anthropic](anthropic.md) / [出典（経由: Qiita）](https://qiita.com/kinamocchi_tech/items/cde5399e1a83f8aedff5)）

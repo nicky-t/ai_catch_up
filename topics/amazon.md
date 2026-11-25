@@ -3,7 +3,7 @@ type: topic
 title: "Amazon（アマゾン）"
 slug: amazon
 created: 2026-09-12
-updated: 2026-11-24
+updated: 2026-11-26
 tags: [amazon]
 level: beginner
 audience: [engineer, business, instructor]
@@ -31,6 +31,7 @@ EC・クラウド（AWS）・広告事業を持つ米国のテクノロジー企
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-26: 約2カ月ブロックしていたMetaのAIエージェント「Muse」によるAmazon上での購入について、直接連携を認める方向で交渉中と報道（Fortune）。検索結果の表示方法と広告の扱いが論点で、合意には両社CEOの承認が必要（[daily](../daily/2026-11-26.md) / [topics/muse](muse.md) / [出典](https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/)）
 - 2026-11-23: イスラエルのAI最適化企業Decartの技術「Decart Optimization Stack」・創業チームを、Bloomberg報道によると約75億ドルで取得。同スタックはNVIDIA・Amazon・Google製ハードウェア上でAIモデルを高速化するソフトウェアで、Amazonは自社AIチップ「Trainium」の外販準備を進めており、Decartの技術で自社チップの性能を引き上げる狙いとみられる（[daily](../daily/2026-11-24.md) / [topics/nvidia](nvidia.md) / [出典](https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/)）
 - 2026-11-17: Anthropicとの大型出資契約の詳細が判明。2023・2024年の出資時に取得した転換可能な約束手形の一部を、IPOに伴い無議決権の特別種類株式に転換。IPO後の保有比率は14.7%（全転換した場合23.8%）。Anthropicは今後10年でAWSに1,000億ドル超を支出する約束をしており、AWSの収益にもつながる（[daily](../daily/2026-11-19.md) / [topics/anthropic](anthropic.md) / [threads/anthropic-ipo](../threads/anthropic-ipo.md) / [出典](https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/)）
 - 2026-11-12: 無料ツール「AWS Emulator」を正式公開。AWS APIをローカルで再現し、AWS CLI・SDKの接続先を環境変数で切り替えるだけで既存コードを書き換えずに使える。開発は週末の個人的な実験から始まり、AWSのAI開発環境「Kiro」に「テスト作成→実際のAWS環境で成功するまで修正→実装作成」の3段階を指示する形で進め、人間はコードを一切書いていないという。ソースコードはCC0ライセンスでGitHub公開（[daily](../daily/2026-11-13.md) / [topics/agent-harness](agent-harness.md) / [出典](https://www.itmedia.co.jp/news/article/2611/12/2000003126/)）

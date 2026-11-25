@@ -3,7 +3,7 @@ type: thread
 title: "NVIDIAのトップ人事危機（nvidia-leadership-crisis）"
 slug: nvidia-leadership-crisis
 created: 2026-11-16
-updated: 2026-11-24
+updated: 2026-11-26
 tags: [nvidia, safety]
 status: active
 related: [topics/nvidia.md]
@@ -23,6 +23,7 @@ related: [topics/nvidia.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-26: 復帰後初の全社集会で「自分は行動規範に違反した。誰も例外ではない」と発言（違反の具体的内容は不明）。「違反＝即解雇ではなく事実・状況・様々な評価が関わる」とも述べた。専門家は、行動規範違反の放置は企業文化（士気・信頼）への影響が大きく、CEOと会社が一体化している企業ほど対応が難しいと指摘（[daily](../daily/2026-11-26.md) / [topics/nvidia](../topics/nvidia.md) / [出典](https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/)）
 - 2026-11-23: 取締役会が一転し、フアン氏をCEOに復帰させる方針を発表。トランプ大統領が取締役会に電話をかけ復帰を後押ししたと報じられ、大統領自身も「不正の証拠はない」と復帰を支持する一方、対中輸出規制を巡る調査は継続するよう要求。フアン氏は来週上院で証言する予定で、復帰後は本社で社員に迎えられた（[daily](../daily/2026-11-24.md) / [topics/nvidia](../topics/nvidia.md) / [出典1](https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/) / [出典2](https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/) / [出典3](https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/)）
 - 2026-11-21: 決算説明会で、米政権の対中規制強化に合わせ中国向けH200チップの販売停止を発表。好決算でも株価は下落し、取締役会は改めて復帰計画がないと明言したが「1週間半前には全面的信頼を表明していた」立場からの転換とされる（[daily](../daily/2026-11-22.md) / [topics/nvidia](../topics/nvidia.md) / [出典](https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/)）
 - 2026-11-19: TechCrunchが経緯全体を時系列でまとめた記事を公開。確定事実として、フアン氏が11月8日の社内メッセージで不貞を認め辞任したこと、取締役会が独立調査を開始したこと、17日に取締役会長が復帰を検討していないと明言したこと、同日Microsoft CEOサティア・ナデラ氏が暫定CEOコレット・クレス氏への信頼を表明したことなどを確認。一方「交際相手が中国のスパイだった」「3人目の交際相手がいた」「中国企業網が70億ドル超のチップを購入」といった主張は匿名情報源による報道にとどまり公式には未確認（[daily](../daily/2026-11-20.md) / [topics/nvidia](../topics/nvidia.md) / [出典](https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/)）

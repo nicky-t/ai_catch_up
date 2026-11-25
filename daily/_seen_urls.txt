@@ -890,3 +890,14 @@ https://openai.com/business/customer-stories/ifood
 https://atmarkit.itmedia.co.jp/ait/articles/2611/25/news002.html
 https://openai.com/index/searching-for-distant-planets-with-astra
 https://qiita.com/supportapp3/items/b73c21efacc605616bf9
+https://www.itmedia.co.jp/news/article/2611/25/2000003430/
+https://www.itmedia.co.jp/news/article/2611/25/2000003421/
+https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/
+https://www.itmedia.co.jp/news/article/2611/25/2000003431/
+https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/
+https://www.publickey1.jp/blog/26/mcpskills_over_mcpmcp.html
+https://www.publickey1.jp/blog/26/google_workspace_mcpgoogle_workspace_cli.html
+https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/
+https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/
+https://qiita.com/supportapp3/items/d8d15ba02b2937aa293f
+https://raw.githubusercontent.com/elementalsouls/Claude-BugHunter/main/README.md

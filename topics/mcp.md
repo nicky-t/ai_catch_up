@@ -3,7 +3,7 @@ type: topic
 title: "MCP（Model Context Protocol）"
 slug: mcp
 created: 2026-08-23
-updated: 2026-11-25
+updated: 2026-11-26
 tags: [mcp, agent, tool-use, guardrails]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,9 @@ AI アシスタントが外部のデータ源・ツール・業務システム�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-26（続報）: `claude mcp get`も値を`[REDACTED]`にせず平文で表示すると確認（`claude mcp list`は値を表示しない）。Codex CLIも`get`単体では隠すが`--json`を付けると平文になる（Claude Code 2.1.330／Codex CLI 0.171.0で検証）（[daily](../daily/2026-11-26.md) / [topics/claude-code](claude-code.md) / [出典](https://qiita.com/supportapp3/items/d8d15ba02b2937aa293f)）
+- 2026-11-26: MCPサーバー側からAIエージェントへ「スキル」（ツールの使い方の指示）を配布できる新機能「Skills over MCP」がベータで追加。スキルをサーバー側から必要時だけ取得する方式で、ツール更新への追従とコンテキスト肥大化の両方に対応。Claude・Claude CodeのPro/Max/Ultraでは既定で有効（[daily](../daily/2026-11-26.md) / [出典](https://www.publickey1.jp/blog/26/mcpskills_over_mcpmcp.html)）
+- 2026-11-26: Googleが「Google Workspace MCPサーバー」「Google Workspace CLI」を正式版（GA）として公開。Gmail・Drive・Docs・Sheets・Slides・Calendar・Chat・Tasksの8サービスに対応し、送信・共有操作は人の確認を必須とする設計。無料枠は1プロダクトあたり1日5,000リクエスト、REST API利用エージェントは2027年2月までにMCPへの移行が必要（[daily](../daily/2026-11-26.md) / [topics/google](google.md) / [出典](https://www.publickey1.jp/blog/26/google_workspace_mcpgoogle_workspace_cli.html)）
 - 2026-11-25（続報）: 個人の検証で、`claude mcp add --header "Authorization: Bearer ..."`で追加したMCPサーバーも、ターミナル表示は`[REDACTED]`でもキー自体は`.mcp.json`（projectスコープ）や`~/.claude.json`に平文保存されると確認された（Claude Code 2.1.330で検証）。値を表示せずファイル名・行番号だけ出すgrepコマンドも紹介されている（[daily](../daily/2026-11-25.md) / [topics/claude-code](claude-code.md) / [出典](https://qiita.com/supportapp3/items/b73c21efacc605616bf9)）
 - 2026-11-24: 個人の検証で、`claude mcp add -e`で渡したAPIキーがClaude Code 2.1.330の設定ファイル（projectスコープの`.mcp.json`・ホームの`~/.claude.json`）に平文で保存され、`claude mcp remove`で削除した後もバックアップに残ることが報告された（Codex CLIの`--env`にも同種の挙動あり）。対策として`'API_KEY=${API_KEY}'`のような環境変数参照にすることが挙げられている（[daily](../daily/2026-11-24.md) / [topics/claude-code](claude-code.md) / [出典](https://qiita.com/supportapp3/items/0b9ae8203efe03bf1805)）
 - 2026-11-24（今日の現場ネタ）: AIエージェント向けのWeb検索・スクレイピングAPI「firecrawl」がGitHub Trendingで急上昇（本日+920スター、累計約20.8万）。Web検索・スクレイピング・550以上のデータソースへのアクセスを1つのAPIで提供し、`firecrawl-local init`でClaude Code・CursorにMCPサーバーとして登録できる（[daily](../daily/2026-11-24.md) / [出典](https://github.com/firecrawl/firecrawl)）

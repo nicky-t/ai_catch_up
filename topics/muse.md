@@ -3,7 +3,7 @@ type: topic
 title: "Muse（ミューズ）"
 slug: muse
 created: 2026-09-27
-updated: 2026-11-22
+updated: 2026-11-26
 tags: [meta, agent, multimodal]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,7 @@ Metaが2026年9月に米国限定で提供を始めたパーソナルAIエージ
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-26: Amazonが約2カ月ブロックしていたMuseによる購入について、両社が直接連携を認める方向で交渉中と報道（Fortune）。検索結果の表示方法と広告の扱いが論点（[daily](../daily/2026-11-26.md) / [topics/amazon](amazon.md) / [出典](https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/)）
 - 2026-11-20: Museのメール送受信代行機能で使う専用メールアドレスを、無料ユーザーを含む全ユーザーが取得できるように拡大（[daily](../daily/2026-11-22.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/20/2000003372/)）
 - 2026-11-19: Reutersの報道によると、Metaの従業員が社内テスト中、異なるアカウントの会話が混ざり、頼んでいない銀行残高の通知や家族宛メッセージへの返信を促すリマインダーなど本人のものではない情報が表示される事例を複数報告した。Meta広報は、従業員によるテストは安全性・プライバシー改善のための製品開発プロセスの一部であり、一般公開版とは異なるバージョンを使っていると説明している（[daily](../daily/2026-11-20.md) / [出典](https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/)）
 - 2026-11-10: Museブランドで最も軽量・低コストなモデル「Muse Ember」を発表。ツール呼び出し・小規模コーディング・ルーティング・情報抽出など、エージェントが日常的に繰り返す作業向けに設計。入力100万トークンあたり10セントで、Anthropic「Haiku」やOpenAI「Luna」より安価・高性能だと主張。上位モデル「Muse Wonder」が計画を立て、Emberが大量処理を担う役割分担を想定している（[daily](../daily/2026-11-10.md) / [出典](https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/)）

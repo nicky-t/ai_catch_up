@@ -3,7 +3,7 @@ type: topic
 title: "ChatGPT Work"
 slug: chatgpt-work
 created: 2026-10-24
-updated: 2026-10-24
+updated: 2026-11-26
 tags: [openai, productivity, case-study]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ OpenAIが企業向けに提供するChatGPTのプラン・製品群。ログイ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-26: 一般向け「Chat」と統合され、1つのインターフェース・1つの使用量メーターに。即時応答モデル「Instant」のみ無制限で使える設計（まずProの一部から展開、12月に全ユーザーへ）（[daily](../daily/2026-11-26.md) / [topics/openai](openai.md) / [出典](https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/)）
 - 2026-10-24: Uberが全従業員約3万人にChatGPT Workを展開すると発表。今年初めの約1,000人での試験導入では参加者の約8割が非エンジニアで、データ分析・研修資料の多言語化・ダッシュボード作成に使われた。OpenAIはUberとの統合作業に緊密に協力したとコメント（[daily](../daily/2026-10-24.md) / [topics/openai](openai.md) / [出典](https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/)）
 
 ## 関連

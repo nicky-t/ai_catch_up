@@ -3,7 +3,7 @@ type: topic
 title: "OpenAI"
 slug: openai
 created: 2026-08-19
-updated: 2026-11-25
+updated: 2026-11-26
 tags: [openai, chatgpt, gpt, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,7 @@ ChatGPT と GPT 系モデルを開発する米国の AI 企業。一般利用者
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-26: ChatGPTの一般向け「Chat」と企業向け「Work」の体験を1つのインターフェースに統合すると発表。使用量も1つの共通メーターで管理する方式に変更し、即時応答モデル「Instant」のみ無制限のまま。一部の重いユーザーは早く上限に達する可能性があると説明（まずProの一部から展開、12月に全ユーザーへ）（[daily](../daily/2026-11-26.md) / [topics/chatgpt-work](chatgpt-work.md) / [出典](https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/)）
 - 2026-11-25: ＠ITが、AIエージェントでソフトウェア開発の受付から本番反映までを担う「ソフトウェアファクトリー」という考え方を整理する記事を公開。OpenAIのチケット起点Codex仕様「Symphony」、Uberの6要素構成、freeeの知識基盤・検証ハーネス・人間レビューの3本柱を紹介し、コードを書く工程が速くなっても検証・レビューが追いつかなければボトルネックが移るだけだと指摘。重要なのは「どこまでを機械で検証し、どこから人が判断するか」の設計だと論じている（[daily](../daily/2026-11-25.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2611/25/news002.html)）
 - 2026-11-24: ブラジルの配達プラットフォームiFoodが、社内開発「Remote Agents Platform」で15,000超のコードリポジトリでコーディングエージェントを運用していると顧客事例として公開。これまでに25,000件超のタスクを完了、トークン消費27億件超、1回あたり平均推論コスト0.04ドル。最初の主要利用者は社内のセキュリティ製品で、脆弱な依存関係の修正精度・解決件数が倍以上になったという（[daily](../daily/2026-11-25.md) / [出典](https://openai.com/business/customer-stories/ifood)）
 - 2026-11-24: アマチュア天文家イーサン・バード氏が、Astraの支援を受けてNASAのTESS等の公開データから約1,900万個の星を対象に系外惑星候補を探索するソフトウェアを構築。初回探索で49件の候補が見つかり最有力の1件はTESS研究者に送付済みだが、確認には数カ月〜数年かかることが多く現時点では未確定（[daily](../daily/2026-11-25.md) / [出典](https://openai.com/index/searching-for-distant-planets-with-astra)）
