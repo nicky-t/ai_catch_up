@@ -3,7 +3,7 @@ type: topic
 title: "Claude Code（クロードコード）"
 slug: claude-code
 created: 2026-08-19
-updated: 2026-11-26
+updated: 2026-11-27
 tags: [claude-code, anthropic, agent, productivity]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,8 @@ Anthropic のコーディングエージェント。ターミナルやクラウ�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-27（今日の現場ネタ）: Claudeで作るスライドが毎回似た無難なデザインになる問題を避けるため、デザインを選べる「frontend-slides」「guizang-ppt-skill」（HTML出力）と、デザイン仕様書・ロックファイルで崩れを防ぐ「ppt-master」（.pptx出力）の3 Skillを比較した記事がQiitaで490いいね（[daily](../daily/2026-11-27.md) / [出典](https://qiita.com/nuco_d/items/b279477cbcdbe5921abd)）
+- 2026-11-26: Obsidian公式が「コネクタ」機能の一部として、ChatGPT・Claude・Google Antigravity・Grok Bot・Museなど主要AIエージェントからVault（保管庫）を操作するための公式スキル集をGitHubで公開。操作対象はローカルのVaultのみ（[daily](../daily/2026-11-27.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/26/2000003470/)）
 - 2026-11-26（続報）: `claude mcp get`も値を`[REDACTED]`にせず平文で表示すると確認（`claude mcp list`は値を表示しない）。Codex CLIも`get`単体では隠すが`--json`を付けると平文になる（Claude Code 2.1.330／Codex CLI 0.171.0で検証）（[daily](../daily/2026-11-26.md) / [topics/mcp](mcp.md) / [出典](https://qiita.com/supportapp3/items/d8d15ba02b2937aa293f)）
 - 2026-11-26（今日の現場ネタ）: 許可された対象限定のバグハンティング用Skillセット「Claude-BugHunter」がGitHub Trendingで急上昇（本日+1,644スター、累計約22,825）。HackerOneの公開報告書から作った58個の脆弱性クラス別Skillなど計84個を同梱し、対象を自然言語で伝えると該当Skillが自動で読み込まれる（[daily](../daily/2026-11-26.md) / [出典](https://raw.githubusercontent.com/elementalsouls/Claude-BugHunter/main/README.md)）
 - 2026-11-25（続報）: 個人の検証で、`claude mcp add --header "Authorization: Bearer ..."`で追加したMCPサーバーも、ターミナル表示は`[REDACTED]`でもキー自体は`.mcp.json`（projectスコープ）や`~/.claude.json`に平文保存されると確認された（Claude Code 2.1.330で検証）。値を表示せずファイル名・行番号だけ出すgrepコマンドも紹介されている（[daily](../daily/2026-11-25.md) / [topics/mcp](mcp.md) / [出典](https://qiita.com/supportapp3/items/b73c21efacc605616bf9)）

@@ -3,7 +3,7 @@ type: topic
 title: "OpenAI"
 slug: openai
 created: 2026-08-19
-updated: 2026-11-26
+updated: 2026-11-27
 tags: [openai, chatgpt, gpt, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,7 @@ ChatGPT と GPT 系モデルを開発する米国の AI 企業。一般利用者
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-26: 11月17日公開の「GPT-6.2 Astra」「GPT-6.2 Sol」で使用量が実際より少なく計算されるバグがあったと判明。修正により利用上限に達する速さはAstraで40%、Solで25%早くなる見込み。謝罪として有料プラン利用者に利用枠リセット権を1回分付与（[daily](../daily/2026-11-27.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/26/2000003495/)）
 - 2026-11-26: ChatGPTの一般向け「Chat」と企業向け「Work」の体験を1つのインターフェースに統合すると発表。使用量も1つの共通メーターで管理する方式に変更し、即時応答モデル「Instant」のみ無制限のまま。一部の重いユーザーは早く上限に達する可能性があると説明（まずProの一部から展開、12月に全ユーザーへ）（[daily](../daily/2026-11-26.md) / [topics/chatgpt-work](chatgpt-work.md) / [出典](https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/)）
 - 2026-11-25: ＠ITが、AIエージェントでソフトウェア開発の受付から本番反映までを担う「ソフトウェアファクトリー」という考え方を整理する記事を公開。OpenAIのチケット起点Codex仕様「Symphony」、Uberの6要素構成、freeeの知識基盤・検証ハーネス・人間レビューの3本柱を紹介し、コードを書く工程が速くなっても検証・レビューが追いつかなければボトルネックが移るだけだと指摘。重要なのは「どこまでを機械で検証し、どこから人が判断するか」の設計だと論じている（[daily](../daily/2026-11-25.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2611/25/news002.html)）
 - 2026-11-24: ブラジルの配達プラットフォームiFoodが、社内開発「Remote Agents Platform」で15,000超のコードリポジトリでコーディングエージェントを運用していると顧客事例として公開。これまでに25,000件超のタスクを完了、トークン消費27億件超、1回あたり平均推論コスト0.04ドル。最初の主要利用者は社内のセキュリティ製品で、脆弱な依存関係の修正精度・解決件数が倍以上になったという（[daily](../daily/2026-11-25.md) / [出典](https://openai.com/business/customer-stories/ifood)）

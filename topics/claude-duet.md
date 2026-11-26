@@ -3,7 +3,7 @@ type: topic
 title: "Claude Duet"
 slug: claude-duet
 created: 2026-10-23
-updated: 2026-10-23
+updated: 2026-11-27
 tags: [anthropic, agent]
 level: beginner
 audience: [engineer, business, instructor]
@@ -32,6 +32,7 @@ Anthropicが2026年10月に研究プレビュー公開した、常時稼働す�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-26: 研究プレビューの提供地域を日本・インド・ブラジル・インドネシアに拡大（米国外は11/25発表、日本では11/26提供開始）。対象はウェイトリスト登録済みのPro/Max/Ultra利用者（Teamは管理者が有効化）。研究プレビュー期間中、Proには利用上限リセット権3回、Max/Ultraには1回が付与され、未使用分は12月15日に失効する（[daily](../daily/2026-11-27.md) / [topics/anthropic](anthropic.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/26/2000003483/)）
 - 2026-10-23: Anthropicが研究プレビューを公開（10/21発表）。Claude Opus 5.5ベースで、朝のダイジェスト・日中の選択的通知・仮想マシンでの継続実行・機密情報保護の分類器を備える。Web・iOS・Androidで提供され、Pro・Maxプランのウェイトリスト登録者がアクセス可能（[daily](../daily/2026-10-23.md) / [topics/anthropic](anthropic.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2610/22/2000002490/)）
 
 ## 関連

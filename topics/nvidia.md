@@ -3,7 +3,7 @@ type: topic
 title: "NVIDIA（エヌビディア）"
 slug: nvidia
 created: 2026-08-28
-updated: 2026-11-26
+updated: 2026-11-27
 tags: [nvidia, agent, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -30,6 +30,8 @@ AIモデルの学習・推論に使われるGPU（画像処理用半導体）を
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-26: 製造パートナーのDell・Super Microに、マレーシア・シンガポール・タイ・インドネシア向けサーバー出荷の一時停止を通知（WSJ報道）。背景は、これらの国のデータセンターを中国企業が遠隔利用してNVIDIA製チップにアクセスする「抜け穴」を米商務省が11月初めに規制強化で塞いだこと。シンクタンクInstitute for Progressは、こうした遠隔利用データセンターが中国のAI計算能力の約24%を担うと推定（[daily](../daily/2026-11-27.md) / [出典](https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/)）
+- 2026-11-25: S&P Global Ratingsが、ジェンスン・フアンCEOの解任・復帰をめぐる企業統治懸念（経営陣の監督の弱さ・key man risk）を理由に、格付け（現在AA）をAA-へ引き下げる可能性を検討と発表。審査は90日以内に終える見込みで投資適格は維持される見通しだが、NVIDIAが保証する新興AIクラウド事業者の債務コストにも波及しうる（[daily](../daily/2026-11-27.md) / [threads/nvidia-leadership-crisis](../threads/nvidia-leadership-crisis.md) / [出典](https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/)）
 - 2026-11-26: 復帰後初の全社集会で「自分は行動規範に違反した。誰も例外ではない」と発言。違反の具体的内容は不明。専門家は、行動規範違反の放置は企業文化への影響（士気・信頼の低下）が大きく、CEOと会社が一体化している企業ほど対応が難しいと指摘（[daily](../daily/2026-11-26.md) / [threads/nvidia-leadership-crisis](../threads/nvidia-leadership-crisis.md) / [出典](https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/)）
 - 2026-11-23: 取締役会が一転し、11月12日に辞任したジェンスン・フアン氏をCEOに復帰させると発表。トランプ大統領が取締役会に電話をかけ復帰を後押ししたと報じられ、大統領自身も「不正の証拠はない」と復帰を支持する一方、対中輸出規制を巡る調査は継続するよう要求。フアン氏は来週上院で証言する予定で、復帰後は本社で社員に迎えられた（[daily](../daily/2026-11-24.md) / [threads/nvidia-leadership-crisis](../threads/nvidia-leadership-crisis.md) / [出典](https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/)）
 - 2026-11-21: 決算説明会で、米政権の対中規制強化に合わせ中国向けH200チップの販売を停止すると発表（暫定CEOコレット・クレス氏）。好調な受注パイプラインを示したが株価は下落。取締役会は改めてフアン前CEOの復帰計画がないと明言したが、これは「1週間半前には全面的信頼を表明していた」立場からの転換とされ、復帰要求署名運動も続いている（[daily](../daily/2026-11-22.md) / [threads/nvidia-leadership-crisis](../threads/nvidia-leadership-crisis.md) / [出典](https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/)）
