@@ -3,7 +3,7 @@ type: topic
 title: "MCP（Model Context Protocol）"
 slug: mcp
 created: 2026-08-23
-updated: 2026-11-26
+updated: 2026-11-28
 tags: [mcp, agent, tool-use, guardrails]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,7 @@ AI アシスタントが外部のデータ源・ツール・業務システム�
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-27（続報）: 11/26発表の「Google Workspace MCPサーバー」正式版について、Gmail用MCPサーバーの送信・返信・転送や下書き編集はパートナー限定機能で、独立系開発者のエージェントは下書き作成までしかできない一方、Anthropicなど大手ベンダーのコネクタは送信可能という不均衡がHacker News上の記事（417pt）で指摘された。「標準規格への統一」と「実際の権限の平等」は別問題であることを示す事例（[daily](../daily/2026-11-28.md) / [topics/google](google.md) / [出典](https://techstackups.com/articles/google-workspace-ai-agents-mcp/)）
 - 2026-11-26（続報）: `claude mcp get`も値を`[REDACTED]`にせず平文で表示すると確認（`claude mcp list`は値を表示しない）。Codex CLIも`get`単体では隠すが`--json`を付けると平文になる（Claude Code 2.1.330／Codex CLI 0.171.0で検証）（[daily](../daily/2026-11-26.md) / [topics/claude-code](claude-code.md) / [出典](https://qiita.com/supportapp3/items/d8d15ba02b2937aa293f)）
 - 2026-11-26: MCPサーバー側からAIエージェントへ「スキル」（ツールの使い方の指示）を配布できる新機能「Skills over MCP」がベータで追加。スキルをサーバー側から必要時だけ取得する方式で、ツール更新への追従とコンテキスト肥大化の両方に対応。Claude・Claude CodeのPro/Max/Ultraでは既定で有効（[daily](../daily/2026-11-26.md) / [出典](https://www.publickey1.jp/blog/26/mcpskills_over_mcpmcp.html)）
 - 2026-11-26: Googleが「Google Workspace MCPサーバー」「Google Workspace CLI」を正式版（GA）として公開。Gmail・Drive・Docs・Sheets・Slides・Calendar・Chat・Tasksの8サービスに対応し、送信・共有操作は人の確認を必須とする設計。無料枠は1プロダクトあたり1日5,000リクエスト、REST API利用エージェントは2027年2月までにMCPへの移行が必要（[daily](../daily/2026-11-26.md) / [topics/google](google.md) / [出典](https://www.publickey1.jp/blog/26/google_workspace_mcpgoogle_workspace_cli.html)）

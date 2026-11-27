@@ -3,7 +3,7 @@ type: topic
 title: "Google（グーグル）"
 slug: google
 created: 2026-08-20
-updated: 2026-11-26
+updated: 2026-11-28
 tags: [google, gemini, open-weights]
 level: beginner
 audience: [engineer, business, instructor]
@@ -34,6 +34,8 @@ related: [topics/a2a-protocol.md]
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-27（続報）: 11/26発表の「Google Workspace MCPサーバー」正式版について、Gmail用MCPサーバーは検索・閲覧・下書き作成はできるが送信・返信・転送や下書き編集はパートナー限定機能で、独立系開発者のエージェントは下書き作成までに留まる一方Anthropicなど大手ベンダーのコネクタは送信可能という不均衡が指摘された（HN 417pt）（[daily](../daily/2026-11-28.md) / [topics/mcp](mcp.md) / [出典](https://techstackups.com/articles/google-workspace-ai-agents-mcp/)）
+- 2026-11-27: Googleが、AIコーディングエージェント向け「Google Cloud Developer plugin」の開発で得た評価（eval）設計の教訓を公開。最終回答だけの採点ではツール呼び出しの実態を確認できず誤判定が起きた例、サブエージェントへの指示が途中で失われても検出できない問題、認証を模擬したテストでは実環境の承認エラーを見逃した例、モデル・ツール更新で挙動が変わる問題を報告した（[daily](../daily/2026-11-28.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2611/27/news035.html)）
 - 2026-11-26: 「Google Workspace MCPサーバー」「Google Workspace CLI」を正式版（GA）として公開。Gmail・Drive・Docs・Sheets・Slides・Calendar・Chat・Tasksの8サービスに対応、送信・共有操作は人の確認を必須とする設計。REST API利用エージェントは2027年2月までにMCPへの移行が必要（[daily](../daily/2026-11-26.md) / [topics/mcp](mcp.md) / [出典](https://www.publickey1.jp/blog/26/google_workspace_mcpgoogle_workspace_cli.html)）
 - 2026-11-23: Google DeepMindが、Gemini 4のエージェントチームと定理証明支援系Leanによる形式検証を組み合わせ、既知の量子アルゴリズムを改良したと発表。問題ごとのエージェントチームが改良案を探索し数学的に証明してから登録、4時間ごとの仮想会議で比較する手法で、慣性閉じ込め核融合向けの計算コストを11.8倍削減、薬物代謝酵素のシミュレーションを2.5倍改善、arcsinルーチンでは290倍の高速化を達成した（[daily](../daily/2026-11-24.md) / [出典](https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/)）
 - 2026-11-23: 検索のAI Modeにおける「Personal Intelligence」機能を拡張し、Google Drive・Walletとも連携できるようにした。Walletは支出管理やカード特典活用の文脈に、Driveは保存済み文書を踏まえた回答に使われ、いずれも任意のオプトイン。Wallet連携は読み取り専用（送金・資金操作は不可）（[daily](../daily/2026-11-24.md) / [出典](https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/)）

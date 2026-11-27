@@ -3,7 +3,7 @@ type: thread
 title: "AIの生産性・雇用への影響（ai-productivity-employment）"
 slug: ai-productivity-employment
 created: 2026-10-18
-updated: 2026-11-26
+updated: 2026-11-28
 tags: [productivity, hr, survey]
 status: active
 related: [topics/anthropic.md, topics/microsoft.md, topics/apple.md]
@@ -24,6 +24,7 @@ related: [topics/anthropic.md, topics/microsoft.md, topics/apple.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-27: デロイト トーマツ グループの調査（プライム市場上場・売上高1,000億円以上の企業の部長級以上700人、8月実施、3回目）で、生成AIに伴う人員配置転換を行っていると回答した人は46.7%。そのうち人員を増やしている部門の最多はIT部門（55%）、減らしている部門の最多は経理・財務（34.3%、次点は人事・総務33.0%）。生成AIを「全社的に導入」との回答は62.1%（2024年26.4%→2025年47.0%から増加）（[daily](../daily/2026-11-28.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/27/2000003505/)）
 - 2026-11-26: ボストン大・BCGヘンダーソン研究所・OpenAIの研究チームが、BCGコンサルタント573人（分析対象487人）を対象にした実験をNature Human Behaviour誌に発表。ChatGPT＋プロンプト研修群は専門外のデータサイエンス課題で検索研修群より高成績・高速だったが、タスク後にAIなしで技術問題に答えさせると両群に有意差はなく、学んだ知識は定着していなかった。論文は効果を「着ている間だけ専門外の仕事もできるパワードスーツ」に例えている（[daily](../daily/2026-11-26.md) / [出典](https://www.itmedia.co.jp/news/article/2611/25/2000003421/)）
 - 2026-11-25: DeNAが、AIエージェントを企業の一員として配属・育成できるサービス「AI社員 by DeNA」の外販を発表（2026年11月20日発表、24日ITmedia報道）。トークン使用量を「勤務時間」とみなし「残業時間」に上限を設けて使い過ぎを防ぐ設計で、社内では既に30人のAI社員が稼働、会計システムの開発・保守チームでは8営業日で52.6時間分の業務を担ったという（[daily](../daily/2026-11-25.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/24/2000003406/)）
 - 2026-11-25: 住友生命が「ChatGPT Enterprise」導入の効果を検証し週次利用率80%超を達成。従業員の自己申告した削減時間からROIを推計したところ、月間利用8〜15回で平均55%、16〜30回で231%、101回以上では平均524%と、利用頻度が高いほどROIも上昇する傾向（全体平均は203%）。削減時間だけでは測れない効果として、時間・専門スキル不足で手を付けられなかった業務に着手する従業員も出てきているという（[daily](../daily/2026-11-25.md) / [出典](https://kn.itmedia.co.jp/kn/article/2611/24/2000003335/)）

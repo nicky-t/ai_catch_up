@@ -3,7 +3,7 @@ type: topic
 title: "OpenAI"
 slug: openai
 created: 2026-08-19
-updated: 2026-11-27
+updated: 2026-11-28
 tags: [openai, chatgpt, gpt, safety]
 level: beginner
 audience: [engineer, business, instructor]
@@ -33,6 +33,7 @@ ChatGPT と GPT 系モデルを開発する米国の AI 企業。一般利用者
 
 ## この話題の流れ
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-27: OpenClaw Foundation等と共同開発した実環境ベンチマーク「ShellBench」（実際のAIエージェントのやり取り1,000万件超を基に構築）で、OpenAI・Anthropic・Metaの最先端モデルを日常の代行タスク（送迎調整・請求書支払い・ファイル操作等）で検証したところ全モデルで3分の1超が失敗、試行全体の15.7%が最低1つの安全要件に違反した。最高スコアのGPT-6 Astraでも3回中全て成功したのは半数未満で、学校の送迎予定の考慮漏れが79.5%、重複・誤った請求書への支払い推奨が40.3%で発生（[daily](../daily/2026-11-28.md) / [topics/anthropic](anthropic.md) / [出典](https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/)）
 - 2026-11-26: 11月17日公開の「GPT-6.2 Astra」「GPT-6.2 Sol」で使用量が実際より少なく計算されるバグがあったと判明。修正により利用上限に達する速さはAstraで40%、Solで25%早くなる見込み。謝罪として有料プラン利用者に利用枠リセット権を1回分付与（[daily](../daily/2026-11-27.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/26/2000003495/)）
 - 2026-11-26: ChatGPTの一般向け「Chat」と企業向け「Work」の体験を1つのインターフェースに統合すると発表。使用量も1つの共通メーターで管理する方式に変更し、即時応答モデル「Instant」のみ無制限のまま。一部の重いユーザーは早く上限に達する可能性があると説明（まずProの一部から展開、12月に全ユーザーへ）（[daily](../daily/2026-11-26.md) / [topics/chatgpt-work](chatgpt-work.md) / [出典](https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/)）
 - 2026-11-25: ＠ITが、AIエージェントでソフトウェア開発の受付から本番反映までを担う「ソフトウェアファクトリー」という考え方を整理する記事を公開。OpenAIのチケット起点Codex仕様「Symphony」、Uberの6要素構成、freeeの知識基盤・検証ハーネス・人間レビューの3本柱を紹介し、コードを書く工程が速くなっても検証・レビューが追いつかなければボトルネックが移るだけだと指摘。重要なのは「どこまでを機械で検証し、どこから人が判断するか」の設計だと論じている（[daily](../daily/2026-11-25.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2611/25/news002.html)）

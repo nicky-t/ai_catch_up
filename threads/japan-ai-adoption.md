@@ -3,7 +3,7 @@ type: thread
 title: "国内 AI 導入動向（japan-ai-adoption）"
 slug: japan-ai-adoption
 created: 2026-08-19
-updated: 2026-11-22
+updated: 2026-11-28
 tags: [adoption, japan-company, case-study]
 status: active
 related: [topics/openai.md]
@@ -23,6 +23,9 @@ related: [topics/openai.md]
 
 ## 経緯
 <!-- agent が日付順に追記。新しいものを上に -->
+- 2026-11-27: アマダと日立製作所が、AIエージェントと「フィジカルAI」を組み合わせた協創の概念実証（PoC）を2026年8月〜10月に実施。急な受注変更への生産計画調整と、工作機械の不具合の原因特定・対処方法の提示という2業務で機能を確認した。アマダは11月、AI・ロボティクスを活用する拠点「MIRAI factory」を開設（[daily](../daily/2026-11-28.md) / [出典](https://monoist.itmedia.co.jp/mn/articles/2611/27/news050.html)）
+- 2026-11-27: 電通デジタル・電通総研・イグニション・ポイントの3社が、Google「Gemini Enterprise」を使いこなし業務課題解決まで担える人材「FDE/FDM」を育成するプログラムを開始（10月14日発表）。対象は電通グループ約3,000人で、ツールの使い方だけでなく仮説構築からクライアント業務への組み込みまでを習得させる（[daily](../daily/2026-11-28.md) / [topics/google](../topics/google.md) / [出典](https://atmarkit.itmedia.co.jp/ait/articles/2611/27/news038.html)）
+- 2026-11-27: アビタスの調査（内部監査・内部統制担当者158人、10/22〜11/4実施）で、今後3年以内に重要と考えるリスクに「AI・生成AI」を挙げた回答が56.3%に達した一方、AIリスクの内部監査を「すでに実施」した割合はわずか5.7%（1年以内予定を合わせても13.3%）。「認識」と「対応」のギャップが数字で示された（[daily](../daily/2026-11-28.md) / [出典](https://www.itmedia.co.jp/enterprise/articles/2611/26/news037.html)）
 - 2026-11-26: taiziiiの「AI活用と組織の判断に関する実態調査」で、部門内の非公式な生成AI利用（シャドーAI）を「把握している」「おそらく使われていると思う」と答えた管理職が合計69.4%（43.5%＋25.9%）に達したと判明。理由は「業務のスピードを優先」34.7%、「正式AIの機能不足」30.5%、「相談すると禁止されそう」24.6%など（[daily](../daily/2026-11-27.md) / [出典](https://kn.itmedia.co.jp/kn/article/2611/26/2000003428/)）
 - 2026-11-20: 伊藤忠商事の繊維部門が生成AI活用を進め、月あたり数千件に及んでいた部署間の「二重業務」の解消に取り組み、月1.3万時間の作業時間削減を実現したと公表（[daily](../daily/2026-11-22.md) / [出典](https://www.itmedia.co.jp/business/articles/2611/20/news042.html)）
 - 2026-11-19: ファミリーマートが、冷蔵庫内で24時間稼働し飲料の陳列を自動で行うロボット「TX GHOST」と、AIが補充本数を分析する在庫管理棚「スマートシェルフ」を、全国の店舗に2027年1月から順次導入すると発表。先行導入店舗では1店舗あたりの飲料補充作業時間が約7割減ったという。倒れた飲料を立て直すなど想定しきれない場面は人間が遠隔操作で補助する（[daily](../daily/2026-11-20.md) / [出典](https://www.itmedia.co.jp/aiplus/article/2611/19/2000003329/)）
